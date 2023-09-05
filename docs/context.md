@@ -36,6 +36,9 @@ No contexto da saúde geriátrica em nível internacional, um estudo publicado n
 
 Dito isso, de acordo com o artigo "Physical activity and health in older adults", de Karen M. Reynolds e David R. Thompson, publicado na revista "American Journal of Lifestyle Medicine" em 2022, ressalta que à medida que envelhecemos, nosso corpo começa a perder massa muscular e óssea, e nossa capacidade cardiovascular e respiratória diminui. Assim, A atividade física pode ajudar a retardar esses processos e manter a saúde dos idosos. Os autores concluem que a atividade física regular está associada a uma redução do risco de: Doenças cardíacas, diabetes, obesidade, câncer, doenças neurodegenerativas e morte prematura.
 
+![elemento](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/4ffa2583-c991-4758-87e3-267306e1e255)
+
+
 
 ## Objetivos
 
