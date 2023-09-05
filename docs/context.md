@@ -22,6 +22,21 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 > - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
+Segundo a Organização Mundial da Saúde (OMS), cerca de 42% dos idosos no mundo são sedentários. Isso significa que eles não praticam atividade física regular, ou praticam por menos de 150 minutos por semana. O sedentarismo é um problema sério de saúde pública, pois pode aumentar o risco de doenças crônicas, como doenças cardíacas, derrame, diabetes tipo 2, obesidade e câncer. Esses problemas ainda são mais agravados quando se trata dos idosos, podendo limitar a independência e a qualidade de vida deles. 
+
+De acordo com o artigo "Fatores associados à inatividade física em idosos", de Ana Paula Lopes e colaboradores, publicado na revista "Revista Brasileira de Geriatria e Gerontologia" em 2017, que teve como objetivo analisar os fatores associados à inatividade física em idosos residentes em uma cidade do sul do Brasil. Com uma amostra de 282 idosos com idade igual ou superior a 60 anos. Os resultados do estudo mostraram que a prevalência de inatividade física foi de 50,4%. Os principais fatores associados à inatividade física foram:
+
+* Idade: idosos com idade mais avançada foram mais propensos a serem inativos.
+* Sexo: mulheres foram mais propensas a serem inativas do que homens.
+* Estado de saúde: idosos com problemas de saúde autorrelatos foram mais propensos a serem inativos.
+* Nível de escolaridade: idosos com menor nível de escolaridade foram mais propensos a serem inativos.
+* Renda: idosos com menor renda foram mais propensos a serem inativos.
+
+No contexto da saúde geriátrica em nível internacional, um estudo publicado na revista "The Lancet" em 2019 mostrou que, em 2016, apenas 21,3% dos idosos em todo o mundo atingiram as recomendações de atividade física da Organização Mundial da Saúde (OMS). Sendo que a OMS recomenda, como foi visto anteriormente, que os idosos pratiquem pelo menos 150 minutos de atividade física moderada ou 75 minutos de atividade física intensa por semana. Essa atividade física pode incluir caminhada, ciclismo, natação, dança, jardinagem ou qualquer outra atividade que aumente a frequência cardíaca e a respiração.
+
+Dito isso, de acordo com o artigo "Physical activity and health in older adults", de Karen M. Reynolds e David R. Thompson, publicado na revista "American Journal of Lifestyle Medicine" em 2022, ressalta que à medida que envelhecemos, nosso corpo começa a perder massa muscular e óssea, e nossa capacidade cardiovascular e respiratória diminui. Assim, A atividade física pode ajudar a retardar esses processos e manter a saúde dos idosos. Os autores concluem que a atividade física regular está associada a uma redução do risco de: Doenças cardíacas, diabetes, obesidade, câncer, doenças neurodegenerativas e morte prematura.
+
+
 ## Objetivos
 
 Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
