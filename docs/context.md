@@ -11,62 +11,50 @@ Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Segundo a Organização Mundial da Saúde (OMS), quase metade dos idosos no mundo são sedentários e o Brasil não foge desta estatística, apresentando, segundo o IBGE (2019), quase dois terços da população idosa (pessoas de 60 anos ou mais) sedentária. Significando que, eles não praticam atividade física regular com no mínimo 150 minutos de exercício por semana ou 75 minutos de atividade física intensa por semana. O sedentarismo é um problema sério de saúde pública, pois pode aumentar o risco de enfermidades graves que serão destacadas adiante.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
-Segundo a Organização Mundial da Saúde (OMS), cerca de 42% dos idosos no mundo são sedentários. Isso significa que eles não praticam atividade física regular, ou praticam por menos de 150 minutos por semana. O sedentarismo é um problema sério de saúde pública, pois pode aumentar o risco de doenças crônicas, como doenças cardíacas, derrame, diabetes tipo 2, obesidade e câncer. Esses problemas ainda são mais agravados quando se trata dos idosos, podendo limitar a independência e a qualidade de vida deles. 
-
-De acordo com o artigo "Fatores associados à inatividade física em idosos", de Ana Paula Lopes e colaboradores, publicado na revista "Revista Brasileira de Geriatria e Gerontologia" em 2017, que teve como objetivo analisar os fatores associados à inatividade física em idosos residentes em uma cidade do sul do Brasil. Com uma amostra de 282 idosos com idade igual ou superior a 60 anos. Os resultados do estudo mostraram que a prevalência de inatividade física foi de 50,4%. Os principais fatores associados à inatividade física foram:
+De acordo com o artigo "Fatores associados à inatividade física em idosos", de Ana Paula Lopes e colaboradores, publicado na "Revista Brasileira de Geriatria e Gerontologia" em 2017, que teve como objetivo analisar os fatores associados à inatividade física em idosos residentes em uma cidade do sul do Brasil. Com uma amostra de 282 idosos com idade igual ou superior a 60 anos. Os resultados dos estudos mostraram que a prevalência de inatividade física foi de 50,4. Os principais fatores associados à inatividade física foram:
 
 * Idade: idosos com idade mais avançada foram mais propensos a serem inativos.
 * Sexo: mulheres foram mais propensas a serem inativas do que homens.
-* Estado de saúde: idosos com problemas de saúde autorrelatos foram mais propensos a serem inativos.
+* Estado de saúde: idosos com problemas de saúde autor-relatos foram mais propensos a serem inativos.
 * Nível de escolaridade: idosos com menor nível de escolaridade foram mais propensos a serem inativos.
 * Renda: idosos com menor renda foram mais propensos a serem inativos.
 
-No contexto da saúde geriátrica em nível internacional, um estudo publicado na revista "The Lancet" em 2019 mostrou que, em 2016, apenas 21,3% dos idosos em todo o mundo atingiram as recomendações de atividade física da Organização Mundial da Saúde (OMS). Sendo que a OMS recomenda, como foi visto anteriormente, que os idosos pratiquem pelo menos 150 minutos de atividade física moderada ou 75 minutos de atividade física intensa por semana. Essa atividade física pode incluir caminhada, ciclismo, natação, dança, jardinagem ou qualquer outra atividade que aumente a frequência cardíaca e a respiração.
+Ainda no contexto brasileiro, em São Paulo, uma das cidades mais populosas do Brasil, com 44,4 milhões de habitantes, foi analisada em uma pesquisa intitulada "Viver em São Paulo: Esporte". Realizada pela Rede Nossa São Paulo em parceria com o Ibope Inteligência, revelou que mais de 35% da população paulistana já apresentava hábitos prejudiciais à saúde antes mesmo da pandemia.
 
-Dito isso, de acordo com o artigo "Physical activity and health in older adults", de Karen M. Reynolds e David R. Thompson, publicado na revista "American Journal of Lifestyle Medicine" em 2022, ressalta que à medida que envelhecemos, nosso corpo começa a perder massa muscular e óssea, e nossa capacidade cardiovascular e respiratória diminui. Assim, A atividade física pode ajudar a retardar esses processos e manter a saúde dos idosos. Os autores concluem que a atividade física regular está associada a uma redução do risco de: Doenças cardíacas, diabetes, obesidade, câncer, doenças neurodegenerativas e morte prematura.
+No contexto da saúde geriátrica em nível internacional, um estudo publicado na revista "The Lancet" em 2019 mostrou que, em 2016, apenas 21,3% dos idosos em todo o mundo atingiram as recomendações de atividade física da Organização Mundial da Saúde (OMS). Atividade essa que pode incluir caminhada, ciclismo, natação, dança, jardinagem ou qualquer outra atividade que aumente a frequência cardíaca e a respiração.
 
-![elemento](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/4ffa2583-c991-4758-87e3-267306e1e255)
-
-
+Dito isso, de acordo com o artigo "Physical activity and health in older adults", de Karen M. Reynolds e David R. Thompson, publicado na revista "American Journal of Lifestyle Medicine" em 2022, ressalta que à medida que envelhecemos, nosso corpo começa a perder massa muscular e óssea, e nossa capacidade cardiovascular e respiratória diminui. Sendo assim, a atividade física pode ajudar a retardar esses processos e manter a saúde dos idosos. Os autores concluem que a atividade física regular está associada a uma redução do risco de: doenças cardíacas, diabetes, obesidade, câncer, doenças neurodegenerativas e morte prematura.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+### Objetivo geral
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+O projeto Senectus tem como objetivo primordial, desenvolver um software de aplicação web voltado para indivíduos de meia-idade para os engajar em atividades físicas, retardando assim, o aumento de indivíduos sedentários no Brasil e melhorando a qualidade de vida dos usuários.
+
+### Objetivos específicos
+
+* Delimitar informações importantes sobre o âmbito da saúde para os usuários da tecnologia desenvolvida;
+* Incentivar a prática de exercícios por meio de eventos e bibliotecas de exercícios disponibilizadas por meio de uma plataforma adequada;
+* Incentivar a socialização entre idosos engajados na prática de exercícios;
+* Organizar parcerias com academias e profissionais de saúde para fornecer conteúdo e serviços especializados para os usuários da plataforma;
+* Aplicar uma interface fácil de usar e intuitiva para garantir que os usuários possam acessar facilmente todas as informações e recursos oferecidos pela plataforma Senectus;
+* Aplicar um sistema de metas e recompensas a serem adquiridas, incentivando assim os usuários para que alcancem suas metas de atividade física.
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Como já analisado, a escolha do desenvolvimento do projeto Senectus, um software voltado para indivíduos de meia-idade engajados em atividades físicas ou que desejam sair de uma vida sedentária, tem seu respaldo por uma série de fatores significativos e importantes na sociedade contemporânea. 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Novamente, vale ressaltar que, várias organizações apontam dados preocupantes sobre o sedentarismo, a exemplo da OMS que indica que quase 50% dos idosos no mundo são sedentários e o IBGE que aponta para mais de 60% de idosos brasileiros que vivem em uma vida sedentária e cheias de riscos a sua própria saúde. 
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Como se não bastasse, a OMS deixa claro que, anualmente, 300 mil pessoas morrem devido a enfermidades que são associadas ao modo de vida sedentário das pessoas. Tudo isso sem contar com os períodos de pandemia, na qual agravou este quadro de maneira drástica. Por conseguinte, depreende-se que pessoas nesta situação podem colocar a sua saúde em risco, graças as inúmeras doenças atreladas ao sedentarismo.
+
+Diante desses dados alarmantes, Senectus deve combater o sedentarismo em indivíduos de meia-idade, incentivando-os a adotar um estilo de vida mais ativo por meio da prática regular de exercícios físicos. Ao final, o projeto Senectus deve desenvolver um software voltado para indivíduos de meia-idade engajados em atividades físicas, ou que desejam sair de uma vida sedentária. 
+
+Sendo assim, o projeto estará concentrado na disseminação de informações importantes para aqueles que desconhecem o assunto, quando se trata de saúde, influenciando novos usuários a participarem de eventos e mudarem a sua rotina para poderem amplificar a sua longevidade.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Homens e mulheres acima de 60 anos, com faixa etária média de 65 anos. Casados, com filhos e netos. Aposentados, com renda média de R$ 5.000,00. Moradores tanto da capital quanto do interior do Brasil e que estão preocupados com o envelhecimento e a longevidade, desejando sair do sedentarismo e adotar um estilo de vida mais ativo através da prática de exercícios físicos.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
