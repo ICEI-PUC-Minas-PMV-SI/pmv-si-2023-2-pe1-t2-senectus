@@ -1,4 +1,4 @@
-# XXXXXXXXX
+# SENECTUS
 
 `CURSO: Sistemas de Informação`
 
@@ -6,11 +6,11 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Projeto consiste em uma aplicação web dedicada a exercícios físicos e disseminação de informações sobre a saúde no âmbito de indivíduos de meia idade.
 
 ## Integrantes
 
-* Nome completo do aluno 1
+* Nícolas Cleiton Basilio Viana
 * Nome completo do aluno 2
 * Nome completo do aluno 3
 * Nome completo do aluno 4
