@@ -58,3 +58,9 @@ Sendo assim, o projeto estará concentrado na disseminação de informações im
 
 Homens e mulheres acima de 60 anos, com faixa etária média de 65 anos. Casados, com filhos e netos. Aposentados, com renda média de R$ 5.000,00. Moradores tanto da capital quanto do interior do Brasil e que estão preocupados com o envelhecimento e a longevidade, desejando sair do sedentarismo e adotar um estilo de vida mais ativo através da prática de exercícios físicos.
 
+![Archetype 1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/5f9d4243-4317-4606-855f-da884718256e)
+
+![Archetype 1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/73be9157-b887-4d95-9bd4-852d40f8ec92)
+
+
+
