@@ -26,17 +26,18 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Pedro Costa (Personal Trainer)  | Gostaria de receber avaliações dos meus clientes           | Mostrar o quão confiável meus serviços são               |
+|Pedro Costa (Personal Trainer)       | Gostaria de alguma forma atender os clientes tanto online quanto presencialmente                 | Responder dúvidas mais complexas 
+|Pedro Costa (Personal Trainer)       | Inserir meu currículo/portfolio na plataforma        | Dar mais visibilidade ao meu perfil |
+| Ana Carolina (Coordenadora de Programas de Saúde) | Gostaria de poder classificar meus eventos entre presencial e online | Informar os idosos sobre a dinâmica do evento
+| Ana Carolina (Coordenadora de Programas de Saúde) | Gostaria de saber quem tem interesse no evento. | Poder enviar notificações |
+| Ana Carolina (Coordenadora de Programas de Saúde) | Juntamente com profissionais da saúde, gostaria de poder criar notícias sobre a saúde entre os idosos | Propagar conhecimento |
+| João da Silva (Usuário do site) | Gostaria de praticar atividade física guiada  | Facilitar a minha rotina |
+| João da Silva (Usuário do site) | Gostaria de saber os benefícios de cada exercício | Saber quais são mais importantes para mim |
+| João da Silva (Usuário do site) | Gostaria de ler notícias sobre a saúde de idosos | Me manter informado |
+| João da Silva (Usuário do site) | Gostaria de pesquisar profissionais da saúde | Me guiar/auxiliar na saúde física |
+| João da Silva (Usuário do site) | Gostaria de demonstrar  interesse em eventos  | Engajar mais pessoas no evento |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
@@ -44,33 +45,37 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade | Responsável |
-|------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
-
+|ID    | Descrição do Requisito  | Prioridade | Tipo | Responsável |
+|------|-----------------------------------------|----| ----| ------|
+|RF-001| Usuários comuns devem ser capazes de acessar o catalogo de exercícios| MÉDIA | Dinâmico | |
+|RF-002| Usuários comuns devem ser capazes de criar um cronograma personalizado| MÉDIA | Dinâmico | |
+|RF-003| Usuários comuns devem ser capazes de publicar seus problemas para que qualquer profissional possa contata-lo| MÉDIA | Dinâmico | |
+|RF-004| Usuários comuns devem ser capazes de buscar por profissionais manualmente| ALTA | Dinâmico | 
+|RF-005| O usuário deve realizar cadastros de contas | ALTA | Dinâmico | |
+|RF-006| O sistema deve ser capaz de filtrar profissionais da saúde | MÉDIA | Dinâmico | |
+|RF-007| O usuário pode personalizar o perfil na plataforma | MÉDIA | Dinâmico | |
+|RF-008| Permitir que o usuário receba notificações regulares para lembrá-los de realizar suas atividades diárias | MÉDIA | Dinâmico | |
+|RF-009| Profissionais da saúde devem ser capazes de indicar suas profissões | MÉDIA | |
+|RF-010| Profissionais da saúde devem ser capazes de colocar seus meios de contatos em seu perfil | MÉDIA | Dinâmico |
+|RF-011| O usuário deve ser capaz de deletar a sua conta | ALTA | Estático | |
+|RF-012| O usuário deve ser capaz de recuperar uma conta deletada em até 30 dias| BAIXO | Estático| 
+|RF-013| Uma interface de usuário simples | MÉDIA | Estático | |
+|RF-014| Visualizar notícias na plataforma | MÉDIA | Estático | |
+|RF-015| A aplicação deve possuir um fluxo dinâmico de CI/CD para aumentar a produtividade dos desenvolvedores| MÉDIA| Estático |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| A aplicação deve ter uma boa usabilidade | ALTA | 
+|RNF-002| A aplicação deve ser responsiva em diversas telas com base no público-alvo |  ALTA | 
+|RNF-003| A aplicação deve respeitar as normas da LGPD | MÉDIA |
+|RNF-004| A aplicação deve ser segura para os usuários | ALTA |
+|RNF-005| A aplicação deve ser de fácil entendimento para o público idoso | MÉDIA |
+|RNF-006| A aplicação deve ser acessível para os motores de busca SEO e SEM| MÉDIA|
+|RNF-007| A aplicação deve ser capaz de funcionar offline| BAIXO |
+|RNF-008| A aplicação deve ser desenvolvida utilizando a linguagem de programação Javascript| ALTA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -78,12 +83,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| A aplicação não deve utilizar nenhuma tecnologia de back-end |
+|02| A aplicação não deve utilizar nenhuma tecnologia de framework|
+|03| A aplicação deve consumir o minímo de recursos financeiros|
+|04| A aplicação não deve utilizar bancos de dados, armazenando assim, os dados em memória|
+|05| O projeto deverá ser entregue até o final do semestre|
 
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
