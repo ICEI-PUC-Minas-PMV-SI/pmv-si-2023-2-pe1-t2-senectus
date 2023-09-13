@@ -54,9 +54,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-005| O usuário deve realizar cadastros de contas | ALTA | Dinâmico | |
 |RF-006| O sistema deve ser capaz de filtrar profissionais da saúde | MÉDIA | Dinâmico | |
 |RF-007| O usuário pode personalizar o perfil na plataforma | MÉDIA | Dinâmico | |
-|RF-008| Permitir que o usuário receba notificações regulares para lembrá-los de realizar suas atividades diárias | MÉDIA | Estático | |
-|RF-009| Profissionais da saúde devem ser capazes de indicar suas profissões | MÉDIA | |
-|RF-010| Profissionais da saúde devem ser capazes de colocar seus meios de contatos em seu perfil | MÉDIA | Dinâmico |
+|RF-008| Profissionais da saúde devem ser capazes de indicar suas profissões | MÉDIA | Dinâmico |
+|RF-009| Profissionais da saúde devem ser capazes de colocar seus meios de contatos em seu perfil | MÉDIA | Dinâmico |
+|RF-010| Permitir que o usuário receba notificações regulares para lembrá-los de realizar suas atividades diárias | MÉDIA | Estático | |
 |RF-011| O usuário deve ser capaz de deletar a sua conta | ALTA | Estático | |
 |RF-012| O usuário deve ser capaz de recuperar uma conta deletada em até 30 dias| BAIXO | Estático| 
 |RF-013| Uma interface de usuário simples | MÉDIA | Estático | |
