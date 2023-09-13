@@ -28,13 +28,6 @@ O projeto Senectus visa desenvolver uma aplicação web voltada aos idosos para 
 4. Organizar parcerias com profissionais de saúde para fornecer conteúdo e serviços especializados aos usuários da plataforma.
 5. Aplicar uma interface fácil de usar e intuitiva para garantir que os usuários possam acessar facilmente todas as informações e recursos oferecidos pela plataforma Senectus.
 
-|Nome|Focado para idosos|Sem anúncios|Gratuito|Cronograma|Eventos presenciais|Suporte de equipe de profissional|Videos|Tradução|
-|----|------------------|-----------------|----------------|----------|------------|-----------|-----------|----------|
-|Workout|Sim|Não, mas pode ser removidos com pagamento|Possui tanto a versão paga quanto a gratuita, porém com anúncios.|Sim. Porém não podem ser customizados com a ajuda de um profissional.|Não|Não|Não|Não|
-|Seniors|Sim|Não, mas pode ser removidos com pagamento|Possui tanto a versão paga quanto a gratuita, porém com anúncios.|Sim, mas são pagos e não podem ser customizados com a ajuda de um profissional|Não|Não|Sim|Não|
-|Treino em Casa|Não|Não, mas pode ser removidos com pagamento|Possui tanto a versão paga quanto a gratuita, porém com anúncios.|Sim. Porém, apesar de existir a possibilidade de uma customização, não tem ajuda de profissionais em sua montagem|Não|Não|Sim|Sim|
-|Senectus|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|
-
 ## Justificativa
 
 A Organização Mundial da Saúde (OMS) estima que entre 2020 e 2030, quase 500 milhões de pessoas devem adoecer devido à inatividade física. Isso causará um prejuízo próximo a 27 bilhões de dólares ao ano. Adicionalmente, segundo o Relatório Global de Status da Atividade Física 2022, publicado pela OMS, somente 30% dos 194 países analisados apresentam diretrizes nacionais de atividade física para todas as idades. Isso acaba por influenciar ainda mais no aumento dessas estatísticas alarmantes de maneira global, incluindo a população idosa.[2]
