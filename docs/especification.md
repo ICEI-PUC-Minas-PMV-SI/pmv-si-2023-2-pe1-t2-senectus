@@ -53,9 +53,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-010| Permitir que o usuário receba notificações regulares para lembrá-los de realizar suas atividades diárias | MÉDIA | Estático | |
 |RF-011| O usuário deve ser capaz de deletar a sua conta | ALTA | Estático | |
 |RF-012| O usuário deve ser capaz de recuperar uma conta deletada em até 30 dias| BAIXO | Estático| 
-|RF-013| Uma interface de usuário simples | MÉDIA | Estático | |
-|RF-014| Visualizar notícias na plataforma | MÉDIA | Estático | |
-|RF-015| A aplicação deve possuir um fluxo dinâmico de CI/CD para aumentar a produtividade dos desenvolvedores| MÉDIA| Estático |
+|RF-013| Visualizar notícias na plataforma | MÉDIA | Estático | |
+|RF-014| A aplicação deve possuir um fluxo dinâmico de CI/CD para aumentar a produtividade dos desenvolvedores| MÉDIA| Estático |
 
 ### Requisitos não Funcionais
 
@@ -69,6 +68,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-006| A aplicação deve ser acessível para os motores de busca SEO e SEM| MÉDIA|
 |RNF-007| A aplicação deve ser capaz de funcionar offline| BAIXO |
 |RNF-008| A aplicação deve ser desenvolvida utilizando a linguagem de programação Javascript| ALTA |
+|RNF-009| Uma interface de usuário simples | MÉDIA | Estático | |
 
 
 ## Restrições
