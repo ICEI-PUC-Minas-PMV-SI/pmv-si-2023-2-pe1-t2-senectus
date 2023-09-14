@@ -1,19 +1,11 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizadas no desenvolvimento do trabalho.
+**[1]** - _Organização Mundial da Saúde. Relatório Mundial sobre Envelhecimento e Saúde. Genebra: OMS; 2015._
 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/referencias/)
+**[2]** - _OMS (sobre indivíduos sedentários): https://www.who.int/news/item/19-10-2022-who-highlights-high-cost-of-physical-inactivity-in-first-ever-global-report_
 
-Exemplos de referências bibliográficas:
+**[3]** - _IBGE: https://agenciabrasil.ebc.com.br/saude/noticia/2020-11/ibge-403-dos-adultos-sao-considerados-sedentarios-no-brasil_
 
-**[1]** - _ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019. E-book. ISBN 9788543025001._
+**[4]** - _Fatores associados à inatividade física em idosos, de Ana Paula Lopes e colaboradores, publicado na revista "Revista Brasileira de Geriatria e Gerontologia" em 2017._
 
-**[2]** - _COPPIN, Ben. **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
-
-**[3]** - _CORMEN, Thomas H. et al. **Algoritmos: teoria e prática**. Rio de Janeiro, RJ: Elsevier, Campus, c2012. xvi, 926 p. ISBN 9788535236996._
-
-**[4]** - _SUTHERLAND, Jeffrey Victor. **Scrum: a arte de fazer o dobro do trabalho na metade do tempo**. 2. ed. rev. São Paulo, SP: Leya, 2016. 236, [4] p. ISBN 9788544104514._
-
-**[5]** - _RUSSELL, Stuart J.; NORVIG, Peter. **Inteligência artificial**. Rio de Janeiro: Elsevier, c2013. xxi, 988 p. ISBN 9788535237016._
-
+**[5]** - _“Global trends in physical activity levels among older adults", de Anne V. Ekelund e colaboradores, publicado na revista "The Lancet" em 2019._

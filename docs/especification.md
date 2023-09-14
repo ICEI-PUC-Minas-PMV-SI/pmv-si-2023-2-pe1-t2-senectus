@@ -1,24 +1,16 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+O projeto Senectus possui inúmeros requisitos tanto funcionais, quanto não funcionais, que se responsabilizam por moldar o funcionamento da solução web proposta, cabe destacar que, pelo fato de Senectus portar somente o módulo de front-end, o mesmo possui algumas limitações que foram cuidadosamente analisadas. Além disso, possuimos 4 personas a fim de entender quem são os nossos possíveis clientes.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+![persona1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/de34b9a3-c6e0-4327-ba74-fb9067f1e51f)
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+![persona2](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/1b8188af-8671-413c-9265-7adae627387d)
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+![persona3](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/d6f6e887-abf8-4c00-bd77-2c2b41f3b1b3)
+
+![persona4](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/fb746ce7-3767-4e8e-8b77-784331cca1c7)
 
 ## Histórias de Usuários
 
@@ -26,17 +18,18 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Pedro Costa (Personal Trainer)  | Gostaria de receber avaliações dos meus clientes           | Mostrar o quão confiável meus serviços são               |
+|Pedro Costa (Personal Trainer)       | Gostaria de alguma forma atender os clientes tanto online quanto presencialmente                 | Responder dúvidas mais complexas 
+|Pedro Costa (Personal Trainer)       | Inserir meu currículo/portfolio na plataforma        | Dar mais visibilidade ao meu perfil |
+| Ana Carolina (Coordenadora de Programas de Saúde) | Gostaria de poder classificar meus eventos entre presencial e online | Informar os idosos sobre a dinâmica do evento
+| Ana Carolina (Coordenadora de Programas de Saúde) | Gostaria de saber quem tem interesse no evento. | Poder enviar notificações |
+| Ana Carolina (Coordenadora de Programas de Saúde) | Juntamente com profissionais da saúde, gostaria de poder criar notícias sobre a saúde entre os idosos | Propagar conhecimento |
+| João da Silva (Usuário do site) | Gostaria de praticar atividade física guiada  | Facilitar a minha rotina |
+| João da Silva (Usuário do site) | Gostaria de saber os benefícios de cada exercício | Saber quais são mais importantes para mim |
+| João da Silva (Usuário do site) | Gostaria de ler notícias sobre a saúde de idosos | Me manter informado |
+| João da Silva (Usuário do site) | Gostaria de pesquisar profissionais da saúde | Me guiar/auxiliar na saúde física |
+| João da Silva (Usuário do site) | Gostaria de demonstrar  interesse em eventos  | Engajar mais pessoas no evento |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
@@ -44,33 +37,37 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade | Responsável |
-|------|-----------------------------------------|----| ----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA |  |
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | |
-
+|ID    | Descrição do Requisito  | Prioridade | Tipo | Responsável |
+|------|-----------------------------------------|----| ----| ------|
+|RF-001| Usuários comuns devem ser capazes de acessar o catalogo de exercícios| MÉDIA | Dinâmico | |
+|RF-002| Usuários comuns devem ser capazes de criar um cronograma personalizado| MÉDIA | Dinâmico | |
+|RF-003| Usuários comuns devem ser capazes de publicar seus problemas para que qualquer profissional possa contata-lo| MÉDIA | Dinâmico | |
+|RF-004| Usuários comuns devem ser capazes de buscar por profissionais manualmente| ALTA | Dinâmico | 
+|RF-005| O usuário deve realizar cadastros de contas | ALTA | Dinâmico | |
+|RF-006| O sistema deve ser capaz de filtrar profissionais da saúde | MÉDIA | Dinâmico | |
+|RF-007| O usuário pode personalizar o perfil na plataforma | MÉDIA | Dinâmico | |
+|RF-008| Profissionais da saúde devem ser capazes de indicar suas profissões | MÉDIA | Dinâmico |
+|RF-009| Profissionais da saúde devem ser capazes de colocar seus meios de contatos em seu perfil | MÉDIA | Dinâmico |
+|RF-010| Permitir que o usuário receba notificações regulares para lembrá-los de realizar suas atividades diárias | MÉDIA | Estático | |
+|RF-011| O usuário deve ser capaz de deletar a sua conta | ALTA | Estático | |
+|RF-012| O usuário deve ser capaz de recuperar uma conta deletada em até 30 dias| BAIXO | Estático| 
+|RF-013| Visualizar notícias na plataforma | MÉDIA | Estático | |
+|RF-014| A aplicação deve possuir um fluxo dinâmico de CI/CD para aumentar a produtividade dos desenvolvedores| MÉDIA| Estático |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| A aplicação deve ter uma boa usabilidade | ALTA | 
+|RNF-002| A aplicação deve ser responsiva em diversas telas com base no público-alvo |  ALTA | 
+|RNF-003| A aplicação deve respeitar as normas da LGPD | MÉDIA |
+|RNF-004| A aplicação deve ser segura para os usuários | ALTA |
+|RNF-005| A aplicação deve ser de fácil entendimento para o público idoso | MÉDIA |
+|RNF-006| A aplicação deve ser acessível para os motores de busca SEO e SEM| MÉDIA|
+|RNF-007| A aplicação deve ser capaz de funcionar offline| BAIXO |
+|RNF-008| A aplicação deve ser desenvolvida utilizando a linguagem de programação Javascript| ALTA |
+|RNF-009| Uma interface de usuário simples | MÉDIA | Estático | |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -78,12 +75,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| A aplicação não deve utilizar nenhuma tecnologia de back-end |
+|02| A aplicação não deve utilizar nenhuma tecnologia de framework|
+|03| A aplicação deve consumir o minímo de recursos financeiros|
+|04| A aplicação não deve utilizar bancos de dados, armazenando assim, os dados em memória|
+|05| O projeto deverá ser entregue até o final do semestre|
 
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)

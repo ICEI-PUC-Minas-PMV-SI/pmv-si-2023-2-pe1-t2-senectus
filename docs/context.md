@@ -1,72 +1,89 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
+A atividade física desempenha um papel vital na qualidade de vida, especialmente para a população idosa. No entanto, muitas pessoas que se encontram na idade avançada enfrentam desafios para manter um estilo de vida ativo, seja devido a limitações físicas ou à falta de incentivo e oportunidades.
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
+De acordo com a Organização Mundial da Saúde (OMS, 2015)[1], estima-se que 40% das pessoas com 65 anos ou mais não sejam ativas o suficiente. Essa proporção é ainda maior em alguns países e regiões. A inatividade física é um dos principais fatores de risco para doenças não transmissíveis, como doenças cardiovasculares, diabete tipo 2, câncer e obesidade. Também está associada a uma maior probabilidade de quedas e fraturas, perda de massa muscular e óssea, e declínio cognitivo.
 
+Dado esse contexto, fica clara a necessidade de uma solução que não apenas sensibilize sobre a importância da atividade física, mas que também facilite a socialização de idosos com interesses em comum para atividades e eventos específicos. É nesse cenário que nasce "Senectus", uma aplicação dedicada a promover a atividade física entre os idosos e proporcionar uma melhor qualidade de vida aos usuários.
 
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+Os objetivos desta aplicação visam sensibilizar os idosos sobre a importância da atividade física regular em suas vidas, fornecendo orientações personalizadas e recursos que se adaptem às suas condições físicas. A justificativa para essa iniciativa é respaldada pela necessidade de melhorar a saúde e o bem-estar dos idosos, tornando a terceira idade uma fase da vida mais vibrante e ativa.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+As pessoas idosas se mostram cada vez mais sedentárias, pouco engajadas e na grande maioria das vezes possuem poucas informações quando o assunto se trata de uma vida mais saudável e mais ativa fisicamente.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
-Segundo a Organização Mundial da Saúde (OMS), cerca de 42% dos idosos no mundo são sedentários. Isso significa que eles não praticam atividade física regular, ou praticam por menos de 150 minutos por semana. O sedentarismo é um problema sério de saúde pública, pois pode aumentar o risco de doenças crônicas, como doenças cardíacas, derrame, diabetes tipo 2, obesidade e câncer. Esses problemas ainda são mais agravados quando se trata dos idosos, podendo limitar a independência e a qualidade de vida deles. 
-
-De acordo com o artigo "Fatores associados à inatividade física em idosos", de Ana Paula Lopes e colaboradores, publicado na revista "Revista Brasileira de Geriatria e Gerontologia" em 2017, que teve como objetivo analisar os fatores associados à inatividade física em idosos residentes em uma cidade do sul do Brasil. Com uma amostra de 282 idosos com idade igual ou superior a 60 anos. Os resultados do estudo mostraram que a prevalência de inatividade física foi de 50,4%. Os principais fatores associados à inatividade física foram:
-
-* Idade: idosos com idade mais avançada foram mais propensos a serem inativos.
-* Sexo: mulheres foram mais propensas a serem inativas do que homens.
-* Estado de saúde: idosos com problemas de saúde autorrelatos foram mais propensos a serem inativos.
-* Nível de escolaridade: idosos com menor nível de escolaridade foram mais propensos a serem inativos.
-* Renda: idosos com menor renda foram mais propensos a serem inativos.
-
-No contexto da saúde geriátrica em nível internacional, um estudo publicado na revista "The Lancet" em 2019 mostrou que, em 2016, apenas 21,3% dos idosos em todo o mundo atingiram as recomendações de atividade física da Organização Mundial da Saúde (OMS). Sendo que a OMS recomenda, como foi visto anteriormente, que os idosos pratiquem pelo menos 150 minutos de atividade física moderada ou 75 minutos de atividade física intensa por semana. Essa atividade física pode incluir caminhada, ciclismo, natação, dança, jardinagem ou qualquer outra atividade que aumente a frequência cardíaca e a respiração.
-
-Dito isso, de acordo com o artigo "Physical activity and health in older adults", de Karen M. Reynolds e David R. Thompson, publicado na revista "American Journal of Lifestyle Medicine" em 2022, ressalta que à medida que envelhecemos, nosso corpo começa a perder massa muscular e óssea, e nossa capacidade cardiovascular e respiratória diminui. Assim, A atividade física pode ajudar a retardar esses processos e manter a saúde dos idosos. Os autores concluem que a atividade física regular está associada a uma redução do risco de: Doenças cardíacas, diabetes, obesidade, câncer, doenças neurodegenerativas e morte prematura.
-
-![elemento](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/4ffa2583-c991-4758-87e3-267306e1e255)
-
-
+Por consequência, percebe-se a necessidade de uma solução tecnológica, na qual seja capaz de distribuir informações, tanto sobre exercícios quanto sobre temas da saúde entre idosos e que consiga engajar os usuários por meio de eventos presenciais, oferecendo, também, suporte de profissionais especializados na área.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+### Objetivo geral
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+O projeto Senectus visa desenvolver uma aplicação web voltada aos idosos para os engajar em atividades físicas, retardando o aumento de indivíduos sedentários no Brasil e melhorando a qualidade de vida dos usuários.
+
+### Objetivos específicos
+
+1. Delimitar informações importantes sobre o âmbito da saúde para os usuários da tecnologia desenvolvida.
+2. Incentivar a prática de exercícios por meio de eventos e bibliotecas de exercícios disponibilizadas em uma plataforma adequada.
+3. Incentivar a socialização entre idosos engajados na prática de exercícios físicos.
+4. Organizar parcerias com profissionais de saúde para fornecer conteúdo e serviços especializados aos usuários da plataforma.
+5. Aplicar uma interface fácil de usar e intuitiva para garantir que os usuários possam acessar facilmente todas as informações e recursos oferecidos pela plataforma Senectus.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A Organização Mundial da Saúde (OMS) estima que entre 2020 e 2030, quase 500 milhões de pessoas devem adoecer devido à inatividade física. Isso causará um prejuízo próximo a 27 bilhões de dólares ao ano. Adicionalmente, segundo o Relatório Global de Status da Atividade Física 2022, publicado pela OMS, somente 30% dos 194 países analisados apresentam diretrizes nacionais de atividade física para todas as idades. Isso acaba por influenciar ainda mais no aumento dessas estatísticas alarmantes de maneira global, incluindo a população idosa.[2]
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Com isso em mente, infelizmente, constata-se que quando se trata de sedentarismo entre idosos, o Brasil não está fora deste problema, apresentando, segundo a Pesquisa Nacional de Saúde (PNS) divulgada pelo IBGE em 2019[3], dados que revelam que 59,7% da população idosa é sedentária, em comparação aos demais grupos de pessoas analisadas:
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+- **Mulheres**: 47,5% do grupo de mulheres presentes na pesquisa são sedentárias;
+- **Homens**: 32,1% do grupo de homens presentes na pesquisa são sedentários;
+- **Pessoas de 18 a 24 anos**: 32,8% das pessoas que estão na faixa de 18 a 24 anos que participaram da pesquisa são sedentárias;
+- **Pessoas de 25 a 39 anos**: 32,9% das pessoas entre 25 e 39 anos que participaram da pesquisa são sedentárias.
 
-## Público-Alvo
+Ainda no contexto brasileiro, em um estudo publicado na Revista Brasileira de Geriatria e Gerontologia em 2017[4], com uma amostra de 282 idosos com idade igual ou superior a 60 anos, mostrou que a prevalência de inatividade física foi de 50,4%. Os principais fatores associados à inatividade física foram:
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+- **Idade**: idosos com idade mais avançada foram mais propensos a serem inativos.
+- **Sexo**: mulheres foram mais propensas a serem inativas do que homens.
+- **Estado de saúde**: idosos com problemas de saúde autor-relatos foram mais propensos a serem inativos.
+- **Nível de escolaridade**: idosos com menor nível de escolaridade foram mais propensos a serem inativos.
+- **Renda**: idosos com menor renda foram mais propensos a serem inativos.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Um estudo publicado na revista The Lancet em 2019 mostrou que, em 2016, apenas 21,3% dos idosos em todo o mundo atingiram as recomendações de atividade física da Organização Mundial da Saúde (OMS). Essas recomendações incluem pelo menos 150 minutos de atividade física moderada ou 75 minutos de atividade física vigorosa por semana[5].
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Por fim, estes dados alarmantes só mostram a necessidade de atenção à saúde da sociedade brasileira, principalmente entre os idosos e a importância de incentivar a prática de atividade física. Com isso em mente, o projeto Senectus se desenvolve visando uma solução tecnológica para contribuir com a redução dos índices de sedentarismo da população idosa do Brasil. Oferecendo assim, uma plataforma que engaja os usuários em atividades físicas, divulga informações relevantes sobre a saúde e promove eventos, tanto presenciais quanto online, trazendo a possibilidade de socialização entre os usuários.
+
+Adiante, o projeto visa promover a parceria com profissionais de saúde para fornecer serviços especializados e prestar suporte aos usuários, com uma interface intuitiva e de fácil compreensão para todos que estão presentes na plataforma. Influenciando assim, os idosos a mudarem suas rotinas e tornar as suas vidas mais saudáveis.
+
+## Público-alvo
+
+- **Idoso**: Homens e mulheres acima de 60 anos, moradores tanto da capital quanto do interior do Brasil, que estão preocupados com a sua longevidade, desejam sair do sedentarismo e adotar um estilo de vida mais ativo através da prática de exercícios físicos e obter informações sobre a sua saúde.
+- **Prefeitura**: Prefeituras que oferecem programas para a saúde dos idosos, localizadas em todas as regiões do Brasil, com programas voltados para a promoção da saúde e prevenção de doenças, que atendem a população idosa, em geral, e que buscam divulgar eventos relacionados a saúde.
+- **Profissionais da saúde**: Profissionais da saúde com experiência em treinamento físico para idosos, localizados em todas as regiões do Brasil, que desejam fornecer orientação e apoio aos idosos através da prestação de serviço na plataforma Senectus, que inclui a criação de planos de exercícios personalizados, a monitoria dos exercícios e o fornecimento de suporte aos idosos.
+
+## Mapa de Stakeholders
+
+Em geral, stakeholders são indivíduos, grupos ou organizações que têm, de alguma forma, interesse no desenvolvimento do produto em questão. No caso do projeto Senectus, as situações não são diferentes. Assim, seus stakeholders são divididos entre primários, secundários e terciários.
+
+### Stakeholders primários
+
+Stakeholders primários são indivíduos ou organizações que têm envolvimento direto com o produto. Sendo assim, quase sempre são considerados como usuários finais, sendo eles:
+
+- **Idosos**: Usuários que utilizam a aplicação para praticar exercícios físicos e visualizar eventos;
+- **Profissionais da saúde**: Usuários que utilizam a aplicação para prestarem serviço e suporte aos idosos;
+- **Prefeituras**: Usuários que utilizam a aplicação para a divulgação de eventos de saúde dos idosos. Além disso, possuem interesse em divulgar conteúdos relacionados a saúde juntamente com profissionais da área.
+
+### Stakeholders secundários
+
+Os stakeholders secundários têm influência indireta no projeto, podendo compartilhar recursos e beneficiar o projeto. Sendo assim, Senectus possui os seguintes stakeholders:
+
+- ******************Equipe técnica******************: Equipe responsável pelo desenvolvimento e manutenção da aplicação;
+- **Fornecedores de Serviços de Hospedagem e Infraestrutura**: Empresas responsáveis por oferecer serviços para o desenvolvimento da aplicação e sua manutenção.
+
+### Stakeholders terciários:
+
+Stakeholders terciários, em geral, não possuem a intenção de utilizar a aplicação. No entanto, serão impactados na forma como o produto chegará ao mercado. Sendo eles:
+
+- **Familiares dos idosos**: Não pretendem utilizar a aplicação, mas serão impactados por ela, gerando interesse indireto na plataforma devido ao fato de melhorar a saúde e condicionamento físico de seus entes queridos.
+- **Cuidadores de idosos:** Profissionais que acompanham e auxiliam idosos em uma variedade de cuidados.
+
+![Princípais](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/c5b339ea-191b-4248-9be7-04795ce5f76d)
+

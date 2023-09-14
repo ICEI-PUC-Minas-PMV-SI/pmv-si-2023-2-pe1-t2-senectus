@@ -1,4 +1,4 @@
-# XXXXXXXXX
+# SENECTUS
 
 `CURSO: Sistemas de Informação`
 
@@ -6,11 +6,11 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Projeto consiste em uma aplicação web dedicada a exercícios físicos para idosos e disseminação de informações sobre a saúde. Visando assim, combater um problema sério na sociedade atual na qual quase dois terços da população idosa se encontra vivendo com hábitos completamente sedentários. Ao final, Senectus deve proporcionar uma melhoria na vida dos usuários, modificando os seus hábitos diários e entregando informações relevantes sobre a saúde, os engajando cada vez mais com sistemas de recompensas.
 
 ## Integrantes
 
-* Nome completo do aluno 1
+* Nícolas Cleiton Basilio Viana
 * Nome completo do aluno 2
 * Nome completo do aluno 3
 * Nome completo do aluno 4
