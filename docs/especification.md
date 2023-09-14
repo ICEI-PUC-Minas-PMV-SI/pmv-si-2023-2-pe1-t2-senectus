@@ -12,7 +12,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ![persona3](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/d6f6e887-abf8-4c00-bd77-2c2b41f3b1b3)
 
-![persona4](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/cb629205-aa39-4dbd-96b6-25d72f8ea869)
+![persona4](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/fb746ce7-3767-4e8e-8b77-784331cca1c7)
 
 ## Histórias de Usuários
 
