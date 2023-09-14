@@ -11,7 +11,7 @@ Projeto consiste em uma aplicação web dedicada a exercícios físicos para ido
 ## Integrantes
 
 * Nícolas Cleiton Basilio Viana
-* Nome completo do aluno 2
+* Antônio Fernando de Araújo Costa
 * Nome completo do aluno 3
 * Nome completo do aluno 4
 * Nome completo do aluno 5
