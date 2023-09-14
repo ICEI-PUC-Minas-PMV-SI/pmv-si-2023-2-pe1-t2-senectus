@@ -1,8 +1,6 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+O projeto Senectus possui inúmeros requisitos tanto funcionais, quanto não funcionais, que se responsabilizam por moldar o funcionamento da solução web proposta, cabe destacar que, pelo fato de Senectus portar somente o módulo de front-end, o mesmo possui algumas limitações que foram cuidadosamente analisadas. Além disso, possuimos 4 personas a fim de entender quem são os nossos possíveis clientes.
 
 ## Personas
 
