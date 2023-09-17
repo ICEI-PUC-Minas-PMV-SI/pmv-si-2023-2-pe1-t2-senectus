@@ -13,8 +13,7 @@ Projeto consiste em uma aplicação web dedicada a exercícios físicos para ido
 * Nícolas Cleiton Basilio Viana
 * Antônio Fernando de Araújo Costa
 * Sabrine Fernanda Costa de Lima
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Pedro Viriato Guimarães Braga da Rocha
 
 ## Orientador
 Prof.a Luciana De Nardin
