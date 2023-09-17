@@ -9,3 +9,11 @@
 **[4]** - _Fatores associados à inatividade física em idosos, de Ana Paula Lopes e colaboradores, publicado na revista "Revista Brasileira de Geriatria e Gerontologia" em 2017._
 
 **[5]** - _“Global trends in physical activity levels among older adults", de Anne V. Ekelund e colaboradores, publicado na revista "The Lancet" em 2019._
+
+**[6]** - _https://play.google.com/store/apps/details?id=com.andromo.dev598202.app634359&hl=en_US&pli=1_
+
+**[7]** - _https://play.google.com/store/apps/details?id=br.com.minhavida.progress&hl=pt_BR&gl=US_
+
+**[8]** - _https://play.google.com/store/apps/details?id=com.tivityhealth.silversneakersgo&hl=en_US_
+
+
