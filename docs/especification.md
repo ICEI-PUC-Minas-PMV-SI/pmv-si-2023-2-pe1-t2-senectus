@@ -3,14 +3,13 @@
 O projeto Senectus tem requisitos funcionais e não funcionais que definem como a solução web funcionará. Como o Senectus é apenas o front-end, ele tem algumas limitações que foram avaliadas. Também criamos 3 personas para entender nossos possíveis clientes. Acompanhe abaixo as informações referentes à especificação do projeto.
 
 ## Personas
-### Persona 1: Pedro Costa
-![Persona1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/d41030c1-3f17-4df9-b969-ea3c97037de7)
+![Persona1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/d41030c1-3f17-4df9-b969-ea3c97037de7 "Figura 2: Persona Pedro Costa")
 
-### Persona 2: João da Silva
-![Persona2](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/3c8f3939-7140-4200-888b-550bf8211d7b)
 
-### Persona 3: Maria Alice
-![Persona3](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/982aad35-567f-4ba1-b064-c19b05abdaa6)
+![Persona2](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/3c8f3939-7140-4200-888b-550bf8211d7b "Figura 3: Persona João da Silva")
+
+
+![Persona3](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/982aad35-567f-4ba1-b064-c19b05abdaa6 "Figura 4: Persona Maria Alice")
 
 
 ## Histórias de Usuários
