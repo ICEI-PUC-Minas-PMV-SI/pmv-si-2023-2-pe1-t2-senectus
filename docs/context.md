@@ -92,5 +92,5 @@ Stakeholders terciários, em geral, não possuem a intenção de utilizar a apli
 - **Familiares dos idosos**: Não pretendem utilizar a aplicação, mas serão impactados por ela, gerando interesse indireto na plataforma devido ao fato de melhorar a saúde e condicionamento físico de seus entes queridos.
 - **Cuidadores de idosos:** Profissionais que acompanham e auxiliam idosos em uma variedade de cuidados.
   
-![MapaDeStakeholders](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/c96f36c2-0944-4c32-9d6a-7a53bd05efb2)
+![MapaDeStakeholders](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/c96f36c2-0944-4c32-9d6a-7a53bd05efb2 "Figura 1: Mapa de Stakholderns")
 
