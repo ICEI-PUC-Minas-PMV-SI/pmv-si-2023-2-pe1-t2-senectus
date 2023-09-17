@@ -11,7 +11,7 @@ Os objetivos desta aplicação visam sensibilizar os idosos sobre a importância
 ## Tabela de concorrentes
 Segue abaixo a comparação da solução proposta pelo projeto em relação a seus concorrentes:
 
-| Critério | Yoga Exercises for Seniors | SilverSneakers GO | Workout | Senectus |
+| Critério | Yoga Exercises for Seniors [6] | SilverSneakers GO [7]| Workout [8]| Senectus |
 | --- | --- | --- | --- | --- |
 | Público-alvo idosos sedentários | ❌ | ❌ | ❌ | ✅ |
 | Acompanhamento com profissionais qualificados  | ❌ | ❌ | ❌ | ✅ |
