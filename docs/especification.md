@@ -16,7 +16,7 @@ O projeto Senectus possui inúmeros requisitos tanto funcionais, quanto não fun
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-| EU COMO... PERSONA | QUERO/PRECISO ... FUNCIONALIDADE | PARA ... MOTIVO/VALOR |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR` |
 | --- | --- | --- |
 | Pedro Costa (Personal Trainer) | Definir o valor cobrado pelos seus serviços | Aumentar a fonte de renda |
 | Pedro Costa (Personal Trainer) | Definir um cronograma de exercícios personalizados para os meus clientes e acompanha-los | Atender os seus feedbacks, engaja-los e adaptar os seus exercícios conforme as suas necessidades e dificuldades |
