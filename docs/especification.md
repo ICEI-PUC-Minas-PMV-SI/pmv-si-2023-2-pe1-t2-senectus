@@ -6,9 +6,9 @@ O projeto Senectus possui inúmeros requisitos tanto funcionais, quanto não fun
 
 ![Persona1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/0ba2a566-4c46-4208-87cf-5b955a0d048a)
 
-![Persona2](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/d3ca0232-603a-4a09-a229-c04a3702841b)
+![Persona2](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/037cdae5-9f78-4446-b648-cd7e29985664)
 
-![Persona3](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/0c858c25-afea-47f5-8dd3-ba0df498730b)
+![Persona3](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/30718725-62e4-46a2-bafa-7c913a602298)
 
 
 ## Histórias de Usuários
