@@ -4,9 +4,9 @@
 
 **[2]** - _Yoga Exercises for Seniors: https://play.google.com/store/apps/details?id=com.andromo.dev598202.app634359&hl=en_US&pli=1_
 
-**[3]** - _Workout: Treino em casa: https://play.google.com/store/apps/details?id=br.com.minhavida.progress&hl=pt_BR&gl=US_
+**[3]** - _SilverSneakers GO: https://play.google.com/store/apps/details?id=com.tivityhealth.silversneakersgo&hl=en_US_
 
-**[4]** - _SilverSneakers GO: https://play.google.com/store/apps/details?id=com.tivityhealth.silversneakersgo&hl=en_US_
+**[4]** - _Workout: Treino em casa: https://play.google.com/store/apps/details?id=br.com.minhavida.progress&hl=pt_BR&gl=US_
 
 **[5]** - _OMS (sobre indivíduos sedentários): https://www.who.int/news/item/19-10-2022-who-highlights-high-cost-of-physical-inactivity-in-first-ever-global-report_
 
