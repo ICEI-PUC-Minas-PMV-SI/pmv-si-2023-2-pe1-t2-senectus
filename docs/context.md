@@ -31,9 +31,8 @@ O projeto Senectus visa desenvolver uma aplicação web voltada aos idosos para 
 
 1. Conscientizar os idosos sobre a importância da realização de atividade física.
 2. Organizar parcerias com profissionais de saúde para fornecer serviços especializados aos usuários na plataforma.
-3. Incentivar a prática de exercícios por meio de cronogramas personalizados por profissionais da área
-4. Sanar dúvidas dos usuários com base no suporte dos profissionais da saúde
-5. Aplicar uma interface fácil de usar e intuitiva para garantir que os usuários possam acessar facilmente todas as informações e recursos oferecidos pela plataforma Senectus.
+3. Sanar dúvidas dos usuários com base no suporte dos profissionais da saúde
+4. Aplicar uma interface fácil de usar e intuitiva para garantir que os usuários possam acessar facilmente todas as informações e recursos oferecidos pela plataforma Senectus.
 
 ## Justificativa
 
