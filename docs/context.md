@@ -6,10 +6,7 @@ De acordo com a Organização Mundial da Saúde (OMS, 2015)[1], estima-se que 40
 
 Dado esse contexto, fica clara a necessidade de uma solução que não apenas foque no engajamento do usuário em exercícios físicos, mas que preste o suporte adequado por meio de profissionais de saúde e que forneça informações importantes sobre os exercícios em questão. Para assim, evitar possíveis lesionamentos em pessoas inexperientes. É nesse cenário que nasce "Senectus", uma aplicação dedicada a promover a atividade física entre os idosos e proporcionar uma melhor qualidade de vida aos usuários.
 
-Os objetivos desta aplicação visam sensibilizar os idosos sobre a importância da atividade física regular em suas vidas, fornecendo orientações personalizadas e recursos que se adaptem às suas condições físicas. A justificativa para essa iniciativa é respaldada pela necessidade de melhorar a saúde e o bem-estar dos idosos, tornando a terceira idade uma fase da vida mais vibrante e ativa.
-
-## Tabela de concorrentes
-Segue abaixo a comparação da solução proposta pelo projeto em relação a seus concorrentes:
+Os objetivos desta aplicação visam sensibilizar os idosos sobre a importância da atividade física regular em suas vidas, fornecendo orientações personalizadas e recursos que se adaptem às suas condições físicas. A justificativa para essa iniciativa é respaldada pela necessidade de melhorar a saúde e o bem-estar dos idosos, tornando a terceira idade uma fase da vida mais vibrante e ativa. Cabe destacar que o projeto propões melhorias em relação a sistemas que já se encontram no mercado, segue abaixo, uma breve comparação de aplicações semelhantes:
 
 | Critério | Yoga Exercises for Seniors [2] | SilverSneakers GO [3]| Workout [4]| Senectus |
 | --- | --- | --- | --- | --- |
@@ -17,7 +14,6 @@ Segue abaixo a comparação da solução proposta pelo projeto em relação a se
 | Acompanhamento com profissionais qualificados  | ❌ | ❌ | ❌ | ✅ |
 | Guia de exercícios práticos | ✅ | ✅ | ✅ | ✅ |
 | Solução simples e pensada no usuário | ❌ | ✅ | ✅ | ✅ |
-
 
 ## Problema
 
