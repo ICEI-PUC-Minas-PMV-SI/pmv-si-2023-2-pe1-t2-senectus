@@ -47,15 +47,15 @@ Além disso, constata-se que quando se trata de sedentarismo entre idosos, o Bra
 
 Ainda no contexto brasileiro, em um estudo publicado na Revista Brasileira de Geriatria e Gerontologia em 2017[7], com uma amostra de 282 idosos com idade igual ou superior a 60 anos, mostrou que a prevalência de inatividade física foi de 50,4%. Os principais fatores associados à inatividade física foram:
 
-- **Idade**: idosos com idade mais avançada foram mais propensos a serem inativos.
-- **Sexo**: mulheres foram mais propensas a serem inativas do que homens.
-- **Estado de saúde**: idosos com problemas de saúde autor-relatos foram mais propensos a serem inativos.
-- **Nível de escolaridade**: idosos com menor nível de escolaridade foram mais propensos a serem inativos.
-- **Renda**: idosos com menor renda foram mais propensos a serem inativos.
+- **Idade**: idosos com idade mais avançada foram mais propensos a serem inativos;
+- **Sexo**: mulheres foram mais propensas a serem inativas do que homens;
+- **Estado de saúde**: idosos com problemas de saúde autor-relatos foram mais propensos a serem inativos;
+- **Nível de escolaridade**: idosos com menor nível de escolaridade foram mais propensos a serem inativos;
+- **Renda**: idosos com menor renda foram mais propensos a serem inativos;
 
 Um estudo publicado na revista The Lancet em 2019 mostrou que, em 2016, apenas 21,3% dos idosos em todo o mundo atingiram as recomendações de atividade física da Organização Mundial da Saúde (OMS). Essas recomendações incluem pelo menos 150 minutos de atividade física moderada ou 75 minutos de atividade física vigorosa por semana[8].
 
-Por fim, estes dados alarmantes só mostram a necessidade de atenção à saúde da sociedade brasileira, principalmente entre os idosos e a importância de incentivar a prática de atividade física. Com isso em mente, o projeto Senectus se desenvolve visando uma solução tecnológica para contribuir com a redução dos índices de sedentarismo da população idosa do Brasil. Oferecendo assim, uma plataforma que engaja os usuários em atividades físicas por meio de cronogramas criados por profissionais da saúde e que foque na conscientização do usuário sobre a importância da realização de atividade física. Influenciando assim, os idosos a mudarem suas rotinas e tornar as suas vidas mais saudáveis.
+Por fim, estes dados alarmantes só mostram a necessidade de atenção à saúde da sociedade brasileira, principalmente entre os idosos e a importância de incentivar a prática de atividade física. Com isso em mente, o projeto Senectus se desenvolve visando uma solução tecnológica para contribuir com a redução dos índices de sedentarismo da população idosa do Brasil. Oferecendo assim, uma plataforma que engaja os usuários em atividades físicas por meio de suporte de profissionais da saúde e que foque na conscientização do usuário sobre a importância da realização de atividade física. Influenciando assim, os idosos a mudarem suas rotinas e tornar as suas vidas mais saudáveis.
 
 ## Público-alvo
 
