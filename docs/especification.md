@@ -4,13 +4,12 @@ O projeto Senectus possui inúmeros requisitos tanto funcionais, quanto não fun
 
 ## Personas
 
-![persona1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/de34b9a3-c6e0-4327-ba74-fb9067f1e51f)
+![Persona1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/0ba2a566-4c46-4208-87cf-5b955a0d048a)
 
-![persona2](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/1b8188af-8671-413c-9265-7adae627387d)
+![Persona2](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/66bc45e1-8f1d-4d8f-b4cf-a716e8ad1a42)
 
-![persona3](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/d6f6e887-abf8-4c00-bd77-2c2b41f3b1b3)
+![Persona3](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/0c858c25-afea-47f5-8dd3-ba0df498730b)
 
-![persona4](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/fb746ce7-3767-4e8e-8b77-784331cca1c7)
 
 ## Histórias de Usuários
 
