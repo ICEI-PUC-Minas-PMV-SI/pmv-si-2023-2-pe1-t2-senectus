@@ -43,7 +43,7 @@ O projeto Senectus visa desenvolver uma aplicação web voltada aos idosos para 
 
 A Organização Mundial da Saúde (OMS) estima que entre 2020 e 2030, quase 500 milhões de pessoas devem adoecer devido à inatividade física. Isso causará um prejuízo próximo a 27 bilhões de dólares ao ano. Adicionalmente, segundo o Relatório Global de Status da Atividade Física 2022, publicado pela OMS, somente 30% dos 194 países analisados apresentam diretrizes nacionais de atividade física para todas as idades. Isso acaba por influenciar ainda mais no aumento dessas estatísticas alarmantes de maneira global, incluindo a população idosa.[5]
 
-Com isso em mente, infelizmente, constata-se que quando se trata de sedentarismo entre idosos, o Brasil não está fora deste problema, apresentando, segundo a Pesquisa Nacional de Saúde (PNS) divulgada pelo IBGE em 2019[6], dados que revelam que 59,7% da população idosa é sedentária, em comparação aos demais grupos de pessoas analisadas:
+Além disso, constata-se que quando se trata de sedentarismo entre idosos, o Brasil não está fora deste problema, apresentando, segundo a Pesquisa Nacional de Saúde (PNS) divulgada pelo IBGE em 2019[6], dados que revelam que 59,7% da população idosa é sedentária, em comparação aos demais grupos de pessoas analisadas:
 
 - **Mulheres**: 47,5% do grupo de mulheres presentes na pesquisa são sedentárias;
 - **Homens**: 32,1% do grupo de homens presentes na pesquisa são sedentários;
