@@ -49,9 +49,7 @@ Ainda no contexto brasileiro, em um estudo publicado na Revista Brasileira de Ge
 
 Um estudo publicado na revista The Lancet em 2019 mostrou que, em 2016, apenas 21,3% dos idosos em todo o mundo atingiram as recomendações de atividade física da Organização Mundial da Saúde (OMS). Essas recomendações incluem pelo menos 150 minutos de atividade física moderada ou 75 minutos de atividade física vigorosa por semana[5].
 
-Por fim, estes dados alarmantes só mostram a necessidade de atenção à saúde da sociedade brasileira, principalmente entre os idosos e a importância de incentivar a prática de atividade física. Com isso em mente, o projeto Senectus se desenvolve visando uma solução tecnológica para contribuir com a redução dos índices de sedentarismo da população idosa do Brasil. Oferecendo assim, uma plataforma que engaja os usuários em atividades físicas por meio de cronogramas criados por profissionais da saúde e que foque na conscientização do usuário sobre a importância da realização de atividade física.
-
-Adiante, além do projeto ser capaz de promover uma parceria com profissionais da saúde, o mesmo deve possuir uma interface intuitiva e de fácil compreensão para todos que estão presentes na plataforma. Influenciando assim, os idosos a mudarem suas rotinas e tornar as suas vidas mais saudáveis.
+Por fim, estes dados alarmantes só mostram a necessidade de atenção à saúde da sociedade brasileira, principalmente entre os idosos e a importância de incentivar a prática de atividade física. Com isso em mente, o projeto Senectus se desenvolve visando uma solução tecnológica para contribuir com a redução dos índices de sedentarismo da população idosa do Brasil. Oferecendo assim, uma plataforma que engaja os usuários em atividades físicas por meio de cronogramas criados por profissionais da saúde e que foque na conscientização do usuário sobre a importância da realização de atividade física. Influenciando assim, os idosos a mudarem suas rotinas e tornar as suas vidas mais saudáveis.
 
 ## Público-alvo
 
