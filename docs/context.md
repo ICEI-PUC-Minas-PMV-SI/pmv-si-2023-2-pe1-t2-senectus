@@ -10,7 +10,7 @@ Os objetivos desta aplicação visam sensibilizar os idosos sobre a importância
 
 | Critério | Yoga Exercises for Seniors [2] | SilverSneakers GO [3]| Workout [4]| Senectus |
 | --- | --- | --- | --- | --- |
-| Público-alvo idosos sedentários | ❌ | ❌ | ❌ | ✅ |
+| Público-alvo de idosos | ✅ | ✅ | ✅ | ✅ |
 | Acompanhamento com profissionais qualificados  | ❌ | ❌ | ❌ | ✅ |
 | Guia de exercícios práticos | ✅ | ✅ | ✅ | ✅ |
 | Solução simples e pensada no usuário | ❌ | ✅ | ✅ | ✅ |
