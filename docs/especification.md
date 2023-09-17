@@ -1,6 +1,6 @@
 # Especificações do Projeto
 
-O projeto Senectus possui inúmeros requisitos tanto funcionais, quanto não funcionais, que se responsabilizam por moldar o funcionamento da solução web proposta, cabe destacar que, pelo fato de Senectus portar somente o módulo de front-end, o mesmo possui algumas limitações que foram cuidadosamente analisadas. Além disso, possuimos 4 personas a fim de entender quem são os nossos possíveis clientes.
+O projeto Senectus possui inúmeros requisitos tanto funcionais, quanto não funcionais, que se responsabilizam por moldar o funcionamento da solução web proposta, cabe destacar que, pelo fato de Senectus portar somente o módulo de front-end, o mesmo possui algumas limitações que foram cuidadosamente analisadas. Além disso, possuimos 3 personas a fim de entender quem são os nossos possíveis clientes.
 
 ## Personas
 
