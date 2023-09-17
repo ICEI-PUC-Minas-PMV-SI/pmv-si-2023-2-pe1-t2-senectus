@@ -61,12 +61,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 | ID | Descrição do Requisito | Prioridade |
 | --- | --- | --- |
-| RNF-001 | A aplicação deve seguir boas práticas de desenvolvimento de sistemas com relação a usabilidade | ALTA  |
-| RNF-002 | A aplicação deve ser responsiva em diversas telas com base no público-alvo | ALTA |
-| RNF-003 | A aplicação deve respeitar as normas da LGPD | MÉDIA |
-| RNF-004 | A aplicação deve ser segura para os usuários | ALTA |
-| RNF-005 | A aplicação deve ser de fácil entendimento para o público idoso | MÉDIA |
-| RNF-007 | A aplicação deve ser desenvolvida utilizando a linguagem de programação Javascript | ALTA |
+| RNF-001 | O sistema deve seguir boas práticas de desenvolvimento de sistemas com relação a usabilidade | ALTA  |
+| RNF-002 | O sistema deve ser responsivo em diversas telas com base no público-alvo | ALTA |
+| RNF-003 | O sistema deve respeitar as normas da LGPD | MÉDIA |
+| RNF-004 | O sistema deve ser seguro para os usuários | ALTA |
+| RNF-005 | O sistema deve ser de fácil entendimento para o público idoso | MÉDIA |
+| RNF-007 | O sistema deve ser desenvolvido utilizando a linguagem de programação Javascript | ALTA |
 
 
 ## Restrições
