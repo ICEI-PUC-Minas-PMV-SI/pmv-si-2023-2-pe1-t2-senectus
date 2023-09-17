@@ -11,7 +11,7 @@ Os objetivos desta aplicação visam sensibilizar os idosos sobre a importância
 ## Tabela de concorrentes
 Segue abaixo a comparação da solução proposta pelo projeto em relação a seus concorrentes:
 
-| Critério | Yoga Exercises for Seniors [6] | SilverSneakers GO [7]| Workout [8]| Senectus |
+| Critério | Yoga Exercises for Seniors [2] | SilverSneakers GO [3]| Workout [4]| Senectus |
 | --- | --- | --- | --- | --- |
 | Público-alvo idosos sedentários | ❌ | ❌ | ❌ | ✅ |
 | Acompanhamento com profissionais qualificados  | ❌ | ❌ | ❌ | ✅ |
@@ -41,16 +41,16 @@ O projeto Senectus visa desenvolver uma aplicação web voltada aos idosos para 
 
 ## Justificativa
 
-A Organização Mundial da Saúde (OMS) estima que entre 2020 e 2030, quase 500 milhões de pessoas devem adoecer devido à inatividade física. Isso causará um prejuízo próximo a 27 bilhões de dólares ao ano. Adicionalmente, segundo o Relatório Global de Status da Atividade Física 2022, publicado pela OMS, somente 30% dos 194 países analisados apresentam diretrizes nacionais de atividade física para todas as idades. Isso acaba por influenciar ainda mais no aumento dessas estatísticas alarmantes de maneira global, incluindo a população idosa.[2]
+A Organização Mundial da Saúde (OMS) estima que entre 2020 e 2030, quase 500 milhões de pessoas devem adoecer devido à inatividade física. Isso causará um prejuízo próximo a 27 bilhões de dólares ao ano. Adicionalmente, segundo o Relatório Global de Status da Atividade Física 2022, publicado pela OMS, somente 30% dos 194 países analisados apresentam diretrizes nacionais de atividade física para todas as idades. Isso acaba por influenciar ainda mais no aumento dessas estatísticas alarmantes de maneira global, incluindo a população idosa.[5]
 
-Com isso em mente, infelizmente, constata-se que quando se trata de sedentarismo entre idosos, o Brasil não está fora deste problema, apresentando, segundo a Pesquisa Nacional de Saúde (PNS) divulgada pelo IBGE em 2019[3], dados que revelam que 59,7% da população idosa é sedentária, em comparação aos demais grupos de pessoas analisadas:
+Com isso em mente, infelizmente, constata-se que quando se trata de sedentarismo entre idosos, o Brasil não está fora deste problema, apresentando, segundo a Pesquisa Nacional de Saúde (PNS) divulgada pelo IBGE em 2019[6], dados que revelam que 59,7% da população idosa é sedentária, em comparação aos demais grupos de pessoas analisadas:
 
 - **Mulheres**: 47,5% do grupo de mulheres presentes na pesquisa são sedentárias;
 - **Homens**: 32,1% do grupo de homens presentes na pesquisa são sedentários;
 - **Pessoas de 18 a 24 anos**: 32,8% das pessoas que estão na faixa de 18 a 24 anos que participaram da pesquisa são sedentárias;
 - **Pessoas de 25 a 39 anos**: 32,9% das pessoas entre 25 e 39 anos que participaram da pesquisa são sedentárias.
 
-Ainda no contexto brasileiro, em um estudo publicado na Revista Brasileira de Geriatria e Gerontologia em 2017[4], com uma amostra de 282 idosos com idade igual ou superior a 60 anos, mostrou que a prevalência de inatividade física foi de 50,4%. Os principais fatores associados à inatividade física foram:
+Ainda no contexto brasileiro, em um estudo publicado na Revista Brasileira de Geriatria e Gerontologia em 2017[7], com uma amostra de 282 idosos com idade igual ou superior a 60 anos, mostrou que a prevalência de inatividade física foi de 50,4%. Os principais fatores associados à inatividade física foram:
 
 - **Idade**: idosos com idade mais avançada foram mais propensos a serem inativos.
 - **Sexo**: mulheres foram mais propensas a serem inativas do que homens.
@@ -58,7 +58,7 @@ Ainda no contexto brasileiro, em um estudo publicado na Revista Brasileira de Ge
 - **Nível de escolaridade**: idosos com menor nível de escolaridade foram mais propensos a serem inativos.
 - **Renda**: idosos com menor renda foram mais propensos a serem inativos.
 
-Um estudo publicado na revista The Lancet em 2019 mostrou que, em 2016, apenas 21,3% dos idosos em todo o mundo atingiram as recomendações de atividade física da Organização Mundial da Saúde (OMS). Essas recomendações incluem pelo menos 150 minutos de atividade física moderada ou 75 minutos de atividade física vigorosa por semana[5].
+Um estudo publicado na revista The Lancet em 2019 mostrou que, em 2016, apenas 21,3% dos idosos em todo o mundo atingiram as recomendações de atividade física da Organização Mundial da Saúde (OMS). Essas recomendações incluem pelo menos 150 minutos de atividade física moderada ou 75 minutos de atividade física vigorosa por semana[8].
 
 Por fim, estes dados alarmantes só mostram a necessidade de atenção à saúde da sociedade brasileira, principalmente entre os idosos e a importância de incentivar a prática de atividade física. Com isso em mente, o projeto Senectus se desenvolve visando uma solução tecnológica para contribuir com a redução dos índices de sedentarismo da população idosa do Brasil. Oferecendo assim, uma plataforma que engaja os usuários em atividades físicas por meio de cronogramas criados por profissionais da saúde e que foque na conscientização do usuário sobre a importância da realização de atividade física. Influenciando assim, os idosos a mudarem suas rotinas e tornar as suas vidas mais saudáveis.
 
