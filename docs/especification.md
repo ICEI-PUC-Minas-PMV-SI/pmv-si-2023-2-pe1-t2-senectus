@@ -17,7 +17,7 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 | EU COMO... `PERSONA` | QUERO/PRECISO ... `FUNCIONALIDADE` | PARA ... `MOTIVO/VALOR` |
 | --- | --- | --- |
 | Pedro Costa (Prestador de serviço) | Definir o valor cobrado pelos meus serviços. | Precificar meu serviço na plataforma. |
-| Pedro Costa (Prestador de serviço) | Inserir o meu currículo e informações pessoais plataforma. | Divulgar o seu serviço e mostrar suas experiências anteriores para o mercado de trabalho. |
+| Pedro Costa (Prestador de serviço) | Inserir o meu currículo e informações pessoais na plataforma. | Divulgar o seu serviço e mostrar suas experiências anteriores para o mercado de trabalho. |
 | Pedro Costa (Prestador de serviço) | Receber contato de possíveis clientes através da plataforma. | Aumentar minha fonte de renda e ajudar os idosos sedentários. |
 | João da Silva (Idoso) | Praticar atividade física guiada através de uma plataforma on-line. | Se exercitar e sair do sedentarismo. |
 | João da Silva (Idoso)  | Pesquisar por profissionais da saúde na plataforma. | Monitorar minha saúde física através de uma consulta on-line. |
