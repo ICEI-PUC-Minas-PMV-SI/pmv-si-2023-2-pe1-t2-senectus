@@ -6,7 +6,7 @@
 
 `SEMESTRE: 1º`
 
-Projeto consiste em uma aplicação web dedicada a exercícios físicos para idosos e disseminação de informações sobre a saúde. Visando assim, combater um problema sério na sociedade atual na qual quase dois terços da população idosa se encontra vivendo com hábitos completamente sedentários. Ao final, Senectus deve proporcionar uma melhoria na vida dos usuários, modificando os seus hábitos diários e entregando informações relevantes sobre a saúde, os engajando cada vez mais com sistemas de recompensas.
+Projeto consiste em uma aplicação web dedicada a exercícios físicos para idosos com suporte de profissionais da saúde. Ao final, Senectus deve proporcionar uma melhoria na vida dos usuários, modificando os seus hábitos diários e prestando o devido suporte para os mesmos, os engajando cada vez mais.
 
 ## Integrantes
 
