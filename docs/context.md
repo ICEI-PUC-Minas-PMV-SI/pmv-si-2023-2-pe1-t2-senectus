@@ -60,7 +60,7 @@ Por fim, estes dados alarmantes só mostram a necessidade de atenção à saúde
 ## Público-alvo
 
 - **Idoso**: Homens e mulheres acima de 60 anos, moradores tanto da capital quanto do interior do Brasil, que estão preocupados com a sua longevidade, desejam sair do sedentarismo e adotar um estilo de vida mais ativo através da prática de exercícios físicos e obter informações sobre a sua saúde.
-- **Profissionais da saúde**: Profissionais da saúde com experiência em treinamento físico para idosos, localizados em todas as regiões do Brasil, que desejam fornecer orientação e apoio aos idosos através da prestação de serviço na plataforma Senectus, que inclui a criação de planos de exercícios personalizados, a monitoria dos exercícios e o fornecimento de suporte aos idosos.
+- **Profissionais da saúde**: Profissionais da saúde com experiência em treinamento físico para idosos, localizados em todas as regiões do Brasil, que desejam fornecer orientação e apoio aos idosos através da prestação de serviço na plataforma Senectus, que inclui a monitoria dos exercícios e o fornecimento de suporte aos idosos.
 
 ## Mapa de Stakeholders
 
