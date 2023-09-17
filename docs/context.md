@@ -8,6 +8,15 @@ Dado esse contexto, fica clara a necessidade de uma solução que não apenas fo
 
 Os objetivos desta aplicação visam sensibilizar os idosos sobre a importância da atividade física regular em suas vidas, fornecendo orientações personalizadas e recursos que se adaptem às suas condições físicas. A justificativa para essa iniciativa é respaldada pela necessidade de melhorar a saúde e o bem-estar dos idosos, tornando a terceira idade uma fase da vida mais vibrante e ativa.
 
+## Tabela de concorrência
+
+| Critério | Yoga Exercises for Seniors | SilverSneakers GO | Workout | Senectus |
+| --- | --- | --- | --- | --- |
+| Público-alvo idosos sedentários | ❌ | ❌ | ❌ | ✅ |
+| Acompanhamento com profissionais qualificados  | ❌ | ❌ | ❌ | ✅ |
+| Guia de exercícios práticos | ✅ | ✅ | ✅ | ✅ |
+| Solução simples e pensada no usuário | ❌ | ✅ | ✅ | ✅ |
+
 ## Problema
 
 As pessoas idosas se mostram cada vez mais sedentárias, pouco engajadas e na grande maioria das vezes possuem poucas informações quando o assunto se trata de uma vida mais saudável e mais ativa fisicamente.
