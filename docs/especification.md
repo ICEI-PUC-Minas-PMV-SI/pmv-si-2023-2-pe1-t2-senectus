@@ -12,7 +12,7 @@ O projeto Senectus tem requisitos funcionais e não funcionais que definem como 
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na análise das personas, foram identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR` |
 | --- | --- | --- |
@@ -27,8 +27,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
-
+As tabelas a seguir detalham os requisitos funcionais e não funcionais do projeto:
 ### Requisitos Funcionais
 
 | ID | Descrição do Requisito | Prioridade | Responsável |
