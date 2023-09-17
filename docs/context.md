@@ -12,7 +12,7 @@ Os objetivos desta aplicação visam sensibilizar os idosos sobre a importância
 
 As pessoas idosas se mostram cada vez mais sedentárias, pouco engajadas e na grande maioria das vezes possuem poucas informações quando o assunto se trata de uma vida mais saudável e mais ativa fisicamente.
 
-Por consequência, percebe-se a necessidade de uma solução tecnológica, na qual seja capaz de auxiliar e manter os usuários engajados, quando se trata de uma vida fisicamente ativa, por meio de um suporte de profissionais da área e informações ofertadas sobre a importância de cada exercício a ser realizado.
+Por consequência, percebe-se a necessidade de uma solução tecnológica, na qual seja capaz de auxiliar e manter os usuários engajados, quando se trata de uma vida fisicamente ativa, por meio de um suporte de profissionais da área, bibliotecas de exercícios e informações ofertadas sobre a importância de cada exercício a ser realizado.
 
 ## Objetivos
 
