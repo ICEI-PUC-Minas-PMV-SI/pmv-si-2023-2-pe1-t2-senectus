@@ -20,10 +20,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | --- | --- | --- |
 | Pedro Costa (Personal Trainer) | Definir o valor cobrado pelos seus serviços | Aumentar a fonte de renda |
 | Pedro Costa (Personal Trainer) | Definir um cronograma de exercícios personalizados para os meus clientes e acompanha-los | Atender os seus feedbacks, engaja-los e adaptar os seus exercícios conforme as suas necessidades e dificuldades |
-| Pedro Costa (Personal Trainer) | que a plataforma me de oportunidades para iniciar no mercado por meio um engajamento gerado da mesma | Iniciar minha carreira no mercado de trabalho |
+| Pedro Costa (Personal Trainer) | Que a plataforma me de oportunidades para iniciar no mercado por meio um engajamento gerado da mesma | Iniciar minha carreira no mercado de trabalho |
 | João da Silva (Usuário do site) | Praticar atividade física guiada por um profissional e pesquisar demais profissionais da saúde conforme as minhas necessidades | Evitar possíveis lesões devido a minha falta de conhecimento e me manter engajado em minhas rotinas. |
 | João da Silva (Usuário do site) | Definir um cronograma que se encaixe em minha rotina | Viabilizar a prática de exercícios em meus complicados horários. |
-| Maria da Silva (Usuário do site) | Um aplicativo que seja de fácil uso e com instruções claras e objetivas sobre cada exercício, por exemplo: vídeos e fotos. | facilitar o meu acesso no dia a dia. Tendo em vista, que tenho dificuldades de manusear as tecnologias atuais. |
+| Maria da Silva (Usuário do site) | Um aplicativo que seja de fácil uso e com instruções claras e objetivas sobre cada exercício, por exemplo: vídeos e fotos. | Facilitar o meu acesso no dia a dia. Tendo em vista, que tenho dificuldades de manusear as tecnologias atuais. |
 | Maria da Silva (Usuário do site) | Queria ser orientada de maneira simples e objetiva sobre o quão seguro os meus dados estão na plataforma. E entender as boas práticas que podem deixar meus dados ainda mais seguros. | Me sentir mais confortável ao utilizar a plataforma. |
 
 
@@ -69,7 +69,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RNF-004 | A aplicação deve ser segura para os usuários | ALTA |
 | RNF-005 | A aplicação deve ser de fácil entendimento para o público idoso | MÉDIA |
 | RNF-007 | A aplicação deve ser desenvolvida utilizando a linguagem de programação Javascript | ALTA |
-|  |  |  |
 
 
 ## Restrições
