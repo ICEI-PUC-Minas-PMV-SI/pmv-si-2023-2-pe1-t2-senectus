@@ -51,7 +51,7 @@ Ainda no contexto brasileiro, em um estudo publicado na Revista Brasileira de Ge
 - **Sexo**: mulheres foram mais propensas a serem inativas do que homens;
 - **Estado de saúde**: idosos com problemas de saúde autor-relatos foram mais propensos a serem inativos;
 - **Nível de escolaridade**: idosos com menor nível de escolaridade foram mais propensos a serem inativos;
-- **Renda**: idosos com menor renda foram mais propensos a serem inativos;
+- **Renda**: idosos com menor renda foram mais propensos a serem inativos.
 
 Um estudo publicado na revista The Lancet em 2019 mostrou que, em 2016, apenas 21,3% dos idosos em todo o mundo atingiram as recomendações de atividade física da Organização Mundial da Saúde (OMS). Essas recomendações incluem pelo menos 150 minutos de atividade física moderada ou 75 minutos de atividade física vigorosa por semana[8].
 
