@@ -30,25 +30,25 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 As tabelas a seguir detalham os requisitos funcionais e não funcionais do projeto:
 ### Requisitos Funcionais
 
-| ID | Descrição do Requisito | Prioridade | Tipo | Trecho |
-| --- | --- | --- | --- | --- |
-| RF-001 | O sistema deve permitir que usuários tenham acesso a descrição informativa dos exercícios. | ALTA | Estático | Exercício |
-| RF-002 | O sistema deve permitir que usuários sejam capazes de acessar o catálogo de exercícios e os selecionar. | ALTA | Dinâmico | Exercício |
-| RF-003 | O sistema deve permitir que o usuário, ao iniciar um exercício, tenha acesso a um cronometro que possa ser inicializado ou pausado. | MÉDIA | Dinâmico | Exercício |
-| RF-004 | O sistema deve permitir que o usuário tenha acesso a algum vídeo ou imagem sobre como fazer o exercício. | MÉDIA | Estático | Exercício |
-| RF-005 | O sistema deve permitir que um profissional se cadastre na plataforma, inserindo informações básicas, por exemplo: nome e meios de contato. | ALTA | Dinâmico | Cadastro |
-| RF-006 | O sistema deve permitir que os profissionais sejam capazes de preencher informações mais completas sobre suas competências logo após o cadastro. | ALTA | Dinâmico | Cadastro |
-| RF-007 | O sistema deve permitir que usuários profissionais, previamente cadastrados, façam login na aplicação. | ALTA | Dinâmico | Cadastro |
-| RF-008 | O sistema deve permitir que usuários contatem profissionais pelo seu perfil. | ALTA | Dinâmico | Contato - cliente → profissional |
-| RF-009 | O sistema deve ser capaz de filtrar profissionais por especialidade. | MÉDIA | Dinâmico | Pesquisa |
-| RF-010 | O sistema deve ser capaz de filtrar profissionais por palavra-chave. | MÉDIA | Dinâmico | Pesquisa |
-| RF-011 | O sistema deve ter uma página inicial que mostre a importância da atividade física durante o envelhecimento. | BAIXO | Estático | Landing page |
-| RF-012 | O sistema deve ter uma página inicial que fale sobre a iniciativa do projeto Senectus. | MÉDIA | Estático | Landing page |
-| RF-013 | O sistema deve ter uma página inicial que mostre o quão confiável a plataforma é. | MÉDIA | Estático | Landing page |
-| RF-014 | O sistema deve permitir que usuários profissionais atualizem seus perfis. | MÉDIA | Dinâmico | Atualização de dados |
-| RF-015 | O sistema deve permitir que o usuário profissional seja capaz de deletar a sua conta. | ALTA | Dinâmico | Deleção |
-| RF-016 | O sistema deve permitir que o usuário profissional seja capaz de recuperar uma conta deletada em até 30 dias. | MÉDIA | Dinâmico | Deleção |
-| RF-017 | O sistema deve informar, sempre que necessário, boas práticas que o usuário pode ter relacionado a sua segurança, tendo em vista o seu público-alvo. | MÉDIA | Estático | Segurança |
+| ID | Descrição do Requisito | Prioridade | Responsável |
+| --- | --- | --- | --- |
+| RF-001 | O sistema deve permitir que usuários tenham acesso a descrição informativa dos exercícios. | ALTA |  |
+| RF-002 | O sistema deve permitir que usuários sejam capazes de acessar o catálogo de exercícios e os selecionar. | ALTA |  |
+| RF-003 | O sistema deve permitir que o usuário, ao iniciar um exercício, tenha acesso a um cronometro que possa ser inicializado ou pausado. | MÉDIA |  |
+| RF-004 | O sistema deve permitir que o usuário tenha acesso a algum vídeo ou imagem sobre como fazer o exercício. | MÉDIA |   |
+| RF-005 | O sistema deve permitir que um profissional se cadastre na plataforma, inserindo informações básicas, por exemplo: nome e meios de contato. | ALTA |   |
+| RF-006 | O sistema deve permitir que os profissionais sejam capazes de preencher informações mais completas sobre suas competências logo após o cadastro. | ALTA |  |
+| RF-007 | O sistema deve permitir que usuários profissionais, previamente cadastrados, façam login na aplicação. | ALTA |   |
+| RF-008 | O sistema deve permitir que usuários contatem profissionais pelo seu perfil. | ALTA |  |
+| RF-009 | O sistema deve ser capaz de filtrar profissionais por especialidade. | MÉDIA |  |
+| RF-010 | O sistema deve ser capaz de filtrar profissionais por palavra-chave. | MÉDIA |  |
+| RF-011 | O sistema deve ter uma página inicial que mostre a importância da atividade física durante o envelhecimento. | BAIXO |  |
+| RF-012 | O sistema deve ter uma página inicial que fale sobre a iniciativa do projeto Senectus. | MÉDIA |  |
+| RF-013 | O sistema deve ter uma página inicial que mostre o quão confiável a plataforma é. | MÉDIA |  |
+| RF-014 | O sistema deve permitir que usuários profissionais atualizem seus perfis. | MÉDIA |  |
+| RF-015 | O sistema deve permitir que o usuário profissional seja capaz de deletar a sua conta. | ALTA |  |
+| RF-016 | O sistema deve permitir que o usuário profissional seja capaz de recuperar uma conta deletada em até 30 dias. | MÉDIA |  |
+| RF-017 | O sistema deve informar, sempre que necessário, boas práticas que o usuário pode ter relacionado a sua segurança, tendo em vista o seu público-alvo. | MÉDIA |  |
 
 ### Requisitos não Funcionais
 
