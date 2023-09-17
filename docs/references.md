@@ -10,7 +10,7 @@
 
 **[5]** - _OMS (sobre indivíduos sedentários): https://www.who.int/news/item/19-10-2022-who-highlights-high-cost-of-physical-inactivity-in-first-ever-global-report_
 
-**[6]** - _IBGE: https://agenciabrasil.ebc.com.br/saude/noticia/2020-11/ibge-403-dos-adultos-sao-considerados-sedentarios-no-brasil_
+**[6]** - _IBGE: https://www.pns.icict.fiocruz.br/wp-content/uploads/2021/02/liv101764.pdf_
 
 **[7]** - _Fatores associados à inatividade física em idosos, de Ana Paula Lopes e colaboradores, publicado na revista "Revista Brasileira de Geriatria e Gerontologia" em 2017._
 
