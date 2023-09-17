@@ -1,13 +1,13 @@
 # Especificações do Projeto
 
-O projeto Senectus possui inúmeros requisitos tanto funcionais, quanto não funcionais, que se responsabilizam por moldar o funcionamento da solução web proposta, cabe destacar que, pelo fato de Senectus portar somente o módulo de front-end, o mesmo possui algumas limitações que foram cuidadosamente analisadas. Além disso, possuimos 3 personas a fim de entender quem são os nossos possíveis clientes.
+O projeto Senectus tem requisitos funcionais e não funcionais que definem como a solução web funcionará. Como o Senectus é apenas o front-end, ele tem algumas limitações que foram avaliadas. Também criamos 3 personas para entender nossos possíveis clientes. Acompanhe abaixo as informações referentes à especificação do projeto.
 
 ## Personas
-
+### Persona 1: 
 ![Persona1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/d41030c1-3f17-4df9-b969-ea3c97037de7)
-
+### Persona 2: 
 ![Persona2](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/da6d3840-d42d-4c75-8dfe-bfec218fdf2f)
-
+### Persona 3: 
 ![Persona3](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/a26643a4-49c6-4369-a6e4-938fee10c184)
 
 ## Histórias de Usuários
