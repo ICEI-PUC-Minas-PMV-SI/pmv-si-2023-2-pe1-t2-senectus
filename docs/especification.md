@@ -37,7 +37,7 @@ As tabelas a seguir detalham os requisitos funcionais e não funcionais do proje
 | RF-003 | O sistema deve permitir que o usuário, ao iniciar um exercício, tenha acesso a um cronometro que possa ser inicializado ou pausado. | MÉDIA |  |
 | RF-004 | O sistema deve permitir que o usuário tenha acesso a algum vídeo ou imagem sobre como fazer o exercício. | MÉDIA |   |
 | RF-005 | O sistema deve permitir que um profissional se cadastre na plataforma, inserindo informações básicas, por exemplo: nome e meios de contato. | ALTA |   |
-| RF-006 | O sistema deve permitir que os profissionais sejam capazes de preencher informações mais completas sobre suas competências logo após o cadastro. | ALTA |  |
+| RF-006 | O sistema deve permitir que os profissionais sejam capazes de preencher informações mais completas sobre suas competências logo após o cadastro, podendo incluir, por exemplo: portfólio e currículo. | ALTA |  |
 | RF-007 | O sistema deve permitir que usuários profissionais, previamente cadastrados, façam login na aplicação. | ALTA |   |
 | RF-008 | O sistema deve permitir que usuários contatem profissionais pelo seu perfil. | ALTA |  |
 | RF-009 | O sistema deve ser capaz de filtrar profissionais por especialidade. | MÉDIA |  |
@@ -49,6 +49,7 @@ As tabelas a seguir detalham os requisitos funcionais e não funcionais do proje
 | RF-015 | O sistema deve permitir que o usuário profissional seja capaz de deletar a sua conta. | ALTA |  |
 | RF-016 | O sistema deve permitir que o usuário profissional seja capaz de recuperar uma conta deletada em até 30 dias. | MÉDIA |  |
 | RF-017 | O sistema deve informar, sempre que necessário, boas práticas que o usuário pode ter relacionado a sua segurança, tendo em vista o seu público-alvo. | MÉDIA |  |
+| RF-018 | O sistema deve permitir que usuários profissionais definam previamente o valor de seus serviços | MÉDIA | |
 
 ### Requisitos não Funcionais
 
