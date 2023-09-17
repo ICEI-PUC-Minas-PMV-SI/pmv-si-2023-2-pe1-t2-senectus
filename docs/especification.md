@@ -5,10 +5,13 @@ O projeto Senectus tem requisitos funcionais e não funcionais que definem como 
 ## Personas
 ### Persona 1: Pedro Costa
 ![Persona1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/d41030c1-3f17-4df9-b969-ea3c97037de7)
+
 ### Persona 2: João da Silva
-![Persona2](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/da6d3840-d42d-4c75-8dfe-bfec218fdf2f)
-### Persona 3: Maria da Silva
-![Persona3](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/a26643a4-49c6-4369-a6e4-938fee10c184)
+![Persona2](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/3c8f3939-7140-4200-888b-550bf8211d7b)
+
+### Persona 3: Maria Alice
+![Persona3](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/982aad35-567f-4ba1-b064-c19b05abdaa6)
+
 
 ## Histórias de Usuários
 
@@ -21,8 +24,8 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 | Pedro Costa (Personal Trainer) | Que a plataforma me de oportunidades para iniciar no mercado por meio um engajamento gerado da mesma | Iniciar minha carreira no mercado de trabalho |
 | João da Silva (Usuário do site) | Praticar atividade física guiada por um profissional e pesquisar demais profissionais da saúde conforme as minhas necessidades | Evitar possíveis lesões devido a minha falta de conhecimento e me manter engajado em minhas rotinas. |
 | João da Silva (Usuário do site) | Definir um cronograma que se encaixe em minha rotina | Viabilizar a prática de exercícios em meus complicados horários. |
-| Maria da Silva (Usuário do site) | Um aplicativo que seja de fácil uso e com instruções claras e objetivas sobre cada exercício, por exemplo: vídeos e fotos. | Facilitar o meu acesso no dia a dia. Tendo em vista, que tenho dificuldades de manusear as tecnologias atuais. |
-| Maria da Silva (Usuário do site) | Ser orientada de maneira simples e objetiva sobre o quão seguro os meus dados estão na plataforma. E entender as boas práticas que podem deixar meus dados ainda mais seguros. | Me sentir mais confortável ao utilizar a plataforma. |
+| Maria Alice (Usuário do site) | Um aplicativo que seja de fácil uso e com instruções claras e objetivas sobre cada exercício, por exemplo: vídeos e fotos. | Facilitar o meu acesso no dia a dia. Tendo em vista, que tenho dificuldades de manusear as tecnologias atuais. |
+| Maria Alice (Usuário do site) | Ser orientada de maneira simples e objetiva sobre o quão seguro os meus dados estão na plataforma. E entender as boas práticas que podem deixar meus dados ainda mais seguros. | Me sentir mais confortável ao utilizar a plataforma. |
 
 
 ## Requisitos
