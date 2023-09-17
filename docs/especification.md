@@ -14,56 +14,50 @@ O projeto Senectus tem requisitos funcionais e não funcionais que definem como 
 
 Com base na análise das personas, foram identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR` |
+| EU COMO... `PERSONA` | QUERO/PRECISO ... `FUNCIONALIDADE` | PARA ... `MOTIVO/VALOR` |
 | --- | --- | --- |
-| Pedro Costa (Personal Trainer) | Definir o valor cobrado pelos seus serviços | Aumentar a fonte de renda |
-| Pedro Costa (Personal Trainer) | Definir um cronograma de exercícios personalizados para os meus clientes e acompanha-los | Atender os seus feedbacks, engaja-los e adaptar os seus exercícios conforme as suas necessidades e dificuldades |
-| Pedro Costa (Personal Trainer) | Que a plataforma me de oportunidades para iniciar no mercado por meio um engajamento gerado da mesma | Iniciar minha carreira no mercado de trabalho |
-| João da Silva (Usuário do site) | Praticar atividade física guiada por um profissional e pesquisar demais profissionais da saúde conforme as minhas necessidades | Evitar possíveis lesões devido a minha falta de conhecimento e me manter engajado em minhas rotinas. |
-| João da Silva (Usuário do site) | Definir um cronograma que se encaixe em minha rotina | Viabilizar a prática de exercícios em meus complicados horários. |
-| Maria Alice (Usuário do site) | Um aplicativo que seja de fácil uso e com instruções claras e objetivas sobre cada exercício, por exemplo: vídeos e fotos. | Facilitar o meu acesso no dia a dia. Tendo em vista, que tenho dificuldades de manusear as tecnologias atuais. |
-| Maria Alice (Usuário do site) | Ser orientada de maneira simples e objetiva sobre o quão seguro os meus dados estão na plataforma. E entender as boas práticas que podem deixar meus dados ainda mais seguros. | Me sentir mais confortável ao utilizar a plataforma. |
-
+| Pedro Costa (Prestador de serviço) | Definir o valor cobrado pelos meus serviços. | Precificar meu serviço na plataforma. |
+| Pedro Costa (Prestador de serviço) | Inserir o meu currículo e informações pessoais plataforma. | Divulgar o seu serviço e mostrar suas experiências anteriores para o mercado de trabalho. |
+| Pedro Costa (Prestador de serviço) | Receber contato de possíveis clientes através da plataforma. | Aumentar minha fonte de renda e ajudar os idosos sedentários. |
+| João da Silva (Idoso) | Praticar atividade física guiada através de uma plataforma on-line. | Se exercitar e sair do sedentarismo. |
+| João da Silva (Idoso)  | Pesquisar por profissionais da saúde na plataforma. | Monitorar minha saúde física através de uma consulta on-line. |
+| Maria Alice (Idosa) | Uma plataforma que possua explicações sobre os exercícios que devo fazer, me ensinando a praticá-los por meio de vídeos, fotos ou descrições. | Sanar as minhas dificuldades sobre como praticar determinados exercícios. |
+| Maria Alice (Idosa) | Ser orientada de maneira simples e objetiva sobre o quão seguro os meus dados estão na plataforma.  | Me sentir mais confortável ao utilizar a plataforma. |
+| Maria Alice (Idosa) | Uma plataforma simplificada com um passo a passo ensinando como navegá-la. | Reduzir as minhas dificuldades ao lidar com novas tecnologias. |
 
 ## Requisitos
 
 As tabelas a seguir detalham os requisitos funcionais e não funcionais do projeto:
 ### Requisitos Funcionais
 
-| ID | Descrição do Requisito | Prioridade | Responsável |
-| --- | --- | --- | --- |
-| RF-001 | O sistema deve permitir que usuários tenham acesso a descrição informativa dos exercícios | ALTA | |
-| RF-002 | O sistema deve permitir que usuários sejam capazes de acessar o catalogo de exercícios e os selecionar | ALTA |  |
-| RF-003 | O sistema deve permitir que o usuário, ao iniciar um exercício, tenha acesso a um cronometro que possa ser inicializado ou pausado. | MÉDIA |  |
-| RF-004 | O sistema deve permitir que o usuário tenha acesso a algum vídeo ou imagem sobre como fazer o exercício | MÉDIA |  |
-| RF-005 | O sistema deve permitir que usuários comuns façam cadastros | ALTA |  |
-| RF-006 | O sistema deve permitir que um profissional se cadastre na plataforma, inserindo informações básicas, por exemplo: nome e meios de contato. | ALTA |  |
-| RF-007 | O sistema deve permitir que os profissionais sejam capazes de preencher informações mais completas sobre suas competências logo após o cadastro. | ALTA |  |
-| RF-008 | O sistema deve permitir que usuários comuns e profissionais, previamente cadastrados, façam login na aplicação | ALTA |  |
-| RF-009 | O sistema deve permitir que usuários comuns cadastrados e não cadastrados contatem profissionais por meio de formulários que podem ser acessados no perfil dos mesmos | ALTA |  |
-| RF-010 | O sistema deve permitir que usuários comuns criem posts falando sobre seus problemas, para assim encontrar ajuda profissional | MÉDIA |  |
-| RF-011 | O sistema deve ser capaz de filtrar os posts dos usuários para os profissionais por meio de palavra-chave | MÉDIA |  |
-| RF-012 | O sistema deve ser capaz de filtrar profissionais por especialidade | MÉDIA |  |
-| RF-013 | O sistema deve ser capaz de filtrar profissionais por palavra-chave | MÉDIA |  |
-| RF-014 | O sistema deve ter uma página inicial que mostre a importância da atividade física durante o envelhecimento. | BAIXO |  |
-| RF-015 | O sistema deve ter uma página inicial que fale sobre a iniciativa Senectus | MÉDIA |  |
-| RF-016 | O sistema deve ter uma página inicial que mostre o quão confiável a plataforma é | MÉDIA |  |
-| RF-017 | O sistema deve permitir que usuários comuns atualizem seus perfis com as seguintes informações: nome, descrição/biografia e idade | MÉDIA |  |
-| RF-018 | O sistema deve permitir que usuários profissionais atualizem seus perfis com as seguintes informações: nome, descrição/biografia, idade, profissão, currículo, portfólio, meios de contato e foto. | MÉDIA |  |
-| RF-019 | O sistema deve permitir que o usuário comum e profissional seja capaz de deletar a sua conta | ALTA |  |
-| RF-020 | O sistema deve permitir que o usuário comum e profissional seja capaz de recuperar uma conta deletada em até 30 dias | MÉDIA |  |
-| RF-021 | O sistema deve permitir que os usuários criem cronogramas tanto mensais, quanto semanais, com a possibilidade reajustes. | ALTA |  |
-| RF-022 | O sistema deve engajar o profissional iniciante, promovendo-o ao topo das páginas de pesquisas | ALTA |  |
-| RF-023 | O sistema deve informar, sempre que necessário, boas práticas que o usuário pode ter relacionado a sua segurança, tendo em vista o seu público-alvo | MÉDIA |  |
+| ID | Descrição do Requisito | Prioridade | Tipo | Trecho |
+| --- | --- | --- | --- | --- |
+| RF-001 | O sistema deve permitir que usuários tenham acesso a descrição informativa dos exercícios. | ALTA | Estático | Exercício |
+| RF-002 | O sistema deve permitir que usuários sejam capazes de acessar o catálogo de exercícios e os selecionar. | ALTA | Dinâmico | Exercício |
+| RF-003 | O sistema deve permitir que o usuário, ao iniciar um exercício, tenha acesso a um cronometro que possa ser inicializado ou pausado. | MÉDIA | Dinâmico | Exercício |
+| RF-004 | O sistema deve permitir que o usuário tenha acesso a algum vídeo ou imagem sobre como fazer o exercício. | MÉDIA | Estático | Exercício |
+| RF-005 | O sistema deve permitir que um profissional se cadastre na plataforma, inserindo informações básicas, por exemplo: nome e meios de contato. | ALTA | Dinâmico | Cadastro |
+| RF-006 | O sistema deve permitir que os profissionais sejam capazes de preencher informações mais completas sobre suas competências logo após o cadastro. | ALTA | Dinâmico | Cadastro |
+| RF-007 | O sistema deve permitir que usuários profissionais, previamente cadastrados, façam login na aplicação. | ALTA | Dinâmico | Cadastro |
+| RF-008 | O sistema deve permitir que usuários contatem profissionais pelo seu perfil. | ALTA | Dinâmico | Contato - cliente → profissional |
+| RF-009 | O sistema deve ser capaz de filtrar profissionais por especialidade. | MÉDIA | Dinâmico | Pesquisa |
+| RF-010 | O sistema deve ser capaz de filtrar profissionais por palavra-chave. | MÉDIA | Dinâmico | Pesquisa |
+| RF-011 | O sistema deve ter uma página inicial que mostre a importância da atividade física durante o envelhecimento. | BAIXO | Estático | Landing page |
+| RF-012 | O sistema deve ter uma página inicial que fale sobre a iniciativa do projeto Senectus. | MÉDIA | Estático | Landing page |
+| RF-013 | O sistema deve ter uma página inicial que mostre o quão confiável a plataforma é. | MÉDIA | Estático | Landing page |
+| RF-014 | O sistema deve permitir que usuários profissionais atualizem seus perfis. | MÉDIA | Dinâmico | Atualização de dados |
+| RF-015 | O sistema deve permitir que o usuário profissional seja capaz de deletar a sua conta. | ALTA | Dinâmico | Deleção |
+| RF-016 | O sistema deve permitir que o usuário profissional seja capaz de recuperar uma conta deletada em até 30 dias. | MÉDIA | Dinâmico | Deleção |
+| RF-017 | O sistema deve informar, sempre que necessário, boas práticas que o usuário pode ter relacionado a sua segurança, tendo em vista o seu público-alvo. | MÉDIA | Estático | Segurança |
 
 ### Requisitos não Funcionais
 
 | ID | Descrição do Requisito | Prioridade |
 | --- | --- | --- |
-| RNF-001 | O sistema deve seguir boas práticas de desenvolvimento de sistemas com relação a usabilidade | ALTA  |
+| RNF-001 | O sistema deve seguir boas práticas de desenvolvimento de sistemas com relação a usabilidade. | ALTA  |
 | RNF-002 | O sistema deve ser responsivo em diversas telas com base no público-alvo | ALTA |
 | RNF-003 | O sistema deve respeitar as normas da LGPD | MÉDIA |
-| RNF-004 | O sistema deve ser seguro para os usuários | ALTA |
+| RNF-004 | O sistema deve seguir boas práticas de segurança da informação sempre que possível | ALTA |
 | RNF-005 | O sistema deve ser de fácil entendimento para o público idoso | MÉDIA |
 | RNF-007 | O sistema deve ser desenvolvido utilizando a linguagem de programação Javascript | ALTA |
 
@@ -77,6 +71,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 | 01 | A aplicação não deve utilizar nenhuma tecnologia de back-end |
 | 02 | A aplicação não deve utilizar nenhuma tecnologia de framework |
 | 03 | A aplicação deve consumir o mínimo de recursos financeiros |
-| 04 | A aplicação não deve utilizar bancos de dados, armazenando assim, os dados em memória |
+| 04 | A aplicação não deve utilizar bancos de dados, armazenando, assim, os dados em memória |
 | 05 | O projeto deverá ser entregue até o final do semestre |
 
