@@ -6,14 +6,7 @@ De acordo com a Organização Mundial da Saúde (OMS, 2015)[1], estima-se que 40
 
 Dado esse contexto, fica clara a necessidade de uma solução que não apenas foque no engajamento do usuário em exercícios físicos, mas que preste o suporte adequado por meio de profissionais de saúde e que forneça informações importantes sobre os exercícios em questão. Para assim, evitar possíveis lesionamentos em pessoas inexperientes. É nesse cenário que nasce "Senectus", uma aplicação dedicada a promover a atividade física entre os idosos e proporcionar uma melhor qualidade de vida aos usuários.
 
-Os objetivos desta aplicação visam sensibilizar os idosos sobre a importância da atividade física regular em suas vidas, fornecendo orientações personalizadas e recursos que se adaptem às suas condições físicas. A justificativa para essa iniciativa é respaldada pela necessidade de melhorar a saúde e o bem-estar dos idosos, tornando a terceira idade uma fase da vida mais vibrante e ativa. Cabe destacar que o projeto propõe melhorias em relação a sistemas que já se encontram no mercado, segue abaixo, uma breve comparação de aplicações semelhantes:
-
-| Critério | Yoga Exercises for Seniors [2] | SilverSneakers GO [3]| Workout [4]| Senectus |
-| --- | --- | --- | --- | --- |
-| Público-alvo voltado para idosos | ✅ | ✅ | ✅ | ✅ |
-| Guia de exercícios práticos | ✅ | ✅ | ✅ | ✅ |
-| Solução simples e pensada no usuário | ❌ | ✅ | ✅ | ✅ |
-| Acompanhamento com profissionais qualificados  | ❌ | ❌ | ❌ | ✅ |
+Os objetivos desta aplicação visam sensibilizar os idosos sobre a importância da atividade física regular em suas vidas, fornecendo orientações personalizadas e recursos que se adaptem às suas condições físicas. 
 
 
 ## Problema
@@ -57,6 +50,15 @@ Ainda no contexto brasileiro, em um estudo publicado na Revista Brasileira de Ge
 Um estudo publicado na revista The Lancet em 2019 mostrou que, em 2016, apenas 21,3% dos idosos em todo o mundo atingiram as recomendações de atividade física da Organização Mundial da Saúde (OMS). Essas recomendações incluem pelo menos 150 minutos de atividade física moderada ou 75 minutos de atividade física vigorosa por semana[8].
 
 Por fim, estes dados alarmantes só mostram a necessidade de atenção à saúde da sociedade brasileira, principalmente entre os idosos e a importância de incentivar a prática de atividade física. Com isso em mente, o projeto Senectus se desenvolve visando uma solução tecnológica para contribuir com a redução dos índices de sedentarismo da população idosa do Brasil. Por conseguinte, Senectus envolve uma plataforma que engaja os usuários em atividades físicas por meio de suporte de profissionais da saúde e que foque na conscientização do usuário sobre a importância da realização de atividade física. Influenciando assim, os idosos a mudarem suas rotinas e tornar as suas vidas mais saudáveis.
+
+Portanto, a justificativa para essa iniciativa é respaldada pela necessidade de melhorar a saúde e o bem-estar dos idosos, tornando a terceira idade uma fase da vida mais vibrante e ativa. Cabe destacar que o projeto propõe melhorias em relação a sistemas que já se encontram no mercado,proporcionando uma ferramenta deferenciada para a prática de exercício Destacamos abaixo, uma breve comparação de aplicações semelhantes:
+
+| Critério | Yoga Exercises for Seniors [2] | SilverSneakers GO [3]| Workout [4]| Senectus |
+| --- | --- | --- | --- | --- |
+| Público-alvo voltado para idosos | ✅ | ✅ | ✅ | ✅ |
+| Guia de exercícios práticos | ✅ | ✅ | ✅ | ✅ |
+| Solução simples e pensada no usuário | ❌ | ✅ | ✅ | ✅ |
+| Acompanhamento com profissionais qualificados  | ❌ | ❌ | ❌ | ✅ |
 
 ## Público-alvo
 
