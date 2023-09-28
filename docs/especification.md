@@ -19,11 +19,11 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 | Pedro Costa (Prestador de serviço) | Definir o valor cobrado pelos meus serviços. | Precificar meu serviço no ambiente do mercado trabalho. |
 | Pedro Costa (Prestador de serviço) | Aumentar a minha base de potenciais clientes interessados em minha especialidade. | Divulgar o meu serviço e mostrar minhas experiências anteriores para o mercado de trabalho. |
 | Pedro Costa (Prestador de serviço) | Receber contato de possíveis clientes através de uma solução abrangente e ágil. | Aumentar minha fonte de renda atuando na área de minha especialização. |
-| João da Silva (Idoso) | Praticar atividade física guiada através de uma plataforma on-line. | Se exercitar sem sair de casa e abandonar o sedentarismo. |
+| João da Silva (Idoso) | Praticar atividade física guiada através de uma solução on-line. | Se exercitar sem sair de casa e abandonar o sedentarismo. |
 | João da Silva (Idoso)  | Pesquisar por profissionais da saúde qualificados. | Monitorar minha saúde física através de uma consulta on-line. |
 | Maria Alice (Idosa) | Uma solução que possua explicações sobre os exercícios que devo fazer, me ensinando a praticá-los por meio de vídeos, fotos ou descrições. | Sanar as minhas dificuldades sobre como praticar corretamente determinados exercícios. |
-| Maria Alice (Idosa) | Ser orientada de maneira simples e objetiva sobre o quão seguro os meus dados estão na plataforma.  | Me sentir mais confortável ao utilizar a plataforma. |
-| Maria Alice (Idosa) | Conhecer uma solução ágil que também seja fácil e prática de se usar. | Reduzir as minhas dificuldades ao lidar com novas tecnologias. |
+| Maria Alice (Idosa) | Ser orientada de maneira simples e objetiva sobre minha segurança quando utilizo meus dados pessoais na internet.  | Me sentir mais confortável ao utilizar soluções tecnológicas. |
+
 
 ## Requisitos
 
