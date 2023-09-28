@@ -5,7 +5,7 @@ Com base nas pesquisas já realizadas para a definição do público-alvo e de s
 ## Personas
 ![Persona1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/d41030c1-3f17-4df9-b969-ea3c97037de7 "Figura 2: Persona Pedro Costa")
 
-![Persona2](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/a76010ff-d62c-4450-be08-ed910174334c "Figura 3: Persona João da Silva")
+![Persona2](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/145713319/7e80afa1-c492-45d8-a7dd-5464b7c43125 "Figura 3: Persona João da Silva")
 
 ![Persona3](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/982aad35-567f-4ba1-b064-c19b05abdaa6 "Figura 4: Persona Maria Alice")
 
