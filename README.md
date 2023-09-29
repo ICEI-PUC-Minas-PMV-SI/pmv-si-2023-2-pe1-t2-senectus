@@ -14,6 +14,7 @@ Projeto consiste em uma aplicação web dedicada a exercícios físicos para ido
 * Antônio Fernando de Araújo Costa
 * Sabrine Fernanda Costa de Lima
 * Pedro Viriato Guimarães Braga da Rocha
+* Hermes Manoel Alves Pereira Lima
 
 ## Orientador
 Prof.a Luciana De Nardin
