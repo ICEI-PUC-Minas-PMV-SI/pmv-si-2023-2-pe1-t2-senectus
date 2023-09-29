@@ -70,8 +70,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 | ID | Restrição |
 | --- | --- |
 | 01 | A aplicação não deve utilizar nenhuma tecnologia de back-end |
-| 02 | A aplicação não deve utilizar nenhuma tecnologia de framework |
-| 03 | A aplicação deve consumir o mínimo de recursos financeiros |
-| 04 | A aplicação não deve utilizar bancos de dados, armazenando, assim, os dados em memória |
-| 05 | O projeto deverá ser entregue até o final do semestre |
+| 02 | A aplicação deve consumir o mínimo de recursos financeiros |
+| 03 | A aplicação não deve utilizar bancos de dados, armazenando, assim, os dados em memória |
+| 04 | O projeto deverá ser entregue até o final do semestre |
 
