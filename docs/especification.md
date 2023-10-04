@@ -20,7 +20,7 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 | Pedro Costa (Prestador de serviço) | Aumentar a minha base de potenciais clientes interessados em minha especialidade por meio das minhas experiências curriculares. | Divulgar o meu serviço e mostrar minhas experiências anteriores para o mercado de trabalho. |
 | Pedro Costa (Prestador de serviço) | Criar uma maior exposição dos meus meios de contato para uma base de clientes mais abrangente. | Aumentar minha fonte de renda atuando na área de minha especialização. |
 | João da Silva (Idoso) | Praticar atividade física guiada de maneira remota. | Me exercitar sem sair de casa e abandonar o sedentarismo. |
-| João da Silva (Idoso)  | Pesquisar por profissionais da saúde qualificados. | Monitorar minha saúde física através de uma consulta on-line. |
+| João da Silva (Idoso)  | Encontrar profissionais da saúde qualificados. | Monitorar minha saúde física através de uma consulta on-line. |
 | Maria Alice (Idosa) | Receber explicações sobre os exercícios que devo fazer, sem a necessidade de contatar profissionais. | Sanar as minhas dificuldades sobre como praticar corretamente determinados exercícios. |
 | Maria Alice (Idosa) | Ser orientada de maneira simples e objetiva sobre minha segurança quando utilizo meus dados pessoais na internet.  | Me sentir mais confortável ao utilizar soluções tecnológicas. |
 
