@@ -9,7 +9,6 @@
   align-items: center;
   text-align: center;
   padding: 0 0.75rem;
-
 }
 
 #footer-title span {
@@ -24,11 +23,6 @@
 #footer-title h1 {
   color: var(--logo-color);
   font-size: 1.25rem;
-}
-
-
-#footer h1 span {
-
 }
 
 #footer p {
@@ -87,7 +81,7 @@
 
 #header a img {
   margin-right: 3rem;
-  width: clamp(10rem, 10.28vw, 11.45rem);
+  width: clamp(10rem, 10.28vw, 11rem);
   height: clamp(3.5rem, 5.275vh, 4rem);
 }
 /*----------------*/
