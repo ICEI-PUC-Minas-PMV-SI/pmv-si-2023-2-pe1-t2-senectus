@@ -37,7 +37,7 @@ As tabelas a seguir detalham os requisitos funcionais e não funcionais do proje
 | RF-005 | O sistema deve permitir que um profissional se cadastre na plataforma, inserindo informações básicas, por exemplo: nome e meios de contato. | ALTA |   |
 | RF-006 | O sistema deve permitir que os profissionais sejam capazes de preencher informações mais completas sobre suas competências logo após o cadastro, podendo incluir, por exemplo: portfólio e currículo. | ALTA |  |
 | RF-007 | O sistema deve permitir que usuários profissionais, previamente cadastrados, façam login na aplicação. | ALTA |   |
-| RF-008 | O sistema deve permitir que usuários contactarem profissionais pelo seu perfil. | ALTA |  |
+| RF-008 | O sistema deve permitir que usuários contactem profissionais. | ALTA |  |
 | RF-009 | O sistema deve ser capaz de filtrar profissionais por especialidade. | MÉDIA |  |
 | RF-010 | O sistema deve ser capaz de filtrar profissionais por palavra-chave. | MÉDIA |  |
 | RF-011 | O sistema deve ter uma página inicial que mostre a importância da atividade física durante o envelhecimento. | BAIXO |  |
