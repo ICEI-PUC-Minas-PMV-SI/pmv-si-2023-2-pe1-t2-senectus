@@ -1,3 +1,42 @@
+/* FOOTER */
+#footer{
+  width: 100vw;
+  height: clamp(5rem, 2.5vh, 7.25rem);
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary-color);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 0.75rem;
+
+}
+
+#footer-title span {
+  font-weight: 100;
+}
+
+#footer-title {
+  display: flex;
+  text-align: center;
+}
+  
+#footer-title h1 {
+  color: var(--logo-color);
+  font-size: 1.25rem;
+}
+
+
+#footer h1 span {
+
+}
+
+#footer p {
+  font-size: 0.75rem;
+}
+/* ----- */
+
+
 /* HEADER */
 #header {
   z-index: 100;
@@ -77,10 +116,26 @@
 /*----------------*/
 
 /* MEDIA RULES */
+@media (max-width: 242px) {
+  #header a img {
+    width: clamp(6rem, 10.28vw, 11.45rem);
+    height: clamp(1.85rem, 5.275vh, 5rem);
+  }
+
+  footer#footer {
+    height: clamp(7rem, 2.5vh, 8.25rem);
+  }
+} 
+
 @media (max-width: 348px) {
+  #footer {
+    height: clamp(5rem, 2.5vh, 6.25rem);
+  }
+
   #header a img {
     margin: 0;
   }
+
   #header {
     padding: 1rem 1rem 0.3rem;
   }
