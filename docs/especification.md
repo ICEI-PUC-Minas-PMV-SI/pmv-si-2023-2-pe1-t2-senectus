@@ -17,13 +17,11 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 | EU COMO... `PERSONA` | QUERO/PRECISO ... `FUNCIONALIDADE` | PARA ... `MOTIVO/VALOR` |
 | --- | --- | --- |
 | Pedro Costa (Prestador de serviço) | Definir o valor cobrado pelos meus serviços. | Precificar meu serviço no ambiente do mercado trabalho. |
-| Pedro Costa (Prestador de serviço) | Aumentar a minha base de potenciais clientes interessados em minha especialidade por meio das minhas experiências curriculares. | Divulgar o meu serviço e mostrar minhas experiências anteriores para o mercado de trabalho. |
 | Pedro Costa (Prestador de serviço) | Criar uma maior exposição dos meus meios de contato para uma base de clientes mais abrangente. | Aumentar minha fonte de renda atuando na área de minha especialização. |
 | João da Silva (Idoso) | Praticar atividade física guiada de maneira remota. | Me exercitar sem sair de casa e abandonar o sedentarismo. |
 | João da Silva (Idoso)  | Encontrar profissionais da saúde qualificados. | Monitorar minha saúde física através de uma consulta on-line. |
 | Maria Alice (Idosa) | Receber explicações sobre os exercícios que são indicados para a minha idade, sem a necessidade de contatar profissionais. | Sanar as minhas dúvidas e dificuldades sobre como praticar corretamente determinados exercícios. |
 | Maria Alice (Idosa) | Ser orientada de maneira simples e objetiva sobre minha segurança quando utilizo meus dados pessoais na internet.  | Me sentir mais confortável ao utilizar soluções tecnológicas. |
-
 
 ## Requisitos
 
@@ -39,7 +37,7 @@ As tabelas a seguir detalham os requisitos funcionais e não funcionais do proje
 | RF-005 | O sistema deve permitir que um profissional se cadastre na plataforma, inserindo informações básicas, por exemplo: nome e meios de contato. | ALTA |   |
 | RF-006 | O sistema deve permitir que os profissionais sejam capazes de preencher informações mais completas sobre suas competências logo após o cadastro, podendo incluir, por exemplo: portfólio e currículo. | ALTA |  |
 | RF-007 | O sistema deve permitir que usuários profissionais, previamente cadastrados, façam login na aplicação. | ALTA |   |
-| RF-008 | O sistema deve permitir que usuários contactarem profissionais pelo seu perfil. | ALTA |  |
+| RF-008 | O sistema deve permitir que usuários contactem profissionais. | ALTA |  |
 | RF-009 | O sistema deve ser capaz de filtrar profissionais por especialidade. | MÉDIA |  |
 | RF-010 | O sistema deve ser capaz de filtrar profissionais por palavra-chave. | MÉDIA |  |
 | RF-011 | O sistema deve ter uma página inicial que mostre a importância da atividade física durante o envelhecimento. | BAIXO |  |
