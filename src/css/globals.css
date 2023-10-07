@@ -7,15 +7,16 @@
 /* VARIABLES */
 :root {
   --primary-color: #7D4ED0;
+  --on-hover-primary-color: #8C62D5;
   --secondary-color: #F3C8FF;
   --primary-bg-color: #FDFDFD;
   --secondary-bg-color: #F3F4FC;
---text-color: #C2C2C2;
+  --text-color: #0F172A;
 }
 /*------------*/
 
 body {
-  diplay: grid;
+  display: grid;
   background-color: var(--primary-bg-color);
   min-height: 100vh;
   overflow-x: hidden;
