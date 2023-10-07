@@ -44,11 +44,24 @@ li {
   list-style: none;
 }
 
-/* SCROLLBAR */
+@media (min-width: 985px) {
+  body {
+    font-size: 0.75rem;
+  }
+}
+
+/*
+* CONFIGURAÇÕES PARA A SCROLLBAR 
+* EM ALGUNS BROWSERS
+**/
+
+/* SCROLLBAR INTEIRA */
 ::-webkit-scrollbar {
   width: 4px;
 }
+/*-------------------*/
 
+/* PARTE ARRASTÁVEL DO SCROLL */
 ::-webkit-scrollbar-thumb {
   background: #838080;
 }
@@ -56,4 +69,4 @@ li {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #555555;
 }
-/*------------*/
+/*----------------------------*/

@@ -40,10 +40,16 @@
 /*--------*/
 
 /* IMAGEM DA LOGO */
+#header a {
+  outline-color: var(--primary-color);
+  outline-offset: 0.25rem;
+  outline-width: 2px;
+}
+
 #header a img {
-  margin-right: 3.75rem;
+  margin-right: 3rem;
   width: clamp(10rem, 10.28vw, 11.45rem);
-  height: clamp(3.5rem, 5.275vh, 5.6475rem);
+  height: clamp(3.5rem, 5.275vh, 4rem);
 }
 /*----------------*/
 
@@ -54,7 +60,7 @@
   place-content: center;
   background-color: var(--primary-color);
   border-radius: 12px;
-  width: clamp(15rem, 19.5vw, 17.5rem);
+  width: clamp(11.5rem, 17.5vw, 13.5rem);
   height: clamp(2.5rem, 2.5vh, 3.75rem);
   color: white;
   transition: background-color 0.2s;
@@ -92,7 +98,7 @@
   #header ul {
     display: flex;
     align-items: center;
-    gap: 3.75rem;
+    gap: 3rem;
   }
 
   #header ul li {
