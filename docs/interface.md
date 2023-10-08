@@ -71,4 +71,65 @@ Nos requisitos, identificamos a necessidade de coletar informações adicionais 
 > - [RF-006] O sistema deve permitir que os profissionais sejam capazes de preencher informações mais completas sobre suas competências logo após o cadastro, podendo incluir, por exemplo: portfólio e currículo.
 > - [RF-018] O sistema deve permitir que usuários profissionais definam previamente o valor de seus serviços
 
+### Página - Seleção de modalidade
+
+Quando nos referimos à página de catálogo de exercícios, nossa abordagem visou atender ao requisito de permitir que o usuário selecione previamente a categoria de atividade física desejada. Após a seleção da categoria, o usuário é então redirecionado para outra página que apresenta os exercícios específicos correspondentes à categoria escolhida. Nesse sentido, a página de catálogo de exercícios cumpre integralmente esse requisito, proporcionando uma experiência de usuário eficiente e amigável. Na página, são disponibilizadas três categorias gerais de exercícios físicos voltados para idosos, atendendo assim às necessidades da nossa audiência de forma abrangente.
+
+![Página - Catálogo de exercícios](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/63c311d2-bc8e-454c-bb28-7392d502c44b)
+
+> **Requisitos atendidos**:
+> - [RF-003] O sistema deve permitir a seleção de exercícios em forma de categórias.	
+
+### Página - Catálogo de exercícios
+
+Agora, vamos abordar uma das partes cruciais do sistema: a página de seleção de exercícios. Após o usuário escolher a categoria de exercício que deseja praticar, o sistema o redireciona para essa página específica. Nela, o processo é projetado para que, ao selecionar um exercício, o idoso seja direcionado para um vídeo hospedado na plataforma do YouTube, oferecendo orientações precisas sobre como realizar o exercício de maneira adequada.
+
+Essa abordagem nos permite cumprir com sucesso nossa premissa documentada anteriormente de assegurar que os idosos executem os exercícios de forma correta. Além disso, simplifica o desenvolvimento da plataforma, focalizando nossa atenção na funcionalidade principal, que é a busca por profissionais de saúde. Vale mencionar que, atualmente, essa página está implementada como um MVP (Minimum Viable Product), ou seja, com um conjunto básico de funcionalidades.
+
+![Página - Exercício](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/16389894-3d92-4ffe-9148-539742ae6daa)
+
+> **Requisitos atendidos**:
+> - [RF-001] O sistema deve permitir que usuários tenham acesso a descrição informativa de exercícios.	
+> - [RF-002] O sistema deve permitir que usuários sejam capazes de acessar o catálogo de exercícios e os selecionar.
+
+
+### Página - Página externa Youtube
+
+Após o usuário selecionar o exercício desejado, o sistema o encaminhará para um vídeo explicativo hospedado em uma plataforma externa, como o YouTube, que demonstrará a forma correta de executar o exercício escolhido.
+
+![Página externa - Youtube](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/14d00514-0573-460c-8bc6-c960aa40b250)
+
+> **Requisitos atendidos**:
+> - [RF-004] O sistema deve permitir que o usuário tenha acesso a algum vídeo ou imagem sobre como fazer o exercício.
+
+### Página - Pesquisar profissionais
+
+Agora, adentramos na página de pesquisa de profissionais, que oferece aos usuários a oportunidade de encontrar profissionais de diversas especialidades, todos especializados em saúde para idosos. Com isso, atendemos ao requisito essencial de possibilitar que nossos usuários localizem profissionais de saúde por meio do marketplace da plataforma, permitindo também que agendem consultas.
+
+Vale ressaltar que estamos planejando integrar uma API externa, seja do Google Agenda ou do Calendly, para facilitar esse processo de agendamento. No entanto, caso enfrentemos alguma dificuldade técnica na implementação dessas APIs, estamos preparados para direcionar o usuário, após a seleção do horário de consulta, para o e-mail do profissional de saúde que foi fornecido durante o processo de criação de conta. Isso garantirá que nossos usuários possam marcar consultas de forma eficiente, mesmo que não seja possível a implementação das APIs externas mencionadas anteriormente.
+
+![Página - Pesquisar profissionais](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/f5484c05-e2c2-4a9b-9b64-ef3a3f8dfb51)
+
+> **Requisitos atendidos**:
+> - [RF-008] O sistema deve permitir que usuários contactem profissionais.	
+> - [RF-009] O sistema deve ser capaz de filtrar profissionais por especialidade.	
+> - [RF-010] O sistema deve ser capaz de filtrar profissionais por palavra-chave.	
+
+### Página - Configurações
+
+Conforme especificado no documento de requisitos, era essencial para nossa solução oferecer aos usuários a capacidade de realizar alterações em suas informações pessoais registradas na plataforma. Com base nessa necessidade, projetamos um sistema que permite ao usuário realizar essas alterações de forma simples e intuitiva.
+
+Quando o idoso deseja efetuar modificações em seu perfil, basta clicar no ícone de engrenagem. Isso o redireciona para a página de alteração de informações, onde ele pode atualizar ou, conforme também previsto na documentação de requisitos, excluir sua conta, caso seja necessário. Essa abordagem garante que os usuários tenham controle total sobre suas informações pessoais e possam gerenciar seu perfil de acordo com suas necessidades.
+
+![Página - Configurações](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/5922c17a-b6a0-46e5-a8cd-8a2e12af8af8)
+
+> **Requisitos atendidos**:
+> - [RF-014] O sistema deve permitir que usuários profissionais atualizem seus perfis.		
+> - [RF-015] O sistema deve permitir que o usuário profissional seja capaz de deletar a sua conta.	
+
+
+
+
+
+
 
