@@ -24,7 +24,7 @@ Com base no fluxograma lógico da nossa aplicação, desenvolvemos o User Flow d
 
 ![User Flow](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/03da5091-566e-4df9-985c-c237dcfc96bc)
 
-[Emulador do User Flow no Figma](https://www.figma.com/proto/VkF2iQfAb4ZUA7AmybpHKX/Senectus?page-id=0%3A1&type=design&node-id=209-52&viewport=-1589%2C1655%2C0.13&t=4KOaZLk7IezsXTkB-1&scaling=scale-down&starting-point-node-id=209%3A52&mode=design)
+[Emulador do User Flow no Figma](https://www.figma.com/proto/VkF2iQfAb4ZUA7AmybpHKX/Senectus?page-id=0%3A1&type=design&node-id=51-4&viewport=-879%2C1176%2C0.07&t=T8TprLg7vIzzLF1d-1&scaling=scale-down&starting-point-node-id=51%3A4&show-proto-sidebar=1&mode=design)
 
 
 ## Wireframes
