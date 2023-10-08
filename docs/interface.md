@@ -37,7 +37,6 @@ Assim, a página home não apenas serve como ponto de partida, mas também como 
 > - [RF-011] O sistema deve ter uma página inicial que mostre a importância da atividade física durante o envelhecimento.
 > - [RF-012] O sistema deve ter uma página inicial que fale sobre a iniciativa do projeto Senectus.
 > - [RF-013] O sistema deve ter uma página inicial que mostre o quão confiável a plataforma é.	
-> - [RF-013] O sistema deve ter uma página inicial que mostre o quão confiável a plataforma é.	
 
 ![Página - Home](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/ad97fe80-ced0-43e3-a5ce-102c68b75278)
 
