@@ -9,7 +9,7 @@ Dividimos o User Flow em dois para facilitar a produção das telas. Sendo assim
 ### Fluxo lógico
 Trabalhamos na produção de um fluxograma lógico da aplicação, onde envolvemos o mínimo de elemento gráfico possível, viabilizando assim, consultas rápidas que serviram de auxílio para a produção do design da aplicação:
 
-![Lucidchart User Flow](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/6cbfed98-ff47-4946-9aea-13604442a467)
+![Fluxo lógico](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/dbf2fedd-6532-486c-a3e2-4b7f0e98e3ed)
 [Link do fluxo lógico](https://lucid.app/lucidchart/9076bda7-49ab-4e7c-b1c1-ba1dcbf0172d/edit?invitationId=inv_8794d23c-0657-498e-a963-06f6538b7030&page=0_0#)
 
 ### Fluxo com elementos gráficos
