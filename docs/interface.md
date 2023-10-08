@@ -1,6 +1,6 @@
 # Projeto de Interface
 
-Ao todo nosso projeto de interface totalizou 6 páginas, sendo elas: home/início, login, cadastro, biblioteca de exercício e pesquisa de profissionais. As páginas foram criadas com a proposta de ouvir as dores e desejos das personas estudadas no projeto. Resultando assim, em uma plataforma de fácil compreensão e direta ao ponto, deixando o usuário sem dúvidas sobre onde encontrar o seus exercícios de cada classificação.
+Ao todo nosso projeto de interface totalizou 6 páginas, sendo elas: home/início, login, cadastro, biblioteca de exercício e pesquisa de profissionais. As páginas foram criadas com a proposta de ouvir as dores e desejos das personas estudadas no projeto. Resultando assim, em uma plataforma de fácil compreensão e direta ao ponto, deixando o usuário sem dúvidas sobre onde encontrar os seus exercícios de cada classificação.
 
 Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
