@@ -16,12 +16,13 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Cores
 
-Violeta: Esta cor foi escolhida por representar o mês contra à violência aos idosos. Segundo pesquisas, a cor faz alusão à flor violeta, que apesar de pequena e frágil, expressa intensidade e beleza em sua viva cor. Refere-se ao cuidado, carinho e atenção de que os idosos necessitam, e a preocupação com a sáude física deles. E também, por ser uma cor vibrante e chamativa que remete às atividades físicas.
-Rosa claro. Para contrastar com a cor violeta.
-Preto: Para títulos e tipografia em geral.
-Branco: Para tipografia, quando estiver sobreposto a um elemento mais escuro
-Cinza claro: Para remeter aos cabelos crisalhos, que fazem parte do envelhecimento.
-Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
+Violeta: esta cor foi escolhida por representar o mês contra à violência aos idosos. Segundo pesquisas, a cor faz alusão à flor violeta, que apesar de pequena e frágil, expressa intensidade e beleza em sua viva cor. Refere-se ao cuidado, carinho e atenção de que os idosos necessitam, e a preocupação com a saúde física deles. E também, por ser uma cor vibrante e chamativa que remete às atividades físicas;
+Rosa-claro: para contrastar com a cor violeta;
+Preto: para títulos e tipografia em geral;
+Branco: Para tipografia, quando estiver sobreposto a um elemento mais escuro;
+Cinza-claro: Para remeter aos cabelos crisalhos, que fazem parte do envelhecimento.
+
+![cores](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/f4c73c01-2127-42e5-8774-023c0b35f6b2)
 
 
 ## Tipografia
@@ -30,6 +31,9 @@ A fonte utilizada no projeto é a Poppins, tendo assim, as seguintes variações
 1. Regular 400: variação utilizada por padrão;
 2. Medium 500: variação usada para definir os títulos de seção;
 3. Bold 700: variação usada para definir o título da página.
+
+![Tipografia](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/0018c5b3-a119-40a3-999b-67e8d22e4771)
+
 
 ## Iconografia
 
