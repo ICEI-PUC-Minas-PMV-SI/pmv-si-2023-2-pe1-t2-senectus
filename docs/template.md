@@ -16,11 +16,13 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Cores
 
-Violeta: esta cor foi escolhida por representar o mês contra à violência aos idosos. Segundo pesquisas, a cor faz alusão à flor violeta, que apesar de pequena e frágil, expressa intensidade e beleza em sua viva cor. Refere-se ao cuidado, carinho e atenção de que os idosos necessitam, e a preocupação com a saúde física deles. E também, por ser uma cor vibrante e chamativa que remete às atividades físicas;
-Rosa-claro: para contrastar com a cor violeta;
-Preto: para títulos e tipografia em geral;
-Branco: Para tipografia, quando estiver sobreposto a um elemento mais escuro;
-Cinza-claro: Para remeter aos cabelos crisalhos, que fazem parte do envelhecimento.
+As seguintes cores foram usadas em nosso layout:
+
+1. Violeta: esta cor foi escolhida por representar o mês contra à violência aos idosos. Segundo pesquisas, a cor faz alusão à flor violeta, que apesar de pequena e frágil, expressa intensidade e beleza em sua viva cor. Refere-se ao cuidado, carinho e atenção de que os idosos necessitam, e a preocupação com a saúde física deles. E também, por ser uma cor vibrante e chamativa que remete às atividades físicas;
+2. Rosa-claro: para contrastar com a cor violeta;
+3. Preto: para títulos e tipografia em geral;
+4. Branco: Para tipografia, quando estiver sobreposto a um elemento mais escuro;
+5. Cinza-claro: Para remeter aos cabelos crisalhos, que fazem parte do envelhecimento.
 
 ![cores](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/fc824bfa-80ae-443e-9900-d7a2e83330c5)
 
