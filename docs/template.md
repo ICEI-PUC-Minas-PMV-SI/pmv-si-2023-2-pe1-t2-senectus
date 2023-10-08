@@ -8,12 +8,17 @@ O template do nosso site contabiliza dois arquivos em css e um em html, sendo el
 ![template](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/6f477bf6-14c9-4eeb-95fa-d462805e75cc)
 
 ## Design
+O design foi pensado para ser coeso com a proposta da Senectus, ou seja, as cores que remetem aos idosos, os elementos referindo-se às atividades físicas. Foram privilegiados elementos com as bordas curvadas para trazer modernidade para o site. Também, foram criados elementos próprios com a inteligência artificial, trazendo mais identidade visual da Senectus.
 
 Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
 
 
 ## Cores
-
+Violeta: Esta cor foi escolhida por representar o mês contra à violência aos idosos. Segundo pesquisas, a cor faz alusão à flor violeta, que apesar de pequena e frágil, expressa intensidade e beleza em sua viva cor. Refere-se ao cuidado, carinho e atenção de que os idosos necessitam, e a preocupação com a sáude física deles. E também, por ser uma cor vibrante e chamativa que remete às atividades físicas.
+Rosa claro. Para contrastar com a cor violeta.
+Preto: Para títulos e tipografia em geral.
+Branco: Para tipografia, quando estiver sobreposto a um elemento mais escuro
+Cinza claro: Para remeter aos cabelos crisalhos, que fazem parte do envelhecimento.
 Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
 
 
@@ -25,6 +30,7 @@ A fonte utilizada no projeto é a Poppins, tendo assim, as seguintes variações
 3. Bold 700: variação usada para definir o título da página.
 
 ## Iconografia
+Nos preocupamos ao longo do desenvlvimento do design em utilizar mais imagens. Isto porque nosso projeto se trata de solução de saúde física e privilegiamos o formato de mídia jpeg e utilizamos poucos itens. Estes, por mais que poucos, foram essenciais para comunicar nossas intenções com o usuário no layout. Por exemplo, o ícone de configuração foi posto no layout com a intenção de promover uma experiência mais intuitiva de que a nossa plataforma não fornece a funcionalidade de perfil de usuário, mas apenas a possiblidade de realizar alterações de algumas informações.
 
 Defina os ícones que serão utilizados e suas respectivas funções.
 
