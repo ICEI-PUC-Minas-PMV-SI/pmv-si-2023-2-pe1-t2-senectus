@@ -1,10 +1,10 @@
 /* FOOTER */
-#footer{
+#footer {
   width: 100vw;
   height: clamp(5rem, 2.5vh, 7.25rem);
   display: flex;
   flex-direction: column;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -12,6 +12,7 @@
 }
 
 #footer-title span {
+  color: var(--inverted-text-color);
   font-weight: 100;
   place-self: center;
 }
@@ -22,12 +23,12 @@
 }
   
 #footer-title h1 {
-  color: var(--logo-color);
+  color: var(--inverted-text-color);
   font-size: 1.25rem;
 }
 
-#footer p {
-  font-size: 0.75rem;
+#footer small {
+  color: var(--inverted-text-color);
 }
 /* ----- */
 
