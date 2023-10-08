@@ -42,6 +42,7 @@ A fonte utilizada no projeto é a Poppins, tendo assim, as seguintes variações
 
 ## Iconografia
 
+
 Nos preocupamos ao longo do desenvlvimento do design em utilizar mais imagens. Isto porque nosso projeto se trata de solução de saúde física e privilegiamos o formato de mídia jpeg e utilizamos poucos itens. Estes, por mais que poucos, foram essenciais para comunicar nossas intenções com o usuário no layout. Por exemplo, o ícone de configuração foi posto no layout com a intenção de promover uma experiência mais intuitiva de que a nossa plataforma não fornece a funcionalidade de perfil de usuário, mas apenas a possiblidade de realizar alterações de algumas informações.
 
 Defina os ícones que serão utilizados e suas respectivas funções.
