@@ -15,9 +15,6 @@ O template do nosso site pode ser visualizado por este [link](https://icei-puc-m
 
 O design foi pensado para ser coeso com a proposta da Senectus, ou seja, as cores violeta e cinza que remetem aos idosos. Os elementos e as cores vibrantes referindo-se às atividades físicas. Foram privilegiados elementos com as bordas curvadas para trazer modernidade para o site. Também, foram criados elementos próprios com a inteligência artificial, trazendo mais identidade visual da Senectus.
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
-
-
 ## Cores
 
 As seguintes cores foram usadas em nosso layout:
@@ -41,11 +38,5 @@ A fonte utilizada no projeto é a Poppins, tendo assim, as seguintes variações
 
 
 ## Iconografia
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143461355/03d33946-401e-4529-a4d1-425e4ba7c416)
 
-
-Nos preocupamos ao longo do desenvlvimento do design em utilizar mais imagens. Isto porque nosso projeto se trata de solução de saúde física e privilegiamos o formato de mídia jpeg e utilizamos poucos itens. Estes, por mais que poucos, foram essenciais para comunicar nossas intenções com o usuário no layout. Por exemplo, o ícone de configuração foi posto no layout com a intenção de promover uma experiência mais intuitiva de que a nossa plataforma não fornece a funcionalidade de perfil de usuário, mas apenas a possiblidade de realizar alterações de algumas informações.
-
-Defina os ícones que serão utilizados e suas respectivas funções.
-
-Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
