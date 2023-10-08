@@ -33,7 +33,7 @@ A fonte utilizada no projeto é a Poppins, tendo assim, as seguintes variações
 2. Medium 500: variação usada para definir os títulos de seção;
 3. Bold 700: variação usada para definir o título da página.
 
-![Tipografia](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/0018c5b3-a119-40a3-999b-67e8d22e4771)
+![Tipografia](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/074cf4d4-81a3-4df6-8920-562de73142a6)
 
 
 ## Iconografia
