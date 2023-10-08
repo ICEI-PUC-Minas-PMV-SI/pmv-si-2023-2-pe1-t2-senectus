@@ -22,8 +22,7 @@ Preto: para títulos e tipografia em geral;
 Branco: Para tipografia, quando estiver sobreposto a um elemento mais escuro;
 Cinza-claro: Para remeter aos cabelos crisalhos, que fazem parte do envelhecimento.
 
-![cores](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/f4c73c01-2127-42e5-8774-023c0b35f6b2)
-
+![cores](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/fc824bfa-80ae-443e-9900-d7a2e83330c5)
 
 ## Tipografia
 
