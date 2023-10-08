@@ -43,6 +43,32 @@ A concepção da página de login foi cuidadosamente planejada com o objetivo de
 
 
 > **Requisitos atendidos**:
-> - [RF-005] O sistema deve permitir que um profissional se cadastre na plataforma, inserindo informações básicas, por exemplo: nome e meios de contato.
 > - [RF-007] O sistema deve permitir que usuários profissionais, previamente cadastrados, façam login na aplicação.
+
+### Página Cadastre
+
+Para manter a consistência com o design da página de login, a página de cadastro adota um layout semelhante, com a disposição dos elementos seguindo o mesmo padrão. Uma imagem expansiva à direita também faz parte da composição visual, reforçando a coesão visual entre as páginas. Além disso, dedicamos especial atenção para garantir que todos os requisitos fossem atendidos nas etapas subsequentes do processo de cadastro.
+
+![Página - Cadastre](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/7d4d3699-69df-4990-ba9f-d029968e6995)
+
+> **Requisitos atendidos**:
+> - [RF-005] O sistema deve permitir que um profissional se cadastre na plataforma, inserindo informações básicas, por exemplo: nome e meios de contato.
+
+### Página Cadastre (Complementares)
+
+Nos requisitos, identificamos a necessidade de coletar informações adicionais do usuário durante o processo de criação de conta. No entanto, nossa prioridade foi sempre a experiência do usuário, e, por isso, optamos por estruturar a coleta dessas informações em um formato passo a passo, distribuindo-as ao longo do processo de criação de conta. Dessa forma, garantimos que os usuários possam fornecer as informações necessárias de maneira organizada e intuitiva, sem sobrecarregá-los com um único formulário extenso.
+
+#### Página Cadastre (2)
+![Página - Cadastre (2)](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/884e172e-9693-4e89-9754-60b4ff73c696)
+
+#### Página Cadastre (3)
+![Página - Cadastre (3)](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/5858d591-c54c-45c0-b15f-1c740169c007)
+
+#### Página Cadastre (4)
+![Página - Cadastre (4)](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/714a9ae8-e669-4ec2-8534-377de0d538d2)
+
+> **Requisitos atendidos**:
+> - [RF-006] O sistema deve permitir que os profissionais sejam capazes de preencher informações mais completas sobre suas competências logo após o cadastro, podendo incluir, por exemplo: portfólio e currículo.
+> - [RF-018] O sistema deve permitir que usuários profissionais definam previamente o valor de seus serviços
+
 
