@@ -11,6 +11,8 @@ O template do nosso site contabiliza dois arquivos em css e um em html, sendo el
 ### Versão mobile
 ![template - mobile](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/8054c8c1-446d-4a0b-93e8-8357a2ef3372)
 
+Além disso, é valido destacar que, por hora é possível acessar este template por meio do link: [https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src](https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src)
+
 ## Design
 
 O design foi pensado para ser coeso com a proposta da Senectus, ou seja, as cores que remetem aos idosos, os elementos referindo-se às atividades físicas. Foram privilegiados elementos com as bordas curvadas para trazer modernidade para o site. Também, foram criados elementos próprios com a inteligência artificial, trazendo mais identidade visual da Senectus.
