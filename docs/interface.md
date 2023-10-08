@@ -141,7 +141,13 @@ Quando o idoso deseja efetuar modificações em seu perfil, basta clicar no íco
 > - [RF-015] O sistema deve permitir que o usuário profissional seja capaz de deletar a sua conta.	
 
 
+#### Página Cadastre (Pop-up Conta deletada)
 
+![Página - Configurações Conta deletada](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/f7942e3d-767e-4508-8b49-090832ecdafe)
+
+#### Página Cadastre (Pop-up Informações alteradas com sucesso)
+
+![Página - Configurações Informações salvas](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/6a78c750-9343-48db-96c9-36b3968cdacd)
 
 
 
