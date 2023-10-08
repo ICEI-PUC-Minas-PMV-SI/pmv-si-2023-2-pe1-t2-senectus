@@ -38,5 +38,6 @@ A fonte utilizada no projeto é a Poppins, tendo assim, as seguintes variações
 
 
 ## Iconografia
+Para aumentar a produtividade do nosso time, decidimos utilizar a biblioteca [font awesome](https://fontawesome.com/search), trazendo assim, uma ampla gama de ícones para a nossa aplicação. Sendo assim, ao todo, nosso sistema utiliza 11 ícones para nos ajudar a transmitirmos o significado de cada aspecto do layout, sendo eles:
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143461355/03d33946-401e-4529-a4d1-425e4ba7c416)
 
