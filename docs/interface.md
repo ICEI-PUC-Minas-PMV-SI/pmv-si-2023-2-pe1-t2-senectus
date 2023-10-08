@@ -4,15 +4,16 @@ Ao todo nosso projeto de interface totalizou 7 páginas, sendo elas: home/iníci
 
 ## User Flow
 
-Separamos o nosso User Flow em duas partes, uma sendo desenvolvida pelo Lucid Chart, com o intuito de compreendermos a lógica da nossa aplicação de maneira rápida e simplificada. Servindo assim, como um ponto principal de referência no processo de desenvolvimento das telas e a outra sendo voltada para a emulação do site em forma de protótipo, sendo desenvolvida no Figma em conjunto com os wireframes:
+Dividimos o User Flow em dois para facilitar a produção das telas. Sendo assim, segue abaixo os fluxos desenvolvidos:
 
-### Lucid Chart - Fluxo lógico
-
-Elaboramos um fluxograma pelo Lucid Chart com o intuito de compreendermos a lógica da nossa aplicação e como cada tela deve ser formulada, para que assim, seja possível atendermos os desejos de nossas personas e concluirmos os requisitos que propomos:
+### Fluxograma Lógico
+Trabalhamos na produção de um fluxograma lógico da aplicação, onde envolvemos o minímo de elemento gráfico possível, viabilizando assim, consultas rápidas que serviram de auxilio para a produção do design da aplicação:
 
 ![Lucidchart User Flow](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/6cbfed98-ff47-4946-9aea-13604442a467)
 [Link do fluxograma](https://lucid.app/lucidchart/9076bda7-49ab-4e7c-b1c1-ba1dcbf0172d/edit?invitationId=inv_8794d23c-0657-498e-a963-06f6538b7030&page=0_0#)
 
+### User Flow com elementos gráficos
+Após a criação das telas, realizamos a montagem de um fluxo que contém todas as telas do sistema. Deixando assim, explicito a conexão que cada tela com as demais:
 ![Diagrama em branco](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/b4fb8ecf-00aa-4950-a3d1-5f37ba4dedb7)
 [Link do user flow](https://lucid.app/lucidchart/f5932249-dfd6-4050-b3ab-d6f6271be49d/edit?page=0_0&invitationId=inv_4e2fd7c4-2949-4612-9897-d375e0442ed3#)
 
