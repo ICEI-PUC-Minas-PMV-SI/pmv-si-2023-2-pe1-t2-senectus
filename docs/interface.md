@@ -143,12 +143,12 @@ Quando o idoso deseja efetuar modificações em seu perfil, basta clicar no íco
 
 #### Página Cadastre (Pop-up Conta deletada)
 
-![Página - Configurações Conta deletada](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/f7942e3d-767e-4508-8b49-090832ecdafe)
+![Página - Configurações Conta deletada](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/f6079cd9-937b-4471-932d-9ee59b8dcaa1)
+
 
 #### Página Cadastre (Pop-up Informações alteradas com sucesso)
 
-![Página - Configurações Informações salvas](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/6a78c750-9343-48db-96c9-36b3968cdacd)
-
+![Página - Configurações Informações salvas](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/2d527ccf-6fcc-4859-ace0-b4170f3afa5a)
 
 
 
