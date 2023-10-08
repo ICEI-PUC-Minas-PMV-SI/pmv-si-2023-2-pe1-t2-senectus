@@ -30,7 +30,7 @@ Assim, a página home não apenas serve como ponto de partida, mas também como 
 > **Requisitos atendidos**:
 > - [Protótipos vs Wireframes]
 
-![Página - Home](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/e8c9b0b2-ae59-4c66-8b58-824178d602ab)
+![Página - Home](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/ad97fe80-ced0-43e3-a5ce-102c68b75278)
 
 
  
