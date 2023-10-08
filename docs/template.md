@@ -36,6 +36,9 @@ O design foi pensado para ser coeso com a proposta da Senectus, ou seja, as core
 ![Biblioteca de exercícios](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143461355/f6e84ad5-41f8-4959-b321-cf85d7270439)
 
 ### Página de configurações
+![Página de configurações](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143461355/abeda696-dc98-4b70-b409-8eafd6f79168)
+
+![Página de configurações:erro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143461355/a3d8f9a9-707f-44db-8356-aa9d36e35219)
 
 
 ## Cores
