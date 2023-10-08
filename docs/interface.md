@@ -118,7 +118,8 @@ Vale ressaltar que estamos planejando integrar uma API externa, seja do Google A
 > **Requisitos atendidos**:
 > - [RF-008] O sistema deve permitir que usuários contactem profissionais.	
 > - [RF-009] O sistema deve ser capaz de filtrar profissionais por especialidade.	
-> - [RF-010] O sistema deve ser capaz de filtrar profissionais por palavra-chave.	
+> - [RF-010] O sistema deve ser capaz de filtrar profissionais por palavra-chave.
+> - [RF-016] O sistema deve permitir que o usuário idoso marque uma consulta com o profissional da saúde.
 
 ### Página - Configurações
 
