@@ -17,13 +17,21 @@ O Fluxo de Usuário (User Flow) foi cuidadosamente elaborado na mesma plataforma
 
 ## Wireframes
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+### Página Home
 
-### Exemplo
+A página inicial, também conhecida como "home", desempenha um papel fundamental na nossa plataforma. Sua principal função é servir como ponto de partida para os usuários, direcionando-os para as diversas seções e funcionalidades que oferecemos por meio de chamadas à ação estrategicamente distribuídas em seu layout.
 
-A tela Inicial apresenta um menu lateral com as principais seções do portal, enquanto a navigation bar, ao topo, apresenta informações de envio de imagens ou navegação pela galeria de fotos. A área central apresenta a galeria de fotos na forma de uma grade.
+Para facilitar a navegação dos usuários e garantir que eles tenham acesso rápido e intuitivo a todas as funcionalidades da nossa solução, implementamos um menu de navegação fixo que se mantém visível e disponível em todas as páginas da plataforma.
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+Além disso, atendemos aos requisitos estabelecidos ao disponibilizar informações cruciais na página inicial. Os benefícios da prática de atividade física são destacados, incentivando os usuários a se engajarem em um estilo de vida saudável. Também fornecemos detalhes sobre o projeto, para que os usuários compreendam a nossa missão e visão, e as medidas de segurança implementadas para garantir a proteção dos nossos usuários.
+
+Assim, a página home não apenas serve como ponto de partida, mas também como uma vitrine informativa e convidativa para nossa plataforma, proporcionando aos usuários uma experiência completa e esclarecedora desde o primeiro momento em que acessam nosso site.
+
+> **Requisitos atendidos**:
+> - [Protótipos vs Wireframes]
+
+![Página - Home](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/e8c9b0b2-ae59-4c66-8b58-824178d602ab)
+
 
  
 > **Links Úteis**:
