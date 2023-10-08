@@ -1,9 +1,9 @@
 # Template padrão do site
 
-O template do nosso site pode ser visualizado por este link: https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/. Além disso, o mesmo contabiliza um total de dois arquivos em css e um em html, sendo eles:
+O template do nosso site pode ser visualizado por este [link](https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/). Além disso, o mesmo contabiliza um total de dois arquivos em css e um em html, sendo eles:
 1. src/css/globals.css: arquivo global responsável por adicionar estilizações globais no nosso site, adicionando assim, fontes para as tags relacionadas a texto, coloração do texto, variáveis de cores e uma customização da scrollbar em determinados navegadores;
 2. src/css/index.css: arquivo responsável por definir o estilo do cabeçalho do site juntamente com o rodapé;
-3. src/index.html: template em html utilizado para estruturar as páginas do site, adicionando, assim, o cabeçalho e o rodapé. Além disso, o mesmo importa as bibliotecas necessárias juntamente com as fontes do projeto.
+3. src/index.html: template em html utilizado para estruturar as páginas do site, adicionando, assim, o cabeçalho e o rodapé. Cabe destacar que, o mesmo importa as bibliotecas necessárias juntamente com as fontes do projeto.
 
 ### Versão desktop
 ![template - desktop](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/6f477bf6-14c9-4eeb-95fa-d462805e75cc)
@@ -14,9 +14,6 @@ O template do nosso site pode ser visualizado por este link: https://icei-puc-mi
 ## Design
 
 O design foi pensado para ser coeso com a proposta da Senectus, ou seja, as cores violeta e cinza que remetem aos idosos. Os elementos e as cores vibrantes referindo-se às atividades físicas. Foram privilegiados elementos com as bordas curvadas para trazer modernidade para o site. Também, foram criados elementos próprios com a inteligência artificial, trazendo mais identidade visual da Senectus.
-
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
-
 
 ## Cores
 
@@ -41,10 +38,7 @@ A fonte utilizada no projeto é a Poppins, tendo assim, as seguintes variações
 
 
 ## Iconografia
+Para aumentar a produtividade do nosso time, decidimos utilizar a biblioteca [font awesome](https://fontawesome.com/search), trazendo assim, uma ampla gama de ícones para a nossa aplicação. Sendo assim, ao todo, nosso sistema utiliza 11 ícones para nos ajudar a transmitirmos o significado de cada aspecto do layout, sendo eles:
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143461355/b838404b-1a19-41b9-97c7-7e58bd8c4342)
 
-Nos preocupamos ao longo do desenvlvimento do design em utilizar mais imagens. Isto porque nosso projeto se trata de solução de saúde física e privilegiamos o formato de mídia jpeg e utilizamos poucos itens. Estes, por mais que poucos, foram essenciais para comunicar nossas intenções com o usuário no layout. Por exemplo, o ícone de configuração foi posto no layout com a intenção de promover uma experiência mais intuitiva de que a nossa plataforma não fornece a funcionalidade de perfil de usuário, mas apenas a possiblidade de realizar alterações de algumas informações.
 
-Defina os ícones que serão utilizados e suas respectivas funções.
-
-Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.

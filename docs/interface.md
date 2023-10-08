@@ -1,18 +1,30 @@
-
 # Projeto de Interface
+
+Ao todo nosso projeto de interface totalizou 7 páginas, sendo elas: home/início, login, cadastro, catálogo de exercícios, biblioteca de exercício e pesquisa de profissionais. As páginas foram criadas com a proposta de ouvir as dores e desejos das personas estudadas no projeto. Resultando assim, em uma plataforma de fácil compreensão e direta ao ponto, deixando o usuário sem dúvidas sobre onde encontrar os seus exercícios de cada classificação.
 
 Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
  Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
 
 ## User Flow
+
+Separamos o nosso User Flow em duas partes, uma sendo desenvolvida pelo Lucid Chart, com o intuito de compreendermos a lógica da nossa aplicação de maneira rápida e simplificada. Servindo assim, como um ponto principal de referência no processo de desenvolvimento das telas e a outra sendo voltada para a emulação do site em forma de protótipo, sendo desenvolvida no Figma em conjunto com os wireframes:
+
+### Lucid Chart - Fluxo lógico
+
+Elaboramos um fluxograma pelo Lucid Chart com o intuito de compreendermos a lógica da nossa aplicação e como cada tela deve ser formulada, para que assim, seja possível atendermos os desejos de nossas personas e concluirmos os requisitos que propomos:
+
+![Lucidchart User Flow](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/6cbfed98-ff47-4946-9aea-13604442a467)
+
+[Link do fluxograma](https://lucid.app/lucidchart/9076bda7-49ab-4e7c-b1c1-ba1dcbf0172d/edit?invitationId=inv_8794d23c-0657-498e-a963-06f6538b7030&page=0_0#)
+
+### Figma - Fluxo para emulação
+
+Com base no fluxograma lógico da nossa aplicação, desenvolvemos o User Flow dentro do Figma, juntamente com as telas criadas na mesma plataforma, para que assim, seja viável a emulação do projeto. Trazendo, assim, uma pequena prévia de como nosso sistema deve funcionar:
+
 ![User Flow](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/03da5091-566e-4df9-985c-c237dcfc96bc)
 
-O Fluxo de Usuário (User Flow) foi cuidadosamente elaborado na mesma plataforma de prototipação, o Figma, que é utilizada pela nossa equipe. Logo abaixo, você encontrará o link de compartilhamento para acessar o emulador do Fluxo de Usuário que desenvolvemos, permitindo que você explore sua funcionalidade e interatividade em detalhes.
-
-> **Links Úteis**:
-> - [Emulador do User Flow no Figma](https://www.figma.com/proto/VkF2iQfAb4ZUA7AmybpHKX/Senectus?page-id=0%3A1&type=design&node-id=209-52&viewport=-1589%2C1655%2C0.13&t=4KOaZLk7IezsXTkB-1&scaling=scale-down&starting-point-node-id=209%3A52&mode=design)
-
+[Emulador do User Flow no Figma](https://www.figma.com/proto/VkF2iQfAb4ZUA7AmybpHKX/Senectus?page-id=0%3A1&type=design&node-id=209-52&viewport=-1589%2C1655%2C0.13&t=4KOaZLk7IezsXTkB-1&scaling=scale-down&starting-point-node-id=209%3A52&mode=design)
 
 
 ## Wireframes
@@ -70,5 +82,73 @@ Nos requisitos, identificamos a necessidade de coletar informações adicionais 
 > **Requisitos atendidos**:
 > - [RF-006] O sistema deve permitir que os profissionais sejam capazes de preencher informações mais completas sobre suas competências logo após o cadastro, podendo incluir, por exemplo: portfólio e currículo.
 > - [RF-018] O sistema deve permitir que usuários profissionais definam previamente o valor de seus serviços
+
+### Página - Seleção de modalidade
+
+Quando nos referimos à página de catálogo de exercícios, nossa abordagem visou atender ao requisito de permitir que o usuário selecione previamente a categoria de atividade física desejada. Após a seleção da categoria, o usuário é então redirecionado para outra página que apresenta os exercícios específicos correspondentes à categoria escolhida. Nesse sentido, a página de catálogo de exercícios cumpre integralmente esse requisito, proporcionando uma experiência de usuário eficiente e amigável. Na página, são disponibilizadas três categorias gerais de exercícios físicos voltados para idosos, atendendo assim às necessidades da nossa audiência de forma abrangente.
+
+![Página - Catálogo de exercícios](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/63c311d2-bc8e-454c-bb28-7392d502c44b)
+
+> **Requisitos atendidos**:
+> - [RF-003] O sistema deve permitir a seleção de exercícios em forma de categórias.	
+
+### Página - Catálogo de exercícios
+
+Agora, vamos abordar uma das partes cruciais do sistema: a página de seleção de exercícios. Após o usuário escolher a categoria de exercício que deseja praticar, o sistema o redireciona para essa página específica. Nela, o processo é projetado para que, ao selecionar um exercício, o idoso seja direcionado para um vídeo hospedado na plataforma do YouTube, oferecendo orientações precisas sobre como realizar o exercício de maneira adequada.
+
+Essa abordagem nos permite cumprir com sucesso nossa premissa documentada anteriormente de assegurar que os idosos executem os exercícios de forma correta. Além disso, simplifica o desenvolvimento da plataforma, focalizando nossa atenção na funcionalidade principal, que é a busca por profissionais de saúde. Vale mencionar que, atualmente, essa página está implementada como um MVP (Minimum Viable Product), ou seja, com um conjunto básico de funcionalidades.
+
+![Página - Exercício](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/16389894-3d92-4ffe-9148-539742ae6daa)
+
+> **Requisitos atendidos**:
+> - [RF-001] O sistema deve permitir que usuários tenham acesso a descrição informativa de exercícios.	
+> - [RF-002] O sistema deve permitir que usuários sejam capazes de acessar o catálogo de exercícios e os selecionar.
+
+
+### Página - Página externa Youtube
+
+Após o usuário selecionar o exercício desejado, o sistema o encaminhará para um vídeo explicativo hospedado em uma plataforma externa, como o YouTube, que demonstrará a forma correta de executar o exercício escolhido.
+
+![Página externa - Youtube](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/14d00514-0573-460c-8bc6-c960aa40b250)
+
+> **Requisitos atendidos**:
+> - [RF-004] O sistema deve permitir que o usuário tenha acesso a algum vídeo ou imagem sobre como fazer o exercício.
+
+### Página - Pesquisar profissionais
+
+Agora, adentramos na página de pesquisa de profissionais, que oferece aos usuários a oportunidade de encontrar profissionais de diversas especialidades, todos especializados em saúde para idosos. Com isso, atendemos ao requisito essencial de possibilitar que nossos usuários localizem profissionais de saúde por meio do marketplace da plataforma, permitindo também que agendem consultas.
+
+Vale ressaltar que estamos planejando integrar uma API externa, seja do Google Agenda ou do Calendly, para facilitar esse processo de agendamento. No entanto, caso enfrentemos alguma dificuldade técnica na implementação dessas APIs, estamos preparados para direcionar o usuário, após a seleção do horário de consulta, para o e-mail do profissional de saúde que foi fornecido durante o processo de criação de conta. Isso garantirá que nossos usuários possam marcar consultas de forma eficiente, mesmo que não seja possível a implementação das APIs externas mencionadas anteriormente.
+
+![Página - Pesquisar profissionais](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/f5484c05-e2c2-4a9b-9b64-ef3a3f8dfb51)
+
+> **Requisitos atendidos**:
+> - [RF-008] O sistema deve permitir que usuários contactem profissionais.	
+> - [RF-009] O sistema deve ser capaz de filtrar profissionais por especialidade.	
+> - [RF-010] O sistema deve ser capaz de filtrar profissionais por palavra-chave.	
+
+### Página - Configurações
+
+Conforme especificado no documento de requisitos, era essencial para nossa solução oferecer aos usuários a capacidade de realizar alterações em suas informações pessoais registradas na plataforma. Com base nessa necessidade, projetamos um sistema que permite ao usuário realizar essas alterações de forma simples e intuitiva.
+
+Quando o idoso deseja efetuar modificações em seu perfil, basta clicar no ícone de engrenagem. Isso o redireciona para a página de alteração de informações, onde ele pode atualizar ou, conforme também previsto na documentação de requisitos, excluir sua conta, caso seja necessário. Essa abordagem garante que os usuários tenham controle total sobre suas informações pessoais e possam gerenciar seu perfil de acordo com suas necessidades.
+
+![Página - Configurações](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/6096338b-5cfd-4a9a-811b-a245d3b8b5d1)
+
+
+> **Requisitos atendidos**:
+> - [RF-014] O sistema deve permitir que usuários profissionais atualizem seus perfis.		
+> - [RF-015] O sistema deve permitir que o usuário profissional seja capaz de deletar a sua conta.	
+
+
+#### Página Cadastre (Pop-up Conta deletada)
+
+![Página - Configurações Conta deletada](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/f6079cd9-937b-4471-932d-9ee59b8dcaa1)
+
+
+#### Página Cadastre (Pop-up Informações alteradas com sucesso)
+
+![Página - Configurações Informações salvas](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/2d527ccf-6fcc-4859-ace0-b4170f3afa5a)
+
 
 
