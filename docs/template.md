@@ -1,6 +1,6 @@
 # Template padrão do site
 
-O template do nosso site contabiliza dois arquivos em css e um em html, sendo eles:
+O template do nosso site pode ser visualizado por este ![link]((https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/074cf4d4-81a3-4df6-8920-562de73142a6) e contabiliza um total de dois arquivos em css e um em html, sendo eles:
 1. src/css/globals.css: arquivo global responsável por adicionar estilizações globais no nosso site, adicionando assim, fontes para as tags relacionadas a texto, coloração do texto, variáveis de cores e uma customização da scrollbar em determinados navegadores;
 2. src/css/index.css: arquivo responsável por definir o estilo do cabeçalho do site juntamente com o rodapé;
 3. src/index.html: template em html utilizado para estruturar as páginas do site, adicionando, assim, o cabeçalho e o rodapé. Além disso, o mesmo importa as bibliotecas necessárias juntamente com as fontes do projeto.
@@ -10,8 +10,6 @@ O template do nosso site contabiliza dois arquivos em css e um em html, sendo el
 
 ### Versão mobile
 ![template - mobile](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/8054c8c1-446d-4a0b-93e8-8357a2ef3372)
-
-Além disso, é valido destacar que, por hora é possível acessar este template por meio do link: [https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src](https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src)
 
 ## Design
 
