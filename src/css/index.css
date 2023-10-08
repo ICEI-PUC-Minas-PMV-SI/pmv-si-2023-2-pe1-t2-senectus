@@ -13,6 +13,7 @@
 
 #footer-title span {
   font-weight: 100;
+  place-self: center;
 }
 
 #footer-title {
