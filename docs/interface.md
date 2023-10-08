@@ -11,17 +11,10 @@ Separamos o nosso User Flow em duas partes, uma sendo desenvolvida pelo Lucid Ch
 Elaboramos um fluxograma pelo Lucid Chart com o intuito de compreendermos a lógica da nossa aplicação e como cada tela deve ser formulada, para que assim, seja possível atendermos os desejos de nossas personas e concluirmos os requisitos que propomos:
 
 ![Lucidchart User Flow](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/6cbfed98-ff47-4946-9aea-13604442a467)
-
 [Link do fluxograma](https://lucid.app/lucidchart/9076bda7-49ab-4e7c-b1c1-ba1dcbf0172d/edit?invitationId=inv_8794d23c-0657-498e-a963-06f6538b7030&page=0_0#)
 
-### Figma - Fluxo para emulação
-
-Com base no fluxograma lógico da nossa aplicação, desenvolvemos o User Flow dentro do Figma, juntamente com as telas criadas na mesma plataforma, para que assim, seja viável a emulação do projeto. Trazendo, assim, uma pequena prévia de como nosso sistema deve funcionar:
-
-![User Flow](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/03da5091-566e-4df9-985c-c237dcfc96bc)
-
-[Emulador do User Flow no Figma](https://www.figma.com/proto/VkF2iQfAb4ZUA7AmybpHKX/Senectus?page-id=0%3A1&type=design&node-id=51-4&viewport=-879%2C1176%2C0.07&t=T8TprLg7vIzzLF1d-1&scaling=scale-down&starting-point-node-id=51%3A4&show-proto-sidebar=1&mode=design)
-
+![Diagrama em branco](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/b4fb8ecf-00aa-4950-a3d1-5f37ba4dedb7)
+[Link do user flow](https://lucid.app/lucidchart/f5932249-dfd6-4050-b3ab-d6f6271be49d/edit?page=0_0&invitationId=inv_4e2fd7c4-2949-4612-9897-d375e0442ed3#)
 
 ## Wireframes
 
