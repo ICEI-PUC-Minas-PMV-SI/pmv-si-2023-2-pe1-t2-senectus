@@ -2,10 +2,6 @@
 
 Ao todo nosso projeto de interface totalizou 7 páginas, sendo elas: home/início, login, cadastro, catálogo de exercícios, biblioteca de exercício e pesquisa de profissionais. As páginas foram criadas com a proposta de ouvir as dores e desejos das personas estudadas no projeto. Resultando assim, em uma plataforma de fácil compreensão e direta ao ponto, deixando o usuário sem dúvidas sobre onde encontrar os seus exercícios de cada classificação.
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
-
 ## User Flow
 
 Separamos o nosso User Flow em duas partes, uma sendo desenvolvida pelo Lucid Chart, com o intuito de compreendermos a lógica da nossa aplicação de maneira rápida e simplificada. Servindo assim, como um ponto principal de referência no processo de desenvolvimento das telas e a outra sendo voltada para a emulação do site em forma de protótipo, sendo desenvolvida no Figma em conjunto com os wireframes:
