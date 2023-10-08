@@ -1,18 +1,30 @@
-
 # Projeto de Interface
+
+Ao todo nosso projeto de interface totalizou 6 páginas, sendo elas: home/início, login, cadastro, biblioteca de exercício e pesquisa de profissionais. As páginas foram criadas com a proposta de ouvir as dores e desejos das personas estudadas no projeto. Resultando assim, em uma plataforma de fácil compreensão e direta ao ponto, deixando o usuário sem dúvidas sobre onde encontrar o seus exercícios de cada classificação.
 
 Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
  Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
 
 ## User Flow
+
+Separamos o nosso User Flow em duas partes, uma sendo desenvolvida pelo Lucid Chart, com o intuito de compreendermos a lógica da nossa aplicação de maneira rápida e simplificada, auxiliando no desenvolvimento das telas e a outra sendo voltada para a emulação do site em forma de protótipo, sendo desenvolvida no Figma em conjunto com os wireframes:
+
+## Lucid Chart - Fluxo lógico
+
+Elaboramos um fluxograma pelo Lucid Chart com o intuito de compreendermos a lógica da nossa aplicação e como cada tela deve ser formulada, para que assim, seja possível atendermos os desejos de nossas personas e concluirmos os requisitos que propomos:
+
+![Lucidchart User Flow](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/b19bedff-3bf8-466a-9918-0df585d86a9d)
+
+[Link do fluxograma](https://lucid.app/lucidchart/9076bda7-49ab-4e7c-b1c1-ba1dcbf0172d/edit?invitationId=inv_8794d23c-0657-498e-a963-06f6538b7030&page=0_0#)
+
+## Figma - Fluxo para emulação
+
+Com base no fluxograma lógico da nossa aplicação, desenvolvemos o User Flow dentro do Figma, juntamente com as telas criadas na mesma plataforma, para que assim, seja viável a emulação do projeto. Trazendo, assim, uma pequena prévia de como nosso sistema deve funcionar:
+
 ![User Flow](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/03da5091-566e-4df9-985c-c237dcfc96bc)
 
-O Fluxo de Usuário (User Flow) foi cuidadosamente elaborado na mesma plataforma de prototipação, o Figma, que é utilizada pela nossa equipe. Logo abaixo, você encontrará o link de compartilhamento para acessar o emulador do Fluxo de Usuário que desenvolvemos, permitindo que você explore sua funcionalidade e interatividade em detalhes.
-
-> **Links Úteis**:
-> - [Emulador do User Flow no Figma](https://www.figma.com/proto/VkF2iQfAb4ZUA7AmybpHKX/Senectus?page-id=0%3A1&type=design&node-id=209-52&viewport=-1589%2C1655%2C0.13&t=4KOaZLk7IezsXTkB-1&scaling=scale-down&starting-point-node-id=209%3A52&mode=design)
-
+[Emulador do User Flow no Figma](https://www.figma.com/proto/VkF2iQfAb4ZUA7AmybpHKX/Senectus?page-id=0%3A1&type=design&node-id=209-52&viewport=-1589%2C1655%2C0.13&t=4KOaZLk7IezsXTkB-1&scaling=scale-down&starting-point-node-id=209%3A52&mode=design)
 
 
 ## Wireframes
