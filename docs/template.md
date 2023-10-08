@@ -45,7 +45,9 @@ O design foi pensado para ser coeso com a proposta da Senectus, ou seja, as core
 ![Página de configurações:conta deletada](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143461355/a3d8f9a9-707f-44db-8356-aa9d36e35219)
 ![Página de Configuração: conta salva](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143461355/4c2f4ec1-b011-431c-be00-2ab0d9b4d6b3)
 
+### Página de profissionais
 
+![Página de profissionais](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143461355/73af1e1b-4243-45b8-9057-4d665b85e944)
 
 ## Cores
 
