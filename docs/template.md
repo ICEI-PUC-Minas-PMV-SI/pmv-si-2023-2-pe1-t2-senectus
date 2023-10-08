@@ -23,6 +23,19 @@ O design foi pensado para ser coeso com a proposta da Senectus, ou seja, as core
 ### Página Login 
 ![Página login](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143461355/b71522ce-2eff-4870-9094-fd1568327e85)
 
+### Página de Cadastro
+![Página de cadastro:1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143461355/f4def0a7-05c8-4c4d-94a2-d144ab4af510)
+![Página de Cadastro: 2](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143461355/c09f80f9-4e81-4346-9c04-e8876ef3e62a)
+![Página de Cadastro: 3](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143461355/273f8281-371d-4e5b-9eb9-b8a73bb07177)
+![Página de Cadastro: 4](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143461355/84624b76-e065-41ce-8e33-ed6d5ceba185)
+
+### Categoria de exercícios
+![Categoria de exercícios](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143461355/557efeeb-8143-4f26-953b-ec87b7030eea)
+
+### Biblioteca de exercícios
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143461355/f6e84ad5-41f8-4959-b321-cf85d7270439)
+
+
 
 ## Cores
 
