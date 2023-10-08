@@ -1,6 +1,6 @@
 # Projeto de Interface
 
-Ao todo nosso projeto de interface totalizou 6 páginas, sendo elas: home/início, login, cadastro, biblioteca de exercício e pesquisa de profissionais. As páginas foram criadas com a proposta de ouvir as dores e desejos das personas estudadas no projeto. Resultando assim, em uma plataforma de fácil compreensão e direta ao ponto, deixando o usuário sem dúvidas sobre onde encontrar os seus exercícios de cada classificação.
+Ao todo nosso projeto de interface totalizou 7 páginas, sendo elas: home/início, login, cadastro, biblioteca de exercício e pesquisa de profissionais. As páginas foram criadas com a proposta de ouvir as dores e desejos das personas estudadas no projeto. Resultando assim, em uma plataforma de fácil compreensão e direta ao ponto, deixando o usuário sem dúvidas sobre onde encontrar os seus exercícios de cada classificação.
 
 Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
@@ -14,7 +14,7 @@ Separamos o nosso User Flow em duas partes, uma sendo desenvolvida pelo Lucid Ch
 
 Elaboramos um fluxograma pelo Lucid Chart com o intuito de compreendermos a lógica da nossa aplicação e como cada tela deve ser formulada, para que assim, seja possível atendermos os desejos de nossas personas e concluirmos os requisitos que propomos:
 
-![Lucidchart User Flow](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/ab326a40-e877-49dd-a5e7-473ac7e19762)
+![Lucidchart User Flow](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/6cbfed98-ff47-4946-9aea-13604442a467)
 
 [Link do fluxograma](https://lucid.app/lucidchart/9076bda7-49ab-4e7c-b1c1-ba1dcbf0172d/edit?invitationId=inv_8794d23c-0657-498e-a963-06f6538b7030&page=0_0#)
 
