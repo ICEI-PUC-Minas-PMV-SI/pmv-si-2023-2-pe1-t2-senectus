@@ -17,6 +17,10 @@ Após a criação das telas, realizamos a montagem de um fluxo que contém todas
 ![Diagrama em branco](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/b4fb8ecf-00aa-4950-a3d1-5f37ba4dedb7)
 [Link do fluxo com elementos gráficos](https://lucid.app/lucidchart/f5932249-dfd6-4050-b3ab-d6f6271be49d/edit?page=0_0&invitationId=inv_4e2fd7c4-2949-4612-9897-d375e0442ed3#)
 
+### Emulador
+Adiante, é de extrema importância ressaltar que criamos um emulador referente as páginas produzidas, segue o link abaixo:
+[https://www.figma.com/proto/VkF2iQfAb4ZUA7AmybpHKX/Senectus?page-id=0%3A1&type=design&node-id=51-4&viewport=-879%2C1176%2C0.07&t=T8TprLg7vIzzLF1d-1&scaling=scale-down&starting-point-node-id=51%3A4&show-proto-sidebar=1](https://www.figma.com/proto/VkF2iQfAb4ZUA7AmybpHKX/Senectus?page-id=0%3A1&type=design&node-id=51-4&viewport=-879%2C1176%2C0.07&t=T8TprLg7vIzzLF1d-1&scaling=scale-down&starting-point-node-id=51%3A4&show-proto-sidebar=1)
+
 ## Wireframes
 
 ### Página Home
