@@ -6,10 +6,10 @@ O template do nosso site pode ser visualizado por este [link](https://icei-puc-m
 3. src/index.html: template em html utilizado para estruturar as páginas do site, adicionando, assim, o cabeçalho e o rodapé. Cabe destacar que, o mesmo importa as bibliotecas necessárias juntamente com as fontes do projeto.
 
 ### Versão desktop
-![template - desktop](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/6f477bf6-14c9-4eeb-95fa-d462805e75cc)
+![desktop](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/1a4ae373-fa48-44f8-99d0-0e72784546bb)
 
 ### Versão mobile
-![template - mobile](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/8054c8c1-446d-4a0b-93e8-8357a2ef3372)
+![mobile](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/1b07dcf4-3266-4a65-9b32-b4b23f4215ed)
 
 ## Design
 
