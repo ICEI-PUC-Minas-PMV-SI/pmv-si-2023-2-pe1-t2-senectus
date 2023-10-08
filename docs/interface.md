@@ -10,7 +10,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 Separamos o nosso User Flow em duas partes, uma sendo desenvolvida pelo Lucid Chart, com o intuito de compreendermos a lógica da nossa aplicação de maneira rápida e simplificada, auxiliando no desenvolvimento das telas e a outra sendo voltada para a emulação do site em forma de protótipo, sendo desenvolvida no Figma em conjunto com os wireframes:
 
-## Lucid Chart - Fluxo lógico
+### Lucid Chart - Fluxo lógico
 
 Elaboramos um fluxograma pelo Lucid Chart com o intuito de compreendermos a lógica da nossa aplicação e como cada tela deve ser formulada, para que assim, seja possível atendermos os desejos de nossas personas e concluirmos os requisitos que propomos:
 
@@ -18,7 +18,7 @@ Elaboramos um fluxograma pelo Lucid Chart com o intuito de compreendermos a lóg
 
 [Link do fluxograma](https://lucid.app/lucidchart/9076bda7-49ab-4e7c-b1c1-ba1dcbf0172d/edit?invitationId=inv_8794d23c-0657-498e-a963-06f6538b7030&page=0_0#)
 
-## Figma - Fluxo para emulação
+### Figma - Fluxo para emulação
 
 Com base no fluxograma lógico da nossa aplicação, desenvolvemos o User Flow dentro do Figma, juntamente com as telas criadas na mesma plataforma, para que assim, seja viável a emulação do projeto. Trazendo, assim, uma pequena prévia de como nosso sistema deve funcionar:
 
