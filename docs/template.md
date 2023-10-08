@@ -5,7 +5,11 @@ O template do nosso site contabiliza dois arquivos em css e um em html, sendo el
 2. src/css/index.css: arquivo responsável por definir o estilo do cabeçalho do site juntamente com o rodapé;
 3. src/index.html: template em html utilizado para estruturar as páginas do site, adicionando, assim, o cabeçalho e o rodapé. Além disso, o mesmo importa as bibliotecas necessárias juntamente com as fontes do projeto.
 
-![template](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/6f477bf6-14c9-4eeb-95fa-d462805e75cc)
+### Versão desktop
+![template - desktop](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/6f477bf6-14c9-4eeb-95fa-d462805e75cc)
+
+### Versão mobile
+![template - mobile](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/8054c8c1-446d-4a0b-93e8-8357a2ef3372)
 
 ## Design
 
