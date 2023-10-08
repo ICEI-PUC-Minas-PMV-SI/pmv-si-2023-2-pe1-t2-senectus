@@ -121,7 +121,8 @@ Conforme especificado no documento de requisitos, era essencial para nossa solu�
 
 Quando o idoso deseja efetuar modificações em seu perfil, basta clicar no ícone de engrenagem. Isso o redireciona para a página de alteração de informações, onde ele pode atualizar ou, conforme também previsto na documentação de requisitos, excluir sua conta, caso seja necessário. Essa abordagem garante que os usuários tenham controle total sobre suas informações pessoais e possam gerenciar seu perfil de acordo com suas necessidades.
 
-![Página - Configurações](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/5922c17a-b6a0-46e5-a8cd-8a2e12af8af8)
+![Página - Configurações](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/6096338b-5cfd-4a9a-811b-a245d3b8b5d1)
+
 
 > **Requisitos atendidos**:
 > - [RF-014] O sistema deve permitir que usuários profissionais atualizem seus perfis.		
