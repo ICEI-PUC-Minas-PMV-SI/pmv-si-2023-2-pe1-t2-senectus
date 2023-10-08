@@ -7,7 +7,7 @@ Ao todo nosso projeto de interface totalizou 7 páginas, sendo elas: home/iníci
 Dividimos o User Flow em dois para facilitar a produção das telas. Sendo assim, segue abaixo os fluxos desenvolvidos:
 
 ### Fluxo lógico
-Trabalhamos na produção de um fluxograma lógico da aplicação, onde envolvemos o minímo de elemento gráfico possível, viabilizando assim, consultas rápidas que serviram de auxilio para a produção do design da aplicação:
+Trabalhamos na produção de um fluxograma lógico da aplicação, onde envolvemos o mínimo de elemento gráfico possível, viabilizando assim, consultas rápidas que serviram de auxílio para a produção do design da aplicação:
 
 ![Lucidchart User Flow](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/6cbfed98-ff47-4946-9aea-13604442a467)
 [Link do fluxo lógico](https://lucid.app/lucidchart/9076bda7-49ab-4e7c-b1c1-ba1dcbf0172d/edit?invitationId=inv_8794d23c-0657-498e-a963-06f6538b7030&page=0_0#)
