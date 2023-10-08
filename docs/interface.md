@@ -8,7 +8,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 ## User Flow
 ![User Flow](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/03da5091-566e-4df9-985c-c237dcfc96bc)
 
-Fluxo de usuário (User Flow) foi construído por meio da mesma plataforma de prototipação, Figma, utilizada pela equipe. Logo abaixo segue o link de compartilhamento para o emulador do fluxo de usuário criado:
+O Fluxo de Usuário (User Flow) foi cuidadosamente elaborado na mesma plataforma de prototipação, o Figma, que é utilizada pela nossa equipe. Logo abaixo, você encontrará o link de compartilhamento para acessar o emulador do Fluxo de Usuário que desenvolvemos, permitindo que você explore sua funcionalidade e interatividade em detalhes:
 
 > **Links Úteis**:
 > - [Emulador do User Flow no Figma](https://www.figma.com/proto/VkF2iQfAb4ZUA7AmybpHKX/Senectus?page-id=0%3A1&type=design&node-id=209-52&viewport=-1589%2C1655%2C0.13&t=4KOaZLk7IezsXTkB-1&scaling=scale-down&starting-point-node-id=209%3A52&mode=design)
