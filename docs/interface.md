@@ -28,17 +28,21 @@ Além disso, atendemos aos requisitos estabelecidos ao disponibilizar informaç�
 Assim, a página home não apenas serve como ponto de partida, mas também como uma vitrine informativa e convidativa para nossa plataforma, proporcionando aos usuários uma experiência completa e esclarecedora desde o primeiro momento em que acessam nosso site.
 
 > **Requisitos atendidos**:
-> - [Protótipos vs Wireframes]
+> - [RF-011] O sistema deve ter uma página inicial que mostre a importância da atividade física durante o envelhecimento.
+> - [RF-012] O sistema deve ter uma página inicial que fale sobre a iniciativa do projeto Senectus.
+> - [RF-013] O sistema deve ter uma página inicial que mostre o quão confiável a plataforma é.	
+> - [RF-013] O sistema deve ter uma página inicial que mostre o quão confiável a plataforma é.	
 
 ![Página - Home](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/ad97fe80-ced0-43e3-a5ce-102c68b75278)
 
+### Página Login
 
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+A concepção da página de login foi cuidadosamente planejada com o objetivo de proporcionar simplicidade e intuição aos seus usuários. A página se destaca por exibir uma imagem ampla que reflete a temática central da solução: a promoção da prática de atividade física entre os idosos sedentários. Além disso, um botão centralizado é disponibilizado de forma proeminente, permitindo que os usuários entrem na plataforma ou criem uma conta com facilidade.
+
+![Página - Login](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/9f0ef7c2-d1c1-4b3b-a8fe-fef44a35305a)
+
+
+> **Requisitos atendidos**:
+> - [RF-005] O sistema deve permitir que um profissional se cadastre na plataforma, inserindo informações básicas, por exemplo: nome e meios de contato.
+> - [RF-007] O sistema deve permitir que usuários profissionais, previamente cadastrados, façam login na aplicação.
+
