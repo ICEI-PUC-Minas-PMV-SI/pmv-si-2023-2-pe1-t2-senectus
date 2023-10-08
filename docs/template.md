@@ -1,6 +1,6 @@
 # Template padrão do site
 
-O template do nosso site pode ser visualizado por este link: https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/. Além disso, o mesmo contabiliza um total de dois arquivos em css e um em html, sendo eles:
+O template do nosso site pode ser visualizado por este [link](https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/). Além disso, o mesmo contabiliza um total de dois arquivos em css e um em html, sendo eles:
 1. src/css/globals.css: arquivo global responsável por adicionar estilizações globais no nosso site, adicionando assim, fontes para as tags relacionadas a texto, coloração do texto, variáveis de cores e uma customização da scrollbar em determinados navegadores;
 2. src/css/index.css: arquivo responsável por definir o estilo do cabeçalho do site juntamente com o rodapé;
 3. src/index.html: template em html utilizado para estruturar as páginas do site, adicionando, assim, o cabeçalho e o rodapé. Além disso, o mesmo importa as bibliotecas necessárias juntamente com as fontes do projeto.
