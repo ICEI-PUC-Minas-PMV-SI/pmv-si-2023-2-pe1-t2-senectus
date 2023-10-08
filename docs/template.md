@@ -15,7 +15,7 @@ Além disso, é valido destacar que, por hora é possível acessar este template
 
 ## Design
 
-O design foi pensado para ser coeso com a proposta da Senectus, ou seja, as cores que remetem aos idosos, os elementos referindo-se às atividades físicas. Foram privilegiados elementos com as bordas curvadas para trazer modernidade para o site. Também, foram criados elementos próprios com a inteligência artificial, trazendo mais identidade visual da Senectus.
+O design foi pensado para ser coeso com a proposta da Senectus, ou seja, as cores violeta e cinza que remetem aos idosos. Os elementos e as cores vibrantes referindo-se às atividades físicas. Foram privilegiados elementos com as bordas curvadas para trazer modernidade para o site. Também, foram criados elementos próprios com a inteligência artificial, trazendo mais identidade visual da Senectus.
 
 Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
 
