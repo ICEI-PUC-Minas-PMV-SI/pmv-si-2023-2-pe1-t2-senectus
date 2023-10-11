@@ -1,0 +1,221 @@
+/* SEÇÃO DA MAIN PADRÃO */
+main {
+  display: grid;
+  gap: 12rem;
+  margin-top: 12rem;
+}
+
+main .container {
+  display: grid;
+  place-self: center;
+  justify-content: center;
+  width: 87.3vw;
+  max-width: 72.5rem;
+  height: clamp(28rem, 70vh, 43.875rem);
+  padding: 1rem 2rem;
+}
+/*----------------------*/
+
+/* CONTEÚDO INICIAL */
+#initial-home-content {
+  display: flex;
+  height: 32rem;
+  gap: 1rem;
+  place-items: center;
+  border-radius: 12px;
+  padding: 1rem 0.5rem 2rem 1.25rem;
+  background-color: var(--secondary-color);
+}
+
+#initial-home-content span {
+  display: none;
+}
+
+@media (min-width: 1216px) {
+  #initial-home-content {
+    height: 38rem;
+  }
+}
+
+#initial-home-content img {
+  width: clamp(10rem, 55%, 38rem);
+}
+
+#initial-home-content .text-content {
+  display: grid;
+  width: clamp(10rem, 45%, 25rem);
+  gap: 1.5rem;
+}
+
+#initial-home-content .text-content p {
+  width: 75%;
+}
+/*------------------*/
+
+/* SEÇÃO DOS BENEFÍCIOS */
+#benefits {
+  display: grid;
+  height: 50rem;
+}
+
+#benefits .prettify-title {
+  text-align: center;
+}
+
+#benefits .prettify-title::before {
+  left: 17%;
+  top: -4%;
+}
+
+#benefits h1 {
+  font-size: 2rem;
+  width: 53rem;
+  margin-bottom: 5rem;
+  place-self: center;
+}
+
+#benefits-cards {
+  display: grid;
+  grid-template-areas: "first second third" "fourth . fifth";
+  grid-gap: 1.5rem;
+}
+
+#benefits-cards li {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem;
+  width: clamp(16.75rem, 26.32vw, 20.6875rem);
+  height: clamp(17rem, 24vh, 22rem);
+  background-color: var(--secondary-color);
+  border-radius: 12px;
+  margin-top: 1rem;
+}
+
+#benefits-cards .benefits-text {
+  gap: 0.25rem;
+}
+
+#benefits-cards li span {
+  display: grid;
+  background-color: var(--inverted-bg-color);
+  border-radius: 12px;
+  color: white;
+  font-size: 2rem;
+  place-content: center;
+  text-align: center;
+  width: clamp(3.21rem, 16.5vw, 4rem);
+  height: clamp(3.21rem, 16.5vw, 4rem);
+}
+
+.benefits-text {
+ display: grid; 
+}
+
+#benefits-cards li:nth-child(4) {
+  grid-area: fourth;
+  width: 156%;
+  max-width: 33.05rem;
+}
+
+#benefits-cards li:nth-child(5) {
+  grid-area: fifth;
+  grid-column: 3;
+  width: 156%;
+  max-width: 33.05rem;
+  position: relative;
+  right: 55%;
+}
+
+#benefits-go-to-exercises {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#benefits-go-to-exercises button {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+/*----------------------*/
+
+/* SEÇÃO DO SOBRE NÓS */
+#about-us {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#about-us .text-content {
+  display: grid;
+  width: 20rem;
+  gap: 1rem;
+}
+
+#about-us .prettify-title::before {
+  left: -3%;
+}
+
+#about-us img {
+  width: clamp(25rem, 80%, 40rem);
+  position: relative;
+  top: 2rem;
+}
+
+@media (max-width: 1221px) {
+  #about-us img {
+    width: clamp(23rem, 75%, 32rem);
+  }
+}
+/*--------------------*/
+
+/* SEÇÃO DO ESTOU SEGURO */
+#is-safe {
+  display: flex;
+  align-items: center;
+  place-self: center;
+  margin-left: 2rem;
+  margin-bottom: 10rem;
+  background-color: var(--secondary-color);
+  border-radius: 12px;
+  height: clamp(30rem, 50vh, 34.5rem);
+  width: clamp(40rem, 80vw, 68rem);
+  position: relative;
+  z-index: 1;
+}
+
+#is-safe .text-content {
+  display: grid;
+  width: clamp(15rem, 50vw, 23rem);
+  gap: 1rem;
+  margin-bottom: 5rem;
+}
+
+#is-safe .prettify-title::before {
+  left: -3%;
+}
+
+#is-safe img {
+  width: 50%;
+  min-width: 23rem;
+  place-self: start;
+  position: relative;
+  left: -12%;
+  top: -4%;
+}
+
+@media (min-width: 1333px) {
+  #is-safe {
+    height: 40rem;
+  }
+
+  #is-safe img {
+    left: -10%;
+    width: 60%
+  }
+}
+/*-----------------------*/
+

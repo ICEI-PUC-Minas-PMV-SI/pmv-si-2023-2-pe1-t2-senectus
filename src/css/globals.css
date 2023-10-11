@@ -12,6 +12,7 @@
   --secondary-color: #F3C8FF;
   --primary-bg-color: #FDFDFD;
   --secondary-bg-color: #F3F4FC;
+  --inverted-bg-color: #262626;
   --text-color: #0F172A;
   --inverted-text-color: #FDFDFD;
 }
@@ -32,9 +33,43 @@ main {
   min-height: 100vh;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
   font-family: 'Poppins', sans-serif;
-  font-weight: 700;
+  font-size: 3rem;
+  font-weight: 700
+}
+
+@media(min-width: 705px) {
+  h1 {
+    font-size: 2.25rem;
+  }
+}
+
+.prettify-title {
+  position: relative;
+}
+
+.prettify-title::before {
+  border-radius: 0.5rem;
+  content: '';
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  left: 3%;
+  top: 3px;
+  bottom: 0;
+  background-color: var(--primary-color);
+  width: 2rem;
+  height: 2rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
 }
 
 a {
@@ -72,3 +107,25 @@ li {
   background-color: #555555;
 }
 /*----------------------------*/
+
+.colored-button {
+  width: 9.44rem;
+  height: 2.31rem;
+  border-radius: 12px;
+  border: none;
+  background-color: var(--primary-color);
+  color: white;
+  outline-color: var(--primary-color);
+  outline-offset: 0.25rem;
+  outline-width: 2px;
+}
+
+.colored-button:hover {
+  background-color: var(--on-hover-primary-color);
+  cursor: pointer;
+}
+
+.colored-button:hover {
+  color: white;
+}
+
