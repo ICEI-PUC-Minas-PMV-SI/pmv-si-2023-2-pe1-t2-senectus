@@ -4,7 +4,7 @@ main {
   display: flex;
   flex-flow: column;
   place-self: center;
-  justify-content: center;
+  justify-content: start;
   width: 93.3vw;
   max-width: 72.5rem;
   padding: 1rem 2rem;
