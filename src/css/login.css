@@ -1,16 +1,24 @@
+#content img {
+  position: absolute;
+  top: 7%;
+  width: 3rem;
+  height: 3rem;
+}
+
 #content{
-  margin-top: 8rem;
-  margin-bottom: 4rem;
   display: flex;
   flex-flow: column;
   max-width: 72.5rem;
+  height: 100vh;
   padding: 1rem 2rem;
   position: relative;
-
+  place-content: center;
+  place-self: center;
 }
 
 main{
-    display:flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     width: 100vw;
     justify-content: space-between;
 }
@@ -25,7 +33,6 @@ main form{
     width: 80vw;
     max-width: 26rem;
 }
-
 
 main form .colored-button{
     width: 100%;
@@ -54,6 +61,13 @@ main form small{
 
 main form small a{
     color: var(--primary-color);
+    outline-color: var(--primary-color);
+    outline-offset: 0.1rem;
+    outline-width: 2px;
+}
+
+#background {
+    display: flex;
 }
 
 #background img{
@@ -61,4 +75,25 @@ main form small a{
     height: 100vh;
     object-fit: cover;
     border-radius: 1.75rem 0 0 1.75rem;
+}
+
+@media (max-width: 984px) {
+    #background {
+        display: none;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-height: 457px), (max-width: 984px) {
+    #content {
+        padding: 0;
+    }
+
+    #content img {
+        position: relative;
+        top: 0;
+    }
 }
