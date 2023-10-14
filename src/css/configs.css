@@ -9,7 +9,51 @@ main {
   width: 93.3vw;
   max-width: 72.5rem;
   padding: 1rem 2rem;
+  position: relative;
 }
+/*----------------------*/
+
+/* SEÇÃO DO POPUP */
+main #wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  place-content: center;
+}
+
+main #popup {
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1.5rem;
+  width: 80vw;
+  max-width: 15rem;
+  min-height: 3.5rem;
+  border-radius: 12px;
+}
+
+main #popup i {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  width: 18vw;
+  max-width: 2rem;
+  height: 18vh;
+  max-height: 2rem;
+  padding: 0.5rem;
+  display: flex;
+  place-content: center;
+  align-items: center;
+  clip-path: circle();
+}
+/*----------------*/
 
 /* TÍTULO DA PÁGINA */
 main h1 {
