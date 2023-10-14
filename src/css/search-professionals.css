@@ -51,6 +51,10 @@ main {
   padding-left: 3.5rem;
 }
 
+#search-bar input:hover {
+  cursor: pointer;
+}
+
 #search-bar button {
   position: absolute;
   z-index: 1;
@@ -65,10 +69,10 @@ main {
   outline-color: var(--primary-color);
   outline-offset: 0.25rem;
   outline-width: 2px;
-  transition: color 0.2s;
+  transition: background-color 0.2s;
 }
 
-#search-bar button::hover {
+#search-bar button:hover {
   cursor: pointer;
   background-color: var(--on-hover-primary-color);
 }
@@ -84,11 +88,18 @@ main {
   outline-width: 2px;
   padding: 0 0.5rem;
   margin-left: 1rem;
+  transition: background-color 0.2s;
+}
+
+#search-bar select:hover {
+  background-color: var(--on-hover-primary-color); 
+  cursor: pointer;
 }
 
 #search-bar select option {
   background-color: var(--primary-bg-color);
   color: var(--text-color);
+  cursor: pointer;
 }
 /*----------------------------*/
 

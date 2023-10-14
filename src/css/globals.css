@@ -154,6 +154,7 @@ li {
   outline-color: var(--primary-color);
   outline-offset: 0.25rem;
   outline-width: 2px;
+  transition: background-color 0.2s;
 }
 
 .colored-button:hover {
@@ -179,6 +180,7 @@ li {
   outline-color: var(--primary-color);
   outline-offset: 0.25rem;
   outline-width: 2px;
+  transition: all 0.2s;
 }
 
 .outline-colored-button:hover {
