@@ -1,7 +1,7 @@
 /* SEÇÃO DA MAIN PADRÃO */
 main {
   display: grid;
-  gap: 12rem;
+  gap: 25rem;
   margin-top: 12rem;
 }
 
@@ -116,17 +116,23 @@ div#benefits {
 
 #benefits-cards li:nth-child(4) {
   grid-area: fourth;
-  width: 156%;
+  width: 145%;
   max-width: 33.05rem;
 }
 
 #benefits-cards li:nth-child(5) {
   grid-area: fifth;
   grid-column: 3;
-  width: 156%;
+  width: 145%;
   max-width: 33.05rem;
   position: relative;
-  right: 55%;
+  right: 53%;
+}
+
+@media (max-width: 1000px) {
+  #benefits-cards li:nth-child(5) {
+    right: 48%;
+  }
 }
 
 #benefits-go-to-exercises {
