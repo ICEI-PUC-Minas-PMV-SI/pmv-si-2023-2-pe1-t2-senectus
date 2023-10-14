@@ -1,0 +1,64 @@
+#content{
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-flow: column;
+  max-width: 72.5rem;
+  padding: 1rem 2rem;
+  position: relative;
+
+}
+
+main{
+    display:flex;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+main h1{
+    margin-bottom: 1.55rem;
+}
+
+main form{
+    display: grid; 
+    gap: 1rem;
+    width: 80vw;
+    max-width: 26rem;
+}
+
+
+main form .colored-button{
+    width: 100%;
+    max-width: none;
+}
+
+main form label{
+    display: flex;
+    flex-flow: column;
+}
+   
+main form label input{
+    height: 2rem;
+    padding-left: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid var(--secondary-bg-color);
+    outline-color: var(--primary-color);
+    outline-offset: 0.25rem;
+    outline-width: 2px;
+    margin-top: 0.4rem;
+}
+ 
+main form small{
+    place-self: center;
+}
+
+main form small a{
+    color: var(--primary-color);
+}
+
+#background img{
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+    border-radius: 1.75rem 0 0 1.75rem;
+}
