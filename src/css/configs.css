@@ -1,0 +1,114 @@
+/* SEÇÃO DA MAIN PADRÃO */
+main {
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-flow: column;
+  place-self: center;
+  justify-content: start;
+  width: 93.3vw;
+  max-width: 72.5rem;
+  padding: 1rem 2rem;
+}
+
+/* TÍTULO DA PÁGINA */
+main h1 {
+  margin-bottom: 2.4rem;
+}
+
+main h1.prettify-title::before {
+  left: -2%;
+}
+/*------------------*/
+
+/* FORMULÁRIO DA PÁGINA */
+main form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2.5rem;
+}
+
+main form fieldset {
+  display: grid;
+  border: none;
+}
+
+main form label {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 0.5rem;
+}
+
+main form div {
+  position: relative;
+  display: flex;
+}
+
+main form div input {
+  width: 39vw;
+  max-width: 34rem;
+  padding-left: 0.5rem;
+  height: 2rem;
+  border: 2px solid var(--secondary-bg-color);
+  border-radius: 8px;
+  outline-color: var(--primary-color);
+  outline-offset: 0.25rem;
+  outline-width: 2px;
+}
+
+main form div i {
+  position: absolute;
+  color: var(--primary-color);
+  z-index: 1;
+  top: 20%;
+  left: 89%;
+}
+
+#form-buttons {
+  display: flex;
+  margin-top: 1.5rem;
+  gap: 3rem;
+}
+/*----------------------*/
+
+/* ESTILIZAÇÃO PARA TELAS MENORES QUE 697 PX */
+@media (max-width: 697px) {
+  main {
+    padding: 1rem 0.75rem;
+  }
+
+  main h1 {
+    place-self: center;
+  }
+
+  main form {
+    grid-template-columns: 1fr;
+    place-self: center;
+    place-items: center;
+  }
+
+  main form div input {
+    width: 89vw;
+  }
+
+  #form-buttons {
+    flex-flow: column;
+    justify-content: normal;
+    gap: 1rem;
+  }
+
+  main form div i {
+    left: 93%;
+  }
+}
+/*-------------------------------------------*/
+
+/* ESTILIZAÇÃO PARA TELAS MENORES QUE 269 PX */
+@media (max-width: 269px) {
+  main form div i {
+    left: 85%;
+    top: 30%;
+  }
+}
+/*-------------------------------------------*/
+

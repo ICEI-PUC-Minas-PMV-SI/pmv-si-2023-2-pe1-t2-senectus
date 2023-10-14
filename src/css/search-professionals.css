@@ -1,5 +1,6 @@
+/* SEÇÃO DA MAIN PADRÃO */
 main {
-  margin-top: 15rem;
+  margin-top: 8rem;
   display: flex;
   flex-flow: column;
   place-self: center;
@@ -8,7 +9,9 @@ main {
   max-width: 72.5rem;
   padding: 1rem 2rem;
 }
+/*----------------------*/
 
+/* SEÇÃO DA TEXTO DE INTRODUÇÃO */
 #introduction-text {
   display: grid;
   width: 80%;
@@ -23,7 +26,9 @@ main {
 #introduction-text p {
   margin-bottom: 2.5rem;
 }
+/*------------------------------*/
 
+/* SEÇÃO DE BARRA DE PESQUISA */
 #search-bar {
   position: relative;
   display: flex;
@@ -85,7 +90,9 @@ main {
   background-color: var(--primary-bg-color);
   color: var(--text-color);
 }
+/*----------------------------*/
 
+/* SEÇÃO DE LISTA DE PROFISSIONAIS */
 main ul#professionals-list {
   display: grid;
   grid-gap: 1.5rem;
@@ -132,19 +139,25 @@ main ul#professionals-list li small.specialty {
 main ul#professionals-list li .colored-button {
   margin-top: 1rem;
 }
+/*---------------------------------*/
 
+/* ESTILIZAÇÃO PARA TELAS MENORES QUE 984 PX E MAIORES QUE 596 PX */
 @media (min-width: 596px), (max-width: 984px) {
   main ul#professionals-list {
     grid-template-columns: 1fr 1fr;
   }
 }
+/*----------------------------------------------------------------*/
 
+/* ESTILIZAÇÃO PARA TELAS MAIORES QUE 985 PX */
 @media (min-width: 985px) {
   main ul#professionals-list {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+/*-------------------------------------------*/
 
+/* ESTILIZAÇÃO PARA TELAS MENORES QUE 595 PX */
 @media (max-width: 595px) {
   main {
     padding: 1rem 0;
@@ -177,7 +190,9 @@ main ul#professionals-list li .colored-button {
     width: 80vw;
   }
 }
+/*-------------------------------------------*/
 
+/* ESTILIZAÇÃO PARA TELAS MENORES QUE 272 PX */
 @media (max-width: 272px) {
   main ul#professionals-list li {
     height: 14rem;
@@ -194,3 +209,5 @@ main ul#professionals-list li .colored-button {
     gap: 0.5rem;
   }
 }
+/*-------------------------------------------*/
+
