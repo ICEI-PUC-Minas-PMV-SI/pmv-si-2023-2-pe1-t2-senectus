@@ -35,14 +35,7 @@ main {
 
 h1 {
   font-family: 'Poppins', sans-serif;
-  font-size: 3rem;
   font-weight: 700
-}
-
-@media(min-width: 705px) {
-  h1 {
-    font-size: 3.25rem;
-  }
 }
 
 .prettify-title {
@@ -61,6 +54,43 @@ h1 {
   background-color: var(--primary-color);
   width: 2rem;
   height: 2rem;
+}
+
+@media(max-width: 435px), (min-width: 269px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 704px) {
+  .prettify-title::before {
+    width: 1.20rem;
+    height: 1.20rem;
+    border-radius: 0.25rem;
+  }
+}
+
+@media(min-width: 705px) {
+   h1 {
+    font-size: 3rem;
+  }
+}
+
+@media(max-width: 268px) {
+  body main, 
+  body header, 
+  body footer {
+    font-size: 0.75rem;
+  }
+
+  main h1 {
+    font-size: 1.25rem;
+  }
+
+  .prettify-title::before {
+    width: 0.95rem;
+    height: 0.95rem;
+  }
 }
 
 h2 {
@@ -108,12 +138,18 @@ li {
 }
 /*----------------------------*/
 
+/* BOTÃO CUSTOMIZADO */
 .colored-button {
-  width: 9.44rem;
+  display: flex;
+  gap: 0.75rem;
+  width: 75vw;
+  max-width: 7.44rem;
   height: 2.31rem;
   border-radius: 12px;
   border: none;
   background-color: var(--primary-color);
+  align-items: center;
+  justify-content: center;
   color: white;
   outline-color: var(--primary-color);
   outline-offset: 0.25rem;
@@ -128,4 +164,30 @@ li {
 .colored-button:hover {
   color: white;
 }
+/*-------------------*/
+
+/* BOTÃO CUSTOMIZADO APENAS COM BORDA */
+.outline-colored-button {
+  display: flex;
+  width: 9.44rem;
+  height: 2.31rem;
+  border-radius: 12px;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--primary-color);
+  outline-color: var(--primary-color);
+  outline-offset: 0.25rem;
+  outline-width: 2px;
+}
+
+.outline-colored-button:hover {
+  border: 1px solid var(--on-hover-primary-color);
+  cursor: pointer;
+}
+
+.outline-colored-button:hover {
+  color: white;
+}
+/*------------------------------------*/
 

@@ -9,7 +9,7 @@ main .container {
   display: grid;
   place-self: center;
   justify-content: center;
-  width: 87.3vw;
+  width: 93.3vw;
   max-width: 72.5rem;
   height: clamp(28rem, 70vh, 43.875rem);
   padding: 1rem 2rem;
@@ -53,9 +53,9 @@ main .container {
 /*------------------*/
 
 /* SEÇÃO DOS BENEFÍCIOS */
-#benefits {
-  display: grid;
-  height: 50rem;
+div#benefits {
+  display: flex;
+  flex-flow: column;
 }
 
 #benefits .prettify-title {
@@ -63,13 +63,11 @@ main .container {
 }
 
 #benefits .prettify-title::before {
-  left: 17%;
-  top: -4%;
+  left: -2%;
+  top: 6%;
 }
 
 #benefits h1 {
-  font-size: 2rem;
-  width: 53rem;
   margin-bottom: 5rem;
   place-self: center;
 }
@@ -92,11 +90,15 @@ main .container {
   margin-top: 1rem;
 }
 
+#benefits-cards .benefits-text button {
+  display: none;
+}
+
 #benefits-cards .benefits-text {
   gap: 0.25rem;
 }
 
-#benefits-cards li span {
+#benefits-cards li span i {
   display: grid;
   background-color: var(--inverted-bg-color);
   border-radius: 12px;
