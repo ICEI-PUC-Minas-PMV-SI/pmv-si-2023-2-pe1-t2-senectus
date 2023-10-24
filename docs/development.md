@@ -32,11 +32,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ## Descrição das estruturas:
 
-## Notícia
+## Prestador de serviço
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
-
+| Id             |Texto|               Identificador único do usuário            | 0267fb8c-c547-4f14-8aaf-ac16d83a47d1                                              |
+| Nome completo     | Texto              | Nome Completo do usuário                        | Luiz da Silva Pereira |
+| Email      | Texto             | Email do usuário                                 | luizdasilva@email.com     |
+| Senha  | Texto  | Senha do usuário para ser usado para autentificação | 123456                                             |
+| Área de atuação   | Texto  | Profissão do usuário| Personal Trainer                                           |
+| Localização  | Texto  | Localização do usuário | Belo Horizonte, MG 
+|Valor cobrado pelo serviço  | Numero (Inteiro)  | Valor que o usuário terá que pagar pelo serviço | R$158.99                                              ||
