@@ -89,7 +89,7 @@
 /*----------------*/
 
 /* BOTÃO ESPECIAL */
-#header ul li#exercise-button {
+#exercise-button {
   border-bottom: none;
   display: grid;
   place-content: center;
@@ -101,12 +101,12 @@
   transition: background-color 0.2s;
 }
 
-#header ul li#exercise-button:hover {
+#exercise-button:hover {
   background-color: var(--on-hover-primary-color);
   cursor: pointer;
 }
 
-#header ul li#exercise-button a:hover {
+#exercise-button a:hover {
   color: white;
 }
 /*----------------*/

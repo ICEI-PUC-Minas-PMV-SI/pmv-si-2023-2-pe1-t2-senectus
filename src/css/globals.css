@@ -34,6 +34,10 @@ main {
   min-height: 100vh;
 }
 
+button {
+  border: none;
+}
+
 h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 700
@@ -106,6 +110,7 @@ h2, h3, h4, h5, h6 {
 a {
   color: inherit;
   text-decoration: none;
+  width: fit-content;
 }
 
 li {
