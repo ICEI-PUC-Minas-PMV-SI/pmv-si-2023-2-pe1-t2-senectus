@@ -49,12 +49,7 @@ main {
   display: grid;
 }
 
-#exercises-types li button {
-  border: none;
-  border-radius: 8px;
-}
-
-#exercises-types li button:hover {
+#exercises-types li a:hover {
   cursor: pointer;
 }
 
