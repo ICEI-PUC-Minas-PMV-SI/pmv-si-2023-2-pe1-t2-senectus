@@ -1,44 +1,51 @@
 main {
-    margin-top: 8rem;
-    margin-bottom: 4rem;
-    display: flex;
-    flex-flow: column;
-    place-self: center;
-    justify-content: start;
-    padding: 1rem 2rem 8rem;
-    position: relative;
-  }
+  width: 90%;
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-flow: column;
+  place-self: center;
+  justify-content: start;
+  padding: 1rem 2rem 8rem;
+  position: relative;
+}
 
-  #exercises-list li {
-    width: 369px;
-    height: 401px;
-    flex-shrink: 0;
-    background-color: black;
-    border-radius: 15px;
-  }
+#exercises-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4.05rem;
+  width: 100%;
+}
 
-  #exercises-list li img {
-    position: relative;
-  }
+#exercises-list li a {
+  display: grid;
+  width: 15rem;
+  height: 15rem;
+}
 
-  #exercises-list li h2 {
-    color: #FFF;
-font-family: Poppins;
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-position: absolute;
-  }
+#exercises-list li img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 18px;
+}
 
-  #exercises-list li p {
-    color: #FFF;
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-position: absolute;
-  }
+#exercises-list .text-wrapper {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
 
-  
+}
+
+#exercises-list a {
+  position: relative;
+}
+
+@media (max-width: 991px) {
+  #exercises-list {
+    grid-gap: 1.5rem;
+  }
+}
