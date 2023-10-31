@@ -17,6 +17,10 @@ main {
     border-radius: 15px;
   }
 
+  #exercises-list li img {
+    position: relative;
+  }
+
   #exercises-list li h2 {
     color: #FFF;
 font-family: Poppins;
@@ -24,6 +28,7 @@ font-size: 40px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+position: absolute;
   }
 
   #exercises-list li p {
@@ -33,4 +38,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+position: absolute;
   }
+
+  
