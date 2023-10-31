@@ -1,0 +1,36 @@
+main {
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-flow: column;
+    place-self: center;
+    justify-content: start;
+    padding: 1rem 2rem 8rem;
+    position: relative;
+  }
+
+  #exercises-list li {
+    width: 369px;
+    height: 401px;
+    flex-shrink: 0;
+    background-color: black;
+    border-radius: 15px;
+  }
+
+  #exercises-list li h2 {
+    color: #FFF;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+
+  #exercises-list li p {
+    color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
