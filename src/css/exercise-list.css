@@ -13,7 +13,7 @@ main {
 #exercises-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 4.05rem;
+  grid-gap: 0.5rem;
   width: 100%;
 }
 
@@ -28,6 +28,24 @@ main {
   height: 100%;
   object-fit: cover;
   border-radius: 18px;
+}
+
+#exercises-list li h2 {
+  color: #FFF;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+#exercises-list li p {
+  color: #FFF;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 #exercises-list .text-wrapper {
