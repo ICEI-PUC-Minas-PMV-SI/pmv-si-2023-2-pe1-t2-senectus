@@ -41,7 +41,9 @@ main {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-top: 170px;
 }
+
 
 #exercises-list li p {
   color: var(--inverted-text-color);
@@ -50,6 +52,30 @@ main {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+#exercises-list li #card-1 h2 {
+  margin-right: 50px;
+}
+
+#exercises-list li #card-1 p {
+  margin-left: 1px;
+}
+
+#exercises-list li #card-2 h2 {
+  margin-right: 95px;
+}
+
+#exercises-list li #card-2 p {
+  margin-right: 3px;
+}
+
+#exercises-list li #card-3 h2 {
+  margin-right: 95px;
+}
+
+#exercises-list li #card-3 p {
+  margin-left: 12px;
 }
 
 #exercises-list .text-wrapper {
