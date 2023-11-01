@@ -6,6 +6,8 @@ main {
   flex-flow: column;
   place-self: center;
   justify-content: start;
+  width: 90vw;
+  max-width: 62.25rem;
   padding: 1rem 2rem 8rem;
   position: relative;
 }
@@ -30,9 +32,10 @@ main {
 
 /* SEÇÃO DE EXERCÍCIOS */
 #exercises-types {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 2.85rem;
-  width: min-content;
+  width: 100%;
   height: min-content;
 }
 
@@ -45,7 +48,7 @@ main {
 #exercises-types li img {
   background-color: var(--secondary-color);
   border-radius: 8px;
-  width: clamp(13rem, 25vw, 15rem);
+  width: 100%;
   display: grid;
 }
 
@@ -79,7 +82,7 @@ main {
 /*---------------------*/
 
 /* ESTILIZAÇÃO PARA TELAS MENORES QUE 963 PX */
-@media (max-width: 963px) {
+@media (max-width: 830px) {
   main {
     place-items: center;
   }
@@ -107,6 +110,7 @@ main {
 
   #exercises-types {
     grid-template-columns: 1fr;
+    width: min-content;
   }
 
   #exercises-types li img {

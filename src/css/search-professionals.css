@@ -5,8 +5,8 @@ main {
   flex-flow: column;
   place-self: center;
   justify-content: start;
-  width: 93.3vw;
-  max-width: 72.5rem;
+  width: 90vw;
+  max-width: 62.25rem;
   padding: 1rem 2rem;
 }
 /*----------------------*/

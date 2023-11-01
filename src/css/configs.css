@@ -6,8 +6,8 @@ main {
   flex-flow: column;
   place-self: center;
   justify-content: start;
-  width: 93.3vw;
-  max-width: 72.5rem;
+  width: 90vw;
+  max-width: 62.2rem;
   padding: 1rem 2rem;
   position: relative;
 }
@@ -70,6 +70,8 @@ main form {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2.5rem;
+  width: 90vw;
+  max-width: 61.45rem;
 }
 
 main form fieldset {
@@ -90,7 +92,7 @@ main form div {
 
 main form div input {
   width: 39vw;
-  max-width: 34rem;
+  max-width: 27rem;
   padding-left: 0.5rem;
   height: 2rem;
   border: 2px solid var(--secondary-bg-color);
@@ -104,8 +106,8 @@ main form div i {
   position: absolute;
   color: var(--primary-color);
   z-index: 1;
-  top: 20%;
-  left: 89%;
+  top: 30%;
+  left: 85%;
 }
 
 #form-buttons {
@@ -114,6 +116,12 @@ main form div i {
   gap: 3rem;
 }
 /*----------------------*/
+
+@media (max-width: 985px) {
+  main form div i {
+    top: 20%;
+  }
+}
 
 /* ESTILIZAÇÃO PARA TELAS MENORES QUE 697 PX */
 @media (max-width: 697px) {
@@ -148,10 +156,10 @@ main form div i {
 /*-------------------------------------------*/
 
 /* ESTILIZAÇÃO PARA TELAS MENORES QUE 269 PX */
-@media (max-width: 269px) {
+@media (max-width: 300px) {
   main form div i {
-    left: 85%;
-    top: 30%;
+    left: 89%;
+    top: 27%;
   }
 }
 /*-------------------------------------------*/
