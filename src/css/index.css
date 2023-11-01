@@ -83,7 +83,7 @@
 
 #header a img {
   margin-right: 3rem;
-  width: clamp(10rem, 10.28vw, 11rem);
+  width: 11rem;
   height: clamp(3.5rem, 5.275vh, 4rem);
 }
 /*----------------*/
