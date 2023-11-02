@@ -115,7 +115,7 @@
 @media (max-width: 242px) {
   #header a img {
     width: clamp(6rem, 10.28vw, 11.45rem);
-    height: clamp(1.85rem, 5.275vh, 5rem);
+    height: clamp(1.85rem, 5.275vh, 2.25rem);
   }
 
   footer#footer {
