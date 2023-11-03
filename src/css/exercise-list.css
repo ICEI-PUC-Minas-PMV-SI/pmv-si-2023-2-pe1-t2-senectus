@@ -15,7 +15,6 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 4.05rem;
-  gap: 4rem;
   width: 90vw;
   max-width: 58.5rem;
 }
@@ -93,7 +92,6 @@ main {
   #exercises-list {
     place-items: center;
     place-content: center;
-    gap: 4rem;
     width: 70vw;
     grid-template-columns: 1fr 1fr;
   }
@@ -107,7 +105,6 @@ main {
     place-items: center;
     justify-content: center;
     width: 80vw;
-    gap: 4rem;
   }
 
   #exercises-list li {
