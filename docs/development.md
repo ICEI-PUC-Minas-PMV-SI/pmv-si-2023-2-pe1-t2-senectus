@@ -6,7 +6,7 @@ As tabelas que se seguem apresentam os requisitos funcionais que relacionam o es
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito | Prioridade | Artefato Criado |
+|ID    | Descrição do Requisito | Prioridade | Links | Artefato Criado
 | --- | --- | --- | --- |
 | RF-001 | O sistema deve permitir que usuários tenham acesso a descrição informativa de exercícios. | ALTA | https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/exercises-list-aerobico# |
 | RF-002 | O sistema deve permitir que usuários sejam capazes de acessar o catálogo de exercícios e os selecionar. | ALTA | https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/exercises-list-aerobico# |
