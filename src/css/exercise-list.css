@@ -22,8 +22,8 @@ main {
 
 #exercises-list li {
   display: grid;
-  width: min-content;
-  height: min-content;
+  width: clamp(13rem, 30vw, 15.25rem);
+  height: clamp(13rem, 30vw, 15.25rem);
 }
 
 #exercises-list li img {
