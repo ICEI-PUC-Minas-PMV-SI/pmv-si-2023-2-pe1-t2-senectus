@@ -27,8 +27,8 @@ main {
 }
 
 #exercises-list li img {
-  width: clamp(12rem, 30vw, 15.25rem);
-  height: clamp(12rem, 30vw, 15.25rem);
+  width: clamp(13rem, 30vw, 15.25rem);
+  height: clamp(13rem, 30vw, 15.25rem);
   object-fit: cover;
   border-radius: 18px;
 }
@@ -54,8 +54,8 @@ main {
 
 #exercises-list .text-wrapper {
   display: grid;
-  width: clamp(12rem, 30vw, 15.25rem);
-  height: clamp(12rem, 30vw, 15.25rem);
+  width: clamp(13rem, 30vw, 15.25rem);
+  height: clamp(13rem, 30vw, 15.25rem);
   top: 0;
   position: absolute;
   z-index: 1;
