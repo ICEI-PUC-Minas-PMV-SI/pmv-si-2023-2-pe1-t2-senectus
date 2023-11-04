@@ -15,6 +15,12 @@
     place-content: center;
     place-self: center;
   }
+
+  #logo {
+    outline-color: var(--primary-color);
+    outline-offset: 0.25rem;
+    outline-width: 2px;
+  }
   
   main{
       display: grid;
@@ -77,23 +83,23 @@
       border-radius: 1.75rem 0 0 1.75rem;
   }
   
-  @media (max-width: 984px) {
-      #background {
-          display: none;
-      }
-  
-      main {
-          grid-template-columns: 1fr;
-      }
-  }
-  
-  @media (max-height: 457px), (max-width: 984px) {
-      #content {
-          padding: 0;
-      }
-  
-      #content img {
-          position: relative;
-          top: 0;
-      }
-  }
+@media (max-width: 984px) {
+    #background {
+        display: none;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-height: 457px), (max-width: 984px) {
+    #content {
+        padding: 0;
+    }
+
+    #content img {
+        position: relative;
+        top: 0;
+    }
+}

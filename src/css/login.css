@@ -77,6 +77,12 @@ main form small a{
     border-radius: 1.75rem 0 0 1.75rem;
 }
 
+#logo {
+    outline-color: var(--primary-color);
+    outline-offset: 0.25rem;
+    outline-width: 2px;
+}
+
 @media (max-width: 984px) {
     #background {
         display: none;
