@@ -41,4 +41,4 @@ As tabelas que se seguem apresentam os requisitos funcionais que relacionam o es
 | Senha  | Texto  | Senha do usuário para ser usado para autentificação | 123456                                             |
 | Área de atuação   | Texto  | Profissão do usuário| Personal Trainer                                           |
 | Localização  | Texto  | Localização do usuário | Belo Horizonte, MG 
-|Valor cobrado pelo serviço  | Numero (Inteiro)  | Valor que o usuário terá que pagar pelo serviço | R$158.99                                              ||
+|Valor cobrado pelo serviço  | Numero  | Valor que o usuário terá que pagar pelo serviço | R$158.99                                              ||
