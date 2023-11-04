@@ -1,5 +1,9 @@
 # Programação de Funcionalidades
 
+## Onde acessar
+Atualmente, optamos por manter o nosso site hospedado no github pages, segue o link do projeto em produção:
+[https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home](https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home)
+
 ## Requisitos Atendidos
 
 As tabelas que se seguem apresentam os requisitos funcionais que relacionam o escopo do projeto com os artefatos criados:
