@@ -31,7 +31,7 @@ As tabelas que se seguem apresentam os requisitos funcionais que relacionam o es
 ## Prestador de serviço
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             |Texto|               Identificador único do usuário            | 1                                              |
+| Id             |Number|               Identificador único do usuário            | 1                                              |
 | Nome completo     | Texto              | Nome Completo do usuário                        | Luiz da Silva Pereira |
 | Email      | Texto             | Email do usuário                                 | luizdasilva@email.com     |
 | Senha  | Texto  | Senha do usuário para ser usado para autentificação | 123456                                             |
