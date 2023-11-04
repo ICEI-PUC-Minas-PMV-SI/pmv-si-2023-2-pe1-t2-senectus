@@ -39,6 +39,7 @@ main .container {
 
 #initial-home-content img {
   width: clamp(10rem, 55%, 38rem);
+  position: relative;
 }
 
 #initial-home-content .text-content {
@@ -90,6 +91,7 @@ div#benefits {
   margin-top: 1rem;
 }
 
+#benefits-cards .benefits-text a,
 #benefits-cards .benefits-text button {
   display: none;
 }

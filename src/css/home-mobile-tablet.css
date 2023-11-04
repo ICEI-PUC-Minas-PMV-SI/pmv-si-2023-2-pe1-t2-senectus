@@ -132,7 +132,7 @@ main {
 /*------------------------------------*/
 
 /* ADAPTAÇÕES PARA TELAS MENORES QUE 933 PX */
-@media (max-width: 933px) {
+@media (max-width: 984px) {
   /* SEÇÃO DE BENEFÍCIOS */
   #benefits-cards {
     grid-template-areas: "first"
