@@ -34,7 +34,7 @@ As tabelas a seguir detalham os requisitos funcionais e não funcionais do proje
 | RF-002 | O sistema deve permitir que usuários sejam capazes de acessar o catálogo de exercícios e os selecionar. | ALTA |  |
 | RF-003 | O sistema deve permitir a seleção de exercícios em forma de categórias. | MÉDIA |  |
 | RF-004 | O sistema deve permitir que o usuário tenha acesso a algum vídeo ou imagem sobre como fazer o exercício. | MÉDIA |   |
-| RF-005 | O sistema deve permitir que um profissional se cadastre na plataforma, inserindo informações básicas, por exemplo: nome e meios de contato. | ALTA |   |
+| RF-005 | O sistema deve permitir que um profissional se cadastre na plataforma, inserindo informações básicas. | ALTA |   |
 | RF-006 | O sistema deve permitir que os profissionais sejam capazes de preencher informações mais completas sobre suas competências logo após o cadastro, podendo incluir, por exemplo: portfólio e currículo. | ALTA |  |
 | RF-007 | O sistema deve permitir que usuários profissionais, previamente cadastrados, façam login na aplicação. | ALTA |   |
 | RF-008 | O sistema deve permitir que usuários contactem profissionais. | ALTA |  |
