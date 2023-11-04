@@ -26,6 +26,12 @@ main {
   height: clamp(13rem, 30vw, 15.25rem);
 }
 
+#exercises-list li a {
+  outline-color: var(--primary-color);
+  outline-offset: 0.25rem;
+  outline-width: 2px;
+}
+
 #exercises-list li img {
   width: clamp(13rem, 30vw, 15.25rem);
   height: clamp(13rem, 30vw, 15.25rem);

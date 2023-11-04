@@ -45,6 +45,12 @@ main {
   height: 100%;
 }
 
+#exercises-types li a {
+  outline-color: var(--primary-color);
+  outline-offset: 0.25rem;
+  outline-width: 2px;
+}
+
 #exercises-types li img {
   background-color: var(--secondary-color);
   border-radius: 8px;
