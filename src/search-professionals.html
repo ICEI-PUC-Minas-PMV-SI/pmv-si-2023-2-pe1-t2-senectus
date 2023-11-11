@@ -60,8 +60,8 @@
           Encontre profissionais
         </a>
       </li>
-      <li>
-        <a href="login" id="exercise-button">
+      <li id="login-option">
+        <a href="login" id="login-button">
           Entrar como profissional
         </a>
       </li>
@@ -96,93 +96,27 @@
       </button>
       <input type="text" name="professional" placeholder="Procurar">
       <select>
-        <option value="personal-trainer">
+        <option value="Recentes">
+          Mais recentes
+        </option>
+        <option value="Personal Trainer">
           Personal trainer
         </option> 
-        <option value="physiotherapist">
+        <option value="Fisioterapeuta">
           Fisioterapeuta
         </option> 
-        <option value="nutritionist">
+        <option value="Nutricionista">
           Nutricionista
-        </option> 
+        </option>
+        <option value="Médico">
+          Médico
+        </option>
       </select>
     </form>
     <!----------------------->
 
     <!-- LISTA DE PROFISSIONAIS -->
-    <ul id="professionals-list">
-      <li>
-        <small  class="specialty">Especialidade</small>
-        <h2>Lorem Ipsum<h2>
-
-        <div class="location-and-value">
-
-          <div>
-            <i class="fa-solid fa-location-dot"></i>
-            <small>BH</small>
-          </div>
-
-          <div>
-            <i class="fa-solid fa-sack-dollar"></i>
-            <small>R$100,00</small>
-          </div>
-
-        </div>
-
-        <button class="colored-button">
-          <i class="fa-regular fa-calendar"></i>
-          Agendar
-        </button>
-      </li>
-
-      <li>
-        <small class="specialty">Especialidade</small>
-        <h2>Lorem Ipsum<h2>
-
-        <div class="location-and-value">
-
-          <div>
-            <i class="fa-solid fa-location-dot"></i>
-            <small>BH</small>
-          </div>
-
-          <div>
-            <i class="fa-solid fa-sack-dollar"></i>
-            <small>R$100,00</small>
-          </div>
-
-        </div>
-
-        <button class="colored-button">
-          <i class="fa-regular fa-calendar"></i>
-          Agendar
-        </button>
-      </li>
-
-      <li>
-        <small class="specialty">Especialidade</small>
-        <h2>Lorem Ipsum<h2>
-
-        <div class="location-and-value">
-
-          <div>
-            <i class="fa-solid fa-location-dot"></i>
-            <small>BH</small>
-          </div>
-
-          <div>
-            <i class="fa-solid fa-sack-dollar"></i>
-            <small>R$100,00</small>
-          </div>
-
-        </div>
-
-        <button class="colored-button">
-          <i class="fa-regular fa-calendar"></i>
-          Agendar
-        </button>
-      </li>
-    </ul>
+    <ul id="professionals-list"></ul>
     <!---------------------------->
   </main>
 
@@ -200,6 +134,7 @@
   </footer>
   <!--------------------->
 
+  <script type="module" src="./js/pages/searchProfessionals.js"></script>
 </body>
 
 </html>

@@ -148,6 +148,7 @@ li {
 .colored-button {
   display: flex;
   gap: 0.75rem;
+  font-size: 0.85rem;
   width: 75vw;
   max-width: 7.44rem;
   height: 2.31rem;

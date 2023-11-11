@@ -60,8 +60,8 @@
           Encontre profissionais
         </a>
       </li>
-      <li>
-        <a href="login" id="exercise-button">
+      <li id="login-option">
+        <a href="login" id="login-button">
           Entrar como profissional
         </a>
       </li>
@@ -95,17 +95,7 @@
           Nome completo
         </label>
         <div>
-          <input type="text" id="input-name" name="full-name">
-          <i class="fa-solid fa-pen-to-square"></i>
-        </div>
-      </fieldset>
-
-      <fieldset> 
-        <label for="input-email">
-          Email
-        </label>
-        <div>
-          <input type="text" id="input-email" name="email">
+          <input minlength="3" type="text" id="input-name" name="full-name">
           <i class="fa-solid fa-pen-to-square"></i>
         </div>
       </fieldset>
@@ -115,7 +105,7 @@
           Senha
         </label>
         <div>
-          <input type="password" id="input-password" name="password">
+          <input minlength="6" type="password" id="input-password" name="password">
           <i class="fa-solid fa-pen-to-square"></i>
         </div>
       </fieldset>
@@ -125,13 +115,26 @@
           Profissão
         </label>
         <div>
-          <input type="text" id="input-profession" name="profession">
+          <select>
+            <option value="Personal Trainer">
+              Personal trainer
+            </option> 
+            <option value="Fisioterapeuta">
+              Fisioterapeuta
+            </option> 
+            <option value="Nutricionista">
+              Nutricionista
+            </option>
+            <option value="Médico">
+              Médico
+            </option>
+          </select>
           <i class="fa-solid fa-pen-to-square"></i>
         </div>
       </fieldset>
 
       <fieldset>
-        <label id="input-location">
+        <label minlength="2" id="input-location">
           Localização
         </label>
         <div>
@@ -145,14 +148,14 @@
           Valor por serviço
         </label>
         <div>
-          <input type="text" id="input-price" name="price">
+          <input type="number" id="input-price" name="price">
           <i class="fa-solid fa-pen-to-square"></i>
         </div>
       </fieldset>
 
-
+      <span></span>
       <div id="form-buttons">
-        <button type="button" class="colored-button">
+        <button id="delete-account" type="button" class="colored-button">
           <b>Deletar conta</b>
         </button>
 
@@ -177,6 +180,7 @@
   </footer>
   <!--------------------->
 
+  <script type="module" src="./js/pages/configs.js"></script>
 </body>
 
 </html>

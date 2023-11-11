@@ -43,15 +43,15 @@
           <form action="configs.html" method="get">
             <label>
               Nome completo
-              <input type="text" placeholder="Insira seu email">
+              <input minlength="3" type="text" placeholder="Insira seu email">
             </label>
             <label>
               Email
-              <input type="text" placeholder="Insira seu nome completo">
+              <input minlength="2" type="text" placeholder="Insira seu nome completo">
             </label>
             <label>
               Senha
-              <input type="password" placeholder="Insira sua senha">
+              <input minlength="6" type="password" placeholder="Insira sua senha">
             </label>
 
             <button class="colored-button" type="submit">
@@ -67,10 +67,11 @@
       </div>
       
       <div id="background">
-        <img src="img/idoso andando de bicicleta.jpg" alt="Idoso andando de bicicleta">
+        <img src="./img/idoso andando de bicicleta.jpg" alt="Idoso andando de bicicleta">
       </div>
     </main>
 
+    <script type="module" src="./js/pages/cadastro.js"></script>
   </body>
 </html>
 

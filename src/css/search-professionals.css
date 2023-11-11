@@ -128,8 +128,8 @@ main ul#professionals-list li small.specialty {
   background-color: var(--secondary-color);
   padding: 0.25rem 0.5rem;
   border-radius: 8px;
-  width: 75%;
-  max-width: 7rem;
+  width: 85%;
+  max-width: 9rem;
   height: 2rem;
   display: grid;
   text-align: center;
@@ -149,6 +149,8 @@ main ul#professionals-list li small.specialty {
 
 main ul#professionals-list li .colored-button {
   margin-top: 1rem;
+  width: 85%;
+  max-width: 9rem;
 }
 /*---------------------------------*/
 

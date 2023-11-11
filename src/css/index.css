@@ -83,14 +83,26 @@
 
 #header a img {
   margin-right: 3rem;
-  width: 11rem;
+  width: 10rem;
   height: clamp(3.5rem, 5.275vh, 4rem);
 }
 /*----------------*/
 
 /* BOTÃO ESPECIAL */
-header ul li button#exercise-button,
-header ul li a#exercise-button {
+header ul li button#config-button .fa-gear,
+header ul li a#config-button .fa-gear,
+header ul li a#config-button span {
+  color: var(--primary-color);
+  transition: color 0.2s;
+}
+
+header ul li button#config-button .fa-gear:hover,
+header ul li a#config-button span:hover {
+  color: var(--on-hover-primary-color);
+}
+
+header ul li button#login-button,
+header ul li a#login-button {
   border-bottom: none;
   display: grid;
   place-content: center;
@@ -102,8 +114,8 @@ header ul li a#exercise-button {
   transition: background-color 0.2s;
 }
 
-header ul li button#exercise-button:hover,
-header ul li a#exercise-button:hover {
+header ul li button#login-button:hover,
+header ul li a#login-button:hover {
   background-color: var(--on-hover-primary-color);
   cursor: pointer;
   color: white;

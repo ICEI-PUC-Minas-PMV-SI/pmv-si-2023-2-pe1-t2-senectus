@@ -1,2 +1,11 @@
-.parcel-cache/
-dist/
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+dist
+*.txt
+Gemfile
+Gemfile.lock
+_config.yml
+

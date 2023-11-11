@@ -90,16 +90,24 @@ main form div {
   display: flex;
 }
 
-main form div input {
+main form fieldset div input,
+main form fieldset div select {
   width: 39vw;
   max-width: 27rem;
   padding-left: 0.5rem;
+  background-color: transparent;
   height: 2rem;
   border: 2px solid var(--secondary-bg-color);
   border-radius: 8px;
   outline-color: var(--primary-color);
   outline-offset: 0.25rem;
   outline-width: 2px;
+}
+
+main form fieldset div select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 main form div i {
@@ -139,7 +147,8 @@ main form div i {
     place-items: center;
   }
 
-  main form div input {
+  main form fieldset div input,
+  main form fieldset div select {
     width: 89vw;
   }
 
