@@ -5,6 +5,7 @@ _site
 vendor
 dist
 *.txt
-Gemfile*
+Gemfile
+Gemfile.lock
 _config.yml
 
