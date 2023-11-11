@@ -1,0 +1,131 @@
+/* SEÇÃO DA MAIN PADRÃO */
+main {
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-flow: column;
+  place-self: center;
+  justify-content: start;
+  width: 90vw;
+  max-width: 62.25rem;
+  padding: 1rem 2rem 8rem;
+  position: relative;
+}
+/*----------------------*/
+
+/* SEÇÃO DE INTRODUÇÃO */
+#introduction-text {
+  display: grid;
+  width: 70%;
+  max-width: 35rem;
+  gap: 0.5rem;
+}
+
+#introduction-text .prettify-title::before {
+  left: -2%;
+}
+
+#introduction-text p {
+  margin-bottom: 2.5rem;
+}
+/*---------------------*/
+
+/* SEÇÃO DE EXERCÍCIOS */
+#exercises-types {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2.85rem;
+  width: 100%;
+  height: min-content;
+}
+
+#exercises-types li {
+  position: relative;
+  display: flex;
+  height: 100%;
+}
+
+#exercises-types li a {
+  outline-color: var(--primary-color);
+  outline-offset: 0.25rem;
+  outline-width: 2px;
+}
+
+#exercises-types li img {
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  width: 100%;
+  display: grid;
+}
+
+#exercises-types li a:hover {
+  cursor: pointer;
+}
+
+#exercises-types li .text-wrapper {
+  position: absolute;
+  z-index: 2;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  text-align: center;
+  align-items: end;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+#exercises-types li .text-wrapper:hover {
+  background-color: var(--on-hover-primary-color-op);
+}
+
+#exercises-types li .text-wrapper h2 {
+  margin-bottom: 2rem;
+  color: var(--inverted-text-color);
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+/*---------------------*/
+
+/* ESTILIZAÇÃO PARA TELAS MENORES QUE 963 PX */
+@media (max-width: 830px) {
+  main {
+    place-items: center;
+  }
+
+  #exercises-types {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #exercises-types li:nth-child(3) {
+    left: 60%;
+  }
+}
+/*-------------------------------------------*/
+
+/* ESTILIZAÇÃO PARA TELAS MENORES QUE 560 PX */
+@media (max-width: 560px) {
+  main {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #introduction-text {
+    width: 80%;
+  }
+
+  #exercises-types {
+    grid-template-columns: 1fr;
+    width: min-content;
+  }
+
+  #exercises-types li img {
+    width: 80vw;
+    max-width: 15rem;
+  }
+
+  #exercises-types li:nth-child(3) {
+    left: 0;
+  }
+}
+/*-------------------------------------------*/

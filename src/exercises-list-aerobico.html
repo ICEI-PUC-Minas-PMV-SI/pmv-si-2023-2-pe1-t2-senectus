@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Bem-vindo ao Senectus, um ambiente onde você pode aprimorar cada vez mais a sua saúde.">
+  <meta name="keywords" content="Senectus, PUC, exercício, saúde">
+
+  <title>Senectus - Exercícios</title>
+
+  <!-- ÍCONE DO PROJETO -->
+  <link rel="shortcut icon" type="image/png" href="./img/logo.png" />
+  <!---------------------->
+
+  <!--CSS DO PROJETO-->
+  <link rel="stylesheet" href="./css/globals.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="./css/exercise-list.css">
+  <!------------------>
+
+  <!--FONT AWESOME-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!---------------->
+
+  <!-- FONTES DO PROJETOS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap"
+    rel="stylesheet">
+  <!------------------------>
+
+</head>
+
+<body>
+  <header id="header">
+    <!-- LOGO -->
+    <a href="home">
+      <img src="./img/logo-tipo.png" alt="Logotipo do Senectus" />
+    </a>
+    <!---------->
+
+    <!-- CAMPO DE OPÇÕES -->
+    <ul>
+      <li>
+        <a href="home">
+          Sobre nós
+        </a>
+      </li>
+      <li>
+        <a href="exercises-types">
+          Biblioteca de exercícios
+        </a>
+      </li>
+      <li>
+        <a href="search-professionals">
+          Encontre profissionais
+        </a>
+      </li>
+      <li id="login-option">
+        <a href="login" id="login-button">
+          Entrar como profissional
+        </a>
+      </li>
+    </ul>
+    <!--------------------->
+
+    <!-- CAMPO DO MENU -->
+    <menu>
+      <button>
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </menu>
+    <!------------------->
+
+  </header>   
+  <main>
+    <ul id="exercises-list">
+      <li>
+        <a href="https://www.youtube.com/watch?v=Kb6QdTzMOj4&pp=ygUcY2FtaW5oYWRhIGV4ZXJjw61jaW8gZsOtc2ljbw%3D%3D" target="_blank" id="card-1">
+          <img src="./img/caminhada-exercise.png" alt="idoso caminhado">
+          <div class="text-wrapper">
+            <h2>Caminhada</h2>
+            <p>Uma caminhada a passo moderado é uma excelente opção.</p>
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.youtube.com/watch?v=GJtu-U90vuQ" target="_blank" id="card-2">
+          <img src="./img/idoso-cadeira.jpg" alt="idoso sentada na cadeira">
+          <div class="text-wrapper">
+            <h2>Exercícios de cadeira</h2>
+            <p>Exercícios de cadeiras são facéis e acessíveis para se fazer em casa.</p>
+          </div>
+        </a>
+      </li> 
+
+      <li>
+        <a href="https://www.youtube.com/watch?v=Xli5670XTHY&pp=ygUVYW5kYW5kbyBkZSBiaWtlIGlkb3Nv" target="_blank" id="card-3">
+          <img src="./img/ciclismo.png" alt="Idoso de bike">
+          <div class="text-wrapper">
+            <h2>Ciclismo</h2>
+            <p>Andar de bicicleta é uma forma 
+              eficaz de exercício aeróbico.</p>
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.youtube.com/watch?v=-ee0kl49foM" target="_blank" id="card-3">
+          <img src="./img/idoso-fazendo-polichinelo.jpg" alt="Idoso fazendo polichinelo">
+          <div class="text-wrapper">
+            <h2>Polichinelo</h2>
+            <p>Que tal começarmos com um polichinelo.</p>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </main>
+
+  <!-- CAMPO DO RODAPÉ -->
+  <footer id="footer">
+    <div id="footer-title">
+      <h1>Senectus</h1>
+      <span>®</span>
+    </div>
+    
+    <small> 
+      Todos os direitos reservados.    
+    </small>
+      
+  </footer>
+  <!--------------------->
+
+  <script type="module" src="./js/pages/exercises.js"></script>
+</body>
+
+</html>

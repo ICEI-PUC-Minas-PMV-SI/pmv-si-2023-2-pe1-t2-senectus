@@ -1,0 +1,39 @@
+main {
+  display: grid;
+  align-content: center;
+  place-self: center;
+  justify-content: start;
+  width: 90vw;
+  max-width: 22.2rem;
+  padding: 1rem 2rem;
+  position: relative;
+}
+
+main section {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  text-align: center;
+  gap: 1rem;
+}
+
+main section img {
+  width: 80%;
+  height: 80%;
+  max-width: 15rem;
+  max-height: 15rem;
+}
+
+main section h1 {
+  font-size: 1.35rem;
+  margin-bottom: 1rem;
+}
+
+main a {
+  place-self: center;
+  cursor: pointer;
+  color: var(--primary-color);
+  outline-color: var(--primary-color);
+  outline-offset: 0.1rem;
+  outline-width: 2px;
+}

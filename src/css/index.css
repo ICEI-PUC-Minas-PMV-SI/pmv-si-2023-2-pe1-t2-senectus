@@ -1,0 +1,180 @@
+/* FOOTER */
+#footer {
+  width: 100vw;
+  height: clamp(5rem, 2.5vh, 7.25rem);
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-color);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 0.75rem;
+}
+
+#footer-title span {
+  color: var(--inverted-text-color);
+  font-weight: 100;
+  place-self: center;
+}
+
+#footer-title {
+  display: flex;
+  text-align: center;
+}
+  
+#footer-title h1 {
+  color: var(--inverted-text-color);
+  font-size: 1.25rem;
+}
+
+#footer small {
+  color: var(--inverted-text-color);
+}
+/*--------*/
+
+
+/* HEADER */
+#header {
+  z-index: 100;
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  padding: 1rem 2.75rem 0.3rem;
+  align-items: center;
+  justify-content: space-between;
+  height: clamp(5.25rem, 2.25vh, 17rem);
+  background-color: var(--primary-bg-color);
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.2);
+}
+/*--------*/
+
+/* MENU */
+#header menu button {
+  outline-color: var(--primary-color);
+  outline-offset: 0.5rem;
+  outline-width: 2px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#header menu button .fa-bars {
+  font-size: 1.75rem;
+  transition: color 0.2s;
+}
+
+#header menu button .fa-bars:hover {
+  color: #334155;
+}
+/*------*/
+
+/* OPÇÕES */
+#header ul {
+  display: none; 
+}
+/*--------*/
+
+/* IMAGEM DA LOGO */
+#header a {
+  outline-color: var(--primary-color);
+  outline-offset: 0.25rem;
+  outline-width: 2px;
+}
+
+#header a img {
+  margin-right: 3rem;
+  width: 10rem;
+  height: clamp(3.5rem, 5.275vh, 4rem);
+}
+/*----------------*/
+
+/* BOTÃO ESPECIAL */
+header ul li button#config-button .fa-gear,
+header ul li a#config-button .fa-gear,
+header ul li a#config-button span {
+  color: var(--primary-color);
+  transition: color 0.2s;
+}
+
+header ul li button#config-button .fa-gear:hover,
+header ul li a#config-button span:hover {
+  color: var(--on-hover-primary-color);
+}
+
+header ul li button#login-button,
+header ul li a#login-button {
+  border-bottom: none;
+  display: grid;
+  place-content: center;
+  background-color: var(--primary-color);
+  border-radius: 12px;
+  width: clamp(11.5rem, 17.5vw, 13.5rem);
+  height: clamp(2.5rem, 2.5vh, 3.75rem);
+  color: white;
+  transition: background-color 0.2s;
+}
+
+header ul li button#login-button:hover,
+header ul li a#login-button:hover {
+  background-color: var(--on-hover-primary-color);
+  cursor: pointer;
+  color: white;
+}
+/*----------------*/
+
+/* MEDIA RULES */
+@media (max-width: 242px) {
+  #header a img {
+    width: clamp(6rem, 10.28vw, 11.45rem);
+    height: clamp(1.85rem, 5.275vh, 2.25rem);
+  }
+
+  footer#footer {
+    height: clamp(7rem, 2.5vh, 8.25rem);
+  }
+} 
+
+@media (max-width: 348px) {
+  #footer {
+    height: clamp(5rem, 2.5vh, 6.25rem);
+  }
+
+  #header a img {
+    margin: 0;
+  }
+
+  #header {
+    padding: 1rem 1rem 0.3rem;
+  }
+}
+
+@media (min-width: 985px) {
+  #header {
+    justify-content: center;
+  }
+
+  #header menu {
+    display: none;
+  }
+
+  #header ul {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  #header ul li {
+    text-align: center;
+    min-width: 5rem;
+  }
+
+  #header ul li a {
+    transition: color 0.2s;
+  }
+
+  #header ul li a:hover {
+    color: #334155;
+  }
+}
+/*-------------*/
+
