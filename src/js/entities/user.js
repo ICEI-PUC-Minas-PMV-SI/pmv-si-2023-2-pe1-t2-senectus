@@ -1,25 +1,41 @@
 import { UUID } from '../utils/randomUUID.js';
 
 export class User {
-	#name; #email; #password; #job; #location; #value; #id; #createdAt;
+	#name; 
+	#email; 
+	#password; 
+	#job; 
+	#state;
+	#state_abbr;
+	#city;
+	#city_abbr;
+	#value; 
+	#id; 
+	#createdAt;
 
-	constructor(
+	constructor({
 		id = undefined,
 		name, 
 		email, 
 		password, 
 		job = undefined, 
-		location = undefined, 
+		state = undefined,
+		state_abbr = undefined,
+		city = undefined,
+		city_abbr = undefined,
 		value = undefined,
-		createdAt = undefined
-	) {
+		createdAt = undefined,
+	}) {
 		this.#id = id ? id : UUID.genV4();
 		this.#name = name;
 		this.#email = email;
 		this.#password = password;
 		this.#job = job;
-		this.#location = location;
-		this.#value = value ? parseInt(value) : null;
+		this.#state = state;
+		this.#state_abbr = state_abbr;
+		this.#city = city;
+		this.#city_abbr = city_abbr;
+		this.#value = value ? parseInt(value) : undefined;
 		this.#createdAt = createdAt ?? new Date();
 	}
 
@@ -43,14 +59,26 @@ export class User {
 		return this.#job;
 	}
 
-	get location() {
-		return this.#location;
+	get state() {
+		return this.#state;
+	}
+	
+	get state_abbr() {
+		return this.#state_abbr;
+	}
+
+	get city() {
+		return this.#city;
+	}
+
+	get city_abbr() {
+		return this.#city_abbr;
 	}
 
 	get value() {
 		return this.#value 
 			? parseInt(this.#value) 
-			: null;
+			: undefined;
 	}
 
 	get createdAt() {

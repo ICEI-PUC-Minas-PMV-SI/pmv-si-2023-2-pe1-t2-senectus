@@ -13,7 +13,12 @@ function seed() {
     const randomJob = Math.floor(Math.random() * 4);
 
     const name = `user${randomNum}`;
-    const user = userFactory(name, `${name}@email.com`, '123456', jobs[randomJob]);
+    const user = userFactory({
+      name: name, 
+      email: `${name}@email.com`, 
+      password: '123456', 
+      job: jobs[randomJob]
+    });
 
     UserOnLocalStorage.create(user);
   }

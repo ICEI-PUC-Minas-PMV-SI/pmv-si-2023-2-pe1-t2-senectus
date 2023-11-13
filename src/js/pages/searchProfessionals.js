@@ -6,14 +6,14 @@ const loggedUserData = LoginButtonHandler.trySwitchToConfigButton();
 export class SearchProfessionals {
   static genLiTag = (user) => `
     <li>
-      <small class="specialty">${user.job}</small>
+      <small class="specialty">${user.job ?? 'Não informado'}</small>
       <h2>${user.name}</h2>
 
       <div class="location-and-value">
 
         <div>
           <i class="fa-solid fa-location-dot"></i>
-          <small>${user.location}</small>
+          <small>${user.state_abbr}</small>
         </div>
 
         <div>
@@ -34,8 +34,7 @@ export class SearchProfessionals {
                 Contatar 
             </button>`
       }
-    </li>
-  `
+    </li>`
 
   static buildList(max = 9, users) {
     let items = '';
@@ -49,7 +48,7 @@ export class SearchProfessionals {
   static setInitialList() {
     const list = document.getElementById("professionals-list");
     const users = UserOnLocalStorage.getGroupOf(9);
-    list.innerHTML = SearchProfessionals.buildList(9, users);
+    list.innerHTML = SearchProfessionals.buildList(users.length, users);
   }
   
   static watchSelectTag() {

@@ -138,7 +138,8 @@ main ul#professionals-list li small.specialty {
 
 .location-and-value {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
+  gap: 2rem;
 }
 
 .location-and-value div {
@@ -217,7 +218,6 @@ main ul#professionals-list li .colored-button {
 
   .location-and-value {
     display: flex;
-    flex-flow: column;
     margin: 0.5rem 0;
     gap: 0.5rem;
   }

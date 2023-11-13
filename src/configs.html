@@ -33,6 +33,7 @@
     rel="stylesheet">
   <!------------------------>
 
+  <script src="https://unpkg.com/mitt/dist/mitt.umd.js"></script>
 </head>
 
 <body>
@@ -78,21 +79,23 @@
 
   </header>
   <main>
-    <!-- <div id="wrapper"> -->
-    <!--   <div id="popup"> -->
-    <!--     <p>DADOS SALVOS</p> -->
-    <!--     <i class="fa-solid fa-check"></i> -->
-    <!--   </div> -->
-    <!-- </div> -->
+    <span id="popup-pin"></span>
 
-    <h1 class="prettify-title">
-      Edite suas configurações
-    </h1>
+    <!-- TEXTO DE INTRODUÇÃO -->
+    <div id="introduction-text">
+      <h1 class="prettify-title">
+        Edite suas configurações
+      </h1>
+      <p>
+        Finalize seu perfil preenchendo ou editando mais algumas informações. Ao acabar, apenas aguarde, pois distribuiremos seu perfil para nossos usuários.
+      </p>
+    </div>
+    <!------------------------->
 
     <form>
       <fieldset>
-        <label id="input-name">
-          Nome completo
+        <label for="input-name">
+          Nome 
         </label>
         <div>
           <input minlength="3" type="text" id="input-name" name="full-name">
@@ -111,11 +114,11 @@
       </fieldset>
 
       <fieldset>
-        <label id="input-profession">
+        <label for="select-profession">
           Profissão
         </label>
         <div>
-          <select>
+          <select id="select-profession">
             <option value="Personal Trainer">
               Personal trainer
             </option> 
@@ -134,12 +137,23 @@
       </fieldset>
 
       <fieldset>
-        <label minlength="2" id="input-location">
-          Localização
+        <label for="select-state">
+          Estado
         </label>
         <div>
-          <input type="text" id="input-location" name="profession">
+          <select type="text" id="select-state" name="text" list="lista-estado"></select>
           <i class="fa-solid fa-pen-to-square"></i>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <label for="input-city">
+          Cidade
+        </label>
+        <div>
+          <input id="input-city" disabled list="city-list"></input>
+          <datalist id="city-list"></datalist>
+          <i id="city-input-icon" class="fa-solid fa-circle-xmark"></i>
         </div>
       </fieldset>
 
@@ -148,12 +162,11 @@
           Valor por serviço
         </label>
         <div>
-          <input type="number" id="input-price" name="price">
+          <input type="number" id="input-price" name="Preço por serviço">
           <i class="fa-solid fa-pen-to-square"></i>
         </div>
       </fieldset>
 
-      <span></span>
       <div id="form-buttons">
         <button id="delete-account" type="button" class="colored-button">
           <b>Deletar conta</b>
