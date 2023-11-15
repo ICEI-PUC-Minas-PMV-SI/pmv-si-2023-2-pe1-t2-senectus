@@ -188,6 +188,16 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
         item.job
       ));
       list.innerHTML = this.buildList(users.length, users);
+
+      this.rollbackButtons.forEach((item) => {
+        item.removeEventListener("click", () => {});
+        item.remove();
+      })
+
+      const buttons = document.querySelectorAll("#professionals-list li #make-contact")
+      buttons.forEach((item, index) => {
+        this.setEventsOnUserCard(item, users[index]);
+      })
     })
   }
 }
