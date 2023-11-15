@@ -1,4 +1,5 @@
 import { UserMapper } from '../../mappers/user.js'
+import { Obfuscator } from "../../../utils/obfuscator.js"
 
 export class UserOnLocalStorage {
   static getLength() {
@@ -9,7 +10,7 @@ export class UserOnLocalStorage {
     for(let i=0; i<localStorage.length; i++) {
       const key = localStorage.key(i);
       const item = key 
-        ? JSON.parse(localStorage.getItem(key)) 
+        ? Obfuscator.translate(localStorage.getItem(key))
         : undefined;
 
       if(
@@ -22,7 +23,9 @@ export class UserOnLocalStorage {
       }
     }
 
-    const data = JSON.stringify(UserMapper.toObject(user));
+    const data = Obfuscator.obfuscate(
+      JSON.stringify(UserMapper.toObject(user))
+    );
     localStorage.setItem(user.email, data);
   }
 
@@ -32,7 +35,13 @@ export class UserOnLocalStorage {
     for(let i=0; i<localStorage.length; i++) {
       const key = localStorage.key(i);
       const item = key 
-        ? UserMapper.toClass(JSON.parse(localStorage.getItem(key)))
+        ? UserMapper.toClass(
+            JSON.parse(
+              Obfuscator.translate(
+                localStorage.getItem(key)
+              )
+            )
+          )
         : undefined;
 
       if(item.job === job)
@@ -57,12 +66,14 @@ export class UserOnLocalStorage {
     for(let i=0; i<maximumItems; i++) {
       const key = localStorage.key(i)
       const item = key 
-        ? localStorage.getItem(key)
+        ? Obfuscator.translate(localStorage.getItem(key))
         : undefined;
 
       const regex = new RegExp(input, "gmi");
       if(regex.exec(item)) {
-        const user = UserMapper.toClass(JSON.parse(item))
+        const user = UserMapper.toClass(
+            JSON.parse(item)
+        )
         searchedUsers.push(user);
       }
     }
@@ -79,7 +90,11 @@ export class UserOnLocalStorage {
     for(let i=0; i<maximumItems; i++) {
       const key = localStorage.key(i);
       const item = key 
-        ? UserMapper.toClass(JSON.parse(localStorage.getItem(key)))
+        ? UserMapper.toClass(
+            JSON.parse(
+              Obfuscator.translate(localStorage.getItem(key))
+            )
+        )
         : undefined;
 
       if(item)
@@ -102,7 +117,13 @@ export class UserOnLocalStorage {
     for(let i=0; i<localStorage.length; i++) {
       const key = localStorage.key(i);
       const item = key 
-        ? UserMapper.toClass(JSON.parse(localStorage.getItem(key)))
+        ? UserMapper.toClass(
+            JSON.parse(
+              Obfuscator.translate(
+                localStorage.getItem(key)
+              )
+            )
+        )
         : undefined;
 
       if(item.id === id)
@@ -117,7 +138,13 @@ export class UserOnLocalStorage {
     for(let i=0; i<localStorage.length; i++) {
       const key = localStorage.key(i);
       const item = key 
-        ? UserMapper.toClass(JSON.parse(localStorage.getItem(key)))
+        ? UserMapper.toClass(
+            JSON.parse(
+              Obfuscator.translate(
+                localStorage.getItem(key)
+              )
+            )
+        )
         : undefined;
 
       if(item.name === name)
@@ -130,7 +157,13 @@ export class UserOnLocalStorage {
     for(let i=0; i<localStorage.length; i++) {
       const key = localStorage.key(i);
       const item = key 
-        ? UserMapper.toClass(JSON.parse(localStorage.getItem(key)))
+        ? UserMapper.toClass(
+            JSON.parse(
+              Obfuscator.translate(
+                localStorage.getItem(key)
+              )
+            )
+        )
         : undefined;
 
       if(item.email === email)
@@ -145,7 +178,7 @@ export class UserOnLocalStorage {
     for(let i=0; i<localStorage.length; i++) {
       const key = localStorage.key(i);
       const item = key 
-        ? JSON.parse(localStorage.getItem(key)) 
+        ? JSON.parse(Obfuscator.translate(localStorage.getItem(key)))
         : undefined;
 
       if(item.id === id)
@@ -165,7 +198,7 @@ export class UserOnLocalStorage {
     for(let i=0; i<localStorage.length; i++) {
       const key = localStorage.key(i);
       const item = key 
-        ? JSON.parse(localStorage.getItem(key)) 
+        ? JSON.parse(Obfuscator.translate(localStorage.getItem(key)))
         : undefined;
 
       if(item.id === user.id)
@@ -177,7 +210,9 @@ export class UserOnLocalStorage {
       throw new Error('Usuário não existe!')
     }
 
-    const data = JSON.stringify(UserMapper.toObject(user));
+    const data = Obfuscator.translate(
+      JSON.stringify(UserMapper.toObject(user))
+    );
     localStorage.setItem(searchedUser.email, data);
   }
 }

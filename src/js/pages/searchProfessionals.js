@@ -116,7 +116,14 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
 
   setInitialList() {
     const list = document.getElementById("professionals-list");
-    const users = UserOnLocalStorage.getGroupOf(9);
+    let users = UserOnLocalStorage.getGroupOf(9);
+    users = users.filter((item) => (
+      item.value ||
+      item.city ||
+      item.state ||
+      item.state_abbr ||
+      item.job
+    ));
     
     if(loggedUserData) {
       const loggedUserIndex = users.findIndex((item) => (
@@ -142,7 +149,14 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
         return this.setInitialList();
 
       const list = document.getElementById("professionals-list");
-      const users = UserOnLocalStorage.findGroupWithJob(job);
+      let users = UserOnLocalStorage.findGroupWithJob(job);
+      users = users.filter((item) => (
+        item.value ||
+        item.city ||
+        item.state ||
+        item.state_abbr ||
+        item.job
+      ));
       list.innerHTML = this.buildList(users.length, users);
 
       this.rollbackButtons.forEach((item) => {
@@ -165,7 +179,14 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
       const input = document.querySelector("#search-bar input").value;
 
       const list = document.getElementById("professionals-list");
-      const users = UserOnLocalStorage.getGroupWithRegExp(input);
+      let users = UserOnLocalStorage.getGroupWithRegExp(input);
+      users = users.filter((item) => (
+        item.value ||
+        item.city ||
+        item.state ||
+        item.state_abbr ||
+        item.job
+      ));
       list.innerHTML = this.buildList(users.length, users);
     })
   }
