@@ -1,3 +1,33 @@
+#description-modal {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  justify-content: center;
+  align-items: center;
+}
+
+#description-modal div {
+  background-color: var(--primary-bg-color);
+  width: 90vw;
+  max-width: 26.25rem;
+  display: flex;
+  text-align: center;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 12px;
+  box-shadow: 1px 1px 10px rgb(0 0 0 / 5%);
+  border: 1px solid var(--primary-color);
+  padding: 1rem;
+}
+
 /* SEÇÃO DA MAIN PADRÃO */
 main {
   display: grid;
@@ -91,7 +121,7 @@ div#benefits {
   margin-top: 1rem;
 }
 
-#benefits-cards .benefits-text a,
+#benefits-cards .benefits-text #mobile-exercise-button,
 #benefits-cards .benefits-text button {
   display: none;
 }

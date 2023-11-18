@@ -207,6 +207,10 @@ main {
     display: none;
   }
 
+  #benefits-cards .benefits-text #mobile-exercise-button {
+    display: flex;
+  }
+
   #benefits-cards #benefits-buttons {
     display: flex;
     flex-flow: column;
