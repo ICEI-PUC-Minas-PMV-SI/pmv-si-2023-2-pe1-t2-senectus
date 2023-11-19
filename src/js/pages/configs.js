@@ -10,16 +10,26 @@ import { popup } from "../events/popup.js"
 let availableCities = [];
 
 class Configs {
-  static definePopupEvents() {
-    let eventName = 'delete';
-    popup.setAlert('CONTA DELETADA!', eventName, () => {
-      window.location.href = "/src/home";
-    });
+  events = {
+    delete: 'delete-account',
+    update: 'update-account'
+  };
 
-    eventName = 'update';
-    popup.setAlert('DADOS SALVOS!', eventName);
+  definePopupEvents() {
+    popup.setAlert({
+      name: 'CONTA DELETADA!', 
+      eventName: this.events.delete, 
+      callback: () => {
+        window.location.href = "/src/home";
+      }
+    });
+    popup.setAlert({
+      name: 'DADOS SALVOS!', 
+      eventName: this.events.update
+    });
   }
-  static collectInputsAndSelects() {
+
+  collectInputsAndSelects() {
     const inputs = document.querySelectorAll("main form fieldset input");
     const job = document.getElementById("select-profession");
     const state = document.getElementById("select-state");
@@ -38,8 +48,9 @@ class Configs {
 
     return { name, password, state, city, price, job }
   }
-  static fillFields(user) {
-    const inputsAndSelects = Configs.collectInputsAndSelects();
+
+  fillFields(user) {
+    const inputsAndSelects = this.collectInputsAndSelects();
     const userInClass = UserMapper.toClass(user);
 
     inputsAndSelects.name.value = userInClass.name;
@@ -52,7 +63,7 @@ class Configs {
     inputsAndSelects.price.value = userInClass.value ?? null;
   }
 
-  static deleteAccount(user) {
+  deleteAccount(user) {
     TokenOnSessionStorage.delete();
     UserOnLocalStorage.delete(user.id);
       
@@ -65,38 +76,38 @@ class Configs {
     })
   }
 
-  static watchDeleteAccountButton(user) {
+  watchDeleteAccountButton(user) {
     const button = document.getElementById("delete-account");
 
     button.addEventListener("click", () => {
       TokenOnSessionStorage.delete();
       UserOnLocalStorage.delete(user.id);
 
-      popup.emitter.emit('delete');
+      popup.dispatch(this.events.delete);
     })
   }
 
-  static watchStateSelect(data) {
+  watchStateSelect(data) {
     const stateSelect = document.getElementById("select-state");
     const cityInput = document.getElementById("input-city")
 
     stateSelect.addEventListener("change", (event) => {
       cityInput.value = "";
       if(!event.target.value)
-        return Configs.disableCityInput();
+        return this.disableCityInput();
 
-      Configs.enableCityInput();
-      Configs.getCities(data, event.target.value);
+      this.enableCityInput();
+      this.getCities(data, event.target.value);
     })
   }
 
-  static watchForm(oldUser) {
+  watchForm(oldUser) {
     const form = document.querySelector("main form");
 
     form.addEventListener('submit', (event) => {
       event.preventDefault();
 
-      const inputsAndSelects = Configs.collectInputsAndSelects();
+      const inputsAndSelects = this.collectInputsAndSelects();
       const [ state, state_abbr ] = inputsAndSelects.state.value.split("-")
       const user = new User({
         id: oldUser.id,
@@ -124,11 +135,11 @@ class Configs {
       UserOnLocalStorage.update(user);
       TokenOnSessionStorage.create(user);
 
-      popup.emitter.emit('update');
+      popup.dispatch(this.events.update);
     })
   }
 
-  static checkAuth() {
+  checkAuth() {
     const user = TokenOnSessionStorage.get();
     if(!user) {
       alert("Você não tem permissão para acessar esta página!");
@@ -139,7 +150,7 @@ class Configs {
     return user;
   }
 
-  static getStates(callback) {
+  getStates(callback) {
     IBGEGateway.getStates()
       .then((data) => {
         const select = document.getElementById("select-state");
@@ -157,7 +168,7 @@ class Configs {
       });
   }
 
-  static getCities(data, targetValue) {
+  getCities(data, targetValue) {
     const { abbr } = data.find((item) => (
       item.abbr === targetValue.split('-')[1]
     ));
@@ -184,24 +195,24 @@ class Configs {
       });
   }
 
-  static disableCityInput() {
+  disableCityInput() {
     const inputCity = document.getElementById("input-city")
     const cityIcon = document.getElementById("city-input-icon")
     cityIcon.className = "fa-solid fa-circle-xmark"
     inputCity.setAttribute("disabled", "");
   }
 
-  static enableCityInput() {
+  enableCityInput() {
     const inputCity = document.getElementById("input-city")
     const cityIcon = document.getElementById("city-input-icon")
     cityIcon.className = "fa-solid fa-pen-to-square"
     inputCity.removeAttribute("disabled");
   }
 
-  static start() {
-    const user = Configs.checkAuth();
+  start() {
+    const user = this.checkAuth();
     if(user.state)
-      Configs.enableCityInput();
+      this.enableCityInput();
 
     if(user.city)
       availableCities = [{
@@ -209,17 +220,18 @@ class Configs {
 		abbr: undefined
 	  }];
 
-    Configs.fillFields(user);
-    Configs.definePopupEvents();
+    this.fillFields(user);
+    this.definePopupEvents();
 
-    Configs.getStates((data) => {
-      Configs.watchStateSelect(data);
+    this.getStates((data) => {
+      this.watchStateSelect(data);
     });
 
-    Configs.watchForm(user);
-    Configs.watchDeleteAccountButton(user);
+    this.watchForm(user);
+    this.watchDeleteAccountButton(user);
   }
 } 
 
 LoginButtonHandler.trySwitchToConfigButton();
-Configs.start();
+
+new Configs().start();

@@ -210,7 +210,7 @@ export class UserOnLocalStorage {
       throw new Error('Usuário não existe!')
     }
 
-    const data = Obfuscator.translate(
+    const data = Obfuscator.obfuscate(
       JSON.stringify(UserMapper.toObject(user))
     );
     localStorage.setItem(searchedUser.email, data);

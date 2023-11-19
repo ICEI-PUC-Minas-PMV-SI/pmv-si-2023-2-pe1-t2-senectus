@@ -1,8 +1,13 @@
 class Popup {
   #emitter = mitt();
 
-  setAlert(name, eventName, callback = () => {}) {
-	this.emitter.on(eventName, () => {
+  setAlert({
+	  name, 
+	  eventName, 
+	  callback = () => {}, 
+	  time = 1500
+  }) {
+	this.#emitter.on(eventName, () => {
 	  const pin = document.getElementById('popup-pin');
 	  pin.innerHTML = `
 		<div id="wrapper">
@@ -17,12 +22,12 @@ class Popup {
 		  const popup = document.getElementById('wrapper');
 		  popup.remove();
 		  callback();
-	  }, 1500);
+	  }, time);
 	});
   }
 
-  get emitter() {
-	return this.#emitter;
+  dispatch(eventName) {
+	  this.#emitter.emit(eventName);
   }
 }
 

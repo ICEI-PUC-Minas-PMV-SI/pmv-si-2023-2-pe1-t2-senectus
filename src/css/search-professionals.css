@@ -41,6 +41,22 @@ main {
   padding: 2rem;
 }
 
+#user-card #user-card-email-button,
+#user-card #user-card-phone-number-button {
+  outline-color: var(--primary-color);
+  outline-offset: 0.25rem;
+  outline-width: 2px;
+  font-size: inherit;
+  background-color: transparent;
+  transition: color 0.2s;
+}
+
+#user-card-email-button:hover,
+#user-card-phone-number-button:hover {
+  color: var(--on-hover-text-color);
+  cursor: pointer;
+}
+
 #user-card h1 {
   font-size: 1.2rem;
 }
@@ -75,6 +91,12 @@ main {
   display: flex;
   width: 100%;
   justify-content: space-between;
+}
+
+#user-card-options .outline-colored-button {
+  max-width: 7.44rem;
+  width: 75vw;
+  height: 2.31rem;
 }
 /*----------------*/
 
@@ -292,7 +314,7 @@ main ul#professionals-list li .colored-button {
 /*-------------------------------------------*/
 
 
-@media (max-width: 333px) {
+@media (max-width: 431px) {
   #user-card-info {
     display: flex;
     flex-flow: column;
@@ -313,7 +335,7 @@ main ul#professionals-list li .colored-button {
 
 @media (max-width: 408px) {
   #user-card-options {
-    flex-flow: column;
+    flex-flow: column-reverse;
     align-items: center;
     gap: 1rem;
   }

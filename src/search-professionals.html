@@ -10,8 +10,6 @@
 
   <title>Senectus - Buscar profissionais</title>
 
-  <link rel="manifest" href="./manifest.json" />
-  <link rel="apple-touch-icon" href="/src/logo16.png"/>
   <!-- ÍCONE DO PROJETO -->
   <link rel="shortcut icon" type="image/png" href="./img/logo.png" />
   <!---------------------->
@@ -35,6 +33,9 @@
     rel="stylesheet">
   <!------------------------>
 
+  <!-- MITT EVENT LIB -->
+  <script src="https://unpkg.com/mitt/dist/mitt.umd.js"></script>
+  <!-------------------->
 </head>
 
 <body>
@@ -80,6 +81,7 @@
 
   </header>  
   <main>
+    <span id="popup-pin"></span>
     <span id="user-card-pin"></span>
     <!-- TEXTO DE INTRODUÇÃO -->
     <div id="introduction-text">

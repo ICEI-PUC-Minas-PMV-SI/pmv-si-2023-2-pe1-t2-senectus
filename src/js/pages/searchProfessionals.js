@@ -1,11 +1,10 @@
 import { UserOnLocalStorage } from "../entities/repos/localstorage/user.js"
 import { LoginButtonHandler } from "../utils/loginButton.js"
-
-const loggedUserData = LoginButtonHandler.trySwitchToConfigButton();
-
-// limitar o tamanho do email e adicionar um botão de copia e cola
+import { popup } from "../events/popup.js"
 
 class SearchProfessionals {
+  loggedUserData = LoginButtonHandler.trySwitchToConfigButton();
+
   genEmailTemplate = (user) => {
     const subject = encodeURIComponent(`Consulta com ${user.name}`);
     const body = encodeURIComponent(`Estou interessado em agendar uma consulta médica para discutir minhas necessidades de saúde e receber orientações personalizadas. Gostaria de saber mais sobre os serviços que você oferece, suas especialidades e as condições de atendimento.
@@ -24,12 +23,20 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
         <span></span>
         <ul id="user-card-info">
           <li>
-            <i class="fa-solid fa-envelope"></i>
-            <small>${user.email}</small>
+            <button id="user-card-email-button">
+              <i class="fa-solid fa-envelope"></i>
+              <small data-internalValue="${user.email}">${
+                user.email.length > 21
+                  ? user.email.slice(0, 21) + "..."
+                  : user.email
+              }</small>
+            </button>
           </li>
           <li>
-            <i class="fa-solid fa-phone"></i>
-            <small>11 1111-1111</small>
+            <button id="user-card-phone-number-button">
+              <i class="fa-solid fa-phone"></i>
+              <small>11 1111-1111</small>
+            </button>
           </li>
 
           <li>
@@ -77,7 +84,7 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
       </div>
 
       ${
-        loggedUserData && loggedUserData.id === user.id 
+        this.loggedUserData && this.loggedUserData.id === user.id 
           ? `<a href="configs" class="colored-button">
                 <i class="fa-solid fa-gear"></i>
                   Configurar 
@@ -91,6 +98,24 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
 
   rollbackButtons = [];
 
+  events = {
+    userCardEmailButton: "copy-email",
+    userCardPhoneNumberButton: "copy-phone-number"
+  }
+
+  setEvents() {
+    popup.setAlert({
+      name: 'COPIADO', 
+      eventName: this.events.userCardEmailButton, 
+      time: 500
+    });
+    popup.setAlert({
+      name: 'COPIADO', 
+      eventName: this.events.userCardPhoneNumberButton,
+      time: 500
+    });
+  }
+
   setEventsOnUserCard(contactButton, user) {
     contactButton.addEventListener("click", () => {
       const pin = document.getElementById("user-card-pin"); 
@@ -99,8 +124,30 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
       const rollbackButton = document.getElementById("user-card-rollback");
       this.rollbackButtons.push(rollbackButton);
 
+      const emailButton = document.getElementById("user-card-email-button");
+      const emailTextValue = document.querySelector(
+        "#user-card-email-button small"
+      ).dataset.internalvalue;
+      emailButton.addEventListener("click", () => {
+        popup.dispatch(this.events.userCardEmailButton);
+        navigator.clipboard.writeText(emailTextValue);
+      });
+
+
+      const phoneButton = document.getElementById("user-card-phone-number-button");
+      const phoneTextValue = document.querySelector(
+        "#user-card-phone-number-button small"
+      ).textContent;
+      phoneButton.addEventListener("click", () => {
+        popup.dispatch(this.events.userCardPhoneNumberButton);
+        navigator.clipboard.writeText(phoneTextValue);
+      });
+
       rollbackButton.addEventListener("click", () => { 
          pin.innerHTML = '';
+         rollbackButton.removeEventListener("click", () => {});
+         phoneButton.removeEventListener("click", () => {});
+         emailButton.removeEventListener("click", () => {});
       })
     })
   }
@@ -125,9 +172,9 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
       item.job
     ));
     
-    if(loggedUserData) {
+    if(this.loggedUserData) {
       const loggedUserIndex = users.findIndex((item) => (
-        item.id === loggedUserData.id
+        item.id === this.loggedUserData.id
       ));
       users.splice(loggedUserIndex, 1);
     }
@@ -139,7 +186,7 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
       this.setEventsOnUserCard(item, users[index]);
     })
   }
-  
+
   watchSelectTag() {
     const select = document.querySelector("#search-bar select");
 
@@ -200,9 +247,13 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
       })
     })
   }
+
+  start() {
+    this.setEvents();
+    this.setInitialList();
+    this.watchSelectTag();
+    this.watchForm();
+  }
 }
 
-const page = new SearchProfessionals();
-page.setInitialList();
-page.watchSelectTag();
-page.watchForm();
+new SearchProfessionals().start();
