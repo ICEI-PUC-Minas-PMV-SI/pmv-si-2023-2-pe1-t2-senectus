@@ -58,6 +58,12 @@ class Configs {
       
     window.location.href = "/src/home";
   }
+  static watchLogout() {
+    const button = document.getElementaryById("ID");
+    button.addEventListener("click", () => {
+      TokenOnSessionStorage.delete()
+    })
+  }
 
   static watchDeleteAccountButton(user) {
     const button = document.getElementById("delete-account");
@@ -97,6 +103,8 @@ class Configs {
         name: inputsAndSelects.name.value,
         email: oldUser.email,
         password: inputsAndSelects.password.value,
+        phone_number:inputsAndSelects.phone_number.value,
+        short_description:inputsAndSelects.short_description.value,
         job: inputsAndSelects.job.value ?? null,
         city: inputsAndSelects.city.value ?? null,
         state: state ?? null,

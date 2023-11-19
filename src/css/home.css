@@ -12,7 +12,7 @@
   align-items: center;
 }
 
-#description-modal div {
+#description-modal section {
   background-color: var(--primary-bg-color);
   width: 90vw;
   max-width: 26.25rem;

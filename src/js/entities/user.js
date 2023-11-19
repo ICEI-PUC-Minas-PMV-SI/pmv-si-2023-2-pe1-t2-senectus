@@ -17,7 +17,9 @@ export class User {
 		id = undefined,
 		name, 
 		email, 
-		password, 
+		password,
+		phone_number,
+		short_description, 
 		job = undefined, 
 		state = undefined,
 		state_abbr = undefined,
@@ -30,6 +32,8 @@ export class User {
 		this.#name = name;
 		this.#email = email;
 		this.#password = password;
+		this.#phone_number_number;
+		this.#short_description;
 		this.#job = job;
 		this.#state = state;
 		this.#state_abbr = state_abbr;
@@ -62,11 +66,20 @@ export class User {
 	get state() {
 		return this.#state;
 	}
+
+	get phone_number() {
+		return this.#phone_number;
+	}
+
+	get short_description() {
+			return this.#short_description;
+		}
 	
 	get state_abbr() {
 		return this.#state_abbr;
 	}
 
+	}
 	get city() {
 		return this.#city;
 	}
