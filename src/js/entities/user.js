@@ -7,6 +7,8 @@ export class User {
 	#job; 
 	#state;
 	#state_abbr;
+	#phone_number;
+	#short_description;
 	#city;
 	#city_abbr;
 	#value; 
@@ -18,8 +20,8 @@ export class User {
 		name, 
 		email, 
 		password,
-		phone_number,
-		short_description, 
+		phone_number = undefined,
+		short_description = undefined, 
 		job = undefined, 
 		state = undefined,
 		state_abbr = undefined,
@@ -32,8 +34,8 @@ export class User {
 		this.#name = name;
 		this.#email = email;
 		this.#password = password;
-		this.#phone_number_number;
-		this.#short_description;
+		this.#phone_number = phone_number;
+		this.#short_description = short_description;
 		this.#job = job;
 		this.#state = state;
 		this.#state_abbr = state_abbr;
@@ -72,14 +74,14 @@ export class User {
 	}
 
 	get short_description() {
-			return this.#short_description;
-		}
+		return this.#short_description;
+	}
 	
 	get state_abbr() {
 		return this.#state_abbr;
 	}
 
-	}
+	
 	get city() {
 		return this.#city;
 	}

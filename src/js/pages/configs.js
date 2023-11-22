@@ -37,16 +37,29 @@ class Configs {
     const [
       name,
       password,
+      short_description,
+      phone_number,
       city,
-      price 
+      price
     ] = [
       inputs[0],
       inputs[1],
       inputs[2],
-      inputs[3]
+      inputs[3],
+      inputs[4],
+      inputs[5]
     ]
 
-    return { name, password, state, city, price, job }
+    return { 
+      name, 
+      password, 
+      state, 
+      city, 
+      price, 
+      job,
+      short_description,
+      phone_number
+    }
   }
 
   fillFields(user) {
@@ -55,6 +68,8 @@ class Configs {
 
     inputsAndSelects.name.value = userInClass.name;
     inputsAndSelects.password.value = userInClass.password;
+    inputsAndSelects.short_description.value = userInClass.short_description ?? null;
+    inputsAndSelects.phone_number.value = userInClass.phone_number ?? null;
     inputsAndSelects.job.value = userInClass.job ?? null;
     inputsAndSelects.city.value = userInClass.city ?? null;
     inputsAndSelects.state.innerHTML = userInClass.state 
@@ -69,10 +84,12 @@ class Configs {
       
     window.location.href = "/src/home";
   }
-  static watchLogout() {
-    const button = document.getElementaryById("ID");
+
+  watchLogoutButton() {
+    const button = document.getElementById("logout");
     button.addEventListener("click", () => {
       TokenOnSessionStorage.delete()
+      window.location.href = "/src/login"
     })
   }
 
@@ -116,11 +133,11 @@ class Configs {
         password: inputsAndSelects.password.value,
         phone_number:inputsAndSelects.phone_number.value,
         short_description:inputsAndSelects.short_description.value,
-        job: inputsAndSelects.job.value ?? null,
-        city: inputsAndSelects.city.value ?? null,
-        state: state ?? null,
-        state_abbr: state_abbr ?? null,
-        value: inputsAndSelects.price.value ?? null
+        job: inputsAndSelects.job.value,
+        city: inputsAndSelects.city.value,
+        state: state,
+        state_abbr: state_abbr,
+        value: inputsAndSelects.price.value
       });
 
       try {
@@ -229,6 +246,7 @@ class Configs {
 
     this.watchForm(user);
     this.watchDeleteAccountButton(user);
+    this.watchLogoutButton();
   }
 } 
 

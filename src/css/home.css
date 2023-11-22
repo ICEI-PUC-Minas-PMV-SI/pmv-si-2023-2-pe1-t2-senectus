@@ -1,3 +1,9 @@
+#pin-modal {
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
 #description-modal {
   width: 100vw;
   height: 100vh;

@@ -1,5 +1,6 @@
 import { UserOnLocalStorage } from "../entities/repos/localstorage/user.js"
 import { LoginButtonHandler } from "../utils/loginButton.js"
+import { FormatPhoneNumber } from "../utils/formatPhoneNumber.js"
 import { popup } from "../events/popup.js"
 
 class SearchProfessionals {
@@ -19,7 +20,7 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
     <div id="popup-wrapper-user-card">
       <section id="user-card">
         <h1>${user.name}</h1>
-        <p>Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur.</p>
+        <p>${user.short_description}</p>
         <span></span>
         <ul id="user-card-info">
           <li>
@@ -35,7 +36,7 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
           <li>
             <button id="user-card-phone-number-button">
               <i class="fa-solid fa-phone"></i>
-              <small>11 1111-1111</small>
+              <small>${FormatPhoneNumber.format(String(user.phone_number))}</small>
             </button>
           </li>
 
@@ -165,11 +166,13 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
     const list = document.getElementById("professionals-list");
     let users = UserOnLocalStorage.getGroupOf(9);
     users = users.filter((item) => (
-      item.value ||
-      item.city ||
-      item.state ||
-      item.state_abbr ||
-      item.job
+      item.value &&
+      item.city &&
+      item.state &&
+      item.state_abbr &&
+      item.job &&
+      item.phone_number &&
+      item.short_description
     ));
     
     if(this.loggedUserData) {
@@ -198,11 +201,13 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
       const list = document.getElementById("professionals-list");
       let users = UserOnLocalStorage.findGroupWithJob(job);
       users = users.filter((item) => (
-        item.value ||
-        item.city ||
-        item.state ||
-        item.state_abbr ||
-        item.job
+        item.value &&
+        item.city &&
+        item.state &&
+        item.state_abbr &&
+        item.job &&
+        item.phone_number &&
+        item.short_description
       ));
       list.innerHTML = this.buildList(users.length, users);
 
@@ -228,11 +233,13 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
       const list = document.getElementById("professionals-list");
       let users = UserOnLocalStorage.getGroupWithRegExp(input);
       users = users.filter((item) => (
-        item.value ||
-        item.city ||
-        item.state ||
-        item.state_abbr ||
-        item.job
+        item.value &&
+        item.city &&
+        item.state &&
+        item.state_abbr &&
+        item.job &&
+        item.phone_number &&
+        item.short_description
       ));
       list.innerHTML = this.buildList(users.length, users);
 

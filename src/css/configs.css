@@ -31,19 +31,21 @@ main h1.prettify-title::before {
 main form {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 2.5rem;
+  grid-gap: 1rem;
   width: 90vw;
   max-width: 61.45rem;
 }
 
 main form fieldset {
   display: grid;
+  width: fit-content;
   border: none;
 }
 
 main form label {
   display: flex;
   flex-flow: column;
+  width: inherit;
   margin-bottom: 0.5rem;
 }
 
@@ -54,8 +56,8 @@ main form div {
 
 main form fieldset div input,
 main form fieldset div select {
-  width: 39vw;
-  max-width: 27rem;
+  width: 36vw;
+  max-width: 24rem;
   padding-left: 0.5rem;
   background-color: transparent;
   height: 2rem;
@@ -81,21 +83,41 @@ main form div i {
   color: var(--primary-color);
   z-index: 1;
   top: 30%;
-  left: 85%;
+  left: 91%;
 }
 
-#form-buttons {
+#extra-actions {
+  display: flex;
+  margin-top: 1.5rem;
+  gap: 3rem;
+}
+
+#submit-button {
   display: flex;
   margin-top: 1.5rem;
   gap: 3rem;
 }
 /*----------------------*/
 
+/* ESTILIZAÇÃO PARA TELAS MENORES QUE 1000 PX */
+@media (min-width: 1000px) {
+  main form div i {
+    position: absolute;
+    color: var(--primary-color);
+    z-index: 1;
+    top: 30%;
+    left: 95%;
+  }
+}
+/*-------------------------------------------*/
+
+/* ESTILIZAÇÃO PARA TELAS MENORES QUE 985 PX */
 @media (max-width: 985px) {
   main form div i {
     top: 20%;
   }
 }
+/*-------------------------------------------*/
 
 /* ESTILIZAÇÃO PARA TELAS MENORES QUE 697 PX */
 @media (max-width: 697px) {
@@ -126,14 +148,15 @@ main form div i {
     text-align: center;
   }
 
-  #form-buttons {
+  main form div i {
+    left: 93%;
+  }
+
+  #extra-actions {
     flex-flow: column;
     justify-content: normal;
     gap: 1rem;
-  }
-
-  main form div i {
-    left: 93%;
+    place-self: center;
   }
 }
 /*-------------------------------------------*/

@@ -100,7 +100,7 @@
           Nome 
         </label>
         <div>
-          <input minlength="3" type="text" id="input-name" name="full-name">
+          <input minlength="2" maxlength="24" type="text" id="input-name" name="full-name">
           <i class="fa-solid fa-pen-to-square"></i>
         </div>
       </fieldset>
@@ -110,7 +110,27 @@
           Senha
         </label>
         <div>
-          <input minlength="6" type="password" id="input-password" name="password">
+          <input minlength="6" maxlength="256" type="password" id="input-password" name="password">
+          <i class="fa-solid fa-pen-to-square"></i>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <label for="input-short-description">
+          Descrição curta
+        </label>
+        <div>
+          <input minlength="6" maxlength="116" type="text" id="input-short-description" name="input-short-description">
+          <i class="fa-solid fa-pen-to-square"></i>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <label for="input-phone-number">
+          Telefone
+        </label>
+        <div>
+          <input minlength="9" maxlength="11" type="number" id="input-phone-number" name="input-phone-number">
           <i class="fa-solid fa-pen-to-square"></i>
         </div>
       </fieldset>
@@ -169,16 +189,20 @@
         </div>
       </fieldset>
 
-      <div id="form-buttons">
-        <button id="delete-account" type="button" class="colored-button">
-          <b>Deletar conta</b>
-        </button>
-
-        <button type="submit" class="colored-button">
-          <b>Salvar</b>
-        </button>
-      </div>
+      <button id="submit-button" type="submit" class="colored-button">
+        <b>Salvar</b>
+      </button>
     </form>
+
+    <div id="extra-actions">
+      <button id="delete-account" type="button" class="outline-colored-button">
+        <b>Deletar conta</b>
+      </button>
+
+      <button id="logout" type="button" class="outline-colored-button">
+        <b>Desconectar</b>
+      </button> 
+    </div>
   </main>
 
   <!-- CAMPO DO RODAPÉ -->

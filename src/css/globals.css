@@ -220,7 +220,6 @@ main #popup {
   align-items: center;
   gap: 1rem;
   padding: 0 1.5rem;
-  width: 80vw;
   max-width: 15rem;
   min-height: 3.5rem;
   border-radius: 12px;

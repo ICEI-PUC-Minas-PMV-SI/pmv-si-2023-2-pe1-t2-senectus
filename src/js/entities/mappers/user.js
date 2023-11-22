@@ -35,19 +35,19 @@ export class UserMapper {
 		createdAt
 	}) {
 		return new User({
-			id: id, 
-			name: name, 
-			email: email, 
-			password: password, 
+			id, 
+			name, 
+			email, 
+			password, 
 			phone_number,
 			short_description,
-			job: job, 
-			state: state,
-			state_abbr: state_abbr,
-			city: city,
-			city_abbr: city_abbr,
-			value: value,
-			createdAt: createdAt
+			job, 
+			state,
+			state_abbr,
+			city,
+			city_abbr,
+			value,
+			createdAt
 		});
 	}
 }
