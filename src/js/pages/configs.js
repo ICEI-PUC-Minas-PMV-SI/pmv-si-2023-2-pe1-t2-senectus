@@ -20,7 +20,7 @@ class Configs {
       name: 'CONTA DELETADA!', 
       eventName: this.events.delete, 
       callback: () => {
-        window.location.href = "/src/home";
+        window.location.href = "home";
       }
     });
     popup.setAlert({
@@ -82,14 +82,14 @@ class Configs {
     TokenOnSessionStorage.delete();
     UserOnLocalStorage.delete(user.id);
       
-    window.location.href = "/src/home";
+    window.location.href = "home";
   }
 
   watchLogoutButton() {
     const button = document.getElementById("logout");
     button.addEventListener("click", () => {
       TokenOnSessionStorage.delete()
-      window.location.href = "/src/login"
+      window.location.href = "login"
     })
   }
 
