@@ -32,7 +32,7 @@ class Cadastro {
       UserOnLocalStorage.create(user);
       TokenOnSessionStorage.create(user);
  
-      window.location.href = '/src/configs';
+      window.location.href = 'configs';
     })
   }
 } 
