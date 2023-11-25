@@ -68,7 +68,7 @@
 }
 /*------*/
 
-/* OPÇÕES */
+/* OPÇÕES NAV*/
 #header ul {
   display: none; 
 }
@@ -156,6 +156,7 @@ header ul li a#login-button:hover {
   #header menu {
     display: none;
   }
+
 
   #header ul {
     display: flex;
