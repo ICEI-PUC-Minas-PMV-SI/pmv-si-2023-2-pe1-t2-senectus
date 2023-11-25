@@ -159,6 +159,7 @@ header ul li a#login-button:hover {
 
   #header ul {
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 3rem;
   }
@@ -174,6 +175,9 @@ header ul li a#login-button:hover {
 
   #header ul li a:hover {
     color: #334155;
+  }
+  .open {
+    display: block;
   }
 }
 /*-------------*/
