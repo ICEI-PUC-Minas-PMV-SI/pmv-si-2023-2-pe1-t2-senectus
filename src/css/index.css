@@ -72,6 +72,60 @@
 #header ul {
   display: none; 
 }
+
+/* QUANDO ATIVADA NO MOBILE */
+body.open-header {
+  overflow: hidden;
+}
+
+#header ul.open-header {
+  display: grid;
+}
+
+#header.open-header {
+  height: 100vh;
+  padding: 0;
+  display: grid;
+  grid-template-areas: 
+    "logo menu"
+    "list list";
+  grid-template-columns: 1fr;
+  grid-template-rows: clamp(5.25rem, 2.25vh, 17rem) 1fr;
+}
+
+#logo.open-header {
+  padding-top: 1rem;
+  padding-left: 2.75rem;
+}
+
+menu.open-header {
+  display: flex;
+  padding-top: 1rem;
+  padding-right: 2.75rem;
+  justify-content: end;
+}
+
+#header ul.open-header {
+  display: grid;
+  grid-area: list;
+  grid-gap: 1rem;
+  margin-top: 8rem;
+  place-self: center;
+  align-self: start;
+  text-align: center;
+  justify-content: center;
+  width: clamp(14rem, 80vw, 20rem);
+}
+
+header ul li button #login-button .open-header,
+header ul li a#login-button.open-header {
+  width: clamp(11.5rem, 29.5vw, 14.5rem);
+  height: clamp(2.5rem, 9.5vh, 3.25rem);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+/*--------------------------*/
+
 /*--------*/
 
 /* IMAGEM DA LOGO */

@@ -4,14 +4,14 @@ LoginButtonHandler.trySwitchToConfigButton();
 
 class Home {
   static buildDescriptionModal = (name, description) => `
-  <div id="description-modal">
-          <section>
-        <h2>${name}</h2>
-        <p>${description}</p>
-        <button id="modal-rollback" class="colored-button">
-         Voltar
-        </button>
-      </section>
+      <div id="description-modal">
+        <section>
+          <h2>${name}</h2>
+          <p>${description}</p>
+          <button id="modal-rollback" class="colored-button">
+            Voltar
+          </button>
+        </section>
       </div>
       `
 
@@ -62,6 +62,16 @@ class Home {
        })
       }
    }
+
+  static watchMenuButton() {
+    const button = document.getElementById("menu-button")
+    const menu = document.querySelector("menu")
+
+    button.addEventListener("click", () => {
+      menu.classList.toggle("open-header")
+    })
+  }
 }
 
+Home.watchMenuButton();
 Home.watchDescriptionButtons();
