@@ -93,12 +93,12 @@ body.open-header {
   grid-template-rows: clamp(5.25rem, 2.25vh, 17rem) 1fr;
 }
 
-
 menu.open-header {
   display: flex;
   padding-top: 1rem;
   padding-right: 2.75rem;
   justify-content: center;
+ 
 }
 
 #header ul.open-header {
