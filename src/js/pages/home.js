@@ -65,10 +65,14 @@ class Home {
 
   static watchMenuButton() {
     const button = document.getElementById("menu-button")
-    const menu = document.querySelector("menu")
+    const menu = document.getElementById('menu')
+    const logo = document.getElementById('logo')
+    const body = document.querySelector('body')
 
     button.addEventListener("click", () => {
       menu.classList.toggle("open-header")
+      logo.classList.toggle("open-header")
+      body.classList.toggle("open-header")
     })
   }
 }
