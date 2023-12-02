@@ -84,13 +84,7 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
 
       </div>
 
-      ${
-        this.loggedUserData && this.loggedUserData.id === user.id 
-          ? `<a href="configs" class="colored-button">
-                <i class="fa-solid fa-gear"></i>
-                  Configurar 
-            </a>`
-          : `<button id="make-contact" class="colored-button">
+              : `<button id="make-contact" class="colored-button">
                 <i class="fa-regular fa-calendar"></i>
                 Contatar 
             </button>`
