@@ -1,7 +1,7 @@
 import { DTOError } from "./error.js"
 
 export class CreateUserDTO {
-	static validate(name, email, password, confirmPassword) {
+	static validate(name, email, password) {
 		const lengthErrors = [
 			'Nome precisa conter entre 2 a 24 caracteres.',
 			'Email precisa conter entre 3 a 256 caracteres.',
