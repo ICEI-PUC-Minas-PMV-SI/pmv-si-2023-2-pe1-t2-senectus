@@ -23,10 +23,10 @@ class Cadastro {
         inputs[3].value
         
       ];
+       try {
       if(password !== confirmPassword)
         throw new Error("Não foi possível confirmar a senha corretamente");
 
-      try {
         CreateUserDTO.validate(name, email, password, confirmPassword)
       } catch(err) {
         alert(err.message);
