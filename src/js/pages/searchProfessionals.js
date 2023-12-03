@@ -84,7 +84,7 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
 
       </div>
 
-              : `<button id="make-contact" class="colored-button">
+     :`<button id="make-contact" class="colored-button">
                 <i class="fa-regular fa-calendar"></i>
                 Contatar 
             </button>`
@@ -169,13 +169,6 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
       item.short_description
     ));
     
-    if(this.loggedUserData) {
-      const loggedUserIndex = users.findIndex((item) => (
-        item.id === this.loggedUserData.id
-      ));
-      users.splice(loggedUserIndex, 1);
-    }
-
     list.innerHTML = this.buildList(users.length, users);
 
     const buttons = document.querySelectorAll("#professionals-list li #make-contact")
