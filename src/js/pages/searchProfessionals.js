@@ -63,8 +63,8 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
         </section>
       </section>
     </div>
-
-  genLiTag = (user) => 
+`
+  genLiTag = (user) => `
     <li>
       <small class="specialty">${user.job ?? 'Não informado'}</small>
       <h2>${user.name}</h2>
