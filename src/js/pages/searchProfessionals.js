@@ -84,11 +84,11 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
 
       </div>
 
-     :`<button id="make-contact" class="colored-button">
+     :<button id="make-contact" class="colored-button">
                 <i class="fa-regular fa-calendar"></i>
                 Contatar 
-            </button>`
-      }
+            </button>
+    
     </li>`
 
   rollbackButtons = [];
