@@ -13,8 +13,6 @@ export class CreateUserDTO {
 			'Email não é uma string',
 			'Senha não é uma string'
 		];
-		const equalParams = [
-			'Não foi possível confirmar senha'
 
 		const typeValidation = [
 			typeof name === 'string',
