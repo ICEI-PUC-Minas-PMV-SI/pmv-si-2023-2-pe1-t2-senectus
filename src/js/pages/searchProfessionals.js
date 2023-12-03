@@ -63,9 +63,8 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
         </section>
       </section>
     </div>
-  `
 
-  genLiTag = (user) => `
+  genLiTag = (user) => 
     <li>
       <small class="specialty">${user.job ?? 'Não informado'}</small>
       <h2>${user.name}</h2>
@@ -84,12 +83,12 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
 
       </div>
 
-     :<button id="make-contact" class="colored-button">
+     <button id="make-contact" class="colored-button">
                 <i class="fa-regular fa-calendar"></i>
                 Contatar 
             </button>
     
-    </li>`
+    </li>
 
   rollbackButtons = [];
 
