@@ -6,6 +6,7 @@ import { LoginButtonHandler } from "../utils/loginButton.js";
 import { IBGEGateway } from "../gateways/APIs/ibge.js";
 import { ConfigDTO } from "../DTO/configs.dto.js";
 import { popup } from "../events/popup.js"
+import { MenuMobile } from "../utils/menuMobile.js";
 
 let availableCities = [];
 
@@ -251,5 +252,5 @@ class Configs {
 } 
 
 LoginButtonHandler.trySwitchToConfigButton();
-
+MenuMobile.watchMenuButton();
 new Configs().start();

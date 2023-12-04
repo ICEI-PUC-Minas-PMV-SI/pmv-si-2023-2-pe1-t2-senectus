@@ -2,6 +2,7 @@ import { UserOnLocalStorage } from "../entities/repos/localstorage/user.js"
 import { LoginButtonHandler } from "../utils/loginButton.js"
 import { FormatPhoneNumber } from "../utils/formatPhoneNumber.js"
 import { popup } from "../events/popup.js"
+import { MenuMobile } from "../utils/menuMobile.js"
 
 class SearchProfessionals {
   loggedUserData = LoginButtonHandler.trySwitchToConfigButton();
@@ -264,3 +265,4 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
 }
 
 new SearchProfessionals().start();
+MenuMobile.watchMenuButton();

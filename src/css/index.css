@@ -92,7 +92,7 @@ body.open-header {
   grid-template-columns: 1fr;
   grid-template-rows: clamp(5.25rem, 2.25vh, 17rem) 1fr;
 }
-#logo.open-header {
+#header a.open-header {
   padding-top: 1rem;
   padding-left: 2.75rem;
 }
