@@ -33,7 +33,7 @@ class Login {
       }
 
       TokenOnSessionStorage.create(user);
-      window.location.href = 'home';
+      window.location.href = 'configs';
     })
   }
 } 
