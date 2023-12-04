@@ -64,18 +64,14 @@ class Home {
    }
 
   static watchMenuButton() {
-    const buttonMobile = document.getElementById("button-mobile")
-    const menuMobile = document.getElementById('menu-mobile')
+    const button = document.getElementById("menu-button")
+    const menu = document.getElementById('menu')
     const header = document.getElementById('header')
     const logo = document.getElementById('logo')
     const body = document.querySelector('body')
-    const liLogin = document.getElementById('login-option')
 
     button.addEventListener("click", () => {
       menu.classList.toggle("open-header")
-      liLogin.classList.toggle("open-header")
-      buttonMobile.classList.toggle("open-header")
-      menuMobile.classList.toggle("open-header")
       logo.classList.toggle("open-header")
       body.classList.toggle("open-header")
       header.classList.toggle("open-header")
