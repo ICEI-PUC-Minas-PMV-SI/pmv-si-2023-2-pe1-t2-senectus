@@ -10,7 +10,6 @@ export class MenuMobile {
         const loginButton = document.getElementById('login-button')
         
         button.addEventListener("click", () => {
-            debugger   
           menuNavUl.classList.toggle("open-header")
           logo.classList.toggle("open-header")
           body.classList.toggle("open-header")

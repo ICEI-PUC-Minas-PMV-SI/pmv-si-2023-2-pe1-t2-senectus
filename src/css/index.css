@@ -125,6 +125,7 @@ header ul li a#login-button.open-header {
   height: clamp(2.5rem, 9.5vh, 3.25rem);
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  padding-bottom: 1rem;
 }
 /*--------------------------*/
 
