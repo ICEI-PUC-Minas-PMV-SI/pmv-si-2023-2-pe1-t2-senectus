@@ -6,6 +6,7 @@ export class CreateUserDTO {
 			'Nome precisa conter entre 2 a 24 caracteres.',
 			'Email precisa conter entre 3 a 256 caracteres.',
 			'Senha precisa conter entre 6 a 256 caracteres.'
+			
 		];
 		const typeError = [
 			'Nome não é uma string',

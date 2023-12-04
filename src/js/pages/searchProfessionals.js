@@ -63,8 +63,7 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
         </section>
       </section>
     </div>
-  `
-
+`
   genLiTag = (user) => `
     <li>
       <small class="specialty">${user.job ?? 'Não informado'}</small>
@@ -84,18 +83,12 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
 
       </div>
 
-      ${
-        this.loggedUserData && this.loggedUserData.id === user.id 
-          ? `<a href="configs" class="colored-button">
-                <i class="fa-solid fa-gear"></i>
-                  Configurar 
-            </a>`
-          : `<button id="make-contact" class="colored-button">
+     <button id="make-contact" class="colored-button">
                 <i class="fa-regular fa-calendar"></i>
                 Contatar 
-            </button>`
-      }
-    </li>`
+            </button>
+    
+    </li>
 
   rollbackButtons = [];
 
@@ -175,13 +168,6 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
       item.short_description
     ));
     
-    if(this.loggedUserData) {
-      const loggedUserIndex = users.findIndex((item) => (
-        item.id === this.loggedUserData.id
-      ));
-      users.splice(loggedUserIndex, 1);
-    }
-
     list.innerHTML = this.buildList(users.length, users);
 
     const buttons = document.querySelectorAll("#professionals-list li #make-contact")

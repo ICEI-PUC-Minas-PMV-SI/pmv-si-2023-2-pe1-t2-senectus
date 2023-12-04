@@ -14,15 +14,20 @@ class Cadastro {
       const [
         name,
         email,
-        password
+        password,
+        confirmPassword
       ] = [ 
         inputs[0].value, 
         inputs[1].value,
-        inputs[2].value
+        inputs[2].value,
+        inputs[3].value
+        
       ];
+       try {
+      if(password !== confirmPassword)
+        throw new Error("Não foi possível confirmar a senha corretamente");
 
-      try {
-        CreateUserDTO.validate(name, email, password)
+        CreateUserDTO.validate(name, email, password, confirmPassword)
       } catch(err) {
         alert(err.message);
         throw err
@@ -32,7 +37,7 @@ class Cadastro {
       UserOnLocalStorage.create(user);
       TokenOnSessionStorage.create(user);
  
-      window.location.href = 'configs';
+      window.location.href = 'home';
     })
   }
 } 
