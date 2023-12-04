@@ -180,6 +180,15 @@ header ul li a#login-button:hover {
 }
 /*----------------*/
 
+#voltar-home {
+  position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%; /* Para ocupar a largura total da tela */
+      height: 100%; /* Para ocupar a altura total da tela */
+      z-index: 1; /* Coloca a imagem atrás do conteúdo ou nao */
+}
+
 /* MEDIA RULES */
 @media (max-width: 242px) {
   #header a img {
