@@ -82,6 +82,7 @@ body.open-header {
   display: grid;
 }
 
+
 #header.open-header {
   height: 100vh;
   padding: 0;
@@ -91,6 +92,7 @@ body.open-header {
     "list list";
   grid-template-columns: 1fr;
   grid-template-rows: clamp(5.25rem, 2.25vh, 17rem) 1fr;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.2);
 }
 #logo.open-header {
   padding-top: 1rem;
