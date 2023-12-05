@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Bem-vindo ao Senectus, um ambiente onde você pode aprimorar cada vez mais a sua saúde.">
+  <meta name="keywords" content="Senectus, PUC, exercício, saúde">
+
+  <title>Senectus - Buscar profissionais</title>
+
+  <!-- ÍCONE DO PROJETO -->
+  <link rel="shortcut icon" type="image/png" href="./img/logo.png" />
+  <!---------------------->
+
+  <!--CSS DO PROJETO-->
+  <link rel="stylesheet" href="./css/globals.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="./css/search-professionals.css" />
+  <!------------------>
+
+  <!--FONT AWESOME-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!---------------->
+
+  <!-- FONTES DO PROJETOS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap"
+    rel="stylesheet">
+  <!------------------------>
+
+  <!-- MITT EVENT LIB -->
+  <script src="https://unpkg.com/mitt/dist/mitt.umd.js"></script>
+  <!-------------------->
+</head>
+
+<body>
+  <header id="header">
+    <!-- LOGO -->
+    <a href="home">
+      <img src="./img/logo-tipo.png" alt="Logotipo do Senectus" />
+    </a>
+    <!---------->
+
+    <!-- CAMPO DE OPÇÕES -->
+    <ul>
+      <li>
+        <a href="home">
+          Sobre nós
+        </a>
+      </li>
+      <li>
+        <a href="exercises-types">
+          Biblioteca de exercícios
+        </a>
+      </li>
+      <li>
+        <a href="search-professionals">
+          Encontre profissionais
+        </a>
+      </li>
+      <li id="login-option">
+        <a href="login" id="login-button">
+          Entrar como profissional
+        </a>
+      </li>
+    </ul>
+    <!--------------------->
+
+    <!-- CAMPO DO MENU -->
+    <menu>
+      <button>
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </menu>
+    <!------------------->
+
+  </header>  
+  <main>
+    <span id="popup-pin"></span>
+    <span id="user-card-pin"></span>
+    <!-- TEXTO DE INTRODUÇÃO -->
+    <div id="introduction-text">
+      <h1 class="prettify-title">
+        Conheça nossos profissionais
+      </h1>
+      <p>
+        Encontre Especialistas em Saúde para Idosos em Nosso Marketplace!
+      </p>
+    </div>
+    <!------------------------->
+
+    <!-- BARRA DE PESQUISA -->
+    <form id="search-bar">
+      <button type="submit">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+      <input type="text" name="professional" placeholder="Procurar">
+      <select>
+        <option value="Recentes">
+          Mais recentes
+        </option>
+        <option value="Personal Trainer">
+          Personal trainer
+        </option> 
+        <option value="Fisioterapeuta">
+          Fisioterapeuta
+        </option> 
+        <option value="Nutricionista">
+          Nutricionista
+        </option>
+        <option value="Médico">
+          Médico
+        </option>
+      </select>
+    </form>
+    <!----------------------->
+
+    <!-- LISTA DE PROFISSIONAIS -->
+    <ul id="professionals-list"></ul>
+    <!---------------------------->
+  </main>
+
+  <!-- CAMPO DO RODAPÉ -->
+  <footer id="footer">
+    <div id="footer-title">
+      <h1>Senectus</h1>
+      <span>®</span>
+    </div>
+    
+    <small> 
+      Todos os direitos reservados.    
+    </small>
+      
+  </footer>
+  <!--------------------->
+
+  <script type="module" src="./js/pages/searchProfessionals.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* VARIAVEIS */
+:root {
+  --logo-color: #773EA6;
+  --primary-color: #7D4ED0;
+  --on-hover-primary-color: #8C62D5;
+  --on-hover-primary-color-op: rgba(140, 98, 213, 0.35);
+  --secondary-color: #F3C8FF;
+  --primary-bg-color: #FDFDFD;
+  --secondary-bg-color: #F3F4FC;
+  --inverted-bg-color: #262626;
+  --text-color: #0F172A;
+  --text-color-op: rgba(15, 23, 42, 0.2);
+  --on-hover-text-color: #2D323E;
+  --inverted-text-color: #FDFDFD;
+}
+/*------------*/
+
+body {
+  display: grid;
+  background-color: var(--primary-bg-color);
+  min-height: 100vh;
+  overflow-x: hidden;
+  color: var(--text-color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+
+main {
+  display: grid;
+  min-height: 100vh;
+}
+
+button {
+  border: none;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700
+}
+
+.prettify-title {
+  position: relative;
+}
+
+.prettify-title::before {
+  border-radius: 0.5rem;
+  content: '';
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  left: 3%;
+  top: 3px;
+  bottom: 0;
+  background-color: var(--primary-color);
+  width: 2rem;
+  height: 2rem;
+}
+
+@media(max-width: 435px), (min-width: 269px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 704px) {
+  .prettify-title::before {
+    width: 1.20rem;
+    height: 1.20rem;
+    border-radius: 0.25rem;
+  }
+}
+
+@media(min-width: 705px) {
+   h1 {
+    font-size: 3rem;
+  }
+}
+
+@media(max-width: 268px) {
+  body main, 
+  body header, 
+  body footer {
+    font-size: 0.75rem;
+  }
+
+  main h1 {
+    font-size: 1.25rem;
+  }
+
+  .prettify-title::before {
+    width: 0.95rem;
+    height: 0.95rem;
+  }
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  width: fit-content;
+}
+
+li {
+  list-style: none;
+}
+
+@media (min-width: 985px) {
+  body {
+    font-size: 0.75rem;
+  }
+}
+
+/*
+* CONFIGURAÇÕES PARA A SCROLLBAR 
+* EM ALGUNS BROWSERS
+**/
+
+/* SCROLLBAR INTEIRA */
+::-webkit-scrollbar {
+  width: 4px;
+}
+/*-------------------*/
+
+/* PARTE ARRASTÁVEL DO SCROLL */
+::-webkit-scrollbar-thumb {
+  background: #838080;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555555;
+}
+/*----------------------------*/
+
+/* BOTÃO CUSTOMIZADO */
+.colored-button {
+  display: flex;
+  gap: 0.75rem;
+  font-size: 0.85rem;
+  width: 75vw;
+  max-width: 7.44rem;
+  height: 2.31rem;
+  border-radius: 12px;
+  border: none;
+  background-color: var(--primary-color);
+  align-items: center;
+  justify-content: center;
+  color: white;
+  outline-color: var(--primary-color);
+  outline-offset: 0.25rem;
+  outline-width: 2px;
+  transition: background-color 0.2s;
+}
+
+.colored-button:hover {
+  background-color: var(--on-hover-primary-color);
+  cursor: pointer;
+}
+
+.colored-button:hover {
+  color: white;
+}
+/*-------------------*/
+
+/* BOTÃO CUSTOMIZADO APENAS COM BORDA */
+.outline-colored-button {
+  display: flex;
+  width: 9.44rem;
+  height: 2.31rem;
+  border-radius: 12px;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--primary-color);
+  outline-color: var(--primary-color);
+  outline-offset: 0.25rem;
+  outline-width: 2px;
+  transition: all 0.2s;
+}
+
+.outline-colored-button:hover {
+  border: 1px solid var(--on-hover-primary-color);
+  color: var(--on-hover-text-color);
+  cursor: pointer;
+}
+/*------------------------------------*/
+
+/* SEÇÃO DO POPUP */
+main #wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  place-content: center;
+}
+
+main #popup {
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1.5rem;
+  max-width: 15rem;
+  min-height: 3.5rem;
+  border-radius: 12px;
+}
+
+main #popup i {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  width: 18vw;
+  max-width: 2rem;
+  height: 18vh;
+  max-height: 2rem;
+  padding: 0.5rem;
+  display: flex;
+  place-content: center;
+  align-items: center;
+  clip-path: circle();
+}
+/*----------------*/
+

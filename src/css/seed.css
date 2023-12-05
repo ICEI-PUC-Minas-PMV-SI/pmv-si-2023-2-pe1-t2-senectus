@@ -1,0 +1,29 @@
+main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+
+  align-items: center;
+  justify-content: center;
+}
+
+main div#box {
+  width: 80%;
+  max-width: 20rem;
+  max-height: 15rem;
+  height: 40%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: var(--primary-bg-color);
+  border: 1px solid var(--text-color); 
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.2); 
+  gap: 1rem;
+}
+
+main div#box h1#title {
+  font-size: 1.5rem;
+}

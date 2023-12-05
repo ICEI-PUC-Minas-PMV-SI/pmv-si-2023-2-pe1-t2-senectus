@@ -1,0 +1,342 @@
+/* SEÇÃO DA MAIN PADRÃO */
+main {
+  margin-top: 8rem;
+  display: flex;
+  flex-flow: column;
+  place-self: center;
+  justify-content: start;
+  width: 90vw;
+  max-width: 62.25rem;
+  padding: 1rem 2rem;
+}
+/*----------------------*/
+
+/* SEÇÃO DO POPUP */
+#popup-wrapper-user-card {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  justify-content: center;
+  align-items: center;
+}
+
+#popup-wrapper-user-card #user-card {
+  background-color: var(--primary-bg-color);
+  width: 90vw;
+  max-width: 26.25rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 12px;
+  box-shadow: 1px 1px 10px rgb(0 0 0 / 5%);
+  border: 1px solid var(--primary-color);
+  padding: 2rem;
+}
+
+#user-card #user-card-email-button,
+#user-card #user-card-phone-number-button {
+  outline-color: var(--primary-color);
+  outline-offset: 0.25rem;
+  outline-width: 2px;
+  font-size: inherit;
+  background-color: transparent;
+  transition: color 0.2s;
+}
+
+#user-card-email-button:hover,
+#user-card-phone-number-button:hover {
+  color: var(--on-hover-text-color);
+  cursor: pointer;
+}
+
+#user-card h1 {
+  font-size: 1.2rem;
+}
+
+#user-card p,
+#user-card h1 {
+  text-align: center;
+}
+
+#user-card span {
+  width: 100%;
+  height: 1px;
+  background-color: var(--text-color-op);
+}
+
+#user-card-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: start;
+}
+
+#user-card-info li {
+  width: max-content;
+}
+
+#user-card-info li:nth-child(2),
+#user-card-info li:nth-child(4) {
+  place-self: end;
+}
+
+#user-card-options {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#user-card-options .outline-colored-button {
+  max-width: 7.44rem;
+  width: 75vw;
+  height: 2.31rem;
+}
+/*----------------*/
+
+/* SEÇÃO DA TEXTO DE INTRODUÇÃO */
+#introduction-text {
+  display: grid;
+  width: 80%;
+  max-width: 35rem;
+  gap: 0.5rem;
+}
+
+#introduction-text .prettify-title::before {
+  left: -2%;
+}
+
+#introduction-text p {
+  margin-bottom: 2.5rem;
+}
+/*------------------------------*/
+
+/* SEÇÃO DE BARRA DE PESQUISA */
+#search-bar {
+  position: relative;
+  display: flex;
+  height: 24.5vw;
+  max-height: 2.7rem;
+  justify-content: space-between;
+}
+
+#search-bar input {
+  width: 64.21vw;
+  max-width: 52rem;
+  height: 24.5vw;
+  max-height: 2.7rem;
+  outline-color: var(--primary-color);
+  outline-offset: 0.25rem;
+  outline-width: 2px;
+  border-radius: 12px;
+  border: none;
+  background-color: var(--secondary-bg-color);
+  padding-left: 3.5rem;
+}
+
+#search-bar input:hover {
+  cursor: pointer;
+}
+
+#search-bar button {
+  position: absolute;
+  z-index: 1;
+  width: 24.5vw;
+  max-width: 2.7rem;
+  height: 24.5vw;
+  max-height: 2.7rem;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 12px;
+  color: var(--inverted-text-color);
+  outline-color: var(--primary-color);
+  outline-offset: 0.25rem;
+  outline-width: 2px;
+  transition: background-color 0.2s;
+}
+
+#search-bar button:hover {
+  cursor: pointer;
+  background-color: var(--on-hover-primary-color);
+}
+
+#search-bar select {
+  height: 24.5vw;
+  max-height: 2.7rem;
+  background-color: var(--primary-color);
+  border-radius: 12px;
+  color: var(--inverted-text-color);
+  outline-color: var(--primary-color);
+  outline-offset: 0.25rem;
+  outline-width: 2px;
+  padding: 0 0.5rem;
+  margin-left: 1rem;
+  transition: background-color 0.2s;
+}
+
+#search-bar select:hover {
+  background-color: var(--on-hover-primary-color); 
+  cursor: pointer;
+}
+
+#search-bar select option {
+  background-color: var(--primary-bg-color);
+  color: var(--text-color);
+  cursor: pointer;
+}
+/*----------------------------*/
+
+/* SEÇÃO DE LISTA DE PROFISSIONAIS */
+main ul#professionals-list {
+  display: grid;
+  grid-gap: 1.5rem;
+  place-self: center;
+  margin-top: 2.75rem;
+  margin-bottom: 5rem;
+}
+
+main ul#professionals-list li {
+  display: grid;
+  border-radius: 12px;
+  box-shadow: 1px 1px 10px rgb(0 0 0 / 5%);
+  border: 1px solid var(--secondary-bg-color);
+  width: 40vw;
+  max-width: 18rem;
+  height: 13rem;
+  padding: 1rem;
+  grid-gap: 0.25rem;
+}
+
+main ul#professionals-list li small.specialty {
+  background-color: var(--secondary-color);
+  padding: 0.25rem 0.5rem;
+  border-radius: 8px;
+  width: 85%;
+  max-width: 9rem;
+  height: 2rem;
+  display: grid;
+  text-align: center;
+  align-items: center;
+}
+
+.location-and-value {
+  display: flex;
+  justify-content: start;
+  gap: 2rem;
+}
+
+.location-and-value div {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+main ul#professionals-list li .colored-button {
+  margin-top: 1rem;
+  width: 85%;
+  max-width: 9rem;
+}
+/*---------------------------------*/
+
+/* ESTILIZAÇÃO PARA TELAS MENORES QUE 984 PX E MAIORES QUE 596 PX */
+@media (min-width: 596px), (max-width: 984px) {
+  main ul#professionals-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/*----------------------------------------------------------------*/
+
+/* ESTILIZAÇÃO PARA TELAS MAIORES QUE 985 PX */
+@media (min-width: 985px) {
+  main ul#professionals-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+/*-------------------------------------------*/
+
+/* ESTILIZAÇÃO PARA TELAS MENORES QUE 595 PX */
+@media (max-width: 595px) {
+  main {
+    padding: 1rem 0;
+  }
+
+  #introduction-text {
+    place-self: center;
+  }
+
+  #search-bar {
+    display: flex;
+    flex-flow: column;
+    height: 38.5vw;
+    max-height: 7.7rem;
+    gap: 0.75rem;
+    place-self: center;
+  }
+
+  #search-bar select {
+    width: 64.21vw;
+    max-width: 31rem;
+    margin-left: 0;
+  }
+
+  main ul#professionals-list {
+    grid-template-columns: 1fr;
+  }
+
+  main ul#professionals-list li {
+    width: 80vw;
+  }
+}
+/*-------------------------------------------*/
+
+/* ESTILIZAÇÃO PARA TELAS MENORES QUE 272 PX */
+@media (max-width: 272px) {
+  main ul#professionals-list li {
+    height: 14rem;
+  }
+
+  #search-bar input {
+    height: 31vh;
+  }
+
+  .location-and-value {
+    display: flex;
+    margin: 0.5rem 0;
+    gap: 0.5rem;
+  }
+}
+/*-------------------------------------------*/
+
+
+@media (max-width: 431px) {
+  #user-card-info {
+    display: flex;
+    flex-flow: column;
+  }
+
+  ul#user-card-info li {
+    place-self: center;
+  }
+
+  ul#user-card-info li:nth-child(2) {
+    place-self: center;
+  }
+
+  ul#user-card-info li:nth-child(4) {
+    place-self: center;
+  }
+}
+
+@media (max-width: 408px) {
+  #user-card-options {
+    flex-flow: column-reverse;
+    align-items: center;
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,128 @@
+main {
+  width: 90%;
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-flow: column;
+  place-self: center;
+  align-items: center;
+  justify-content: start;
+  padding: 1rem 2rem 8rem;
+  position: relative;
+}
+
+#exercises-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4.05rem;
+  width: 90vw;
+  max-width: 58.5rem;
+}
+
+
+#exercises-list li {
+  display: grid;
+  width: clamp(13rem, 30vw, 15.25rem);
+  height: clamp(13rem, 30vw, 15.25rem);
+}
+
+#exercises-list li a {
+  outline-color: var(--primary-color);
+  outline-offset: 0.25rem;
+  outline-width: 2px;
+}
+
+#exercises-list li img {
+  width: clamp(13rem, 30vw, 15.25rem);
+  height: clamp(13rem, 30vw, 15.25rem);
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+#exercises-list li h2 {
+  color: var(--inverted-text-color);
+  font-family: Poppins;
+  font-size: 1.35rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+#exercises-list li p {
+  color: var(--inverted-text-color);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#exercises-list .text-wrapper {
+  display: grid;
+  width: clamp(13rem, 30vw, 15.25rem);
+  height: clamp(13rem, 30vw, 15.25rem);
+  top: 0;
+  position: absolute;
+  z-index: 1;
+  place-content: end;
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+  padding-bottom: 1.5rem;
+  background-color: rgba(0 0 0 / 0.35);
+  border-radius: 18px;
+  transition: background-color 0.2s;
+}
+
+#exercises-list .text-wrapper:hover {
+  background-color: rgba(75 75 75 / 0.25)
+}
+
+#exercises-list a {
+  position: relative;
+}
+
+@media (min-width: 985px) {
+  #exercises-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 991px) {
+  #exercises-list {
+    grid-gap: 1.5rem;
+  }
+}
+
+@media (min-width: 522px) and (max-width: 984px) {
+  #exercises-list {
+    place-items: center;
+    place-content: center;
+    width: 70vw;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 523px) {
+  #exercises-list {
+    display: flex;
+    flex-flow: column;
+    place-content: center;
+    place-items: center;
+    justify-content: center;
+    gap: 3rem;
+    width: 80vw;
+  }
+
+  #exercises-list li {
+    display: grid;
+    place-content: center;
+    width: clamp(8rem, 80vw, 16.25rem);
+    height: clamp(8rem, 80vw, 16.25rem);
+  }
+
+  main {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

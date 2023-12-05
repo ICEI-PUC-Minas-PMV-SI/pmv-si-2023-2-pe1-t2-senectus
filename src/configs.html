@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Bem-vindo ao Senectus, um ambiente onde você pode aprimorar cada vez mais a sua saúde.">
+  <meta name="keywords" content="Senectus, PUC, exercício, saúde">
+
+  <title>Senectus - Configurações</title>
+
+  <!-- ÍCONE DO PROJETO -->
+  <link rel="shortcut icon" type="image/png" href="./img/logo.png" />
+  <!---------------------->
+
+  <!--CSS DO PROJETO-->
+  <link rel="stylesheet" href="./css/globals.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="./css/configs.css" />
+  <!------------------>
+
+  <!--FONT AWESOME-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!---------------->
+
+  <!-- FONTES DO PROJETOS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap"
+    rel="stylesheet">
+  <!------------------------>
+
+  <!-- MITT EVENT LIB -->
+  <script src="https://unpkg.com/mitt/dist/mitt.umd.js"></script>
+  <!-------------------->
+</head>
+
+<body>
+  <header id="header">
+    <!-- LOGO -->
+    <a href="home">
+      <img src="./img/logo-tipo.png" alt="Logotipo do Senectus" />
+    </a>
+    <!---------->
+
+    <!-- CAMPO DE OPÇÕES -->
+    <ul>
+      <li>
+        <a href="home">
+          Sobre nós
+        </a>
+      </li>
+      <li>
+        <a href="exercises-types">
+          Biblioteca de exercícios
+        </a>
+      </li>
+      <li>
+        <a href="search-professionals">
+          Encontre profissionais
+        </a>
+      </li>
+      <li id="login-option">
+        <a href="login" id="login-button">
+          Entrar como profissional
+        </a>
+      </li>
+    </ul>
+    <!--------------------->
+
+    <!-- CAMPO DO MENU -->
+    <menu>
+      <button>
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </menu>
+    <!------------------->
+
+  </header>
+  <main>
+    <span id="popup-pin"></span>
+
+    <!-- TEXTO DE INTRODUÇÃO -->
+    <div id="introduction-text">
+      <h1 class="prettify-title">
+        Edite suas configurações
+      </h1>
+      <p>
+        Finalize seu perfil preenchendo ou editando mais algumas informações. Ao acabar, apenas aguarde, pois distribuiremos seu perfil para nossos usuários.
+      </p>
+    </div>
+    <!------------------------->
+
+    <form>
+      <fieldset>
+        <label for="input-name">
+          Nome 
+        </label>
+        <div>
+          <input minlength="2" maxlength="24" type="text" id="input-name" name="full-name">
+          <i class="fa-solid fa-pen-to-square"></i>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <label for="input-password">
+          Senha
+        </label>
+        <div>
+          <input minlength="6" maxlength="256" type="password" id="input-password" name="password">
+          <i class="fa-solid fa-pen-to-square"></i>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <label for="input-short-description">
+          Descrição curta
+        </label>
+        <div>
+          <input minlength="6" maxlength="116" type="text" id="input-short-description" name="input-short-description">
+          <i class="fa-solid fa-pen-to-square"></i>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <label for="input-phone-number">
+          Telefone
+        </label>
+        <div>
+          <input minlength="9" maxlength="11" type="number" id="input-phone-number" name="input-phone-number">
+          <i class="fa-solid fa-pen-to-square"></i>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <label for="select-profession">
+          Profissão
+        </label>
+        <div>
+          <select id="select-profession">
+            <option value="Personal Trainer">
+              Personal trainer
+            </option> 
+            <option value="Fisioterapeuta">
+              Fisioterapeuta
+            </option> 
+            <option value="Nutricionista">
+              Nutricionista
+            </option>
+            <option value="Médico">
+              Médico
+            </option>
+          </select>
+          <i class="fa-solid fa-pen-to-square"></i>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <label for="select-state">
+          Estado
+        </label>
+        <div>
+          <select type="text" id="select-state" name="text" list="lista-estado"></select>
+          <i class="fa-solid fa-pen-to-square"></i>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <label for="input-city">
+          Cidade
+        </label>
+        <div>
+          <input id="input-city" disabled list="city-list"></input>
+          <datalist id="city-list"></datalist>
+          <i id="city-input-icon" class="fa-solid fa-circle-xmark"></i>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <label for="input-price">
+          Valor por serviço
+        </label>
+        <div>
+          <input type="number" id="input-price" name="Preço por serviço">
+          <i class="fa-solid fa-pen-to-square"></i>
+        </div>
+      </fieldset>
+
+      <button id="submit-button" type="submit" class="colored-button">
+        <b>Salvar</b>
+      </button>
+    </form>
+
+    <div id="extra-actions">
+      <button id="delete-account" type="button" class="outline-colored-button">
+        <b>Deletar conta</b>
+      </button>
+
+      <button id="logout" type="button" class="outline-colored-button">
+        <b>Desconectar</b>
+      </button> 
+    </div>
+  </main>
+
+  <!-- CAMPO DO RODAPÉ -->
+  <footer id="footer">
+    <div id="footer-title">
+      <h1>Senectus</h1>
+      <span>®</span>
+    </div>
+    
+    <small> 
+      Todos os direitos reservados.    
+    </small>
+      
+  </footer>
+  <!--------------------->
+
+  <script type="module" src="./js/pages/configs.js"></script>
+</body>
+
+</html>

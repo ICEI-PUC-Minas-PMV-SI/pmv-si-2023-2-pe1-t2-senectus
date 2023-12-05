@@ -1,0 +1,105 @@
+#logo {
+    position: absolute;
+    top: 7%;
+    outline-color: var(--primary-color);
+    outline-offset: 0.25rem;
+    outline-width: 2px;
+}
+
+#content img {
+  width: 3rem;
+  height: 3rem;
+}
+
+#content{
+  display: flex;
+  flex-flow: column;
+  max-width: 72.5rem;
+  height: 100vh;
+  padding: 1rem 2rem;
+  position: relative;
+  place-content: center;
+  place-self: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+main h1{
+    margin-bottom: 1.55rem;
+}
+
+main form{
+    display: grid; 
+    gap: 1rem;
+    width: 80vw;
+    max-width: 26rem;
+}
+
+main form .colored-button{
+    width: 100%;
+    max-width: none;
+}
+
+main form label{
+    display: flex;
+    flex-flow: column;
+}
+   
+main form label input{
+    height: 2rem;
+    padding-left: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid var(--secondary-bg-color);
+    outline-color: var(--primary-color);
+    outline-offset: 0.25rem;
+    outline-width: 2px;
+    margin-top: 0.4rem;
+}
+ 
+main form small{
+    place-self: center;
+}
+
+main form small a{
+    color: var(--primary-color);
+    outline-color: var(--primary-color);
+    outline-offset: 0.1rem;
+    outline-width: 2px;
+}
+
+#background {
+    display: flex;
+}
+
+#background img{
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+    border-radius: 1.75rem 0 0 1.75rem;
+}
+
+@media (max-width: 984px) {
+    #background {
+        display: none;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-height: 457px), (max-width: 984px) {
+    #content {
+        padding: 0;
+    }
+
+    #content img {
+        position: relative;
+        top: 0;
+    }
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Bem-vindo ao Senectus, um ambiente onde você pode aprimorar cada vez mais a sua saúde.">
+  <meta name="keywords" content="Senectus, PUC, exercício, saúde">
+
+  <title>Senectus - Início</title>
+
+  <!-- ÍCONE DO PROJETO -->
+  <link rel="shortcut icon" type="image/png" href="./img/logo.png" />
+  <!---------------------->
+
+  <!--CSS DO PROJETO-->
+  <link rel="stylesheet" href="./css/home.css" />
+  <link rel="stylesheet" href="./css/home-mobile-tablet.css" media="screen and (max-width: 984px)" />
+  <link rel="stylesheet" href="./css/globals.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <!------------------>
+
+  <!--FONT AWESOME-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!---------------->
+
+  <!-- FONTES DO PROJETOS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap"
+    rel="stylesheet">
+  <!------------------------>
+
+</head>
+
+<body>
+  <header id="header">
+    <!-- LOGO -->
+    <a href="home">
+      <img src="./img/logo-tipo.png" alt="Logotipo do Senectus" />
+    </a>
+    <!---------->
+
+    <!-- CAMPO DE OPÇÕES -->
+    <ul>
+      <li>
+        <a href="home">
+          Sobre nós
+        </a>
+      </li>
+      <li>
+        <a href="exercises-types">
+          Biblioteca de exercícios
+        </a>
+      </li>
+      <li>
+        <a href="search-professionals">
+          Encontre profissionais
+        </a>
+      </li>
+      <li id="login-option">
+        <a href="login" id="login-button">
+          Entrar como profissional
+        </a>
+      </li>
+    </ul>
+    <!--------------------->
+
+    <!-- CAMPO DO MENU -->
+    <menu>
+      <button>
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </menu>
+    <!------------------->
+
+  </header>   
+  <main>
+    <span id="pin-modal"></span>
+    <!-- SEÇÃO INICIAL -->
+    <div id="initial-home-content" class="container">
+      <div class="text-content">
+        <h1>
+          Esqueça o
+          sedentarismo,
+          seja ativo!
+        </h1>
+        <p>
+          Quer ter uma qualidade de vida cada vez melhor e perto de quem você ama? Junte-se a nós em uma longa jornada de exercícios físicos com um digno suporte de profissionais altamente qualificados!
+        </p>
+        <a href="exercises-types" class="colored-button">
+          EXERCITAR
+        </a>
+      </div>
+      <span></span>
+      <img src="./img/imagem-inicial.png" alt="idosa empolgada"/>
+    </div>
+    <!------------------->
+
+    <!-- SEÇÃO DE BENEFÍCIOS -->
+    <div id="benefits" class="container">
+      <h1 class="prettify-title">
+        Prós dos exercícios  
+      </h1>
+
+      <ul id="benefits-cards">
+
+        <li>
+          <span>
+            <i class="fa-solid fa-virus"></i>
+          </span>
+          <div class="benefits-text">
+            <h2>Previne doenças</h2>
+            <p>
+              A prática continua de exercícios ajuda qualquer indivíduo, principalmente os idosos, a se prevenir de doenças graves, como: câncer, diabete tipo 2 e doenças cardiovasculares.
+            </p>
+            <button class="colored-button">
+              Descrição
+            </button>
+          </div>
+        </li>
+
+        <li>
+          <span>
+            <i class="fa-solid fa-person-walking"></i>
+          </span>
+          <div class="benefits-text">
+            <h2>Coordenação motora</h2>
+            <p>
+              O sedentarismo em idosos sempre esteve associado como um dos responsáveis pelo declínio cognitivo dos mesmos. Uma maneira de prevenir este problema é uma boa prática diária de exercícios.
+            </p>
+            <button class="colored-button">
+              Descrição
+            </button>
+          </div>
+        </li>
+
+        <li>
+          <span>
+            <i class="fa-solid fa-bone"></i>
+          </span>
+          <div class="benefits-text">
+            <h2>Redução de lesões</h2>
+            <p>
+              O sedentarismo pode aumentar a probabilidade de lesões mais graves entre os idosos, como uma forma de evitar isto, a prática de exercícios acompanhados por profissionais é mais que importante!
+            </p>
+            <button class="colored-button">
+              Descrição
+            </button>
+          </div>
+        </li>
+
+        <li>
+          <span>
+            <i class="fa-solid fa-dumbbell"></i>            
+          </span>
+          <div class="benefits-text">
+            <h2>Ganho de massa muscular</h2>
+            <p>
+              A prática de atividades física sempre foram responsáveis pelo aumento de massa muscular, isso além de, na grande maioria das vezes, melhorar a sua estética, aprimora o seu rendimento físico.          
+            </p>
+            <button class="colored-button">
+              Descrição
+            </button>
+          </div>
+        </li>
+
+        <li>
+          <div id="benefits-go-to-exercises">
+            <span>
+              <i class="fa-solid fa-brain"></i>
+            </span>
+            <a href="exercises-types" id="computer-exercise-button" class="colored-button">
+              EXERCITAR
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="benefits-text">
+            <h2>Saúde mental</h2>
+            <p>
+              Além de tudo isso, a prática de exercícios te traz uma grande e benéfica injeção de ânimo, além de aprimorar a sua autoestima e autoconfiança!
+            </p>
+
+            <div id="benefits-buttons">
+              <button class="colored-button">
+                Descrição
+              </button>
+              <a href="exercises-types" id="mobile-exercise-button" class="colored-button">
+                EXERCITAR
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+    <!------------------------->
+
+    <!-- SEÇÃO DE SOBRE NÓS -->
+    <div id="about-us" class="container">
+      <div class="text-content">
+        <h1 class="prettify-title">
+          Sobre nós 
+        </h1>
+
+        <p>
+          O projeto Senectus é uma iniciativa proposta por alguns estudantes da PUC Minas, juntamente com a parceria de profissionais altamente qualificados na área, com o intuito de retardar e reduzir o aumento do sedentarismo em nosso país, o que cada vez mais vem trazendo dados preocupantes!
+        </p>
+
+        <a href="exercises-types" class="colored-button">
+          EXERCITAR
+        </a>
+      </div>
+
+      <img src="./img/about-us-img.png" alt="foto de idosos"/>
+    </div>
+    <!------------------------>
+
+    <!-- SEÇÃO DO ESTOU SEGURO -->
+    <div id="is-safe" class="container">
+      <img src="./img/is-safe-img.png" alt="coleção de foto de idosos"/>
+
+      <div class="text-content">
+        <h1 class="prettify-title">
+          Estou seguro?
+        </h1>
+
+        <p>
+          Hackers e pessoas mal intencionadas a todo momento estão tentando nos prejudicar, até mesmo nos pequenos deslizes que cometemos, seja clicando naquele link que você recebeu de um estranho na internet, ou quando você cria uma senha fraca em um site. Foi pensando nisso que decidimos que os usuários comuns, em momento algum serão cobrados pelos seus dados. Logo, você pode usufruir de nossos serviços sem sequer realizar um processo de cadastro!
+        </p>
+
+        <a href="exercises-types" class="colored-button">
+          EXERCITAR
+        </a>
+      </div>
+    </div>
+    <!--------------------------->
+    
+  </main>
+   
+  <!-- CAMPO DO RODAPÉ -->
+  <footer id="footer">
+    <div id="footer-title">
+      <h1>Senectus</h1>
+      <span>®</span>
+    </div>
+    
+    <small> 
+      Todos os direitos reservados.    
+    </small>
+      
+  </footer>
+  <!--------------------->
+
+  <script type="module" src="./js/pages/home.js"></script>
+</body>
+
+</html>

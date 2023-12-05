@@ -1,0 +1,180 @@
+/* SEÇÃO DA MAIN PADRÃO */
+main {
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-flow: column;
+  place-self: center;
+  justify-content: start;
+  width: 90vw;
+  max-width: 62.2rem;
+  padding: 1rem 2rem;
+  position: relative;
+}
+/*----------------------*/
+
+/* SEÇÃO DA TEXTO DE INTRODUÇÃO */
+#introduction-text {
+  display: grid;
+  width: 95%;
+  max-width: 40rem;
+  gap: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+main h1.prettify-title::before {
+  left: -2%;
+}
+/*------------------*/
+
+/* FORMULÁRIO DA PÁGINA */
+main form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  width: 90vw;
+  max-width: 61.45rem;
+}
+
+main form fieldset {
+  display: grid;
+  width: fit-content;
+  border: none;
+}
+
+main form label {
+  display: flex;
+  flex-flow: column;
+  width: inherit;
+  margin-bottom: 0.5rem;
+}
+
+main form div {
+  position: relative;
+  display: flex;
+}
+
+main form fieldset div input,
+main form fieldset div select {
+  width: 36vw;
+  max-width: 24rem;
+  padding-left: 0.5rem;
+  background-color: transparent;
+  height: 2rem;
+  border: 2px solid var(--secondary-bg-color);
+  border-radius: 8px;
+  outline-color: var(--primary-color);
+  outline-offset: 0.25rem;
+  outline-width: 2px;
+}
+
+main form fieldset div select:hover {
+  cursor: pointer;
+}
+
+main form fieldset div select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+main form div i {
+  position: absolute;
+  color: var(--primary-color);
+  z-index: 1;
+  top: 30%;
+  left: 91%;
+}
+
+#extra-actions {
+  display: flex;
+  margin-top: 1.5rem;
+  gap: 3rem;
+}
+
+#submit-button {
+  display: flex;
+  margin-top: 1.5rem;
+  gap: 3rem;
+}
+/*----------------------*/
+
+/* ESTILIZAÇÃO PARA TELAS MENORES QUE 1000 PX */
+@media (min-width: 1000px) {
+  main form div i {
+    position: absolute;
+    color: var(--primary-color);
+    z-index: 1;
+    top: 30%;
+    left: 95%;
+  }
+}
+/*-------------------------------------------*/
+
+/* ESTILIZAÇÃO PARA TELAS MENORES QUE 985 PX */
+@media (max-width: 985px) {
+  main form div i {
+    top: 20%;
+  }
+}
+/*-------------------------------------------*/
+
+/* ESTILIZAÇÃO PARA TELAS MENORES QUE 697 PX */
+@media (max-width: 697px) {
+  main {
+    padding: 1rem 0.75rem;
+  }
+
+  main h1 {
+    place-self: center;
+  }
+
+  main form {
+    grid-template-columns: 1fr;
+    place-self: center;
+    place-items: center;
+  }
+
+  main form fieldset div input,
+  main form fieldset div select {
+    width: 89vw;
+  }
+
+  #introduction-text {
+    place-self: center;
+  }
+
+  #introduction-text p {
+    text-align: center;
+  }
+
+  main form div i {
+    left: 93%;
+  }
+
+  #extra-actions {
+    flex-flow: column;
+    justify-content: normal;
+    gap: 1rem;
+    place-self: center;
+  }
+}
+/*-------------------------------------------*/
+
+/* ESTILIZAÇÃO PARA TELAS MENORES QUE 449 PX */
+@media (max-width: 449px) {
+  #introduction-text p {
+    text-align: start;
+  }
+}
+/*-------------------------------------------*/
+
+/* ESTILIZAÇÃO PARA TELAS MENORES QUE 269 PX */
+@media (max-width: 300px) {
+  main form div i {
+    left: 89%;
+    top: 27%;
+  }
+}
+/*-------------------------------------------*/
+

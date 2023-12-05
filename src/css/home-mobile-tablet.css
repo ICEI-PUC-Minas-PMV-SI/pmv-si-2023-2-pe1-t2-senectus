@@ -1,0 +1,277 @@
+/* MODIFICAÇÕES DA SEÇÃO MAIN */
+main .container {
+  height: 70vh;
+  padding: 1rem 2.5rem;
+  max-height: none;
+}
+
+main {
+  gap: 18rem;
+}
+/*----------------------------*/
+
+/* MODIFICAÇÕES DA SEÇÃO INICIAL */
+#initial-home-content {
+  padding: 1rem 2rem;
+  height: auto;
+  flex-flow: column-reverse;
+  background-color: transparent;
+}
+
+#initial-home-content .text-content {
+  display: grid;
+  min-width: unset;
+  width: 80vw;
+  max-width: 32rem;
+  gap: 1.5rem;
+  text-align: center;
+  place-items: center;
+}
+
+#initial-home-content .text-content p {
+  width: auto;
+}
+
+#initial-home-content img {
+  width: 80vw;
+  max-width: 23rem;
+  left: 3%;
+}
+/*-------------------------------*/
+
+/* MODIFICAÇÕES DA SEÇÃO DE BENEFÍCIOS */
+#benefits {
+  display: grid;
+  height: auto;
+}
+
+#benefits-cards {
+  display: flex;
+  flex-flow: column;
+  grid-template-areas: "first second" "third fourth" ". fifth";
+  width: auto;
+  place-self: center;
+  place-items: center;
+}
+
+#benefits-cards li {
+  width: 35.32vw;
+  max-width: 28.6875rem; 
+  height: clamp(19.5rem, 34vh, 23.75rem);
+}
+
+#benefits-cards li:nth-child(4) {
+  grid-area: fourth;
+  width: 35.32vw;
+  max-width: 28.6875rem; 
+  position: static;
+}
+
+#benefits-cards li:nth-child(5) {
+  grid-area: fifth;
+  width: 114%;
+  right: 51%;
+}
+
+#benefits-go-to-exercises {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*-------------------------------------*/
+
+/* MODIFICAÇÕES DA SEÇÃO SOBRE NÓS */
+#about-us {
+  flex-flow: column-reverse;
+  gap: 5rem;
+  height: auto;
+}
+
+#about-us .text-content {
+  text-align: start;
+  place-items: start;
+  width: 80vw;
+  max-width: 32rem;
+  gap: 1.5rem
+}
+
+#about-us img {
+  width: 80vw;
+  max-width: 23rem;
+  position: relative;
+  top: 2rem;
+}
+/*---------------------------------*/
+
+/* MODIFICAÇÕES DA SEÇÃO ESTOU SEGURO */
+#is-safe {
+  flex-flow: column;
+  background-color: transparent;
+  justify-items: center;
+  max-height: none;
+  margin-left: 0;
+  width: 87.3vw;
+  gap: 5rem;
+  height: auto;
+}
+
+#is-safe img {
+  width: 80vw;
+  max-width: 23rem;
+  min-width: unset;
+  place-self: center;
+  position: static;
+}
+
+#is-safe .text-content {
+  text-align: start;
+  place-items: start;
+  width: 80vw;
+  max-width: 32rem;
+  gap: 1.5rem;
+}
+/*------------------------------------*/
+
+/* ADAPTAÇÕES PARA TELAS MENORES QUE 933 PX */
+@media (max-width: 984px) {
+  /* SEÇÃO DE BENEFÍCIOS */
+  #benefits-cards {
+    grid-template-areas: "first"
+                         "second" 
+                         "third" 
+                         "fourth" 
+                         "fifth";
+  }
+  #benefits-cards li {
+    width: 80.32vw;
+    max-width: 30.6875rem;
+    gap: 2rem;
+    place-self: center;
+  }
+
+  #benefits-cards li:nth-child(4) {
+    grid-area: fourth;
+    width: 80.32vw;
+    max-width: 30.6875rem; 
+    position: static;
+  }
+
+  #benefits-cards li:nth-child(5) {
+    grid-area: fifth;
+    width: 80.32vw;
+    max-width: 30.6875rem; 
+    right: 0%;
+  }
+  /*---------------------*/
+}
+/*------------------------------------------*/
+
+/* ADAPTAÇÕES PARA TELAS MENORES QUE 429 PX */
+@media (max-width: 429px) {
+  /* ALTERAÇÕES DA CLASSE CONTAINER */
+  main .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /*--------------------------------*/
+
+  /* ALTERAÇÕES DA SEÇÃO INICIAL */
+  #initial-home-content {
+    padding: 0;
+  }
+
+  #benefits-cards .benefits-text h1,
+  #benefits-cards .benefits-text p {
+    display: none;
+  }
+
+  #benefits-cards span {
+    place-self: center;
+  }
+
+  #benefits-cards .benefits-text {
+    text-align: center;
+    place-items: center;
+    gap: 1rem;
+  }
+
+  #benefits-cards li {
+    height: auto;
+    box-shadow: 2px 4px 8px rgb(0 0 0 / 20%);
+  }
+
+  #benefits-cards #benefits-go-to-exercises {
+    place-content: center;
+  }
+
+  #benefits-cards #benefits-go-to-exercises .colored-button {
+    display: none;
+  }
+
+  #benefits-cards .benefits-text #mobile-exercise-button {
+    display: flex;
+  }
+
+  #benefits-cards #benefits-buttons {
+    display: flex;
+    flex-flow: column;
+    gap: 0.75rem;
+  }
+
+  #benefits-cards .benefits-text button {
+    display: flex;
+    border-radius: 12px;
+  }
+  /*-----------------------------*/
+
+  /* ALTERAÇÕES DA SEÇÃO ESTOU SEGURO */
+  #is-safe .text-content {
+    padding-right: 0;
+    padding-left: 0;
+    width: 80vw;
+  }
+  /*----------------------------------*/
+}
+/*------------------------------------------*/
+
+/* ADAPTAÇÕES PARA TELAS MENORES QUE 296 PX */
+@media(max-width: 296px) {
+  /* ALTERAÇÕES NA SEÇÃO DE BENEFÍCIOS */
+  #benefits-cards li {
+    width: 100vw;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  #benefits-cards li:nth-child(4) {
+    width: 100vw;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  #benefits-cards li:nth-child(5) {
+    width: 100vw;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  /*-----------------------------------*/
+}
+/*------------------------------------------*/
+
+/* ADAPTAÇÕES PARA TELAS MENORES QUE 210 PX */
+@media (max-width: 210px) {
+  #benefits .prettify-title::before {
+    left: 24%;
+    top: 4%;
+  }
+}
+/*------------------------------------------*/
+
+/* ADAPTAÇÕES PARA TELAS MENORES QUE 188 PX */
+@media (max-width: 188px) {
+  #benefits .prettify-title::before {
+    left: 20%;
+    top: 4%;
+  }
+}
+/*------------------------------------------*/
