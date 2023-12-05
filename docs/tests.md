@@ -5,8 +5,6 @@ Neste projeto serão realizados dois tipos de testes:
  - O **Teste de Software**, que utiliza uma abordadem de caixa preta, e tem por objetivo verificar a conformidade do software com os requisitos funcionais e não funcionais do sistema.
  - O **Teste de Usabilidade**, que busca avaliar a qualidade do uso do sistema por um usuário do público alvo. 
 
-Se quiser conhecer um pouco mais sobre os tipos de teste de software, leia o documento [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/).
-
 A documentação dos testes é dividida nas seguintes seções:
 
  - [Plano de Testes de Software](#plano-de-testes-de-software)
@@ -22,24 +20,187 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 
 ## Plano de Testes de Software
 
-Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito  Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
+### Caso de Teste 001
 
-
-**Caso de Teste** | **CT01 - Criar conta parte 1**
+**Caso de Teste** | **CT01 - Acessar os exercícios**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa nome, sobrenome, email, senha, Estado e Cidade e clica no botão "Continuar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro.
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
-**Resultado obtido** | Sucesso.
+**Procedimento**  | 1) O usuário acessa a url /src/home <br> 2) O usuário clica em 'Biblioteca de exercícios' <br> 3) Seleciona a categoria de seu interesse <br> 4) Usuário lê a descrição do exercício em questão e acessa o vídeo do exercício pelo youtube
+**Requisitos associados** | RF-001, RF-002, RF-003 RF-004, RNF-004
+**Resultado esperado** | Viabilizar o acesso do usuário aos vídeos feitos para os instruir na sua rotina de exercícios
+**Dados de entrada** | A url da página inicial ('src/home')
+**Resultado obtido** | |
+**Páginas acessadas** | /src/home, /src/exercises-types, /src/[categória do exercício] |
 
-**Caso de Teste** | **CT02 - Criar conta parte 2**
+<br>
+
+### Fluxograma do teste - CT01
+
+<div align="center">
+    <img src="./img/CT01.svg" alt="fluxograma do CT01" width="50%" height="50%"/>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+### Caso de Teste 002
+
+**Caso de Teste** | **CT02 - Criar conta**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
-**Resultado obtido** | Sucesso.
+**Procedimento**  | 1) O usuário acessa a url /src/home <br> 2) O usuário clica em 'Entrar como profissional' <br> 3) O usuário clica em 'clique aqui' para criar uma conta <br> 4) Usuário insere seu nome, email e senha <br> 5) A aplicação valida os dados, verificando se possui os requisitos necessários para serem armazenados corretamente <br> 6) Se tudo estiver correto, o sistema deve embaralhar os dados em formato hexadecimal <br> 7) O sistema, após embaralhar o conteúdo, armazena no Local Storage e gera um token de autenticação, armazenando-o no Session Storage <br> 8) O usuário é redirecionado para a home, mas desta vez, autenticado
+**Requisitos associados** | RF-005, RNF-003
+**Resultado esperado** | Criação de conta
+**Dados de entrada** | A url da página inicial ('src/home') e a inserção de dados válidos no formulário de cadastro.
+**Resultado obtido** | |
+**Páginas acessadas** | /src/home, /src/cadastro |
+
+
+<br>
+
+### Fluxograma do teste - CT02
+
+<div align="center">
+    <img src="./img/CT02.svg" alt="fluxograma do CT02" width="50%" height="50%"/>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+### Caso de Teste 003
+
+**Caso de Teste** | **CT03 - Configuração da conta**
+ :--------------: | ------------
+**Procedimento**  | 1) O usuário acessa a url /src/home <br> 2) O usuário clica em 'Bem-vindo \<NOME\>' <br> 3) O usuário clica em 'Configurações' <br> 4) Usuário tenta inserir seu nome, senha, descrição curta, telefone, profissão, estado, cidade e valor por serviço <br> 5) A aplicação atualiza os dados armazenados no Local Storage e o token armazenado em Session Storage <br> 6) A aplicação dispara um popup alertando que a conta foi atualizada
+**Requisitos associados** | RF-006, RF-014, RF-018
+**Resultado esperado** | Atualização da conta
+**Dados de entrada** | A url da página inicial ('src/home') e a inserção de dados válidos no formulário de atualização dos dados na página de configuração.
+**Resultado obtido** | |
+**Páginas acessadas** | /src/home, /src/configs |
+
+### Fluxograma do teste - CT03
+
+<div align="center">
+    <img src="./img/CT03.svg" alt="fluxograma do CT03" width="50%" height="50%"/>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+### Caso de Teste 004
+
+**Caso de Teste** | **CT04 - Login da conta**
+ :--------------: | ------------
+**Procedimento**  | 1) O usuário acessa a url /src/home <br> 2) O usuário clica em 'Entrar como profissional' <br> 3) Usuário insere seu email e senha <br> 4) A aplicação verifica se o usuário existe, caso exista, o mesmo é redirecionado para a home já autenticado e com posse do token no Session Storage
+**Requisitos associados** | RF-007
+**Resultado esperado** | Login da conta e redirecionamento para a home
+**Dados de entrada** | A url da página inicial ('src/home') e a inserção de dados válidos no formulário de login.
+**Resultado obtido** | |
+**Páginas acessadas** | /src/home, /src/login |
+
+### Fluxograma do teste - CT04
+
+<div align="center">
+    <img src="./img/CT04.svg" alt="fluxograma do CT04" width="50%" height="50%"/>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+### Caso de Teste 005
+
+**Caso de Teste** | **CT05 - Buscar profissional**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário filtra os profissionais por fisioterapeuta <br> 2) Usuário insere o nome do profissional que deseja contatar <br> 3) Usuário clica em contatar e escolhe o meio de contato na qual deseja utilizar
+**Requisitos associados** | RF-008, RF-009, RF-010, RF-016, RF-017, RNF-004
+**Resultado esperado** | Usuário contata um profissional de seu desejo
+**Dados de entrada** | A url da página inicial ('src/home') e a inserção do nome do profissional e a categoria do mesmo
+**Resultado obtido** | |
+**Páginas acessadas** | /src/home, /src/search-professionals |
+
+### Fluxograma do teste - CT05
+
+<div align="center">
+    <img src="./img/CT05.svg" alt="fluxograma do CT05" width="50%" height="50%"/>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+
+### Caso de Teste 006
+
+**Caso de Teste** | **CT06 - Visualização da home**
+ :--------------: | ------------
+**Procedimento**  | 1) O usuário acessa /src/home e navega por ela
+**Requisitos associados** | RF-011, RF-012, RF-013, RNF-004
+**Resultado esperado** | Dar um ponto de acesso único ao usuário, onde o mesmo possa acessar o resto do site
+**Dados de entrada** | A url da página inicial ('src/home')
+**Resultado obtido** | |
+**Páginas acessadas** | /src/home |
+
+### Fluxograma do teste - CT06
+
+<div align="center">
+    <img src="./img/CT06.svg" alt="fluxograma do CT06" width="50%" height="50%"/>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+### Caso de Teste 007
+
+**Caso de Teste** | **CT07 - Responsividade**
+ :--------------: | ------------
+**Procedimento**  | 1) O usuário tenta redimencionar o tamanho de sua tela
+**Requisitos associados** | RNF-001, RNF-002
+**Resultado esperado** | Viabilizar o acesso do usuário aos vídeos feitos para os instruir na sua rotina de exercícios
+**Dados de entrada** | A url da página inicial
+**Resultado obtido** | |
+**Páginas acessadas** | TODAS |
+
+### Fluxograma do teste - CT07
+
+<div align="center">
+    <img src="./img/CT07.svg" alt="fluxograma do CT07" width="50%" height="50%"/>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+### Caso de Teste 008
+
+**Caso de Teste** | **CT08 - Deletar conta**
+ :--------------: | ------------
+**Procedimento**  | 1) O usuário acessa a url /src/home <br> 2) O usuário clica em 'Bem-vindo \<NOME\>' <br> 3) O usuário clica em 'Configurações' <br> 4) Usuário clica em 'Deletar conta' <br> 5) A aplicação deleta a conta e remove seu token <br> 6) A aplicação dispara um popup alertando que a conta foi deletada
+**Requisitos associados** | RF-015
+**Resultado esperado** | Deleção da conta
+**Dados de entrada** | A url da página inicial ('src/home') | 
+**Resultado obtido** | |
+**Páginas acessadas** | /src/home, /src/configs |
+
+### Fluxograma do teste - CT08
+
+<div align="center">
+    <img src="./img/CT08.svg" alt="fluxograma do CT08" width="50%" height="50%"/>
+</div>
+
+<br>
+<br>
+<br>
+<br>
 
 ## Registro dos Testes de Software
 
@@ -59,12 +220,6 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 ## Avaliação dos Testes de Software
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-
-
-## Testes de unidade automatizados (Opcional)
-
-Se o grupo tiver interesse em se aprofundar no desenvolvimento de testes de software, ele podera desenvolver testes automatizados de software que verificam o funcionamento das funções JavaScript desenvolvidas. Para conhecer sobre testes unitários em JavaScript, leia 0 documento  [Ferramentas de Teste para Java Script](https://geekflare.com/javascript-unit-testing/).
 
 
 # Testes de Usabilidade
