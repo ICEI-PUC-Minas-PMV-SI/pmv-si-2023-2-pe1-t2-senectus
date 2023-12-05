@@ -1,6 +1,5 @@
 import { UserOnLocalStorage } from "./user.js"
 import { userFactory } from "../../../factories/user.js"
-import { MenuMobile } from "../../../utils/menuMobile.js"
 
 function seed() {
   for(let i=0; i<20; i++) {
@@ -28,5 +27,4 @@ function seed() {
   }
 }
 
-MenuMobile.watchMenuButton();
 seed();

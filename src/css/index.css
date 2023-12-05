@@ -92,7 +92,7 @@ body.open-header {
   grid-template-columns: 1fr;
   grid-template-rows: clamp(5.25rem, 2.25vh, 17rem) 1fr;
 }
-#header a.open-header {
+#logo.open-header {
   padding-top: 1rem;
   padding-left: 2.75rem;
 }
@@ -125,7 +125,6 @@ header ul li a#login-button.open-header {
   height: clamp(2.5rem, 9.5vh, 3.25rem);
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  padding-bottom: 1rem;
 }
 /*--------------------------*/
 
@@ -178,7 +177,6 @@ header ul li a#login-button:hover {
   color: white;
 }
 /*----------------*/
-
 
 /* MEDIA RULES */
 @media (max-width: 242px) {
