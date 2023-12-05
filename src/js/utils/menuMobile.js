@@ -8,6 +8,7 @@ export class MenuMobile {
         const menuMobile = document.querySelector('#header menu')
         const loginOption = document.getElementById('login-option')
         const loginButton = document.getElementById('login-button')
+        const configButton = document.getElementById('config-button')
         
         button.addEventListener("click", () => {
           menuNavUl.classList.toggle("open-header")
@@ -15,8 +16,12 @@ export class MenuMobile {
           body.classList.toggle("open-header")
           header.classList.toggle("open-header")
           menuMobile.classList.toggle("open-header")
-          loginButton.classList.toggle('open-header')
           loginOption.classList.toggle('open-header')
+
+          if(loginButton)
+            loginButton.classList.toggle('open-header')
+          else 
+            configButton.classList.toggle('open-header')
         })
       }
 }

@@ -62,9 +62,7 @@ class Home {
         Home.watchRollbackButton(span);
        })
       }
-   }
-
-  
+   } 
 }
 
 MenuMobile.watchMenuButton();

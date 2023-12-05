@@ -146,6 +146,9 @@ header ul li a#login-button.open-header {
 /*----------------*/
 
 /* BOTÃO ESPECIAL */
+#header ul li a#config-button {
+  padding: 0;
+}
 header ul li button#config-button .fa-gear,
 header ul li a#config-button .fa-gear,
 header ul li a#config-button span {
@@ -178,7 +181,6 @@ header ul li a#login-button:hover {
   color: white;
 }
 /*----------------*/
-
 
 /* MEDIA RULES */
 @media (max-width: 242px) {

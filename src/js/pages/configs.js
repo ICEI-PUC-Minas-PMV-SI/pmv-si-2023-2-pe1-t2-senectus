@@ -253,4 +253,5 @@ class Configs {
 
 LoginButtonHandler.trySwitchToConfigButton();
 MenuMobile.watchMenuButton();
+
 new Configs().start();

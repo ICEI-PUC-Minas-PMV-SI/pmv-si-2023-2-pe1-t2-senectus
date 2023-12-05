@@ -1,6 +1,6 @@
 #logo {
-    position: absolute;
-    top: 7%;
+    /* position: absolute; */
+    /* top: 5%; */
     outline-color: var(--primary-color);
     outline-offset: 0.25rem;
     outline-width: 2px;
@@ -11,78 +11,85 @@
   height: 3rem;
 }
 
-  #content{
+#content{
+  display: flex;
+  flex-flow: column;
+  max-width: 72.5rem;
+  height: 100vh;
+  max-height: 38rem;
+  padding: 1rem 2rem;
+  position: relative;
+  place-content: center;
+  place-self: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+main h1{
+    margin-bottom: 1.55rem;
+}
+
+main form{
+    display: grid; 
+    gap: 1rem;
+    width: 80vw;
+    max-width: 26rem;
+}
+
+main form .colored-button{
+    width: 100%;
+    max-width: none;
+}
+
+main form label{
     display: flex;
     flex-flow: column;
-    max-width: 72.5rem;
-    height: 100vh;
-    padding: 1rem 2rem;
-    position: relative;
-    place-content: center;
-    place-self: center;
-  }
-  
-  main{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      width: 100vw;
-      justify-content: space-between;
-  }
-  
-  main h1{
-      margin-bottom: 1.55rem;
-  }
-  
-  main form{
-      display: grid; 
-      gap: 1rem;
-      width: 80vw;
-      max-width: 26rem;
-  }
-  
-  main form .colored-button{
-      width: 100%;
-      max-width: none;
-  }
-  
-  main form label{
-      display: flex;
-      flex-flow: column;
-  }
-     
-  main form label input{
-      height: 2rem;
-      padding-left: 0.5rem;
-      border-radius: 0.25rem;
-      border: 1px solid var(--secondary-bg-color);
-      outline-color: var(--primary-color);
-      outline-offset: 0.25rem;
-      outline-width: 2px;
-      margin-top: 0.4rem;
-  }
+}
    
-  main form small{
-      place-self: center;
-  }
-  
-  main form small a{
-      color: var(--primary-color);
-      outline-color: var(--primary-color);
-      outline-offset: 0.1rem;
-      outline-width: 2px;
-  }
-  
-  #background {
-      display: flex;
-  }
-  
-  #background img{
-      width: 50vw;
-      height: 100vh;
-      object-fit: cover;
-      border-radius: 1.75rem 0 0 1.75rem;
-  }
-  
+main form label input{
+    height: 2rem;
+    padding-left: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid var(--secondary-bg-color);
+    outline-color: var(--primary-color);
+    outline-offset: 0.25rem;
+    outline-width: 2px;
+    margin-top: 0.4rem;
+}
+ 
+main form small{
+    place-self: center;
+}
+
+main form small a{
+    color: var(--primary-color);
+    outline-color: var(--primary-color);
+    outline-offset: 0.1rem;
+    outline-width: 2px;
+}
+
+#background {
+    display: flex;
+}
+
+#background img{
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+    border-radius: 1.75rem 0 0 1.75rem;
+}
+ 
+@media (min-height: 550px), (max-width: 984px) {
+    main {
+        max-height: 45rem;
+    }
+}
+
 @media (max-width: 984px) {
     #background {
         display: none;
@@ -94,8 +101,19 @@
 }
 
 @media (max-height: 457px), (max-width: 984px) {
+    #logo {
+        position: relative;
+        top: 0;
+    }
+
+    main {
+        place-content: start;
+    }
+
     #content {
+        margin-top: 2rem;
         padding: 0;
+        place-content: start;
     }
 
     #content img {
