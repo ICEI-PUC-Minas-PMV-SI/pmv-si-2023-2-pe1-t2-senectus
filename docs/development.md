@@ -28,7 +28,7 @@ As tabelas que se seguem apresentam os requisitos funcionais que relacionam o es
 | RF-014 | O sistema deve permitir que usuários profissionais atualizem seus perfis. | MÉDIA | https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/configs.html | configs.html |
 | RF-015 | O sistema deve permitir que o usuário profissional seja capaz de deletar a sua conta. | ALTA | https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/configs.html  | configs.html |
 | RF-016 | O sistema deve permitir que o usuário idoso marque uma consulta com o profissional da saúde. | MÉDIA | https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/search-professionals.html | search-professionals.html | 
-| RF-017 | O sistema deve permitir que o usuário profissional receba uma notificação do seu e-mail para confirmação de consulta. | MÉDIA | https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/search-professionals.html | search-professionals.html |
+| RF-017 | O sistema deve permitir que o usuário profissional receba uma notificação no seu e-mail para confirmação de consulta. | MÉDIA | https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/search-professionals.html | search-professionals.html |
 | RF-018 | O sistema deve permitir que usuários profissionais definam previamente o valor de seus serviços | MÉDIA | https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/configs.html | configs.html |
 ## Descrição das estruturas:
 
