@@ -9,6 +9,9 @@ export class ConfigDTO {
 			'Cidade não é uma string',
 			'Estado não é uma string',
 			'Valor por serviço não é um número',
+			'Primeiro serviço não é uma string',
+			'Segundo serviço precisa ser uma string ou nulo',
+			'Terceiro serviço precisa ser uma string ou nulo'
 		];
 		const typeValidation = [
 			typeof user.name === 'string',
@@ -16,7 +19,10 @@ export class ConfigDTO {
 			typeof user.job === 'string',
 			typeof user.city === 'string',
 			typeof user.state === 'string',
-			typeof user.value === 'number'
+			typeof user.value === 'number',
+			typeof user.main_services === 'string',
+			typeof user.second_services === 'string' || !user.second_services,
+			typeof user.third_services === 'string' || !user.third_services
 		];
 		typeValidation.forEach((item, index) => {
 			if(!item)

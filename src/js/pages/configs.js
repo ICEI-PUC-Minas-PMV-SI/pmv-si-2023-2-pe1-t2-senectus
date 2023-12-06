@@ -41,14 +41,21 @@ class Configs {
       short_description,
       phone_number,
       city,
-      price
+      price,
+      main_services,
+      second_services,
+      third_services
+
     ] = [
       inputs[0],
       inputs[1],
       inputs[2],
       inputs[3],
       inputs[4],
-      inputs[5]
+      inputs[5],
+      inputs[6],
+      inputs[7],
+      inputs[8]
     ]
 
     return { 
@@ -59,7 +66,10 @@ class Configs {
       price, 
       job,
       short_description,
-      phone_number
+      phone_number,
+      main_services,
+      second_services,
+      third_services
     }
   }
 
@@ -77,6 +87,9 @@ class Configs {
       ? `<option value="${userInClass.state}-${userInClass.state_abbr}">${userInClass.state}</option>`
       : null;
     inputsAndSelects.price.value = userInClass.value ?? null;
+    inputsAndSelects.main_services.value = userInClass.main_services ?? null;
+    inputsAndSelects.second_services.value = userInClass.second_services ?? null;
+    inputsAndSelects.third_services.value = userInClass.third_services ?? null;
   }
 
   deleteAccount(user) {
@@ -131,7 +144,10 @@ class Configs {
         city: inputsAndSelects.city.value,
         state: state,
         state_abbr: state_abbr,
-        value: inputsAndSelects.price.value
+        value: inputsAndSelects.price.value,
+        main_services: inputsAndSelects.main_services.value,
+        second_services: inputsAndSelects.main_services.value,
+        third_services: inputsAndSelects.main_services.value
       });
 
       try {
