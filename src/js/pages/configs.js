@@ -21,7 +21,7 @@ class Configs {
       name: 'CONTA DELETADA!', 
       eventName: this.events.delete, 
       callback: () => {
-        window.location.href = "home";
+        window.location.href = "home.html";
       }
     });
     popup.setAlert({
@@ -83,7 +83,7 @@ class Configs {
     TokenOnSessionStorage.delete();
     UserOnLocalStorage.delete(user.id);
       
-    window.location.href = "home";
+    window.location.href = "home.html";
   }
 
 
@@ -154,7 +154,7 @@ class Configs {
     const user = TokenOnSessionStorage.get();
     if(!user) {
       alert("Você não tem permissão para acessar esta página!");
-      window.location.href = "login";
+      window.location.href = "login.html";
       throw new Error("Você não tem permissão para acessar esta página!");
     }
 

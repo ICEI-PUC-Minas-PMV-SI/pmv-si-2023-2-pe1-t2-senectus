@@ -37,7 +37,7 @@ class Cadastro {
       UserOnLocalStorage.create(user);
       TokenOnSessionStorage.create(user);
  
-      window.location.href = 'home';
+      window.location.href = 'home.html';
     })
   }
 } 
