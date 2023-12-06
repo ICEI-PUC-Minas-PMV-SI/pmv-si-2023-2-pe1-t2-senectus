@@ -146,8 +146,8 @@ class Configs {
         state_abbr: state_abbr,
         value: inputsAndSelects.price.value,
         main_services: inputsAndSelects.main_services.value,
-        second_services: inputsAndSelects.main_services.value,
-        third_services: inputsAndSelects.main_services.value
+        second_services: inputsAndSelects.second_services.value,
+        third_services: inputsAndSelects.third_services.value
       });
 
       try {
