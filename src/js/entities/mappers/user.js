@@ -17,6 +17,8 @@ export class UserMapper {
 			value: user.value,
 			createdAt: user.createdAt,
 			main_services: user.main_services,
+			second_services: user.second_services,
+			third_services: user.second_services
 		}
 	}
 
@@ -34,7 +36,9 @@ export class UserMapper {
 		city_abbr,		
 		value,
 		createdAt,
-		main_services
+		main_services,
+		second_services,
+		third_services
 	}) {
 		return new User({
 			id, 
@@ -50,7 +54,9 @@ export class UserMapper {
 			city_abbr,
 			value,
 			createdAt,
-			main_services
+			main_services,
+			second_services,
+			third_services
 		});
 	}
 }
