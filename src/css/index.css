@@ -146,18 +146,22 @@ header ul li a#login-button.open-header {
 /*----------------*/
 
 /* BOTÃO ESPECIAL */
-#header ul li a#config-button {
+#header ul li button#config-button {
   padding: 0;
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+  font-size: inherit;
 }
 header ul li button#config-button .fa-gear,
-header ul li a#config-button .fa-gear,
-header ul li a#config-button span {
+header ul li button#config-button .fa-gear,
+header ul li button#config-button span {
   color: var(--primary-color);
   transition: color 0.2s;
 }
 
 header ul li button#config-button .fa-gear:hover,
-header ul li a#config-button span:hover {
+header ul li button#config-button span:hover {
   color: var(--on-hover-primary-color);
 }
 
@@ -179,6 +183,26 @@ header ul li a#login-button:hover {
   background-color: var(--on-hover-primary-color);
   cursor: pointer;
   color: white;
+}
+
+#header ul#config-options-buttons {
+  display: block;
+  width: clamp(11.5rem, 17.5vw, 13.5rem);
+  height: auto;
+  background-color: var(--primary-bg-color);
+  border: 1px solid var(--inverted-bg-color);
+  position: absolute;
+  z-index: 2;
+}
+
+#header ul#config-options-buttons li {
+  background-color: var(--primary-bg-color);
+  transition: background-color 0.2s;
+}
+
+#header ul#config-options-buttons li:hover {
+  background-color: var(--secondary-bg-color);
+  cursor: pointer;
 }
 /*----------------*/
 
@@ -235,6 +259,10 @@ header ul li a#login-button:hover {
   #header ul li a:hover {
     color: #334155;
   }
+
+  #header ul#config-options-buttons {
+    width: 75vw;
+    max-width: 7.44rem;
+  }
 }
 /*-------------*/
-

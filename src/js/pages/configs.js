@@ -86,13 +86,6 @@ class Configs {
     window.location.href = "home";
   }
 
-  watchLogoutButton() {
-    const button = document.getElementById("logout");
-    button.addEventListener("click", () => {
-      TokenOnSessionStorage.delete()
-      window.location.href = "login"
-    })
-  }
 
   watchDeleteAccountButton(user) {
     const button = document.getElementById("delete-account");
@@ -247,11 +240,9 @@ class Configs {
 
     this.watchForm(user);
     this.watchDeleteAccountButton(user);
-    this.watchLogoutButton();
   }
 } 
 
 LoginButtonHandler.trySwitchToConfigButton();
 MenuMobile.watchMenuButton();
-
 new Configs().start();
