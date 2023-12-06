@@ -14,6 +14,7 @@ export class User {
 	#value; 
 	#id; 
 	#createdAt;
+	#main_services;
 
 	constructor({
 		id = undefined,
@@ -29,6 +30,7 @@ export class User {
 		city_abbr = undefined,
 		value = undefined,
 		createdAt = undefined,
+		main_services = undefined,
 	}) {
 		this.#id = id ? id : UUID.genV4();
 		this.#name = name;
@@ -43,6 +45,7 @@ export class User {
 		this.#city_abbr = city_abbr;
 		this.#value = value ? parseInt(value) : undefined;
 		this.#createdAt = createdAt ?? new Date();
+		this.#main_services = main_services;
 	}
 
 	get id() {
@@ -98,5 +101,9 @@ export class User {
 
 	get createdAt() {
 		return this.#createdAt;
+	}
+
+	get main_services() {
+		return this.#main_services;
 	}
 }
