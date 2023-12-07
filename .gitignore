@@ -8,4 +8,6 @@ dist
 Gemfile
 Gemfile.lock
 _config.yml
-
+node_modules
+pnpm-lock.yaml
+package-lock.json

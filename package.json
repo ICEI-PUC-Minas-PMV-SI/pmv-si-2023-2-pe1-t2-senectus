@@ -1,0 +1,11 @@
+{
+  "name": "senectus",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "http-server ./src --cors -p 3000"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
