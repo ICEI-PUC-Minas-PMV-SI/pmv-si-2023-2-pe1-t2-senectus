@@ -18,7 +18,7 @@ export class UserMapper {
 			createdAt: user.createdAt,
 			main_services: user.main_services,
 			second_services: user.second_services,
-			third_services: user.second_services
+			third_services: user.third_services
 		}
 	}
 
