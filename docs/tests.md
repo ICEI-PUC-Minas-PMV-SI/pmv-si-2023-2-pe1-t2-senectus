@@ -221,8 +221,6 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
 
-[Termo.pdf](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/files/13606263/Termo.pdf)
-
 # Testes de Usabilidade
 
 O objetivo do Plano de Testes de Usabilidade é obter informações quanto à expectativa dos usuários em relação à  funcionalidade da aplicação de forma geral.
@@ -243,8 +241,7 @@ Satisfação subjetiva: responde como o usuário avalia o sistema com relação 
 
 Tempo para conclusão da tarefa: em segundos, e em comparação com o tempo utilizado quando um especialista (um desenvolvedor) realiza a mesma tarefa.
 
-Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as informações pessoais dos usuários que participaram do teste não foram coletadas, tendo em vista a ausência de Termo de Consentimento Livre e Esclarecido.
-
+Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as informações pessoais dos usuários que participaram do teste estão em sigilo, tendo em vista a assinatura do Termo de Consentimento Livre e Esclarecido. Logo, ao final deste documento terá a presença de todos os Termos de Consentimento Livre e Esclarecido em formato PDF para contastar a credibilidade de nossas ações.
 
 Apresente os cenários de testes utilizados na realização dos testes de usabilidade da sua aplicação. Escolha cenários de testes que demonstrem as principais histórias de usuário sendo realizadas. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
 
@@ -297,6 +294,9 @@ Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,0
     tanto na hora da pesquisa, quanto depois dela, nos resultados.
 
 
+## Termos de Consentimento Livre e Esclarecido
+
+[Termo de Consentimento](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/files/13606263/Termo.pdf)
 
 
 ## Avaliação dos Testes de Usabilidade
