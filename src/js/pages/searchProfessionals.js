@@ -1,3 +1,5 @@
+import "../entities/repos/localstorage/seed.js"
+
 import { UserOnLocalStorage } from "../entities/repos/localstorage/user.js"
 import { LoginButtonHandler } from "../utils/loginButton.js"
 import { FormatPhoneNumber } from "../utils/formatPhoneNumber.js"
@@ -72,17 +74,35 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
 
       <div class="location-and-value">
 
-        <div>
+        <section>
           <i class="fa-solid fa-location-dot"></i>
-          <small>${user.state_abbr}</small>
-        </div>
-
-        <div>
-          <i class="fa-solid fa-sack-dollar"></i>
-          <small>R$${user.value}</small>
-        </div>
+          <small>${user.state}, ${user.city}</small>
+        </section>
 
       </div>
+
+    <div id="user-services">
+      <h3>Principais serviços</h3>
+      <ul>
+        <li>
+          <i class="fa-solid fa-check"></i>
+          <small>${user.main_services}</small>
+        </li>
+        ${user.second_services && `
+            <li>
+              <i class="fa-solid fa-check"></i>
+              <small>${user.second_services}</small>
+            </li>
+        `}
+        ${user.third_services && `
+            <li>
+              <i class="fa-solid fa-check"></i>
+              <small>${user.third_services}</small>
+            </li>
+        `}
+      </ul>
+    </div>
+
 
      <button id="make-contact" class="colored-button">
         <i class="fa-regular fa-calendar"></i>
@@ -166,7 +186,8 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
       item.state_abbr &&
       item.job &&
       item.phone_number &&
-      item.short_description
+      item.short_description &&
+      item.main_services
     ));
     
     list.innerHTML = this.buildList(users.length, users);
@@ -252,4 +273,3 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
 
 new SearchProfessionals().start();
 MenuMobile.watchMenuButton();
-
