@@ -1,5 +1,3 @@
-import "../entities/repos/localstorage/seed.js"
-
 import { UserOnLocalStorage } from "../entities/repos/localstorage/user.js"
 import { LoginButtonHandler } from "../utils/loginButton.js"
 import { FormatPhoneNumber } from "../utils/formatPhoneNumber.js"
@@ -215,7 +213,8 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
         item.state_abbr &&
         item.job &&
         item.phone_number &&
-        item.short_description
+        item.short_description &&
+        item.main_services
       ));
       list.innerHTML = this.buildList(users.length, users);
 
@@ -247,7 +246,8 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
         item.state_abbr &&
         item.job &&
         item.phone_number &&
-        item.short_description
+        item.short_description &&
+        item.main_services
       ));
       list.innerHTML = this.buildList(users.length, users);
 

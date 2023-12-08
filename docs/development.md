@@ -32,7 +32,7 @@ As tabelas que se seguem apresentam os requisitos funcionais que relacionam o es
 | RF-018 | O sistema deve permitir que usuários profissionais definam previamente o valor de seus serviços | MÉDIA | https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/configs.html | configs.html |
 ## Descrição das estruturas:
 
-## Prestador de serviço
+### Entidades - Prestador de serviço
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Id             |Number|               Identificador único do usuário            | 1                                              |
@@ -42,3 +42,24 @@ As tabelas que se seguem apresentam os requisitos funcionais que relacionam o es
 | Área de atuação   | Texto  | Profissão do usuário| Personal Trainer                                           |
 | Localização  | Texto  | Localização do usuário | Belo Horizonte, MG 
 |Valor cobrado pelo serviço  | Numero  | Valor que o usuário terá que pagar pelo serviço | R$158.99                                              ||
+
+## Estrutura do projeto
+<img src="./img/EstruturaDoProjeto.svg" alt=""/>
+
+<br>
+<br>
+<br>
+
+A estrutura do nosso projeto foi moldada de maneira completamente modular, visando separar a regra de negócio e designar a responsabilidade para cada classe existente no sistema, observe as camadas existentes no sistema abaixo e as suas respectivas responsabilidades:
+
+| Camada | Caminho | Responsabilidade |
+|------|---------|------------------|
+| Páginas | /src/js/pages | Responsável por gerenciar os eventos da página e disparar as demais classes quando necessário, por exemplo, quando o usuário precisa realizar o cadastro, a pages deve disparar a classe responsável por tal |
+| Entidades | /src/js/entities | Responsável por viabilizar o uso das entidades no código por meio das classes, por exemplo a entidade de usuários, que é representada por user.js |
+| Repositórios | /src/js/repos | Responsável por isolar os repositórios e métodos de armazenamentos em um classe, um exemplo disso é o localstorage/user.js e o sessionStorage/token.js que são responsáveis pela criação dos respectivos dados dentro do Local Storage e o Session Storage, garantindo que a utilização desta API nativa do Javascript seja utilizada de maneira uniforme e mais modular. |
+| Fabricas | /src/factories | Responsável por criar entidades ou dados de maneira genérica e customizável ao mesmo tempo, um exemplo de uso desta camada pode ser visualizado na geração de coleções de usuários aleatórios em /src/js/entities/repos/localstorage/seed.js. |
+| Validação de dados | /src/DTO | Responsável pela validação de uma coleção de dados. Geralmente, utilizamos esta camada quando pretendemos passar um objeto de uma camada para a outra, um exemplo de uso é o momento em que o usuário realiza o seu login e precisamos validar se os campos do usuário estão corretos ou não. |
+| Utilitários | /src/utils | São utilitários utilizados no projeto, não possuem uma função específica, sendo assim, são funções genéricas, como por exemplo, a geração de um UUID ou a formatação de um número de telefone. |
+| Eventos | /src/events | Esta camada é responsável por gerenciar eventos customizados, com a biblioteca mitt, no sistema, um exemplo de uso é quando precisamos disparar um determinado popup usando o metódo dispatch.  |
+| Gateways | /src/gateways | Responsável pelo uso de APIs externas, garantindo uma uniformidade em seu uso, evitando assim, que erros possam ocorrer ao manipular, por exemplo, a API do IBGE. 
+| Mapeadores | /src/js/entities/mappers | São responsaveis por remapear as entidades presentes no sistema, um exemplo disso, é quando precisamos converter a classe User em um objeto para inserir dentro do Local Storage. |
