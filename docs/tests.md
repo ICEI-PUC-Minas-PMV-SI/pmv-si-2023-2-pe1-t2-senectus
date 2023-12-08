@@ -180,7 +180,7 @@ A documentação dos testes é dividida nas seguintes seções:
 :---------------: | ---------------------
 **Procedimento**  | 1) Navegar pelo site em diferentes dispositivos
 **Requisitos associados** | RNF-002
-**Resultados esperados** | Encontrar arquivos Javascript no sistema
+**Resultados esperados** | Design responsivo para telas em diferentes dispositivos |
 **Resultados obtido**    | |
 **Páginas acessadas** | Todos as páginas |
 
@@ -196,11 +196,11 @@ A documentação dos testes é dividida nas seguintes seções:
 <br>
 
 ### Caso de Teste 009
-**Caso de Teste** | **CT09 - Javascript**
+**Caso de Teste** | **CT09 - Usabilidade**
 :---------------: | ---------------------
 **Procedimento**  | 1) Acessar a aplicação em https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) Validar com base nas Heurísticas de Nielsen
 **Requisitos associados** | RNF-001
-**Resultados esperados** | Encontrar arquivos Javascript no sistema
+**Resultados esperados** | O sistema estar seguindo pelo menos 4 heurísticas 
 **Resultados obtido**    | |
 **Páginas acessadas** | 1) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home |
 

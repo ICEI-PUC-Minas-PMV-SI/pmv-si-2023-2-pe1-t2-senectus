@@ -43,7 +43,7 @@ As tabelas que se seguem apresentam os requisitos funcionais que relacionam o es
 | Localização  | Texto  | Localização do usuário | Belo Horizonte, MG 
 |Valor cobrado pelo serviço  | Numero  | Valor que o usuário terá que pagar pelo serviço | R$158.99                                              ||
 
-## Estrutura do projeto
+### Estrutura do projeto
 <img src="./img/EstruturaDoProjeto.svg" alt=""/>
 
 <br>
