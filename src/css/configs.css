@@ -44,9 +44,14 @@ main form fieldset {
 
 main form label {
   display: flex;
-  flex-flow: column;
-  width: inherit;
+  gap: 0.25rem;
+  width: 36vw;
+  max-width: 24rem;
   margin-bottom: 0.5rem;
+}
+
+#obligatory-symbol {
+  color: red;
 }
 
 main form div {
@@ -139,6 +144,9 @@ main form div i {
   main form fieldset div select {
     width: 89vw;
   }
+  main form label {
+    width: 89vw;
+  }
 
   #introduction-text {
     place-self: center;
@@ -177,4 +185,3 @@ main form div i {
   }
 }
 /*-------------------------------------------*/
-
