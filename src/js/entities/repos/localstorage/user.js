@@ -7,45 +7,46 @@ export class UserOnLocalStorage {
   }
 
   static create(user) {
-    for(let i=0; i<localStorage.length; i++) {
-      const key = localStorage.key(i);
-      const item = key 
-        ? Obfuscator.translate(localStorage.getItem(key))
-        : undefined;
+    const { users } = localStorage.getItem('senectus')
+      ? JSON.parse(localStorage.getItem('senectus'))
+      : { users: [] }
 
-      if(
-        item.id === user.id ||
-        item.name === user.name ||
-        item.email === user.email
-      ) {
-        alert('Usuário já existe!');
-        throw new Error('Usuário já existe!')
-      }
+    const searchedUser = users.find((item) => {
+      const parsedItem = JSON.parse(Obfuscator.translate(item))
+
+      return (
+        parsedItem.id === user.id ||
+        parsedItem.name === user.name ||
+        parsedItem.email === user.email
+      )
+    });
+
+    if(searchedUser) {
+      alert('Usuário já existe!');
+      throw new Error('Usuário já existe!')
     }
 
     const data = Obfuscator.obfuscate(
       JSON.stringify(UserMapper.toObject(user))
     );
-    localStorage.setItem(user.email, data);
+    users.push(data);
+
+    localStorage.setItem('senectus', JSON.stringify({
+      users
+    }));
   }
 
   static findGroupWithJob(job) {
-    let searchedUsers = [];
+    const { users } = localStorage.getItem('senectus')
+      ? JSON.parse(localStorage.getItem('senectus'))
+      : { users: [] }
 
-    for(let i=0; i<localStorage.length; i++) {
-      const key = localStorage.key(i);
-      const item = key 
-        ? UserMapper.toClass(
-            JSON.parse(
-              Obfuscator.translate(
-                localStorage.getItem(key)
-              )
-            )
-          )
-        : undefined;
+    const searchedUsers = [];
+    for(let i=0; i<users.length; i++) {
+      const parsedItem = JSON.parse(Obfuscator.translate(users[i]))
 
-      if(item.job === job)
-        searchedUsers.push(item);
+      if(parsedItem.job === job)
+        searchedUsers.push(UserMapper.toClass(parsedItem))
     }
 
     searchedUsers.sort((a, b) => {
@@ -60,14 +61,16 @@ export class UserOnLocalStorage {
   }
 
   static getGroupWithRegExp(input) {
-    let searchedUsers = [];
-    const maximumItems = 12;
+    const { users } = localStorage.getItem('senectus')
+      ? JSON.parse(localStorage.getItem('senectus'))
+      : { users: [] }
+    const maximumItems = users.length < 12 
+      ? users.length 
+      : 12;
 
+    const searchedUsers = [];
     for(let i=0; i<maximumItems; i++) {
-      const key = localStorage.key(i)
-      const item = key 
-        ? Obfuscator.translate(localStorage.getItem(key))
-        : undefined;
+      const item = Obfuscator.translate(users[i])
 
       const regex = new RegExp(input, "gmi");
       if(regex.exec(item)) {
@@ -82,23 +85,20 @@ export class UserOnLocalStorage {
   }
 
   static getGroupOf(number) {
-    let searchedUsers = [];
-    const maximumItems = number > localStorage.length
-      ? localStorage.length
+    const { users } = localStorage.getItem('senectus')
+      ? JSON.parse(localStorage.getItem('senectus'))
+      : { users: [] }
+    const maximumItems = number > users.length
+      ? users.length
       : number; 
 
+    const searchedUsers = []
     for(let i=0; i<maximumItems; i++) {
-      const key = localStorage.key(i);
-      const item = key 
-        ? UserMapper.toClass(
-            JSON.parse(
-              Obfuscator.translate(localStorage.getItem(key))
-            )
-        )
-        : undefined;
+      const item = UserMapper.toClass(
+        JSON.parse(Obfuscator.translate(users[i]))
+      )
 
-      if(item)
-        searchedUsers.push(item);
+      searchedUsers.push(item);
     }
 
     searchedUsers.sort((a, b) => {
@@ -113,99 +113,88 @@ export class UserOnLocalStorage {
   }
 
   static findById(id) {
-    let searchedUser = null;
-    for(let i=0; i<localStorage.length; i++) {
-      const key = localStorage.key(i);
-      const item = key 
-        ? UserMapper.toClass(
-            JSON.parse(
-              Obfuscator.translate(
-                localStorage.getItem(key)
-              )
-            )
-        )
-        : undefined;
+    const { users } = localStorage.getItem('senectus')
+      ? JSON.parse(localStorage.getItem('senectus'))
+      : { users: [] }
 
-      if(item.id === id)
-        return searchedUser = item;
-    }
+    let searchedUser = users.find((item) => {
+      const parsedItem = JSON.parse(Obfuscator.translate(item))
+      return parsedItem.id === id
+    })
+
+    searchedUser = searchedUser ? UserMapper.toClass(
+      JSON.parse(Obfuscator.translate(searchedUser))
+    ) : undefined;
 
     return searchedUser; 
   }
 
   static findByName(name) {
-    let searchedUser = null;
-    for(let i=0; i<localStorage.length; i++) {
-      const key = localStorage.key(i);
-      const item = key 
-        ? UserMapper.toClass(
-            JSON.parse(
-              Obfuscator.translate(
-                localStorage.getItem(key)
-              )
-            )
-        )
-        : undefined;
+    const { users } = localStorage.getItem('senectus')
+      ? JSON.parse(localStorage.getItem('senectus'))
+      : { users: [] }
 
-      if(item.name === name)
-        return searchedUser = item;
-    }
+    let searchedUser = users.find((item) => {
+      const parsedItem = JSON.parse(Obfuscator.translate(item))
+      return parsedItem.name === name
+    })
+
+    searchedUser = searchedUser ? UserMapper.toClass(
+      JSON.parse(Obfuscator.translate(searchedUser))
+    ) : undefined;
+
+    return searchedUser; 
   }
 
   static findByEmail(email) {
-    let searchedUser = null;
-    for(let i=0; i<localStorage.length; i++) {
-      const key = localStorage.key(i);
-      const item = key 
-        ? UserMapper.toClass(
-            JSON.parse(
-              Obfuscator.translate(
-                localStorage.getItem(key)
-              )
-            )
-        )
-        : undefined;
+    const { users } = localStorage.getItem('senectus')
+      ? JSON.parse(localStorage.getItem('senectus'))
+      : { users: [] }
 
-      if(item.email === email)
-        return searchedUser = item;
-    }
+    let searchedUser = users.find((item) => {
+      const parsedItem = JSON.parse(Obfuscator.translate(item))
+      return parsedItem.email === email
+    })
 
-    return searchedUser;
+    searchedUser = searchedUser ? UserMapper.toClass(
+      JSON.parse(Obfuscator.translate(searchedUser))
+    ) : undefined;
+
+    return searchedUser; 
   }
 
   static delete(id) {
-    let searchedUser = null
-    for(let i=0; i<localStorage.length; i++) {
-      const key = localStorage.key(i);
-      const item = key 
-        ? JSON.parse(Obfuscator.translate(localStorage.getItem(key)))
-        : undefined;
+    const { users } = localStorage.getItem('senectus')
+      ? JSON.parse(localStorage.getItem('senectus'))
+      : { users: [] }
 
-      if(item.id === id)
-        searchedUser = item;  
-    }
+    const searchedUserIndex = users.findIndex((item) => {
+      const parsedItem = JSON.parse(Obfuscator.translate(item))
+      return parsedItem.id === id
+    })
 
-    if(searchedUser.id !== id){
+    if(!searchedUserIndex < 0){
       alert('Usuário não existe!');
       throw new Error('Usuário não existe!')
     }
 
-    localStorage.removeItem(searchedUser.email);
+    users.splice(searchedUserIndex, 1);
+    localStorage.setItem('senectus', JSON.stringify({
+      users
+    }));
   }
 
   static update(user) {
-    let searchedUser = null;
-    for(let i=0; i<localStorage.length; i++) {
-      const key = localStorage.key(i);
-      const item = key 
-        ? JSON.parse(Obfuscator.translate(localStorage.getItem(key)))
-        : undefined;
+    const { users } = localStorage.getItem('senectus')
+      ? JSON.parse(localStorage.getItem('senectus'))
+      : { users: [] }
 
-      if(item.id === user.id)
-        searchedUser = item;
-    }
+    const searchedUserIndex = users.findIndex((item) => {
+      const parsedItem = JSON.parse(Obfuscator.translate(item))
+      return parsedItem.id === user.id
+    })
 
-    if(!searchedUser){
+    if(searchedUserIndex < 0){
       alert('Usuário não existe!');
       throw new Error('Usuário não existe!')
     }
@@ -213,6 +202,10 @@ export class UserOnLocalStorage {
     const data = Obfuscator.obfuscate(
       JSON.stringify(UserMapper.toObject(user))
     );
-    localStorage.setItem(searchedUser.email, data);
+
+    users[searchedUserIndex] = data;
+    localStorage.setItem('senectus', JSON.stringify({
+      users
+    }));
   }
 }
