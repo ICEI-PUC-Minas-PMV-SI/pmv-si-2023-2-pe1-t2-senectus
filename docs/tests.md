@@ -251,15 +251,21 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 
 # Testes de Usabilidade
 
-O objetivo do Plano de Testes de Usabilidade é obter informações quanto à expectativa dos usuários em relação à  funcionalidade da aplicação de forma geral.
 
-Para tanto, elaboramos seis cenários, cada um baseado na definição apresentada sobre as histórias dos usuários, definido na etapa das especificações do projeto.
 
-Foram convidadas [QUANTIDADE DE PESSOAS NO TESTE] pessoas que os perfis se encaixassem nas definições das histórias apresentadas na documentação, visando averiguar os seguintes indicadores:
+# Testes de Usabilidade
 
-Taxa de sucesso: responde se o usuário conseguiu ou não executar a tarefa proposta;
+O objetivo do Plano de Testes de Usabilidade é obter informações quanto à expectativa dos usuários em relação à  funcionalidade da aplicação. Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados (LGPD), as informações pessoais - exceto nome, idade e profissão - dos usuários que participaram do teste não foram coletadas, as informações coletadas serviram apenas para a assinatura do Termo de Consentimento Livre e Esclarecido, referenciado logo abaixo desta seção de apresentação, e não foram coletadas por finalidade de pesquisa.
 
-Satisfação subjetiva: responde como o usuário avalia o sistema com relação à execução da tarefa proposta, conforme a seguinte escala:
+Para este teste de usabilidade, elaboramos seis cenários, cada um baseado na definição apresentada sobre as histórias dos usuários definido na etapa das especificações do projeto.
+
+Foram convidadas [QUANTIDADE DE PESSOAS NO TESTE] pessoas que os perfis se encaixassem nas definições das personas apresentadas na documentação, sendo, idosos e profissionais da saúde; visando averiguar os seguintes indicadores:
+
+### Indicadores 
+
+**Taxa de sucesso:** Métrica coletada a respeito do cumprimento de uma tarefa passada ao usuário, se o usuário conseguiu ou não executar a tarefa proposta;
+
+**Satisfação subjetiva:** Métrica coletada a respeito da avaliação subjetiva por parte do usuário à tarefa proposta, como o usuário avalia o sistema com relação à execução da tarefa proposta, conforme a seguinte escala:
 
 1. Péssimo; 
 2. Ruim; 
@@ -267,14 +273,7 @@ Satisfação subjetiva: responde como o usuário avalia o sistema com relação 
 4. Bom; 
 5. Ótimo.
 
-Tempo para conclusão da tarefa: em segundos, e em comparação com o tempo utilizado quando um especialista (um desenvolvedor) realiza a mesma tarefa.
-
-Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as informações pessoais dos usuários que participaram do teste não foram coletadas, tendo em vista a ausência de Termo de Consentimento Livre e Esclarecido.
-
-
-Apresente os cenários de testes utilizados na realização dos testes de usabilidade da sua aplicação. Escolha cenários de testes que demonstrem as principais histórias de usuário sendo realizadas. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
-
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+**Tempo para conclusão da tarefa:** em segundos, e em comparação com o tempo utilizado quando um especialista (um desenvolvedor) realiza a mesma tarefa.
 
 
 ## Cenários de Teste de Usabilidade
