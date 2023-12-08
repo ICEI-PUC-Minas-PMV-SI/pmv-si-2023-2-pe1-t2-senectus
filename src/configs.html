@@ -88,16 +88,14 @@
       <h1 class="prettify-title">
         Edite suas configurações
       </h1>
-      <p>
-        Finalize seu perfil preenchendo ou editando mais algumas informações. Ao acabar, apenas aguarde, pois distribuiremos seu perfil para nossos usuários.
-      </p>
+      <p>Preencha seus dados por completo, dessa forma, podemos compartilhar seu perfil para nossa base de usuários!</p>
     </div>
     <!------------------------->
 
     <form>
       <fieldset>
         <label for="input-name">
-          Nome 
+          Nome <b id="obligatory-symbol">*</b>
         </label>
         <div>
           <input minlength="2" maxlength="24" type="text" id="input-name" name="full-name">
@@ -107,7 +105,7 @@
 
       <fieldset>
         <label for="input-password">
-          Senha
+          Senha <b id="obligatory-symbol">*</b>
         </label>
         <div>
           <input minlength="6" maxlength="256" type="password" id="input-password" name="password">
@@ -117,7 +115,7 @@
 
       <fieldset>
         <label for="input-short-description">
-          Descrição curta
+          Descrição curta <b id="obligatory-symbol">*</b>
         </label>
         <div>
           <input minlength="6" maxlength="116" type="text" id="input-short-description" name="input-short-description">
@@ -127,7 +125,7 @@
 
       <fieldset>
         <label for="input-phone-number">
-          Telefone
+          Telefone <b id="obligatory-symbol">*</b>
         </label>
         <div>
           <input minlength="9" maxlength="11" type="number" id="input-phone-number" name="input-phone-number">
@@ -137,7 +135,7 @@
 
       <fieldset>
         <label for="select-profession">
-          Profissão
+          Profissão <b id="obligatory-symbol">*</b>
         </label>
         <div>
           <select id="select-profession">
@@ -150,8 +148,8 @@
             <option value="Nutricionista">
               Nutricionista
             </option>
-            <option value="Médico">
-              Médico
+            <option value="Quiropraxista">
+              Quiropraxista
             </option>
           </select>
           <i class="fa-solid fa-pen-to-square"></i>
@@ -160,7 +158,7 @@
 
       <fieldset>
         <label for="select-state">
-          Estado
+          Estado <b id="obligatory-symbol">*</b>
         </label>
         <div>
           <select type="text" id="select-state" name="text" list="lista-estado"></select>
@@ -170,7 +168,7 @@
 
       <fieldset>
         <label for="input-city">
-          Cidade
+          Cidade <b id="obligatory-symbol">*</b>
         </label>
         <div>
           <input id="input-city" disabled list="city-list"></input>
@@ -181,7 +179,7 @@
 
       <fieldset>
         <label for="input-price">
-          Valor por serviço
+          Valor por serviço <b id="obligatory-symbol">*</b>
         </label>
         <div>
           <input type="number" id="input-price" name="Preço por serviço">
@@ -191,7 +189,7 @@
 
       <fieldset>
         <label for="input-main-services">
-          Primeiro serviço
+          Serviço mais prestado <b id="obligatory-symbol">*</b>
         </label>
         <div>
           <input type="string" id="input-main-services" name="Digite seu primeiro serviço prestado">
@@ -201,7 +199,7 @@
 
       <fieldset>
         <label for="input-second-services">
-          Segundo serviço (Opcional)
+          Segundo serviço mais prestado (Opcional)
         </label>
         <div>
           <input type="string" id="input-second-services" name="Digite seu segundo serviço prestado">
@@ -211,7 +209,7 @@
       
       <fieldset>
         <label for="input-thid-services">
-          Terceiro serviço (Opcional)
+          Terceiro serviço mais prestado (Opcional)
         </label>
         <div>
           <input type="string" id="input-third-services" name="Digite seu terceiro serviço prestado">
