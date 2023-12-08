@@ -1,3 +1,5 @@
+import "../entities/repos/localstorage/seed.js"
+
 import { UserOnLocalStorage } from "../entities/repos/localstorage/user.js"
 import { User } from "../entities/user.js";
 import { TokenOnSessionStorage } from "../entities/repos/sessionStorage/token.js"

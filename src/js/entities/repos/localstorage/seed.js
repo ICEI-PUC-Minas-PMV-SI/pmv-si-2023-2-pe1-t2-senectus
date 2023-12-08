@@ -1,6 +1,5 @@
 import { UserOnLocalStorage } from "./user.js"
 import { userFactory } from "../../../factories/user.js"
-import {IBGEGateway} from "../../../gateways/APIs/ibge.js"
 
 class SeedGenerator {
   getNamesAndEmails() {

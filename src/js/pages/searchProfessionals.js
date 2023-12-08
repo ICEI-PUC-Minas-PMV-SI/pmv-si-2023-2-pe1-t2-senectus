@@ -1,3 +1,5 @@
+import "../entities/repos/localstorage/seed.js"
+
 import { UserOnLocalStorage } from "../entities/repos/localstorage/user.js"
 import { LoginButtonHandler } from "../utils/loginButton.js"
 import { FormatPhoneNumber } from "../utils/formatPhoneNumber.js"

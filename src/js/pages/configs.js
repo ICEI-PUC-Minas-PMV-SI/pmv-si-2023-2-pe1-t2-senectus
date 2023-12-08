@@ -1,3 +1,5 @@
+import "../entities/repos/localstorage/seed.js"
+
 import { UserMapper } from "../entities/mappers/user.js";
 import { TokenOnSessionStorage } from "../entities/repos/sessionStorage/token.js";
 import { UserOnLocalStorage } from "../entities/repos/localstorage/user.js";
