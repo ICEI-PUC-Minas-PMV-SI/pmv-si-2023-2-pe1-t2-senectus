@@ -1,6 +1,5 @@
 import "../entities/repos/localstorage/seed.js"
 
-import { UserMapper } from "../entities/mappers/user.js";
 import { TokenOnSessionStorage } from "../entities/repos/sessionStorage/token.js";
 import { UserOnLocalStorage } from "../entities/repos/localstorage/user.js";
 import { User } from "../entities/user.js";
@@ -77,21 +76,31 @@ class Configs {
 
   fillFields(user) {
     const inputsAndSelects = this.collectInputsAndSelects();
-    const userInClass = UserMapper.toClass(user);
 
-    inputsAndSelects.name.value = userInClass.name;
-    inputsAndSelects.password.value = userInClass.password;
-    inputsAndSelects.short_description.value = userInClass.short_description ?? null;
-    inputsAndSelects.phone_number.value = userInClass.phone_number ?? null;
-    inputsAndSelects.job.value = userInClass.job ?? null;
-    inputsAndSelects.city.value = userInClass.city ?? null;
-    inputsAndSelects.state.innerHTML = userInClass.state 
-      ? `<option value="${userInClass.state}-${userInClass.state_abbr}">${userInClass.state}</option>`
+    inputsAndSelects.name.value = user.name;
+    inputsAndSelects.password.value = user.password;
+    inputsAndSelects.short_description.value = user.short_description ?? null;
+    inputsAndSelects.phone_number.value = user.phone_number ?? null;
+    inputsAndSelects.job.value = user.job ?? null;
+    inputsAndSelects.city.value = user.city ?? null;
+    inputsAndSelects.state.innerHTML = user.state 
+      ? `<option value="${user.state}-${user.state_abbr}">${user.state}</option>`
       : null;
-    inputsAndSelects.price.value = userInClass.value ?? null;
-    inputsAndSelects.main_services.value = userInClass.main_services ?? null;
-    inputsAndSelects.second_services.value = userInClass.second_services ?? null;
-    inputsAndSelects.third_services.value = userInClass.third_services ?? null;
+    inputsAndSelects.price.value = user.value ?? null;
+    inputsAndSelects.main_services.value = user.main_services ?? null;
+    inputsAndSelects.second_services.value = user.second_services ?? null;
+    inputsAndSelects.third_services.value = user.third_services ?? null;
+
+    if(user.state && user.state_abbr) {
+      const stateSelect = document.getElementById("select-state");
+      this.getCities(
+        [{
+		  state: user.state,
+		  abbr: user.state_abbr
+	    }], 
+        stateSelect.value
+      );
+    }
   }
 
   deleteAccount(user) {
