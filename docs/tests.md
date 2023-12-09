@@ -253,7 +253,7 @@ Atualmente, temos as intenções de rastrear os bugs presentes nas aplicações 
 **Caso de Teste** | **CT10 - Usabilidade**
 :---------------: | ---------------------
 **Procedimento**  | 1) Acessar a aplicação em https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) Validar com base nas Heurísticas de Nielsen
-**Requisitos associados** | RNF-001
+**Requisitos associados** | RNF-001, RNF-004
 **Resultados esperados** | O sistema estar seguindo pelo menos 4 heurísticas 
 **Resultados obtidos**    | SUCESSO |
 **Heurísticas encontradas** | 1) Compatibilidade entre o sistema e o mundo real <br> 2) Consistência e Padronização <br> 3) Prevenção de erros <br> 4) Diagnostico de erros <br> 5) Design minimalista
@@ -311,7 +311,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 |*Caso de Teste*                                 |*TC-10 - Usabilidade*                                         |
 |---|---|
-|Requisito Associado | RNF-001 - O sistema deve seguir boas práticas de desenvolvimento de sistemas com relação a usabilidade. |
+|Requisito Associado | RNF-001 - O sistema deve seguir boas práticas de desenvolvimento de sistemas com relação a usabilidade. <br> RNF-004 - O sistema deve ser de fácil entendimento para o público idoso. |
 |Link dos documentos: |  [Documento de comprovação](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/files/13625094/heuristicas.pdf) |
 
 ## Avaliação dos Testes de Software
