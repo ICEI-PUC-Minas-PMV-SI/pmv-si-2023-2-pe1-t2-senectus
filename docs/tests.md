@@ -176,6 +176,7 @@ A documentação dos testes é dividida nas seguintes seções:
 **Procedimento**  | 1) Acessar o DevTools do navegador e acessar o Javascript
 **Requisitos associados** | RNF-005
 **Resultados esperados** | Encontrar arquivos Javascript no sistema
+**Dados de entrada** | A url da página inicial | 
 **Resultados obtido**    | SUCESSO |
 **Bugs encontrados** | 0 |
 **Bugs corrigidos** | 0 |
@@ -198,6 +199,7 @@ A documentação dos testes é dividida nas seguintes seções:
 **Procedimento**  | 1) Navegar pelo site
 **Requisitos associados** | RNF-002
 **Resultados esperados** | Assim como nos testes que envolvem o site em dispositivos desktop, como mostrados nos demais casos, espera-se que o projeto seja responsivo para dispositivos mobile também |
+**Dados de entrada** | A url da página inicial | 
 **Resultados obtido**    | SUCESSO |
 **Bugs encontrados** | 0 |
 **Bugs corrigidos** | 0 |
@@ -220,7 +222,8 @@ A documentação dos testes é dividida nas seguintes seções:
 **Procedimento**  | 1) O usuário acessa https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) O usuário clica em 'Bem-vindo \<NOME\>' <br> 3) O usuário clica em 'Desconectar' <br> 4) O sistema remove seu token de autenticação e redireciona o usuário para a página de login
 **Requisitos associados** | RF-019, RNF-003 
 **Resultados esperados** | A desconexão do usuário |
-**Resultados obtido**    | |
+**Dados de entrada** | A url da página inicial | 
+**Resultados obtido**    | SUCESSO |
 **Páginas acessadas** | 1) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/login |
 
 ### Fluxograma do teste - CT09
