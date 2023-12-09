@@ -256,7 +256,7 @@ Atualmente, temos as intenções de rastrear os bugs presentes nas aplicações 
 **Requisitos associados** | RNF-001, RNF-004
 **Resultados esperados** | O sistema estar seguindo pelo menos 4 heurísticas 
 **Resultados obtidos**    | SUCESSO |
-**Heurísticas encontradas** | 1) Compatibilidade entre o sistema e o mundo real <br> 2) Consistência e Padronização <br> 3) Prevenção de erros <br> 4) Diagnostico de erros <br> 5) Design minimalista
+**Heurísticas encontradas** | 1) Compatibilidade entre o sistema e o mundo real <br> 2) Consistência e Padronização <br> 3) Prevenção de erros <br> 4) Diagnóstico de erros <br> 5) Design minimalista
 **Páginas acessadas** | 1) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home |
 
 ## Registro dos Testes de Software
