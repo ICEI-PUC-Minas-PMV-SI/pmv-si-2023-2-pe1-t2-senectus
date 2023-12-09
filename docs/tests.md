@@ -26,7 +26,9 @@ A documentação dos testes é dividida nas seguintes seções:
 **Requisitos associados** | RF-001, RF-002, RF-003, RF-004, RF-011, RF-012, RF-013, RNF-004
 **Resultado esperado** | Viabilizar o acesso do usuário aos vídeos feitos para os instruir na sua rotina de exercícios
 **Dados de entrada** | A url da página inicial
-**Resultado obtido** | |
+**Resultados obtido**    | SUCESSO |
+**Bugs encontrados** | 0 |
+**Bugs corrigidos** | 0 |
 **Páginas acessadas** | 1) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/exercises-types <br> 3) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/exercises-list-hipertrofia.html |
 
 <br>
@@ -50,7 +52,10 @@ A documentação dos testes é dividida nas seguintes seções:
 **Requisitos associados** | RF-005, RF-006, RF-018, RNF-003
 **Resultado esperado** | Criação de conta por completo
 **Dados de entrada** | A url da página inicial, a inserção de dados válidos no formulário de cadastro e de configurações da conta.
-**Resultado obtido** | |
+**Resultados obtido**    | Sucesso, porém, percebe-se que o popup na qual solicita o preenchimento de dados relacionados aos contatos do usuário disparava em todas as páginas, incluindo a de configuração e de maneira incessante. Além disso, em alguns navegadores, o popup é disparado instantaneamente, impossibilitando a visualização da tela do usuário de início, o que não nossa intenção. |
+**Bugs encontrados** | 1 |
+**Bugs corrigidos** | 1 |
+**Branches de correções | 7d20231, 33f2866, 39d97e6 |
 **Páginas acessadas** | 1) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/cadastro <br> 3) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/configs |
 
 
@@ -75,7 +80,10 @@ A documentação dos testes é dividida nas seguintes seções:
 **Requisitos associados** | RF-014, RF-018
 **Resultado esperado** | Atualização da conta
 **Dados de entrada** | A url da página inicial e a inserção de dados válidos no formulário de atualização dos dados na página de configuração.
-**Resultado obtido** | |
+**Resultados obtido**    | Sucesso, porém, percebe-se que o campo de cidade não tem a funcionalidade de sugestões de cidades existentes, caso o usuário não mude o estado. |
+**Bugs encontrados** | 1 |
+**Bugs corrigidos** | 1 |
+**Branches de correções | d3c5032 |
 **Páginas acessadas** | 1) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/configs |
 
 ### Fluxograma do teste - CT03
@@ -97,7 +105,9 @@ A documentação dos testes é dividida nas seguintes seções:
 **Requisitos associados** | RF-007, RNF-003
 **Resultado esperado** | Login da conta e redirecionamento para a home
 **Dados de entrada** | A url da página inicial e a inserção de dados válidos no formulário de login.
-**Resultado obtido** | |
+**Resultados obtido**    | SUCESSO |
+**Bugs encontrados** | 0 |
+**Bugs corrigidos** | 0 |
 **Páginas acessadas** | 1) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/login |
 
 ### Fluxograma do teste - CT04
@@ -119,7 +129,10 @@ A documentação dos testes é dividida nas seguintes seções:
 **Requisitos associados** | RF-008, RF-009, RF-010, RF-016, RF-017, RNF-004
 **Resultado esperado** | Usuário contata um profissional de seu desejo
 **Dados de entrada** | A url da página inicial e a inserção do nome do profissional e a categoria do mesmo
-**Resultado obtido** | |
+**Resultados obtido**    | Sucesso, porém, ao realizar os testes, percebe-se um bug na pesquisa dos profissionais por palavra-chave, onde o sistema limitava a iteração de usuário no Local Storage até o máximo de 12 usuário |
+**Bugs encontrados** | 1 |
+**Bugs corrigidos** | 1 |
+**Branches de correções | 9eeff33 |
 **Páginas acessadas** | 1) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/search-professionals |
 
 ### Fluxograma do teste - CT05
@@ -141,7 +154,9 @@ A documentação dos testes é dividida nas seguintes seções:
 **Requisitos associados** | RF-015
 **Resultado esperado** | Deleção da conta
 **Dados de entrada** | A url da página inicial | 
-**Resultado obtido** | |
+**Resultados obtido**    | SUCESSO |
+**Bugs encontrados** | 0 |
+**Bugs corrigidos** | 0 |
 **Páginas acessadas** | 1) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/configs |
 
 ### Fluxograma do teste - CT06
@@ -161,7 +176,9 @@ A documentação dos testes é dividida nas seguintes seções:
 **Procedimento**  | 1) Acessar o DevTools do navegador e acessar o Javascript
 **Requisitos associados** | RNF-005
 **Resultados esperados** | Encontrar arquivos Javascript no sistema
-**Resultados obtido**    | |
+**Resultados obtido**    | SUCESSO |
+**Bugs encontrados** | 0 |
+**Bugs corrigidos** | 0 |
 **Páginas acessadas** | 1) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home |
 
 ### Fluxograma do teste - CT07
@@ -176,12 +193,14 @@ A documentação dos testes é dividida nas seguintes seções:
 <br>
 
 ### Caso de Teste 008
-**Caso de Teste** | **CT08 - Responsividade**
+**Caso de Teste** | **CT08 - Responsividade no mobile**
 :---------------: | ---------------------
-**Procedimento**  | 1) Navegar pelo site em diferentes dispositivos
+**Procedimento**  | 1) Navegar pelo site
 **Requisitos associados** | RNF-002
-**Resultados esperados** | Design responsivo para telas em diferentes dispositivos |
-**Resultados obtido**    | |
+**Resultados esperados** | Assim como nos testes que envolvem o site em dispositivos desktop, como mostrados nos demais casos, espera-se que o projeto seja responsivo para dispositivos mobile também |
+**Resultados obtido**    | SUCESSO |
+**Bugs encontrados** | 0 |
+**Bugs corrigidos** | 0 |
 **Páginas acessadas** | Todos as páginas |
 
 ### Fluxograma do teste - CT08
@@ -196,7 +215,28 @@ A documentação dos testes é dividida nas seguintes seções:
 <br>
 
 ### Caso de Teste 009
-**Caso de Teste** | **CT09 - Usabilidade**
+**Caso de Teste** | **CT09 - Desconexão/Logout**
+:---------------: | ---------------------
+**Procedimento**  | 1) O usuário acessa https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) O usuário clica em 'Bem-vindo \<NOME\>' <br> 3) O usuário clica em 'Desconectar' <br> 4) O sistema remove seu token de autenticação e redireciona o usuário para a página de login
+**Requisitos associados** | RF-019, RNF-003 
+**Resultados esperados** | A desconexão do usuário |
+**Resultados obtido**    | |
+**Páginas acessadas** | 1) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/login |
+
+### Fluxograma do teste - CT09
+
+<div align="center">
+    <img src="./img/CT09.svg" alt="fluxograma do CT09" width="50%" height="50%"/>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+
+### Caso de Teste 010
+**Caso de Teste** | **CT10 - Usabilidade**
 :---------------: | ---------------------
 **Procedimento**  | 1) Acessar a aplicação em https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) Validar com base nas Heurísticas de Nielsen
 **Requisitos associados** | RNF-001
@@ -211,38 +251,50 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*    |*TC-01 - Acessar os exercícios* |
 |---|---|
 |Requisito Associado | RF-001 - O sistema deve permitir que usuários tenham acesso a descrição informativa de exercícios. <br> RF-002 - O sistema deve permitir que usuários sejam capazes de acessar o catálogo de exercícios e os selecionar. <br> RF-011 - O sistema deve ter uma página inicial que mostre a importância da atividade física durante o envelhecimento. <br> RF-012 - O sistema deve ter uma página inicial que fale sobre a iniciativa do projeto Senectus. <br> RF-013 - O sistema deve ter uma página inicial que mostre o quão confiável a plataforma é. <br> RF-003 O sistema deve permitir a seleção de exercícios em forma de categórias. <br> RF-004 O sistema deve permitir que o usuário tenha acesso a algum vídeo ou imagem sobre como fazer o exercício. <br> RNF-004 - O sistema deve ser de fácil entendimento para o público idoso |
-|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1wTy7_caV9VCrESD8m_dqgqpUAEEK0hAo/view?usp=sharing | 
+|Link do vídeo do teste realizado: | [img/CT01.mp4](img/CT01.mp4)  | 
 
 |*Caso de Teste*                                 |*TC-02 - Criar conta completa*                                         |
 |---|---|
 |Requisito Associado | RF-005 - O sistema deve permitir que um profissional se cadastre na plataforma, inserindo informações básicas. <br> RF-006 - O sistema deve permitir que os profissionais sejam capazes de preencher informações mais completas sobre suas competências logo após o cadastro. <br> RF-018 - O sistema deve permitir que usuários profissionais definam previamente o valor de seus serviços <br> RNF-003 - O sistema deve seguir boas práticas de segurança da informação sempre que possível|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | [img/CT02.mp4](img/CT03.mp4) | 
 
 |*Caso de Teste*                                 |*TC-03 - Configuração da conta*                                         |
 |---|---|
 |Requisito Associado | RF-014 - O sistema deve permitir que usuários profissionais atualizem seus perfis. <br> RF-018 - O sistema deve permitir que usuários profissionais definam previamente o valor de seus serviços. |
-|Link do vídeo do teste realizado: |  | 
+|Link do vídeo do teste realizado: | [img/CT03.mp4](img/CT03.mp4)  | 
 
 |*Caso de Teste*                                 |*TC-04 - Login da conta*                                         |
 |---|---|
 |Requisito Associado | RF-007 - O sistema deve permitir que usuários profissionais, previamente cadastrados, façam login na aplicação. <br> RNF-003 - O sistema deve seguir boas práticas de segurança da informação sempre que possível. |
-|Link do vídeo do teste realizado: |  |
+|Link do vídeo do teste realizado: | [img/CT04.mp4](img/CT04.mp4) |
 
 |*Caso de Teste*                                 |*TC-05 - Buscar profissional*                                         |
 |---|---|
 |Requisito Associado | RF-008 - O sistema deve permitir que usuários contactem profissionais. <br> RF-009 - O sistema deve ser capaz de filtrar profissionais por especialidade. <br> RF-010 - O sistema deve ser capaz de filtrar profissionais por palavra-chave. <br> RF-016 - O sistema deve permitir que o usuário idoso marque uma consulta com o profissional da saúde. <br> RF-017 - O sistema deve permitir que o usuário profissional receba uma notificação do seu e-mail para confirmação de consulta. <br> RNF-004 - O sistema deve ser de fácil entendimento para o público idoso |
-|Link do vídeo do teste realizado: |  |
+|Link do vídeo do teste realizado: | [img/CT05.mp4](img/CT05.mp4) |
 
 |*Caso de Teste*                                 |*TC-06 - Deletar conta*                                         |
 |---|---|
 |Requisito Associado | RF-015 - O sistema deve permitir que o usuário profissional seja capaz de deletar a sua conta. |
-|Link do vídeo do teste realizado: |  |
+|Link do vídeo do teste realizado: | [img/CT06.mp4](img/CT06.mp4) |
 
 |*Caso de Teste*                                 |*TC-07 - Utilização do Javascript*                                         |
 |---|---|
 |Requisito Associado | RNF-005 - O sistema deve ser desenvolvido utilizando a linguagem de programação Javascript |
-|Link do vídeo do teste realizado: |  |
-|Explicação da arquitetura do projeto em javascript: | |
+|Link do vídeo do teste realizado: | [img/CT07.mp4](img/CT07.mp4) |
+|Explicação da arquitetura do projeto em javascript: | [development.md](development.md) |
+
+|*Caso de Teste*                                 |*TC-08 - Responsividade*                                         |
+|---|---|
+|Requisito Associado | RNF-002 - O sistema deve ser responsivo em diversas telas com base no público-alvo |
+|Link do vídeo do teste realizado: |  [img/CT08.mp4](img/CT08.mp4) |
+
+
+|*Caso de Teste*                                 |*TC-09 - Desconexão/Logout*                                         |
+|---|---|
+|Requisito Associado | RNF-019 - O sistema deve permitir que usuários desloguem da plataforma |
+|Link do vídeo do teste realizado: |  [img/CT09.mp4](img/CT09.mp4) |
+
 
 ## Avaliação dos Testes de Software
 
