@@ -35,7 +35,7 @@ As tabelas a seguir detalham os requisitos funcionais e não funcionais do proje
 | RF-003 | O sistema deve permitir a seleção de exercícios em forma de categórias. | MÉDIA |  |
 | RF-004 | O sistema deve permitir que o usuário tenha acesso a algum vídeo ou imagem sobre como fazer o exercício. | MÉDIA |   |
 | RF-005 | O sistema deve permitir que um profissional se cadastre na plataforma, inserindo informações básicas. | ALTA |   |
-| RF-006 | O sistema deve permitir que os profissionais sejam capazes de preencher informações mais completas sobre suas competências logo após o cadastro. | ALTA |  |
+| RF-006 | O sistema deve permitir que os profissionais sejam capazes de preencher informações mais completas sobre suas competências, incluindo seus serviços prestados | ALTA |  |
 | RF-007 | O sistema deve permitir que usuários profissionais, previamente cadastrados, façam login na aplicação. | ALTA |   |
 | RF-008 | O sistema deve permitir que usuários contactem profissionais. | ALTA |  |
 | RF-009 | O sistema deve ser capaz de filtrar profissionais por especialidade. | MÉDIA |  |
@@ -46,8 +46,12 @@ As tabelas a seguir detalham os requisitos funcionais e não funcionais do proje
 | RF-014 | O sistema deve permitir que usuários profissionais atualizem seus perfis. | MÉDIA |  |
 | RF-015 | O sistema deve permitir que o usuário profissional seja capaz de deletar a sua conta. | ALTA |  |
 | RF-016 | O sistema deve permitir que o usuário idoso marque uma consulta com o profissional da saúde. | MÉDIA |  |
-| RF-017 | O sistema deve permitir que o usuário profissional receba uma notificação do seu e-mail para confirmação de consulta. | MÉDIA |  |
-| RF-018 | O sistema deve permitir que usuários profissionais definam previamente o valor de seus serviços | MÉDIA | |
+| RF-017 | O sistema deve permitir que o usuário profissional receba uma mensagem no seu e-mail para confirmação de consulta. | MÉDIA |  |
+| RF-018 | O sistema deve permitir que usuários profissionais definam o valor de seus serviços | MÉDIA | |
+| RF-019 | O sistema deve permitir que usuários desloguem da plataforma | MÉDIA | |
+
+
+
 
 ### Requisitos não Funcionais
 
