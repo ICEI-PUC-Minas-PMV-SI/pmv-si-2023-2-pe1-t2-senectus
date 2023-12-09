@@ -280,7 +280,7 @@ Foram convidadas [QUANTIDADE DE PESSOAS NO TESTE] pessoas que os perfis se encai
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que se encaixa na meia idade e sedentária. Acesse a página inicial do site e tente compreender a proposta do projeto. |
+| 1             | Você é uma pessoa que se encaixa na meia idade e sedentária. Acesse a página inicial do site e tente compreender a proposta do projeto. Incluindo a importância da atividade física durante o envelhecimento, sobre o que é o nosso projeto e a segurança dos seus dados na nossa plataforma. |
 | 2             | Você é uma pessoa que se encaixa na meia idade e sedentária que esta procurando conhecer novos tipos exercícios físico da categória aeróbico e pretende obter conteúdos digitais que conseguem te guiar passo a passo nos seus exercícios. Encontre a atividade física que se encaixa nesta categoria no site. |
 | 3             | Você é uma pessoa que se encaixa na meia idade e sedentária que esta procurando contatos de profissionais da saúde relacionados a fisioterapia. Procure os contatos de fisiterapeutas na sua cidade. |
 | 4             | Você é um profissional da saúde buscando uma plataforma que divulgue os seus meios de contatos. Encontre uma maneira de vincular ao Senectus e se divulgar. |
@@ -291,7 +291,7 @@ Foram convidadas [QUANTIDADE DE PESSOAS NO TESTE] pessoas que os perfis se encai
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Você é uma pessoa que se encaixa na meia idade e sedentária. Acesse a página inicial do site e tente compreender a proposta do projeto.
+Cenário 1: Você é uma pessoa que se encaixa na meia idade e sedentária. Acesse a página inicial do site e tente compreender a proposta do projeto. Incluindo a importância da atividade física durante o envelhecimento, sobre o que é o nosso projeto e a segurança dos seus dados na nossa plataforma.
 
 > Requisitos atendidos:
 > [RF-011] O sistema deve ter uma página inicial que mostre a importância da atividade física durante o envelhecimento.
@@ -312,7 +312,7 @@ Cenário 1: Você é uma pessoa que se encaixa na meia idade e sedentária. Aces
     Não tive dificuldades e acho que ficou bem intuitivo.
 
 
-Cenário 2: Você é uma pessoa que se encaixa na meia idade e sedentária que esta procurando conhecer novos tipos exercícios físico da categória aeróbico e pretende obter conteúdos digitais que conseguem te guiar passo a passo nos seus exercícios. Encontre a atividade física que se encaixa nesta categoria no site.
+Cenário 2: Você é uma pessoa que se encaixa na meia idade e sedentária que esta procurando conhecer novos tipos exercícios físico da categória aeróbico e pretende obter conteúdos digitais que conseguem te guiar passo a passo nos seus exercícios. Encontre a atividade física que se encaixa nesta categoria no site. Além do mais descreva em voz alta um exercício que lhe gerou interesse e selecione a categoria.
 
 > Requisitos atendidos:
 > [RF-003] O sistema deve permitir a seleção de exercícios em forma de categórias.
@@ -398,6 +398,9 @@ Requisitos atendidos:
 
 Cenário 6: Você é um profissional da saúde na qual quer se conectar ao site em um computador que não é de sua posse. Encontre uma maneira segura de se conectar e desconectar no Senectus.
 
+Requisitos atendidos:
+
+> [RF-019]O sistema deve permitir que usuários desloguem da plataforma.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
