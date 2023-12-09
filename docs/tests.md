@@ -375,10 +375,6 @@ Foram convidadas [QUANTIDADE DE PESSOAS NO TESTE] pessoas que os perfis se encai
 
 Cenário 1: Você é uma pessoa que se encaixa na meia idade e sedentária. Acesse a página inicial do site e tente compreender a proposta do projeto. Incluindo a importância da atividade física durante o envelhecimento, sobre o que é o nosso projeto e a segurança dos seus dados na nossa plataforma.
 
-> Requisitos atendidos:
-> [RF-011] O sistema deve ter uma página inicial que mostre a importância da atividade física durante o envelhecimento.
-> [RF-012] O sistema deve ter uma página inicial que fale sobre a iniciativa do projeto Senectus.
-> [RF-013] O sistema deve ter uma página inicial que mostre o quão confiável a plataforma é.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
@@ -396,10 +392,6 @@ Cenário 1: Você é uma pessoa que se encaixa na meia idade e sedentária. Aces
 
 Cenário 2: Você é uma pessoa que se encaixa na meia idade e sedentária que esta procurando conhecer novos tipos exercícios físico da categória aeróbico e pretende obter conteúdos digitais que conseguem te guiar passo a passo nos seus exercícios. Encontre a atividade física que se encaixa nesta categoria no site. Além do mais descreva em voz alta um exercício que lhe gerou interesse e selecione a categoria.
 
-> Requisitos atendidos:
-> [RF-003] O sistema deve permitir a seleção de exercícios em forma de categórias.
-> [RF-001] O sistema deve permitir que usuários tenham acesso a descrição informativa de exercícios.
-> [RF-002] O sistema deve permitir que usuários sejam capazes de acessar o catálogo de exercícios e os selecionar.
 
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
@@ -419,12 +411,6 @@ Cenário 2: Você é uma pessoa que se encaixa na meia idade e sedentária que e
 
 Cenário 3: Você é uma pessoa que se encaixa na meia idade e sedentária que esta procurando contatos de profissionais da saúde relacionados a fisioterapia. Procure os contatos de fisiterapeutas na sua cidade.
 
-> Requisitos atendidos:
-> [RF-008] O sistema deve permitir que usuários contactem profissionais.
-> [RF-009] O sistema deve ser capaz de filtrar profissionais por especialidade.
-> [RF-010] O sistema deve ser capaz de filtrar profissionais por palavra-chave.
-> [RF-016] O sistema deve permitir que o usuário idoso marque uma consulta com o profissional da saúde.
-> [RF-017] O sistema deve permitir que o usuário profissional receba uma notificação do seu e-mail para confirmação de consulta.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
@@ -440,7 +426,7 @@ Cenário 3: Você é uma pessoa que se encaixa na meia idade e sedentária que e
     redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
     tanto na hora da pesquisa, quanto depois dela, nos resultados.
 
-Cenário 4: Você é um profissional da saúde buscando uma plataforma que divulgue os seus meios de contatos. Encontre uma maneira de vincular ao Senectus e se divulgar.
+Cenário 4: Você é um profissional da saúde buscando uma plataforma que divulgue os seus meios de contatos. Encontre uma maneira de vincular ao Senectus criando a sua propria conta para se divulgar e logo em seguida se desconecte da plataforma de maneira segura.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
@@ -459,10 +445,6 @@ Cenário 4: Você é um profissional da saúde buscando uma plataforma que divul
 
 Cenário 5: Você é um profissional da saúde na qual deixou de usar a plataforma Senectus e quer se desvincular ao site. Encontre uma maneira de remover seus dados.
 
-Requisitos atendidos:
-
-> [RF-014] O sistema deve permitir que usuários profissionais atualizem seus perfis.
-> [RF-015] O sistema deve permitir que o usuário profissional seja capaz de deletar a sua conta.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
@@ -480,9 +462,6 @@ Requisitos atendidos:
 
 Cenário 6: Você é um profissional da saúde na qual quer se conectar ao site em um computador que não é de sua posse. Encontre uma maneira segura de se conectar e desconectar no Senectus.
 
-Requisitos atendidos:
-
-> [RF-019]O sistema deve permitir que usuários desloguem da plataforma.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
