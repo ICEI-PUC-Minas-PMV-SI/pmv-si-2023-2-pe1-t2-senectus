@@ -16,6 +16,14 @@ A documentação dos testes é dividida nas seguintes seções:
 
 # Teste de Software
 
+Atualmente, temos as intenções de rastrear os bugs presentes nas aplicações por meio do plano de teste citado abaixo. No entanto, é de nossa responsabilidade categorizar os tipos de bugs, para que assim, possamos compreender o nível de severidade e importância que devemos dar para cada bug, segue abaixo as categorias usadas:
+
+- Severidade
+    1. S1 - Crítica / Show Stopper: bloqueia o uso da aplicação;
+    2. S2 - Grave: bugs que causam erros indesejados e geralmente irreversíveis;
+    3. S3 - Moderada: a funcionalidade não atinge os critérios esperados, mas ainda é utilizável;
+    3. S4 - Pequena: impacto minímo na aplicação, como erros na interface gráfica.
+
 ## Plano de Testes de Software
 
 ### Caso de Teste 001
@@ -52,9 +60,10 @@ A documentação dos testes é dividida nas seguintes seções:
 **Requisitos associados** | RF-005, RF-006, RF-018, RNF-003
 **Resultado esperado** | Criação de conta por completo
 **Dados de entrada** | A url da página inicial, a inserção de dados válidos no formulário de cadastro e de configurações da conta.
-**Resultados obtidos**    | Sucesso, porém, percebe-se que o popup na qual solicita o preenchimento de dados relacionados aos contatos do usuário disparava em todas as páginas, incluindo a de configuração e de maneira incessante. Além disso, em alguns navegadores, o popup é disparado instantaneamente, impossibilitando a visualização da tela do usuário de início, o que não é nossa intenção. |
+**Resultados obtidos**    | SUCESSO |
 **Bugs encontrados** | 1 |
 **Bugs corrigidos** | 1 |
+**Descrição dos bugs**| 1) S1 - Popup na qual solicita o preenchimento de dados relacionados aos contatos do usuário disparava em todas as páginas, incluindo a de configuração e de maneira incessante <br> 2) S4 - O mesmo popup é disparado instantaneamente, impossibilitando a visualização da tela do usuário de início, o que não é nossa intenção.
 **Branches de correções** | [7d20231](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/commit/7d20231fd23a94966f0211bb74f523e354fae214), [33f2866](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/commit/33f28663e91d2840ffcbd916d1a53d4d0cc38475), [39d97e6](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/commit/39d97e60a4ce69fef483bb695d0c1d5fc78f4bff) |
 **Páginas acessadas** | 1) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/cadastro <br> 3) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/configs |
 
@@ -80,9 +89,10 @@ A documentação dos testes é dividida nas seguintes seções:
 **Requisitos associados** | RF-014, RF-018
 **Resultado esperado** | Atualização da conta
 **Dados de entrada** | A url da página inicial e a inserção de dados válidos no formulário de atualização dos dados na página de configuração.
-**Resultados obtidos**    | Sucesso, porém, percebe-se que o campo de cidade não tem a funcionalidade de sugestões de cidades existentes, caso o usuário não mude o estado. |
+**Resultados obtidos**    | SUCESSO |
 **Bugs encontrados** | 1 |
 **Bugs corrigidos** | 1 |
+**Descrição dos bugs**| 1) S4 - O campo de cidade não tem a funcionalidade de sugestões de cidades existentes, caso o usuário não mude o estado. |
 **Branches de correções** | [d3c5032](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/commit/d3c50326abb8d2ffb6bffcf9f3daeb6c1ebcc59b) |
 **Páginas acessadas** | 1) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/configs |
 
@@ -129,9 +139,10 @@ A documentação dos testes é dividida nas seguintes seções:
 **Requisitos associados** | RF-008, RF-009, RF-010, RF-016, RF-017, RNF-004
 **Resultado esperado** | Usuário contata um profissional de seu desejo
 **Dados de entrada** | A url da página inicial e a inserção do nome do profissional e a categoria do mesmo
-**Resultados obtidos**    | Sucesso, porém, ao realizar os testes, percebe-se um bug na pesquisa dos profissionais por palavra-chave, onde o sistema limitava a iteração de usuário no Local Storage até o máximo de 12 usuário |
+**Resultados obtidos**    | SUCESSO |
 **Bugs encontrados** | 1 |
 **Bugs corrigidos** | 1 |
+**Descrição dos bugs**| 1) S2 - Percebe-se um bug na pesquisa dos profissionais por palavra-chave, onde o sistema limitava a iteração de usuário no Local Storage até o máximo de 12 usuário |
 **Branches de correções** | [9eeff33](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/commit/9eeff330b55bef1146946dc46a6a7e10a480fcd1) |
 **Páginas acessadas** | 1) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/search-professionals |
 
