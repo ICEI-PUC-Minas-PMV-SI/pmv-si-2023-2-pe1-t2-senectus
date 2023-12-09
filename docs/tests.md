@@ -52,10 +52,10 @@ A documentação dos testes é dividida nas seguintes seções:
 **Requisitos associados** | RF-005, RF-006, RF-018, RNF-003
 **Resultado esperado** | Criação de conta por completo
 **Dados de entrada** | A url da página inicial, a inserção de dados válidos no formulário de cadastro e de configurações da conta.
-**Resultados obtido**    | Sucesso, porém, percebe-se que o popup na qual solicita o preenchimento de dados relacionados aos contatos do usuário disparava em todas as páginas, incluindo a de configuração e de maneira incessante. Além disso, em alguns navegadores, o popup é disparado instantaneamente, impossibilitando a visualização da tela do usuário de início, o que não nossa intenção. |
+**Resultados obtido**    | Sucesso, porém, percebe-se que o popup na qual solicita o preenchimento de dados relacionados aos contatos do usuário disparava em todas as páginas, incluindo a de configuração e de maneira incessante. Além disso, em alguns navegadores, o popup é disparado instantaneamente, impossibilitando a visualização da tela do usuário de início, o que não é nossa intenção. |
 **Bugs encontrados** | 1 |
 **Bugs corrigidos** | 1 |
-**Branches de correções | 7d20231, 33f2866, 39d97e6 |
+**Branches de correções** | 7d20231, 33f2866, 39d97e6 |
 **Páginas acessadas** | 1) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/cadastro <br> 3) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/configs |
 
 
@@ -83,7 +83,7 @@ A documentação dos testes é dividida nas seguintes seções:
 **Resultados obtido**    | Sucesso, porém, percebe-se que o campo de cidade não tem a funcionalidade de sugestões de cidades existentes, caso o usuário não mude o estado. |
 **Bugs encontrados** | 1 |
 **Bugs corrigidos** | 1 |
-**Branches de correções | d3c5032 |
+**Branches de correções** | d3c5032 |
 **Páginas acessadas** | 1) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/configs |
 
 ### Fluxograma do teste - CT03
@@ -132,7 +132,7 @@ A documentação dos testes é dividida nas seguintes seções:
 **Resultados obtido**    | Sucesso, porém, ao realizar os testes, percebe-se um bug na pesquisa dos profissionais por palavra-chave, onde o sistema limitava a iteração de usuário no Local Storage até o máximo de 12 usuário |
 **Bugs encontrados** | 1 |
 **Bugs corrigidos** | 1 |
-**Branches de correções | 9eeff33 |
+**Branches de correções** | 9eeff33 |
 **Páginas acessadas** | 1) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/search-professionals |
 
 ### Fluxograma do teste - CT05
