@@ -259,6 +259,11 @@ Atualmente, temos as intenções de rastrear os bugs presentes nas aplicações 
 **Heurísticas encontradas** | 1) Compatibilidade entre o sistema e o mundo real <br> 2) Consistência e Padronização <br> 3) Prevenção de erros <br> 4) Diagnóstico de erros <br> 5) Design minimalista
 **Páginas acessadas** | 1) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home |
 
+<br>
+<br>
+<br>
+<br>
+
 ## Registro dos Testes de Software
 |*Caso de Teste*    |*TC-01 - Acessar os exercícios* |
 |---|---|
