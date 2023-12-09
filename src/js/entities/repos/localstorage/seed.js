@@ -319,6 +319,44 @@ class SeedGenerator {
     return nums;
   }
 
+  launchDefaults() {
+    const user= userFactory({
+      name: 'Natalia de Souza',
+      email: 'natalia@email.com',
+      short_description: 'Fisioterapeuta de qualidade!',
+      password: '123456',
+      state: 'Minas Gerais',
+      state_abbr: 'MG',
+      city: 'Belo Horizonte',
+      job: 'Fisioterapeuta',
+      phone_number: '3125658565',
+      value: 112,
+      main_services: 'Pilates',
+      second_services: undefined,
+      third_services: undefined
+    }) 
+
+    const user2 = userFactory({
+      name: 'Gustavo de Souza',
+      email: 'gustavo@email.com',
+      short_description: 'Fisioterapeuta de qualidade!',
+      password: '123456',
+      state: 'Minas Gerais',
+      state_abbr: 'MG',
+      city: 'Santa Rita do Sapucaí',
+      job: 'Fisioterapeuta',
+      phone_number: '3125658565',
+      value: 112,
+      main_services: 'Pilates',
+      second_services: undefined,
+      third_services: undefined
+    }) 
+
+
+    UserOnLocalStorage.create(user1);
+    UserOnLocalStorage.create(user2)
+  }
+
   run() {
     const emailsAndNames = this.getNamesAndEmails();
     const jobs = this.getJobs();
@@ -360,5 +398,9 @@ class SeedGenerator {
 
 const seed = new SeedGenerator()
 
-if(UserOnLocalStorage.getLength() <= 0)
+
+
+if(UserOnLocalStorage.getLength() <= 0) {
+  seed.launchDefaults()
   seed.run()
+}
