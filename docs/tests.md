@@ -264,7 +264,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*TC-03 - Configuração da conta*                                         |
 |---|---|
 |Requisito Associado | RF-014 - O sistema deve permitir que usuários profissionais atualizem seus perfis. <br> RF-018 - O sistema deve permitir que usuários profissionais definam previamente o valor de seus serviços. |
-|Link do vídeo do teste realizado: | [CT03 - Video]([img/CT03.mp4](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/392d4973-c722-45ca-a37a-f843c251520b)  | 
+|Link do vídeo do teste realizado: | [CT03 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/392d4973-c722-45ca-a37a-f843c251520b)  | 
 
 |*Caso de Teste*                                 |*TC-04 - Login da conta*                                         |
 |---|---|
