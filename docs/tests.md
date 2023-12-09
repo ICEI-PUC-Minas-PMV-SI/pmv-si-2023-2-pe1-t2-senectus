@@ -58,7 +58,7 @@ Atualmente, temos as intenções de rastrear os bugs presentes nas aplicações 
  :--------------: | ------------
 **Procedimento**  | 1) O usuário acessa a url https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) O usuário clica em 'Entrar como profissional' <br> 3) O usuário clica em 'clique aqui' para acessar a página de criação de conta <br> 4) Usuário insere seu nome, email e senha <br> 5) A aplicação valida os dados, verificando se possui os requisitos necessários para serem armazenados corretamente <br> 6) Se tudo estiver correto, o sistema deve embaralhar os dados em formato hexadecimal <br> 7) O sistema, após embaralhar o conteúdo, armazena no Local Storage e gera um token de autenticação, armazenando-o no Session Storage <br> 8) O usuário é redirecionado para a home, mas desta vez, autenticado <br> 9) O sistema o pede para completar seu perfil e o redireciona para a url https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/configs <br> 10) Usuário preenche dados mais completos
 **Requisitos associados** | RF-005, RF-006, RF-018, RNF-003, RNF-006
-**Resultado esperado** | Criação de conta por completo e a adição de uma camada no conteúdo inserido que dificulte a visibilidade dos dados o usuário por terceiros
+**Resultado esperado** | Criação de conta por completo e a adição de uma camada no conteúdo inserido que dificulte a visibilidade dos dados do usuário por terceiros
 **Dados de entrada** | A url da página inicial, a inserção de dados válidos no formulário de cadastro e de configurações da conta.
 **Resultados obtidos**    | SUCESSO |
 **Bugs encontrados** | 1 |
