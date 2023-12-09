@@ -366,9 +366,8 @@ Foram convidadas [QUANTIDADE DE PESSOAS NO TESTE] pessoas que os perfis se encai
 | 1             | Você é uma pessoa que se encaixa na meia idade e sedentária. Acesse a página inicial do site e tente compreender a proposta do projeto. Incluindo a importância da atividade física durante o envelhecimento, sobre o que é o nosso projeto e a segurança dos seus dados na nossa plataforma. |
 | 2             | Você é uma pessoa que se encaixa na meia idade e sedentária que esta procurando conhecer novos tipos exercícios físico da categória aeróbico e pretende obter conteúdos digitais que conseguem te guiar passo a passo nos seus exercícios. Encontre a atividade física que se encaixa nesta categoria no site. |
 | 3             | Você é uma pessoa que se encaixa na meia idade e sedentária que esta procurando contatos de profissionais da saúde relacionados a fisioterapia. Procure os contatos de fisiterapeutas na sua cidade. |
-| 4             | Você é um profissional da saúde buscando uma plataforma que divulgue os seus meios de contatos. Encontre uma maneira de vincular ao Senectus e se divulgar. |
+| 4             | Você é um profissional da saúde buscando uma plataforma que divulgue os seus meios de contatos. Encontre uma maneira de vincular ao Senectus criando a sua propria conta para se divulgar e logo em seguida se desconecte da plataforma de maneira segura. |
 | 5             | Você é um profissional da saúde na qual deixou de usar a plataforma Senectus e quer se desvincular ao site. Encontre uma maneira de remover seus dados. |
-| 6             | Você é um profissional da saúde na qual quer se conectar ao site em um computador que não é de sua posse. Encontre uma maneira segura de se conectar e desconectar no Senectus. |
 
 
 
