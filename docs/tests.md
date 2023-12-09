@@ -307,7 +307,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*TC-09 - Desconexão/Logout*                                         |
 |---|---|
 |Requisito Associado | RNF-019 - O sistema deve permitir que usuários desloguem da plataforma |
-|Link do vídeo do teste realizado: |  [CT09 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/328e6b9c-848b-4957-a40c-1b5c479df19b) |
+|Link do vídeo do teste realizado: |  [CT09 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/8397d5a4-9a23-4ddc-9628-7e860bb7775e) |
 
 |*Caso de Teste*                                 |*TC-10 - Usabilidade*                                         |
 |---|---|
