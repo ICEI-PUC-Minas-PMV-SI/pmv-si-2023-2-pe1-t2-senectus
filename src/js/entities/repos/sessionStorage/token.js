@@ -18,9 +18,10 @@ export class TokenOnSessionStorage {
 			!user.createdAt ||
 			!user.main_services
 		) {
-			const res = confirm("Parece que seu perfil não esta completo, que tal terminarmos de configura-lo?");
-
-			if(res) window.location = 'configs.html'
+			setTimeout(() => {
+				const res = confirm("Que tal preenchermos suas informações de contato nas configurações? Assim poderemos divulgar seu perfil para nossa base de clientes!");
+				if(res) window.location = 'configs.html'
+			}, 2500)
 		}
 	}
 	static #checkIfProfileIsCompleted(token) {
