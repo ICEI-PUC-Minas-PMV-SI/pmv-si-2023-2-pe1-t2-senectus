@@ -37,13 +37,21 @@ As tabelas que se seguem apresentam os requisitos funcionais que relacionam o es
 ### Entidades - Prestador de serviço
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             |Number|               Identificador único do usuário            | 1                                              |
-| Nome completo     | Texto              | Nome Completo do usuário                        | Luiz da Silva Pereira |
+| Id             |Texto|               Identificador único do usuário            | 913c0138-d292-4579-afd7-345df721d947                                             |
+| Nome     | Texto              | Nome do usuário                        | Luiz da Silva |
 | Email      | Texto             | Email do usuário                                 | luizdasilva@email.com     |
 | Senha  | Texto  | Senha do usuário para ser usado para autentificação | 123456                                             |
+|Descrição curta | Texto | Uma pequena descrição do usuário | Fisioterapeuta dedicado ao seu bem-estar. |
+|Estado | Texto | O estado onde o usuário de localiza | Minas Gerais |
+|Abreviação do estado | Texto | O estado onde o usuário de localiza | MG |
+|Cidade | Texto | A cidade onde o usuário de localiza | BH |
 | Área de atuação   | Texto  | Profissão do usuário| Personal Trainer                                           |
-| Localização  | Texto  | Localização do usuário | Belo Horizonte, MG 
 |Valor cobrado pelo serviço  | Numero  | Valor que o usuário terá que pagar pelo serviço | R$158.99                                              ||
+| Criado em | Data | Data de criação da conta | 23/12/2023
+| Serviço mais prestado | Texto | Serviço mais prestado pelo usuário | Pilates |
+| Segundo serviço mais prestado | Texto | Segundo serviço mais prestado pelo usuário | Fisioterapia Neurofuncional |
+| Terceiro serviço mais prestado | Texto | Serviço mais prestado pelo usuário | Fisioterapia Ortopédica |
+
 
 ### Estrutura do projeto
 <img src="./img/EstruturaDoProjeto.svg" alt=""/>
