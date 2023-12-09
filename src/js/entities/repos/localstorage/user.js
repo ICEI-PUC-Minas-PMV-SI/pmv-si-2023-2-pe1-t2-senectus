@@ -69,7 +69,10 @@ export class UserOnLocalStorage {
       : 12;
 
     const searchedUsers = [];
-    for(let i=0; i<maximumItems; i++) {
+    for(let i=0; i<users.length; i++) {
+      if(searchedUsers.length > maximumItems)
+        return searchedUsers;
+
       const item = Obfuscator.translate(users[i])
 
       const regex = new RegExp(input, "gmi");
