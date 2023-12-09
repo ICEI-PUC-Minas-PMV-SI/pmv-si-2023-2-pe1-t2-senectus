@@ -331,14 +331,9 @@ Vale destacar que, a detecção dos bugs foram de extrema importância para o de
 
 ### Pontos fracos e fortes da aplicação 
 
-Ao analisar a aplicação por meios dos testes foir possível compreender onde a aplicação mais se destaca e onde ela menos se destaca, por exemplo, como analisado no CT10 a aplicação possui fortes pontos positivos com relação ao seu layout, sendo minimalista, direto ao ponto e eficiente, quando o assunto é feedback e validação dos dados de entrada que o usuário pode interagir, impedindo assim, que o mesmo cometa erros básicos no sistema.
+Ao analisar a aplicação por meios dos testes foi possível compreender onde a aplicação mais se destaca e onde ela menos se destaca, por exemplo, como analisado no CT10 a aplicação possui fortes pontos positivos com relação ao seu layout, sendo minimalista, direto ao ponto e eficiente, quando o assunto é feedback e validação dos dados de entrada que o usuário pode interagir, impedindo assim, que o mesmo cometa erros básicos no sistema.
 
 No entanto, pelo fato da aplicação se tratar de um modelo MVP (Minimum Viable Product), pode-se notar limitações significativas em suas funcionalidade, como por exemplo, poucos exercícios presentes em sua biblioteca e poucas funcionalidade dedicadas para os profissionais que se cadastrem na aplicação.
-
-
-# Testes de Usabilidade
-
-
 
 # Testes de Usabilidade
 
