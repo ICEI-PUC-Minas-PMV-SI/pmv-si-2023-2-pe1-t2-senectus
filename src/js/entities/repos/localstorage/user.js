@@ -60,7 +60,7 @@ export class UserOnLocalStorage {
     return searchedUsers;
   }
 
-  static getGroupWithRegExp(input) {
+  static getGroupWithRegExp(input, job = undefined) {
     const { users } = localStorage.getItem('senectus')
       ? JSON.parse(localStorage.getItem('senectus'))
       : { users: [] }
@@ -76,7 +76,10 @@ export class UserOnLocalStorage {
       const item = Obfuscator.translate(users[i])
 
       const regex = new RegExp(input, "gmi");
-      if(regex.exec(item)) {
+      if(
+        regex.exec(item) && 
+        ((job && job === JSON.parse(item).job) || !job)
+      ) {
         const user = UserMapper.toClass(
             JSON.parse(item)
         )

@@ -238,9 +238,12 @@ Agradeço antecipadamente pela sua atenção e aguardo ansiosamente sua resposta
     form.addEventListener('submit', (event) => {
       event.preventDefault();
       const input = document.querySelector("#search-bar input").value;
+      const select = document.querySelector("#search-bar select").value === 'Recentes'
+        ? undefined
+        : document.querySelector("#search-bar select").value
 
       const list = document.getElementById("professionals-list");
-      let users = UserOnLocalStorage.getGroupWithRegExp(input);
+      let users = UserOnLocalStorage.getGroupWithRegExp(input, select);
       users = users.filter((item) => (
         item.value &&
         item.city &&
