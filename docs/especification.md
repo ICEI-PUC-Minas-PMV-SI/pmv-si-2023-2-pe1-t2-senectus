@@ -62,6 +62,7 @@ As tabelas a seguir detalham os requisitos funcionais e não funcionais do proje
 | RNF-003 | O sistema deve seguir boas práticas de segurança da informação sempre que possível | ALTA |
 | RNF-004 | O sistema deve ser de fácil entendimento para o público idoso | MÉDIA |
 | RNF-005 | O sistema deve ser desenvolvido utilizando a linguagem de programação Javascript | ALTA |
+| RNF-006 | O sistema deve respeitar as normas da LGPD | MÉDIA |
 
 
 ## Restrições

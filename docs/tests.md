@@ -57,8 +57,8 @@ Atualmente, temos as intenções de rastrear os bugs presentes nas aplicações 
 **Caso de Teste** | **CT02 - Criar conta completa**
  :--------------: | ------------
 **Procedimento**  | 1) O usuário acessa a url https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) O usuário clica em 'Entrar como profissional' <br> 3) O usuário clica em 'clique aqui' para acessar a página de criação de conta <br> 4) Usuário insere seu nome, email e senha <br> 5) A aplicação valida os dados, verificando se possui os requisitos necessários para serem armazenados corretamente <br> 6) Se tudo estiver correto, o sistema deve embaralhar os dados em formato hexadecimal <br> 7) O sistema, após embaralhar o conteúdo, armazena no Local Storage e gera um token de autenticação, armazenando-o no Session Storage <br> 8) O usuário é redirecionado para a home, mas desta vez, autenticado <br> 9) O sistema o pede para completar seu perfil e o redireciona para a url https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/configs <br> 10) Usuário preenche dados mais completos
-**Requisitos associados** | RF-005, RF-006, RF-018, RNF-003
-**Resultado esperado** | Criação de conta por completo
+**Requisitos associados** | RF-005, RF-006, RF-018, RNF-003, RNF-006
+**Resultado esperado** | Criação de conta por completo e a adição de uma camada no conteúdo inserido que dificulte a visibilidade dos dados o usuário por terceiros
 **Dados de entrada** | A url da página inicial, a inserção de dados válidos no formulário de cadastro e de configurações da conta.
 **Resultados obtidos**    | SUCESSO |
 **Bugs encontrados** | 1 |
@@ -272,8 +272,9 @@ Atualmente, temos as intenções de rastrear os bugs presentes nas aplicações 
 
 |*Caso de Teste*                                 |*TC-02 - Criar conta completa*                                         |
 |---|---|
-|Requisito Associado | RF-005 - O sistema deve permitir que um profissional se cadastre na plataforma, inserindo informações básicas. <br> RF-006 - O sistema deve permitir que os profissionais sejam capazes de preencher informações mais completas sobre suas competências logo após o cadastro. <br> RF-018 - O sistema deve permitir que usuários profissionais definam previamente o valor de seus serviços <br> RNF-003 - O sistema deve seguir boas práticas de segurança da informação sempre que possível|
-|Link do vídeo do teste realizado: | [CT02 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/c444fa66-dc43-49d3-bfad-71cb40c4f97e) | 
+|Requisito Associado | RF-005 - O sistema deve permitir que um profissional se cadastre na plataforma, inserindo informações básicas. <br> RNF-006 - O sistema deve respeitar as normas da LGPD <br> RF-006 - O sistema deve permitir que os profissionais sejam capazes de preencher informações mais completas sobre suas competências logo após o cadastro. <br> RF-018 - O sistema deve permitir que usuários profissionais definam previamente o valor de seus serviços <br> RNF-003 - O sistema deve seguir boas práticas de segurança da informação sempre que possível|
+|Link do vídeo do teste realizado: | [CT02 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/c444fa66-dc43-49d3-bfad-71cb40c4f97e) |
+|Nota: | É mais que válido lembrar que a partir do momento em que os dados do usuário são obtidos, a aplicação, aplica uma camada extra de proteção dos dados, utilizando a classe presente em '/src/js/utils/obfuscator.js' na camada de repositório. Além disso, todas as ações e manipulações realizadas pela aplicação, como o compartilhamento dos dados obtidos para a base de clientes, só serão realizadas, caso o usuário aceite e insira seus devidos meios de contatos, conforme mostrado no vídeo. |
 
 |*Caso de Teste*                                 |*TC-03 - Configuração da conta*                                         |
 |---|---|
