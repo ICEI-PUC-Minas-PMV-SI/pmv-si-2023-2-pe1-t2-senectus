@@ -254,49 +254,48 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*    |*TC-01 - Acessar os exercícios* |
 |---|---|
 |Requisito Associado | RF-001 - O sistema deve permitir que usuários tenham acesso a descrição informativa de exercícios. <br> RF-002 - O sistema deve permitir que usuários sejam capazes de acessar o catálogo de exercícios e os selecionar. <br> RF-011 - O sistema deve ter uma página inicial que mostre a importância da atividade física durante o envelhecimento. <br> RF-012 - O sistema deve ter uma página inicial que fale sobre a iniciativa do projeto Senectus. <br> RF-013 - O sistema deve ter uma página inicial que mostre o quão confiável a plataforma é. <br> RF-003 O sistema deve permitir a seleção de exercícios em forma de categórias. <br> RF-004 O sistema deve permitir que o usuário tenha acesso a algum vídeo ou imagem sobre como fazer o exercício. <br> RNF-004 - O sistema deve ser de fácil entendimento para o público idoso |
-|Link do vídeo do teste realizado: | [img/CT01.mp4](img/CT01.mp4)  | 
+|Link do vídeo do teste realizado: | [CT01 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/b05676de-e26f-424d-8e01-4301a57a9881)  | 
 
 |*Caso de Teste*                                 |*TC-02 - Criar conta completa*                                         |
 |---|---|
 |Requisito Associado | RF-005 - O sistema deve permitir que um profissional se cadastre na plataforma, inserindo informações básicas. <br> RF-006 - O sistema deve permitir que os profissionais sejam capazes de preencher informações mais completas sobre suas competências logo após o cadastro. <br> RF-018 - O sistema deve permitir que usuários profissionais definam previamente o valor de seus serviços <br> RNF-003 - O sistema deve seguir boas práticas de segurança da informação sempre que possível|
-|Link do vídeo do teste realizado: | [img/CT02.mp4](img/CT03.mp4) | 
+|Link do vídeo do teste realizado: | [CT02 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/c444fa66-dc43-49d3-bfad-71cb40c4f97e) | 
 
 |*Caso de Teste*                                 |*TC-03 - Configuração da conta*                                         |
 |---|---|
 |Requisito Associado | RF-014 - O sistema deve permitir que usuários profissionais atualizem seus perfis. <br> RF-018 - O sistema deve permitir que usuários profissionais definam previamente o valor de seus serviços. |
-|Link do vídeo do teste realizado: | [img/CT03.mp4](img/CT03.mp4)  | 
+|Link do vídeo do teste realizado: | [CT03 - Video]([img/CT03.mp4](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/392d4973-c722-45ca-a37a-f843c251520b)  | 
 
 |*Caso de Teste*                                 |*TC-04 - Login da conta*                                         |
 |---|---|
 |Requisito Associado | RF-007 - O sistema deve permitir que usuários profissionais, previamente cadastrados, façam login na aplicação. <br> RNF-003 - O sistema deve seguir boas práticas de segurança da informação sempre que possível. |
-|Link do vídeo do teste realizado: | [img/CT04.mp4](img/CT04.mp4) |
+|Link do vídeo do teste realizado: | [CT04 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/134f2ef3-31fd-4138-aa8f-bd816c201c5a) |
 
 |*Caso de Teste*                                 |*TC-05 - Buscar profissional*                                         |
 |---|---|
 |Requisito Associado | RF-008 - O sistema deve permitir que usuários contactem profissionais. <br> RF-009 - O sistema deve ser capaz de filtrar profissionais por especialidade. <br> RF-010 - O sistema deve ser capaz de filtrar profissionais por palavra-chave. <br> RF-016 - O sistema deve permitir que o usuário idoso marque uma consulta com o profissional da saúde. <br> RF-017 - O sistema deve permitir que o usuário profissional receba uma notificação do seu e-mail para confirmação de consulta. <br> RNF-004 - O sistema deve ser de fácil entendimento para o público idoso |
-|Link do vídeo do teste realizado: | [img/CT05.mp4](img/CT05.mp4) |
+|Link do vídeo do teste realizado: | [CT05 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/cccb14b5-4be0-4525-a8b4-28b4d0590ec6) |
 
 |*Caso de Teste*                                 |*TC-06 - Deletar conta*                                         |
 |---|---|
 |Requisito Associado | RF-015 - O sistema deve permitir que o usuário profissional seja capaz de deletar a sua conta. |
-|Link do vídeo do teste realizado: | [img/CT06.mp4](img/CT06.mp4) |
+|Link do vídeo do teste realizado: | [CT06 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/9f6087d8-9d06-432e-9c62-15c4ee073a7e) |
 
 |*Caso de Teste*                                 |*TC-07 - Utilização do Javascript*                                         |
 |---|---|
 |Requisito Associado | RNF-005 - O sistema deve ser desenvolvido utilizando a linguagem de programação Javascript |
-|Link do vídeo do teste realizado: | [img/CT07.mp4](img/CT07.mp4) |
+|Link do vídeo do teste realizado: | [CT07 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/3cbd9db9-afa5-41d0-98ca-c6d8966bb3da) |
 |Explicação da arquitetura do projeto em javascript: | [development.md](development.md#estrutura-do-projeto) |
 
 |*Caso de Teste*                                 |*TC-08 - Responsividade*                                         |
 |---|---|
 |Requisito Associado | RNF-002 - O sistema deve ser responsivo em diversas telas com base no público-alvo |
-|Link do vídeo do teste realizado: |  [img/CT08.mp4](img/CT08.mp4) |
-
+|Link do vídeo do teste realizado: |  [CT08 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/d4415b87-7bb8-46f4-bd69-b570f512cc4a) |
 
 |*Caso de Teste*                                 |*TC-09 - Desconexão/Logout*                                         |
 |---|---|
 |Requisito Associado | RNF-019 - O sistema deve permitir que usuários desloguem da plataforma |
-|Link do vídeo do teste realizado: |  [img/CT09.mp4](img/CT09.mp4) |
+|Link do vídeo do teste realizado: |  [CT09 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/328e6b9c-848b-4957-a40c-1b5c479df19b) |
 
 
 ## Avaliação dos Testes de Software
