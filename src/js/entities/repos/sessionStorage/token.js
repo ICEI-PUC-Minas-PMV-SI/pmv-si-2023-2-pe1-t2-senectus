@@ -65,7 +65,7 @@ export class TokenOnSessionStorage {
 
 		if(
 			token && 
-			(url.pathname !== '/src/configs.html' && 
+			(url.pathname !== '/src/configs.html' || 
 			url.pathname !== '/configs.html')
 		)
 			TokenOnSessionStorage.#checkIfProfileIsCompleted(token)
