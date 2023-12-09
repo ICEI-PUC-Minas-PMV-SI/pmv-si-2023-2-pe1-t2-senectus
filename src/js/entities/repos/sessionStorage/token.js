@@ -60,13 +60,12 @@ export class TokenOnSessionStorage {
 	}
 
 	static checkIfProfileIsCompleted() {
-		const url = window.location
+		const url = `${window.location.pathname}`;
 		const token = sessionStorage.getItem('fake-token');
 
 		if(
 			token && 
-			(url.pathname !== '/src/configs.html' || 
-			url.pathname !== '/configs.html')
+			!url.includes('/configs.html')
 		)
 			TokenOnSessionStorage.#checkIfProfileIsCompleted(token)
 	}
