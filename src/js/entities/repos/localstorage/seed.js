@@ -320,7 +320,7 @@ class SeedGenerator {
   }
 
   launchDefaults() {
-    const user= userFactory({
+    const user1 = userFactory({
       name: 'Natalia de Souza',
       email: 'natalia@email.com',
       short_description: 'Fisioterapeuta de qualidade!',
