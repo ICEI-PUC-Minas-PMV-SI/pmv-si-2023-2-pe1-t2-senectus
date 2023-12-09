@@ -140,10 +140,10 @@ Atualmente, temos as intenções de rastrear os bugs presentes nas aplicações 
 **Resultado esperado** | Usuário contata um profissional de seu desejo
 **Dados de entrada** | A url da página inicial e a inserção do nome do profissional e a categoria do mesmo
 **Resultados obtidos**    | SUCESSO |
-**Bugs encontrados** | 1 |
-**Bugs corrigidos** | 1 |
-**Descrição dos bugs**| 1) S2 - Percebe-se um bug na pesquisa dos profissionais por palavra-chave, onde o sistema limitava a iteração de usuário no Local Storage até o máximo de 12 usuário |
-**Branches de correções** | [9eeff33](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/commit/9eeff330b55bef1146946dc46a6a7e10a480fcd1) |
+**Bugs encontrados** | 2 |
+**Bugs corrigidos** | 2 |
+**Descrição dos bugs**| 1) S2 - Percebe-se um bug na pesquisa dos profissionais por palavra-chave, onde o sistema limitava a iteração de usuário no Local Storage até o máximo de 12 usuário <br> 2) S3 - Ao tentar filtrar por profissionais e palavra-chave ao mesmo tempo, o aplicativo retorna dados incorretos |
+**Branches de correções** | [9eeff33](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/commit/9eeff330b55bef1146946dc46a6a7e10a480fcd1), [6234d87](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/tree/6234d876d2a535010b68f1d2889de3d314b624ce) |
 **Páginas acessadas** | 1) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/search-professionals |
 
 ### Fluxograma do teste - CT05
