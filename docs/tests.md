@@ -26,7 +26,7 @@ A documentação dos testes é dividida nas seguintes seções:
 **Requisitos associados** | RF-001, RF-002, RF-003, RF-004, RF-011, RF-012, RF-013, RNF-004
 **Resultado esperado** | Viabilizar o acesso do usuário aos vídeos feitos para os instruir na sua rotina de exercícios
 **Dados de entrada** | A url da página inicial
-**Resultados obtido**    | SUCESSO |
+**Resultados obtidos**    | SUCESSO |
 **Bugs encontrados** | 0 |
 **Bugs corrigidos** | 0 |
 **Páginas acessadas** | 1) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/exercises-types <br> 3) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/exercises-list-hipertrofia.html |
@@ -52,7 +52,7 @@ A documentação dos testes é dividida nas seguintes seções:
 **Requisitos associados** | RF-005, RF-006, RF-018, RNF-003
 **Resultado esperado** | Criação de conta por completo
 **Dados de entrada** | A url da página inicial, a inserção de dados válidos no formulário de cadastro e de configurações da conta.
-**Resultados obtido**    | Sucesso, porém, percebe-se que o popup na qual solicita o preenchimento de dados relacionados aos contatos do usuário disparava em todas as páginas, incluindo a de configuração e de maneira incessante. Além disso, em alguns navegadores, o popup é disparado instantaneamente, impossibilitando a visualização da tela do usuário de início, o que não é nossa intenção. |
+**Resultados obtidos**    | Sucesso, porém, percebe-se que o popup na qual solicita o preenchimento de dados relacionados aos contatos do usuário disparava em todas as páginas, incluindo a de configuração e de maneira incessante. Além disso, em alguns navegadores, o popup é disparado instantaneamente, impossibilitando a visualização da tela do usuário de início, o que não é nossa intenção. |
 **Bugs encontrados** | 1 |
 **Bugs corrigidos** | 1 |
 **Branches de correções** | 7d20231, 33f2866, 39d97e6 |
@@ -80,7 +80,7 @@ A documentação dos testes é dividida nas seguintes seções:
 **Requisitos associados** | RF-014, RF-018
 **Resultado esperado** | Atualização da conta
 **Dados de entrada** | A url da página inicial e a inserção de dados válidos no formulário de atualização dos dados na página de configuração.
-**Resultados obtido**    | Sucesso, porém, percebe-se que o campo de cidade não tem a funcionalidade de sugestões de cidades existentes, caso o usuário não mude o estado. |
+**Resultados obtidos**    | Sucesso, porém, percebe-se que o campo de cidade não tem a funcionalidade de sugestões de cidades existentes, caso o usuário não mude o estado. |
 **Bugs encontrados** | 1 |
 **Bugs corrigidos** | 1 |
 **Branches de correções** | d3c5032 |
@@ -105,7 +105,7 @@ A documentação dos testes é dividida nas seguintes seções:
 **Requisitos associados** | RF-007, RNF-003
 **Resultado esperado** | Login da conta e redirecionamento para a home
 **Dados de entrada** | A url da página inicial e a inserção de dados válidos no formulário de login.
-**Resultados obtido**    | SUCESSO |
+**Resultados obtidos**    | SUCESSO |
 **Bugs encontrados** | 0 |
 **Bugs corrigidos** | 0 |
 **Páginas acessadas** | 1) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/login |
@@ -129,7 +129,7 @@ A documentação dos testes é dividida nas seguintes seções:
 **Requisitos associados** | RF-008, RF-009, RF-010, RF-016, RF-017, RNF-004
 **Resultado esperado** | Usuário contata um profissional de seu desejo
 **Dados de entrada** | A url da página inicial e a inserção do nome do profissional e a categoria do mesmo
-**Resultados obtido**    | Sucesso, porém, ao realizar os testes, percebe-se um bug na pesquisa dos profissionais por palavra-chave, onde o sistema limitava a iteração de usuário no Local Storage até o máximo de 12 usuário |
+**Resultados obtidos**    | Sucesso, porém, ao realizar os testes, percebe-se um bug na pesquisa dos profissionais por palavra-chave, onde o sistema limitava a iteração de usuário no Local Storage até o máximo de 12 usuário |
 **Bugs encontrados** | 1 |
 **Bugs corrigidos** | 1 |
 **Branches de correções** | 9eeff33 |
@@ -154,7 +154,7 @@ A documentação dos testes é dividida nas seguintes seções:
 **Requisitos associados** | RF-015
 **Resultado esperado** | Deleção da conta
 **Dados de entrada** | A url da página inicial | 
-**Resultados obtido**    | SUCESSO |
+**Resultados obtidos**    | SUCESSO |
 **Bugs encontrados** | 0 |
 **Bugs corrigidos** | 0 |
 **Páginas acessadas** | 1) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/configs |
@@ -177,7 +177,7 @@ A documentação dos testes é dividida nas seguintes seções:
 **Requisitos associados** | RNF-005
 **Resultados esperados** | Encontrar arquivos Javascript no sistema
 **Dados de entrada** | A url da página inicial | 
-**Resultados obtido**    | SUCESSO |
+**Resultados obtidos**    | SUCESSO |
 **Bugs encontrados** | 0 |
 **Bugs corrigidos** | 0 |
 **Páginas acessadas** | 1) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home |
@@ -200,7 +200,7 @@ A documentação dos testes é dividida nas seguintes seções:
 **Requisitos associados** | RNF-002
 **Resultados esperados** | Assim como nos testes que envolvem o site em dispositivos desktop, como mostrados nos demais casos, espera-se que o projeto seja responsivo para dispositivos mobile também |
 **Dados de entrada** | A url da página inicial | 
-**Resultados obtido**    | SUCESSO |
+**Resultados obtidos**    | SUCESSO |
 **Bugs encontrados** | 0 |
 **Bugs corrigidos** | 0 |
 **Páginas acessadas** | Todos as páginas |
@@ -223,7 +223,7 @@ A documentação dos testes é dividida nas seguintes seções:
 **Requisitos associados** | RF-019, RNF-003 
 **Resultados esperados** | A desconexão do usuário |
 **Dados de entrada** | A url da página inicial | 
-**Resultados obtido**    | SUCESSO |
+**Resultados obtidos**    | SUCESSO |
 **Páginas acessadas** | 1) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/login |
 
 ### Fluxograma do teste - CT09
@@ -244,7 +244,7 @@ A documentação dos testes é dividida nas seguintes seções:
 **Procedimento**  | 1) Acessar a aplicação em https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) Validar com base nas Heurísticas de Nielsen
 **Requisitos associados** | RNF-001
 **Resultados esperados** | O sistema estar seguindo pelo menos 4 heurísticas 
-**Resultados obtido**    | |
+**Resultados obtidos**    | |
 **Páginas acessadas** | 1) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home |
 
 ## Registro dos Testes de Software
@@ -285,7 +285,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |---|---|
 |Requisito Associado | RNF-005 - O sistema deve ser desenvolvido utilizando a linguagem de programação Javascript |
 |Link do vídeo do teste realizado: | [img/CT07.mp4](img/CT07.mp4) |
-|Explicação da arquitetura do projeto em javascript: | [development.md](development.md) |
+|Explicação da arquitetura do projeto em javascript: | [development.md](development.md#estrutura-do-projeto) |
 
 |*Caso de Teste*                                 |*TC-08 - Responsividade*                                         |
 |---|---|
