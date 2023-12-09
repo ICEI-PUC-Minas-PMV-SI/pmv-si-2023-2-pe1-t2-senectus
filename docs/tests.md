@@ -291,7 +291,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*TC-06 - Deletar conta*                                         |
 |---|---|
 |Requisito Associado | RF-015 - O sistema deve permitir que o usuário profissional seja capaz de deletar a sua conta. |
-|Link do vídeo do teste realizado: | [CT06 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/9f6087d8-9d06-432e-9c62-15c4ee073a7e) |
+|Link do vídeo do teste realizado: | [CT06 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/53b8132c-4428-4528-96f3-18fcae7f18e3) |
 
 |*Caso de Teste*                                 |*TC-07 - Utilização do Javascript*                                         |
 |---|---|
