@@ -26,7 +26,7 @@ class SeedGenerator {
         phoneNumber: "3184756151",
         state: "Minas Gerais",
         state_abbr: "MG",
-        city: "Belo Horizonte"
+        city: "Santa Rita do Sapucaí"
       },
       {
         name: "Bruno Lima",
