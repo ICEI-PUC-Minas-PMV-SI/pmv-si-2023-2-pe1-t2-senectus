@@ -150,7 +150,7 @@ A documentação dos testes é dividida nas seguintes seções:
 
 **Caso de Teste** | **CT06 - Deletar conta**
  :--------------: | ------------
-**Procedimento**  | 1) O usuário acessa https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) O usuário clica em 'Bem-vindo \<NOME\>' <br> 3) O usuário clica em 'Configurações' <br> 4) Usuário clica em 'Deletar conta' <br> 5) A aplicação deleta a conta e remove seu token <br> 6) A aplicação dispara um popup alertando que a conta foi deletada
+**Procedimento**  | 1) O usuário acessa https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home <br> 2) O usuário clica em 'Bem-vindo \<NOME\>' <br> 3) O usuário clica em 'Configurações' <br> 4) Usuário clica em 'Deletar conta' <br> 5) A aplicação deleta a conta e remove seu token <br> 6) A aplicação dispara um popup alertando que a conta foi deletada <br> 7) Sistema redireciona para a página inicial
 **Requisitos associados** | RF-015
 **Resultado esperado** | Deleção da conta
 **Dados de entrada** | A url da página inicial | 
