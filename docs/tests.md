@@ -260,9 +260,6 @@ Atualmente, temos as intenções de rastrear os bugs presentes nas aplicações 
 **Páginas acessadas** | 1) https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/home |
 
 ## Registro dos Testes de Software
-
-Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
-
 |*Caso de Teste*    |*TC-01 - Acessar os exercícios* |
 |---|---|
 |Requisito Associado | RF-001 - O sistema deve permitir que usuários tenham acesso a descrição informativa de exercícios. <br> RF-002 - O sistema deve permitir que usuários sejam capazes de acessar o catálogo de exercícios e os selecionar. <br> RF-011 - O sistema deve ter uma página inicial que mostre a importância da atividade física durante o envelhecimento. <br> RF-012 - O sistema deve ter uma página inicial que fale sobre a iniciativa do projeto Senectus. <br> RF-013 - O sistema deve ter uma página inicial que mostre o quão confiável a plataforma é. <br> RF-003 O sistema deve permitir a seleção de exercícios em forma de categórias. <br> RF-004 O sistema deve permitir que o usuário tenha acesso a algum vídeo ou imagem sobre como fazer o exercício. <br> RNF-004 - O sistema deve ser de fácil entendimento para o público idoso |
