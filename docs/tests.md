@@ -316,7 +316,22 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 ## Avaliação dos Testes de Software
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+### Sobre os bugs
+Ao terminar os testes de software, foi possível encontrar alguns bugs de diversos níveis, desde o mais grave até o mais simples. No entanto, é valido ressaltar que todos os bugs detectados na aplicação atualmente, com base nos testes, foram corrigidos com sucesso, somando assim 4 correções de 4 bugs, segue abaixo o gráfico que separa os bugs pelas suas devidas categórias:
+
+<div align="center">
+    <img src="./img/graficoDeBugs.png" alt="relatório de bugs encontrados" width="50%" height="50%"/>
+</div>
+
+<br>
+
+Vale destacar que, a detecção dos bugs foram de extrema importância para o desenvolvimento do projeto, tendo em vista de que foi possível gerar um feedback de como esta o estado de vida da aplicação e propor possíveis melhorias, como a adição de um tempo de espera nos disparos de popups referentes ao CT02.
+
+### Pontos fracos e fortes da aplicação 
+
+Ao analisar a aplicação por meios dos testes foir possível compreender onde a aplicação mais se destaca e onde ela menos se destaca, por exemplo, como analisado no CT10 a aplicação possui fortes pontos positivos com relação ao seu layout, sendo minimalista, direto ao ponto e eficiente, quando o assunto é feedback e validação dos dados de entrada que o usuário pode interagir, impedindo assim, que o mesmo cometa erros básicos no sistema.
+
+No entanto, pelo fato da aplicação se tratar de um modelo MVP (Minimum Viable Product), pode-se notar limitações significativas em suas funcionalidade, como por exemplo, poucos exercícios presentes em sua biblioteca e poucas funcionalidade dedicadas para os profissionais que se cadastrem na aplicação.
 
 
 # Testes de Usabilidade
