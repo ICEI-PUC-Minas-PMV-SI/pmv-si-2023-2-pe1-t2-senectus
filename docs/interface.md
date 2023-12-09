@@ -73,8 +73,8 @@ Nos requisitos, identificamos a necessidade de coletar informações adicionais 
 ![Página - Cadastre (4)](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/143044487/714a9ae8-e669-4ec2-8534-377de0d538d2)
 
 > **Requisitos atendidos**:
-> - [RF-006] O sistema deve permitir que os profissionais sejam capazes de preencher informações mais completas sobre suas competências logo após o cadastro, podendo incluir, por exemplo: portfólio e currículo.
-> - [RF-018] O sistema deve permitir que usuários profissionais definam previamente o valor de seus serviços
+> - [RF-006] O sistema deve permitir que os profissionais sejam capazes de preencher informações mais completas sobre suas competências, incluindo serviços prestados.
+> - [RF-018] O sistema deve permitir que usuários profissionais definam o valor de seus serviços
 
 ### Página - Seleção de modalidade
 
@@ -120,7 +120,7 @@ Vale ressaltar que estamos planejando integrar uma API externa, seja do Google A
 > - [RF-009] O sistema deve ser capaz de filtrar profissionais por especialidade.	
 > - [RF-010] O sistema deve ser capaz de filtrar profissionais por palavra-chave.
 > - [RF-016] O sistema deve permitir que o usuário idoso marque uma consulta com o profissional da saúde.
-> - [RF-017] O sistema deve permitir que o usuário profissional receba uma notificação do seu e-mail para confirmação de consulta.	
+> - [RF-017] O sistema deve permitir que o usuário profissional receba um e-mail para confirmação de consulta.	
 
 ### Página - Configurações
 
@@ -133,7 +133,8 @@ Quando o idoso deseja efetuar modificações em seu perfil, basta clicar no íco
 
 > **Requisitos atendidos**:
 > - [RF-014] O sistema deve permitir que usuários profissionais atualizem seus perfis.		
-> - [RF-015] O sistema deve permitir que o usuário profissional seja capaz de deletar a sua conta.	
+> - [RF-015] O sistema deve permitir que o usuário profissional seja capaz de deletar a sua conta.
+> - [RF-019]O sistema deve permitir que usuários desloguem da plataforma 
 
 
 #### Página Cadastre (Pop-up Conta deletada)
