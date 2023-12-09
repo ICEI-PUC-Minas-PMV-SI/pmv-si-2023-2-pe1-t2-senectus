@@ -17,7 +17,7 @@ As tabelas que se seguem apresentam os requisitos funcionais que relacionam o es
 | RF-003 | O sistema deve permitir a seleção de exercícios em forma de categorias. | MÉDIA | https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/exercises-types# | exercises-types.html |
 | RF-004 | O sistema deve permitir que o usuário tenha acesso a algum vídeo ou imagem sobre como fazer o exercício. | MÉDIA | https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/exercises-list-aerobico#  | exercises-list-aerobico.html
 | RF-005 | O sistema deve permitir que um profissional se cadastre na plataforma, inserindo informações básicas, por exemplo: nome e meios de contato. | ALTA | https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/cadastro | cadastro.html |
-| RF-006 | O sistema deve permitir que os profissionais sejam capazes de preencher informações mais completas sobre suas competências logo após o cadastro. | ALTA | https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/configs.html | configs.html |
+| RF-006 | O sistema deve permitir que os profissionais sejam capazes de preencher informações mais completas sobre suas competências, incluindo os serviços prestados | ALTA | https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/configs.html | configs.html |
 | RF-007 | O sistema deve permitir que usuários profissionais, previamente cadastrados, façam login na aplicação. | ALTA | https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/login  | login.html |
 | RF-008 | O sistema deve permitir que usuários contactem profissionais. | ALTA | https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/search-professionals | search-professionals.html |
 | RF-009 | O sistema deve ser capaz de filtrar profissionais por especialidade. | MÉDIA | https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/search-professionals | search-professionals.html |
@@ -29,7 +29,9 @@ As tabelas que se seguem apresentam os requisitos funcionais que relacionam o es
 | RF-015 | O sistema deve permitir que o usuário profissional seja capaz de deletar a sua conta. | ALTA | https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/configs.html  | configs.html |
 | RF-016 | O sistema deve permitir que o usuário idoso marque uma consulta com o profissional da saúde. | MÉDIA | https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/search-professionals.html | search-professionals.html | 
 | RF-017 | O sistema deve permitir que o usuário profissional receba uma notificação no seu e-mail para confirmação de consulta. | MÉDIA | https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/search-professionals.html | search-professionals.html |
-| RF-018 | O sistema deve permitir que usuários profissionais definam previamente o valor de seus serviços | MÉDIA | https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/configs.html | configs.html |
+| RF-018 | O sistema deve permitir que usuários profissionais definam o valor de seus serviços | MÉDIA | https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/configs.html | configs.html |
+| RF-019 | O sistema deve permitir que usuários desloguem da plataforma | MÉDIA | https://icei-puc-minas-pmv-si.github.io/pmv-si-2023-2-pe1-t2-senectus/src/configs.html | configs.html |
+
 ## Descrição das estruturas:
 
 ### Entidades - Prestador de serviço
