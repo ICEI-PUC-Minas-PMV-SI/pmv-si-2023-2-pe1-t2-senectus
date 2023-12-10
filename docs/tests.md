@@ -342,7 +342,7 @@ O objetivo do Plano de Testes de Usabilidade é obter informações quanto à ex
 
 Para este teste de usabilidade, elaboramos cinco cenários, cada um baseado na definição apresentada sobre as histórias dos usuários definido na etapa das especificações do projeto.
 
-Foram convidadas 5 pessoas que os perfis se encaixassem nas definições das personas apresentadas na documentação, sendo, idosos e profissionais da saúde; visando averiguar os seguintes indicadores:
+Foram convidadas 6 pessoas que os perfis se encaixassem nas definições das personas apresentadas na documentação, sendo, idosos e profissionais da saúde; visando averiguar os seguintes indicadores:
 
 ### Indicadores 
 
