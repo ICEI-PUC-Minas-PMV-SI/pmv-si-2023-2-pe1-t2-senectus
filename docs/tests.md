@@ -566,9 +566,13 @@ Cenário 5: Você é um profissional da saúde na qual deixou de usar a platafor
 
 ## Avaliação dos Testes de Usabilidade
 
-Frente aos resultados obtidos por meio das aplicações dos testes de usabilidade podemos notar que a aplicação parece ser intuitiva, apresentando um bom design e facilitando o _job to be done_ por parte dos usuários testados - idosos e profissionais da saúde - na plataforma. Entrevistamos uma terapeuta especializada em arte terapia e realizou alguns comentários que reforçaram essa percepção, são eles, a facilidade de encontrar exercícios a serem feitos. 
+Frente aos resultados obtidos por meio das aplicações dos testes de usabilidade podemos notar que a aplicação parece ser intuitiva, apresentando um bom design e facilitando o _job to be done_ por parte dos usuários testados - idosos e profissionais da saúde - na plataforma. Entrevistamos profissionais qualificados na área da saúde e idosos interessados no desenvolvimento da aplicação e coletamos suas percepções e opniões sobre o produto desenvolvido. Ao todo entrevistamos 6 pessoas, o que nos forneceu um gratificante feedback do projeto. 
 
-Entretando, vale ressaltar alguns pontos interessantes de melhoria na plataforma: A limitação da lista de profissionais para seleção, problemas na edição do número de telefone na página de configurações e uma dificuldade de encontrar a página de pesquisa de profissionais no menu hambúrguer. 
+Entretando, vale ressaltar alguns pontos interessantes de melhoria na plataforma. O sistema em si, como já citado anteriormente é criado como um MVP e possui funcionalidades limitadas, portanto seria de grande importância, no futuro, por parte da equipe de desenvolvedores, expandir o que já existe e tornar o produto mais interessante ainda, segue abaixo o que pode ser feito:
 
+-  Adição de novos cargos disponíveis para profissionais de saúde no sistema;
+-  Aprimoramento no sistema de navegação, objetivando aprimorar o navegabilidade dos idosos, tendo em vista que os mesmos, demonstraram dificuldades em se orientar na plataforma.;
+- Adição de novos exercícios e categoria;
+- Aprimorar o sistema de pesquisa da plataforma, podendo por exemplo, ordernar os usuário com base na localização geográfica.
 
 
