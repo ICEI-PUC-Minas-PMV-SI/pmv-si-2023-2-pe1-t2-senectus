@@ -356,7 +356,7 @@ Foram convidadas 6 pessoas que os perfis se encaixassem nas definições das per
 4. Bom; 
 5. Ótimo.
 
-**Tempo para conclusão da tarefa:** em segundos, e em comparação com o tempo utilizado quando um especialista (um desenvolvedor) realiza a mesma tarefa.
+**Tempo para conclusão da tarefa:** em segundos e minutos, e em comparação com o tempo utilizado quando um especialista (um desenvolvedor) realiza a mesma tarefa.
 
 
 ## Cenários de Teste de Usabilidade
