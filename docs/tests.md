@@ -268,18 +268,18 @@ Atualmente, temos as intenções de rastrear os bugs presentes nas aplicações 
 |*Caso de Teste*    |*TC-01 - Acessar os exercícios* |
 |---|---|
 |Requisito Associado | RF-001 - O sistema deve permitir que usuários tenham acesso a descrição informativa de exercícios. <br> RF-002 - O sistema deve permitir que usuários sejam capazes de acessar o catálogo de exercícios e os selecionar. <br> RF-011 - O sistema deve ter uma página inicial que mostre a importância da atividade física durante o envelhecimento. <br> RF-012 - O sistema deve ter uma página inicial que fale sobre a iniciativa do projeto Senectus. <br> RF-013 - O sistema deve ter uma página inicial que mostre o quão confiável a plataforma é. <br> RF-003 O sistema deve permitir a seleção de exercícios em forma de categórias. <br> RF-004 O sistema deve permitir que o usuário tenha acesso a algum vídeo ou imagem sobre como fazer o exercício. <br> RNF-004 - O sistema deve ser de fácil entendimento para o público idoso |
-|Link do vídeo do teste realizado: | [CT01 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/b05676de-e26f-424d-8e01-4301a57a9881)  | 
+|Link do vídeo do teste realizado: | [CT01 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/3a737020-20b3-40ab-9902-395856c831ba)  | 
 
 |*Caso de Teste*                                 |*TC-02 - Criar conta completa*                                         |
 |---|---|
 |Requisito Associado | RF-005 - O sistema deve permitir que um profissional se cadastre na plataforma, inserindo informações básicas. <br> RNF-006 - O sistema deve respeitar as normas da LGPD <br> RF-006 - O sistema deve permitir que os profissionais sejam capazes de preencher informações mais completas sobre suas competências logo após o cadastro. <br> RF-018 - O sistema deve permitir que usuários profissionais definam previamente o valor de seus serviços <br> RNF-003 - O sistema deve seguir boas práticas de segurança da informação sempre que possível|
-|Link do vídeo do teste realizado: | [CT02 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/c444fa66-dc43-49d3-bfad-71cb40c4f97e) |
+|Link do vídeo do teste realizado: | [CT02 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/80118aad-9bd6-4f1e-8d54-eddcf3354fa5) |
 |Nota: | É mais que válido lembrar que a partir do momento em que os dados do usuário são obtidos, a aplicação, aplica uma camada extra de proteção dos dados, utilizando a classe presente em '/src/js/utils/obfuscator.js' na camada de repositório. Além disso, todas as ações e manipulações realizadas pela aplicação, como o compartilhamento dos dados obtidos para a base de clientes, só serão realizadas, caso o usuário aceite e insira seus devidos meios de contatos, conforme mostrado no vídeo. |
 
 |*Caso de Teste*                                 |*TC-03 - Configuração da conta*                                         |
 |---|---|
 |Requisito Associado | RF-014 - O sistema deve permitir que usuários profissionais atualizem seus perfis. <br> RF-018 - O sistema deve permitir que usuários profissionais definam previamente o valor de seus serviços. |
-|Link do vídeo do teste realizado: | [CT03 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/392d4973-c722-45ca-a37a-f843c251520b)  | 
+|Link do vídeo do teste realizado: | [CT03 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/cc3b035e-c278-46ac-93bc-16dcd1f0f529)  | 
 
 |*Caso de Teste*                                 |*TC-04 - Login da conta*                                         |
 |---|---|
@@ -294,7 +294,7 @@ Atualmente, temos as intenções de rastrear os bugs presentes nas aplicações 
 |*Caso de Teste*                                 |*TC-06 - Deletar conta*                                         |
 |---|---|
 |Requisito Associado | RF-015 - O sistema deve permitir que o usuário profissional seja capaz de deletar a sua conta. |
-|Link do vídeo do teste realizado: | [CT06 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/53b8132c-4428-4528-96f3-18fcae7f18e3) |
+|Link do vídeo do teste realizado: | [CT06 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/b2666163-7d20-419b-94df-229580d3f19e) |
 
 |*Caso de Teste*                                 |*TC-07 - Utilização do Javascript*                                         |
 |---|---|
@@ -305,7 +305,7 @@ Atualmente, temos as intenções de rastrear os bugs presentes nas aplicações 
 |*Caso de Teste*                                 |*TC-08 - Responsividade*                                         |
 |---|---|
 |Requisito Associado | RNF-002 - O sistema deve ser responsivo em diversas telas com base no público-alvo |
-|Link do vídeo do teste realizado: |  [CT08 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/d4415b87-7bb8-46f4-bd69-b570f512cc4a) |
+|Link do vídeo do teste realizado: |  [CT08 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/673f9ba4-e0d5-4ec2-bd8b-8cbfa00f376f) |
 
 |*Caso de Teste*                                 |*TC-09 - Desconexão/Logout*                                         |
 |---|---|
