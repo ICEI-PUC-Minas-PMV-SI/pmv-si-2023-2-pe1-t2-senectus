@@ -379,11 +379,11 @@ Cenário 1: Você é uma pessoa que se encaixa na meia idade e sedentária. Aces
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário | 
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 4                    | 02.52 segundos                  | 
-| 2       | SIM             | 5                    | 17.11 segundos                  |
+| 2       | SIM             | 4                    | 01:50 segundos                  |
 | 3       | SIM             | 5                    | 39.09 segundos                  |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 01.34 segundos |
 
 
     Comentários dos usuários: Achei o site muito bom e fácil de achar as informações. 
@@ -397,7 +397,7 @@ Cenário 2: Você é uma pessoa que se encaixa na meia idade e sedentária que e
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 4                    | 01:08 segundos                  |
-| 2       | SIM             | 5                    | 31.42 segundos                  |
+| 2       | SIM             | 5                    | : segundos                  |
 | 3       | SIM             | 5                    | 36.21 segundos                  |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
@@ -405,6 +405,7 @@ Cenário 2: Você é uma pessoa que se encaixa na meia idade e sedentária que e
 
 
     Comentários dos usuários: O site é fácil de acessar, os exercícios são práticos e fáceis de realizar. Eu me interessei pela categoria de hipertrofia e pelos exercícios de agachamento.
+    Foi fácil e prático. Gostei da categoria de aeróbico, os exercícios de cadeira.
 
 
 Cenário 3: Você é uma pessoa que se encaixa na meia idade e sedentária que esta procurando contatos de profissionais da saúde relacionados a fisioterapia. Procure os contatos de fisiterapeutas na sua cidade.
@@ -413,22 +414,20 @@ Cenário 3: Você é uma pessoa que se encaixa na meia idade e sedentária que e
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
+| 2       | SIM             | 5                    | 02.41 segundos                          |
 | 3       | SIM             | 5                    | 36.21 segundos                          |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários: O site é fácil de acessar, consegui encontrar o profissional que queria na minha região.
 
 Cenário 4: Você é um profissional da saúde buscando uma plataforma que divulgue os seus meios de contatos. Encontre uma maneira de vincular ao Senectus criando a sua propria conta para se divulgar e logo em seguida se desconecte da plataforma de maneira segura.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
+| 1       | SIM             | 4                    | 22.54 segundos                          |
 | 2       | SIM             | 5                    | 31.42 segundos                          |
 | 3       | SIM             | 5                    | 36.21 segundos                          |
 |  |  |  |  |
@@ -436,9 +435,7 @@ Cenário 4: Você é um profissional da saúde buscando uma plataforma que divul
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários: O site foi fácil e prático de cadastrar e desconectar.
 
 
 Cenário 5: Você é um profissional da saúde na qual deixou de usar a plataforma Senectus e quer se desvincular ao site. Encontre uma maneira de remover seus dados.
@@ -446,7 +443,7 @@ Cenário 5: Você é um profissional da saúde na qual deixou de usar a platafor
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
+| 1       | SIM             | 4                    | 22.54 segundos                          |
 | 2       | SIM             | 5                    | 31.42 segundos                          |
 | 3       | SIM             | 5                    | 36.21 segundos                          |
 |  |  |  |  |
@@ -454,16 +451,14 @@ Cenário 5: Você é um profissional da saúde na qual deixou de usar a platafor
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários: O site é fácil de acessar.
 
 Cenário 6: Você é um profissional da saúde na qual quer se conectar ao site em um computador que não é de sua posse. Encontre uma maneira segura de se conectar e desconectar no Senectus.
 
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
+| 1       | SIM             | 4                    | 22.54 segundos                          |
 | 2       | SIM             | 5                    | 31.42 segundos                          |
 | 3       | SIM             | 5                    | 36.21 segundos                          |
 |  |  |  |  |
