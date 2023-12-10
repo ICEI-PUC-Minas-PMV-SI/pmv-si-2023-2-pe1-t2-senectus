@@ -383,7 +383,7 @@ Cenário 1: Você é uma pessoa que se encaixa na meia idade e sedentária. Aces
 | 3       | SIM             | 5                    | 39.09 segundos                  |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 01.34 segundos |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 1:57,08 minutos |
 
 
     Comentários dos usuários: (Terapeuta) Compreendeu bem o texto e nada a reportar.
@@ -400,7 +400,7 @@ Cenário 2: Você é uma pessoa que se encaixa na meia idade e sedentária que e
 | 3       | SIM             | 5                    | 36.21 segundos                  |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 37.61 segundos |
 
 
     Comentários dos usuários: (Terapeuta) Achou essa etapa muito intuitiva e fácil de encontrar.
@@ -416,7 +416,7 @@ Cenário 3: Você é uma pessoa que se encaixa na meia idade e sedentária que e
 | 3       | SIM             | 5                    | 36.21 segundos                          |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 58.7 segundos |
 
 
     Comentários dos usuários: (Terapeuta) Mudei um pouco o cenário durante a aplicação do teste e o entrevistado(a) não encontrou o cargo solicitado na barra de pesquisa de profissionais.
@@ -430,7 +430,7 @@ Cenário 4: Você é um profissional da saúde buscando uma plataforma que divul
 | 3       | SIM             | 5                    | 36.21 segundos                          |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 47.99 segundos |
 
 
     Comentários dos usuários: (Terapeuta) O profissional teve dificuldade em um bug presente na edição do telefone de contato e teve dificuldade para passar dessa fase.
@@ -446,25 +446,10 @@ Cenário 5: Você é um profissional da saúde na qual deixou de usar a platafor
 | 3       | SIM             | 5                    | 36.21 segundos                          |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 15.92 segundos |
 
 
     Comentários dos usuários: (Terapeuta) Não houveram dificudade pois ele já estava na página de configuração.
-    
-Cenário 6: Você é um profissional da saúde na qual quer se conectar ao site em um computador que não é de sua posse. Encontre uma maneira segura de se conectar e desconectar no Senectus.
-
-
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 4                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
-|  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
-
-
-    Comentários dos usuários: (Terapeuta) Assim como na atividade passada para o entrevistado(a) anterior não houveram dificudade pois ele já estava na página de configuração.
 
 
 ## Avaliação dos Testes de Usabilidade
