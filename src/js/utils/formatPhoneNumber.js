@@ -1,9 +1,41 @@
 export class FormatPhoneNumber {
-	static format(input) {
-		const firstSection = input.slice(-4)
-		const secondSection = input.slice(-8, -4)
-		const ddd = input.slice(0, input.length - 8)
+	static format(rawInput) {
+		const input = `${FormatPhoneNumber.getRaw(rawInput)}`
+		if(input.length <= 2) {
+			return `(${input})`
+		}
 
-		return `(${ddd}) ${secondSection}-${firstSection}`
+		if(input.length <= 6) {
+			const ddd = `(${input[0]}${input[1]})`
+			return `${ddd} ${input.slice(2, input.length)}`
+		}
+
+		const ddd = `(${input[0]}${input[1]})`
+	
+		const getSections = (input) => {
+			const ssFirstNum = input[6] ?? ''
+			const ssSecondNum = input[7] ?? ''
+			const ssThirdNum = input[8] ?? ''
+			const ssFourthNum = input[9] ?? ''
+			const ssFithNum = input[10] ?? ''
+
+			const fsFull = !ssFithNum ? `${input.slice(2, 6)}` : `${input.slice(2, 7)}`
+
+			return ssFithNum 
+				? `${fsFull}-${ssSecondNum}${ssThirdNum}${ssFourthNum}${ssFithNum}`
+				: `${fsFull}-${ssFirstNum}${ssSecondNum}${ssThirdNum}${ssFourthNum}`
+		}
+
+		return `${ddd} ${getSections(input)}`
+	}
+
+	static getRaw(input) {
+		const newInput = input
+			.replaceAll("-", "")
+			.replaceAll("(", "")
+			.replaceAll(")", "")
+			.replaceAll(" ", "")
+
+		return newInput ? parseInt(newInput) : '' 
 	}
 }

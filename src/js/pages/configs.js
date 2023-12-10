@@ -8,6 +8,7 @@ import { IBGEGateway } from "../gateways/APIs/ibge.js";
 import { ConfigDTO } from "../DTO/configs.dto.js";
 import { popup } from "../events/popup.js"
 import { MenuMobile } from "../utils/menuMobile.js";
+import { FormatPhoneNumber } from "../utils/formatPhoneNumber.js";
 
 let availableCities = [];
 
@@ -80,7 +81,7 @@ class Configs {
     inputsAndSelects.name.value = user.name;
     inputsAndSelects.password.value = user.password;
     inputsAndSelects.short_description.value = user.short_description ?? null;
-    inputsAndSelects.phone_number.value = user.phone_number ?? null;
+    inputsAndSelects.phone_number.value = user.phone_number ? FormatPhoneNumber.format(String(user.phone_number)) : null;
     inputsAndSelects.job.value = user.job ?? null;
     inputsAndSelects.city.value = user.city ?? null;
     inputsAndSelects.state.innerHTML = user.state 
@@ -148,8 +149,8 @@ class Configs {
         id: oldUser.id,
         name: inputsAndSelects.name.value,
         email: oldUser.email,
-        password: inputsAndSelects.password.value,
-        phone_number:inputsAndSelects.phone_number.value,
+        password: inputsAndSelects.phone_number.value,
+        phone_number: FormatPhoneNumber.getRaw(inputsAndSelects.phone_number.value),
         short_description:inputsAndSelects.short_description.value,
         job: inputsAndSelects.job.value,
         city: inputsAndSelects.city.value,
@@ -174,6 +175,48 @@ class Configs {
       TokenOnSessionStorage.create(user);
 
       popup.dispatch(this.events.update);
+    })
+  }
+
+  watchPhoneNumber() {
+    const phoneNumberInput = document.getElementById("input-phone-number")
+    let internalValue = phoneNumberInput.value
+
+    const removeCharacter = (input) => {
+      let number = String(FormatPhoneNumber.getRaw(`${input}`))
+      if(input.length <= 3) {
+        const newNumber = number.split('')
+        newNumber.pop()
+        number = newNumber.join('')
+      }
+
+      if(number.length <= 0) {
+        internalValue = '';
+        return ''
+      };
+
+      const parsedData = FormatPhoneNumber.format(number)
+      return parsedData;
+    }
+
+    const addCharacter = (input) => {
+      const parsedData = FormatPhoneNumber.format(input)
+      internalValue = String(FormatPhoneNumber.getRaw(`${input}`))
+
+      return parsedData
+    }
+
+    phoneNumberInput.addEventListener("input", (event) => {
+      if(!event.target.value)
+        return phoneNumberInput.value = ''
+
+      let number = String(FormatPhoneNumber.getRaw(`${event.target.value}`))
+
+      if(event.target.value < internalValue) {
+        return phoneNumberInput.value = removeCharacter(event.target.value)
+      } else {
+        return phoneNumberInput.value = addCharacter(event.target.value)
+      }
     })
   }
 
@@ -265,6 +308,7 @@ class Configs {
       this.watchStateSelect(data);
     });
 
+    this.watchPhoneNumber();
     this.watchForm(user);
     this.watchDeleteAccountButton(user);
   }

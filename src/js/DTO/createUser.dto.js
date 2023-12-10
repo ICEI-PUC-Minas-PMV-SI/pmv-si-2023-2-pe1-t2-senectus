@@ -8,9 +8,9 @@ export class CreateUserDTO {
 			'Senha precisa conter entre 6 a 256 caracteres.'
 		];
 		const typeError = [
-			'Nome não é uma string',
-			'Email não é uma string',
-			'Senha não é uma string'
+			'Nome não é uma frase ou letra',
+			'Email não é uma frase ou letra',
+			'Senha não é uma frase ou letra'
 		];
 
 		const typeValidation = [

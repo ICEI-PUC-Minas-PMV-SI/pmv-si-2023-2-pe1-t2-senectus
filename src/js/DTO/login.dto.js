@@ -7,8 +7,8 @@ export class LoginDTO {
 			'Senha precisa conter entre 6 a 256 caracteres.'
 		];
 		const typeError = [
-			'Email não é uma string',
-			'Senha não é uma string'
+			'Email não é uma frase ou letra',
+			'Senha não é uma frase ou letra'
 		];
 
 		const typeValidation = [
