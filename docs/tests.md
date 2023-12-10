@@ -545,11 +545,13 @@ Cenário 4: Você é um profissional da saúde buscando uma plataforma que divul
 
 
     Comentários dos usuários: 
-        - Eu tive uma certa dificuldade ao 
-          editar meus dados na página de configuração, 
-          percebi uma leve quebra na interface ao inserir 
-          letras no telefone de contato, mas fora isso achei 
-          muito bom.
+    - Eu tive uma certa dificuldade ao editar meus 
+      dados na página de configuração, percebi uma 
+      leve quebra na interface ao inserir letras no 
+      telefone de contato, mas fora isso achei muito bom.
+      
+    Nota dos desenvolvedores:
+      - Esta quebra no layout já foi corrigida com sucesso!
 
 Cenário 5: Você é um profissional da saúde na qual deixou de usar a plataforma Senectus e quer se desvincular ao site. Encontre uma maneira de remover seus dados.
 
