@@ -328,7 +328,7 @@ Ao terminar os testes de software, foi possível encontrar alguns bugs de divers
 
 <br>
 
-Vale destacar que, a detecção dos bugs foram de extrema importância para o desenvolvimento do projeto, tendo em vista de que foi possível gerar um feedback de como esta o estado de vida da aplicação e propor possíveis melhorias, como a adição de um tempo de espera nos disparos de popups referentes ao CT02.
+Vale destacar que, a detecção dos bugs foram de extrema importância para o desenvolvimento do projeto, tendo em vista de que foi possível gerar um feedback de como está o estado de vida da aplicação e propor possíveis melhorias, como a adição de um tempo de espera nos disparos de popups referentes ao CT02.
 
 ### Pontos fracos e fortes da aplicação 
 
@@ -338,9 +338,9 @@ No entanto, pelo fato da aplicação se tratar de um modelo MVP (Minimum Viable 
 
 # Testes de Usabilidade
 
-O objetivo do Plano de Testes de Usabilidade é obter informações quanto à expectativa dos usuários em relação à  funcionalidade da aplicação. Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados (LGPD), as informações pessoais dos usuários que participaram do teste não foram coletadas.
+O objetivo do Plano de Testes de Usabilidade é obter informações quanto à expectativa dos usuários em relação à funcionalidade da aplicação. Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados (LGPD), as informações pessoais dos usuários que participaram do teste não foram coletadas.
 
-Para este teste de usabilidade, elaboramos seis cenários, cada um baseado na definição apresentada sobre as histórias dos usuários definido na etapa das especificações do projeto.
+Para este teste de usabilidade, elaboramos cinco cenários, cada um baseado na definição apresentada sobre as histórias dos usuários definido na etapa das especificações do projeto.
 
 Foram convidadas 4 pessoas que os perfis se encaixassem nas definições das personas apresentadas na documentação, sendo, idosos e profissionais da saúde; visando averiguar os seguintes indicadores:
 
