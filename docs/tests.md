@@ -320,7 +320,7 @@ Atualmente, temos as intenções de rastrear os bugs presentes nas aplicações 
 ## Avaliação dos Testes de Software
 
 ### Sobre os bugs
-Ao terminar os testes de software, foi possível encontrar alguns bugs de diversos níveis, desde o mais grave até o mais simples. No entanto, é valido ressaltar que todos os bugs detectados na aplicação atualmente, com base nos testes, foram corrigidos com sucesso, somando assim 5 correções de 5 bugs, segue abaixo o gráfico que separa os bugs pelas suas devidas categórias:
+Ao terminar os testes de software, foi possível encontrar alguns bugs de diversos níveis, desde o mais grave até o mais simples. No entanto, é válido ressaltar que todos os bugs detectados na aplicação atualmente, com base nos testes, foram corrigidos com sucesso, somando assim 5 correções de 5 bugs, segue abaixo o gráfico que separa os bugs pelas suas devidas categorias:
 
 <div align="center">
     <img src="./img/graficoDeBugs.png" alt="relatório de bugs encontrados" width="50%" height="50%"/>
