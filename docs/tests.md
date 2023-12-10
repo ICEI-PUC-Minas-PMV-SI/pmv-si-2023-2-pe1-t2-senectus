@@ -338,7 +338,7 @@ No entanto, pelo fato da aplicação se tratar de um modelo MVP (Minimum Viable 
 
 # Testes de Usabilidade
 
-O objetivo do Plano de Testes de Usabilidade é obter informações quanto à expectativa dos usuários em relação à  funcionalidade da aplicação. Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados (LGPD), as informações pessoais - exceto nome, idade e profissão - dos usuários que participaram do teste não foram coletadas, as informações coletadas serviram apenas para a assinatura do Termo de Consentimento Livre e Esclarecido, referenciado logo abaixo desta seção de apresentação, e não foram coletadas por finalidade de pesquisa.
+O objetivo do Plano de Testes de Usabilidade é obter informações quanto à expectativa dos usuários em relação à  funcionalidade da aplicação. Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados (LGPD), as informações pessoais dos usuários que participaram do teste não foram coletadas.
 
 Para este teste de usabilidade, elaboramos seis cenários, cada um baseado na definição apresentada sobre as histórias dos usuários definido na etapa das especificações do projeto.
 
@@ -472,7 +472,6 @@ Cenário 6: Você é um profissional da saúde na qual quer se conectar ao site 
 
 
 ## Avaliação dos Testes de Usabilidade
-
 
 Frente aos resultados obtidos por meio das aplicações dos testes de usabilidade podemos notar que a aplicação parece ser intuitiva, apresentando um bom design e facilitando o _job to be done_ por parte dos usuários testados - idosos e profissionais da saúde - na plataforma. Entrevistamos uma terapeuta especializada em arte terapia e realizou alguns comentários que reforçaram essa percepção, são eles, a facilidade de encontrar exercícios a serem feitos. 
 
