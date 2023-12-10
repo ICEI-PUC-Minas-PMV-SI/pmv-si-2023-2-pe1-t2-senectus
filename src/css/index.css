@@ -230,6 +230,14 @@ header ul li a#login-button:hover {
   #header {
     padding: 1rem 1rem 0.3rem;
   }
+
+  menu.open-header {
+    padding-right: 1rem;
+  }
+
+  #header a.open-header {
+    padding-left: 1rem;
+  }
 }
 
 @media (min-width: 985px) {

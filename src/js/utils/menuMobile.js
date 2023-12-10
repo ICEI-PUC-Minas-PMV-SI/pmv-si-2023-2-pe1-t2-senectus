@@ -33,6 +33,9 @@ export class MenuMobile {
     loginButton,
     configButton
   }) {
+    const icon = menuMobile.querySelector("i")
+    icon.classList.toggle("fa-bars")
+    icon.classList.toggle("fa-x")
     menuNavUl.classList.toggle("open-header")
     logo.classList.toggle("open-header")
     body.classList.toggle("open-header")
@@ -56,6 +59,9 @@ export class MenuMobile {
     loginButton,
     configButton
   }) {
+    const icon = menuMobile.querySelector("i")
+    icon.classList.add("fa-bars")
+    icon.classList.remove("fa-x")
     menuNavUl.classList.remove("open-header")
     logo.classList.remove("open-header")
     body.classList.remove("open-header")
