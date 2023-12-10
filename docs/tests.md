@@ -380,6 +380,8 @@ Cenário 1: Você é uma pessoa que se encaixa na meia idade e sedentária. Aces
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 5                    | 2:31.09 minutos                 | 
 | 2       | SIM             | 4                    | 2:34.02 minutos                 |
+| 3       | SIM             | 5                    | 00:46 segundos                 |
+| 4       | SIM             | 5                    | 1:30.00 minutos                 |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 1:57.08 minutos |
@@ -397,6 +399,10 @@ Cenário 2: Você é uma pessoa que se encaixa na meia idade e sedentária que e
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 4                    | 44.55 segundos                  |
 | 2       | SIM             | 4                    | 01.32 segundos                  |
+| 3       | SIM             | 5                    | 01.05 segundos                  |
+| 4       | SIM             | 5                    | 00.24 segundos                  |
+
+
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 37.61 segundos |
@@ -412,7 +418,11 @@ Cenário 3: Você é uma pessoa que se encaixa na meia idade e sedentária que e
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 4                    | 2:58.17 minutos                   
-  1       | SIM             | 4                    | 3:21.02 minutos              |
+  2       | SIM             | 4                    | 3:21.02 minutos              |
+  3       | SIM             | 3                    | 0:38.25 segundos              |
+  4       | SIM             | 3                    | 1:47.25 minutos              |
+
+
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 58.7 segundos |
@@ -425,7 +435,11 @@ Cenário 4: Você é um profissional da saúde buscando uma plataforma que divul
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 4                    | 22.54 segundos                          |
+| 2       | SIM             | 4                    | 3:22.00 minutos                          |
+| 3       | SIM             | 5                    |  6:23.00 minutos                            |
+| 4       | SIM             | 5                    |   3:00.00 minutos                             |
+
+
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 47.99 segundos |
@@ -440,6 +454,11 @@ Cenário 5: Você é um profissional da saúde na qual deixou de usar a platafor
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 4                    | 22.54 segundos                          |
+| 2       | SIM             | 5                    | 14.50 segundos                          |
+| 3       | SIM             | 5                    | 26.00 segundos                          |
+| 4       | SIM             | 5                    | 14.40 segundos                          |
+
+
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 15.92 segundos |
