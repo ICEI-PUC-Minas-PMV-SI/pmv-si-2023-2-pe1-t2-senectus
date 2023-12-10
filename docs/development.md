@@ -50,7 +50,7 @@ As tabelas que se seguem apresentam os requisitos funcionais que relacionam o es
 | Criado em | Data | Data de criação da conta | 23/12/2023
 | Serviço mais prestado | Texto | Serviço mais prestado pelo usuário | Pilates |
 | Segundo serviço mais prestado | Texto | Segundo serviço mais prestado pelo usuário | Fisioterapia Neurofuncional |
-| Terceiro serviço mais prestado | Texto | Serviço mais prestado pelo usuário | Fisioterapia Ortopédica |
+| Terceiro serviço mais prestado | Texto | Terceiro serviço mais prestado pelo usuário | Fisioterapia Ortopédica |
 
 
 ### Estrutura do projeto
