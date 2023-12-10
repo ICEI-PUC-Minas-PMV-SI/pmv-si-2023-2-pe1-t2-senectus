@@ -11,7 +11,7 @@ A documentação dos testes é dividida nas seguintes seções:
  - [Registro dos Testes de Software](#registro-dos-testes-de-software)
  - [Avaliação dos Testes de Software](#avaliação-dos-testes-de-software)
  - [Cenários de Teste de Usabilidade](#cenários-de-teste-de-usabilidade)
- - [Registro dos Testes de Usabilidade](#registro-dos-testes-de-usabilidade)
+ - [Registro dos Testes de Usabilidade](#registro-de-testes-de-usabilidade)
  - [Avaliação dos Testes de Usabilidade](#avaliação-dos-testes-de-usabilidade)
 
 # Teste de Software
