@@ -373,21 +373,26 @@ Foram convidadas 4 pessoas que os perfis se encaixassem nas definições das per
 
 ## Registro de Testes de Usabilidade
 
+### Registro indiscriminado
+
 Cenário 1: Você é uma pessoa que se encaixa na meia idade e sedentária. Acesse a página inicial do site e tente compreender a proposta do projeto. Incluindo a importância da atividade física durante o envelhecimento, sobre o que é o nosso projeto e a segurança dos seus dados na nossa plataforma.
 
 
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário | 
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 2:31.09 minutos                 | 
-| 2       | SIM             | 4                    | 2:34.02 minutos                 |
-| 3       | SIM             | 5                    | 00:46 segundos                 |
-| 4       | SIM             | 5                    | 1:30.00 minutos                 |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 1:57.08 minutos |
+| 1       | SIM             | 5                    | 1:30 minutos                  |
+| 2       | SIM             | 5                    | 0:46 minutos                  |
+| 3       | SIM             | 5                    | 2:34 minutos                  |
+| 4       | SIM             | 5                    | 2:52 minutos                  |
+| 5       | SIM             | 5                    | 2:31 minutos                  |
+| **Média**     | 100%           | 5                | 2:06 minutos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 37.61 segundos |
 
 
-    Comentários dos usuários: (Terapeuta) Compreendeu bem o texto e nada a reportar.
-    Idoso: Achei o site muito bom e fácil de achar as informações.
+
+
+    Comentários dos usuários: 
+        - Achei que tudo muito bem explicado, me convenceria rápido!
 
 
 Cenário 2: Você é uma pessoa que se encaixa na meia idade e sedentária que esta procurando conhecer novos tipos exercícios físico da categória aeróbico e pretende obter conteúdos digitais que conseguem te guiar passo a passo nos seus exercícios. Encontre a atividade física que se encaixa nesta categoria no site. Além do mais descreva em voz alta um exercício que lhe gerou interesse e selecione a categoria.
@@ -398,6 +403,8 @@ Cenário 2: Você é uma pessoa que se encaixa na meia idade e sedentária que e
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 4                    | 44.55 segundos                  |
 | 2       | SIM             | 4                    | 01.32 segundos                  |
+| 3       | SIM             | 5                    | 01.05 segundos                  |
+| 4       | SIM             | 5                    | 00.24 segundos                  |
 | 3       | SIM             | 5                    | 01.05 segundos                  |
 | 4       | SIM             | 5                    | 00.24 segundos                  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
