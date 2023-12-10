@@ -168,6 +168,10 @@ main form div i {
   main form fieldset:nth-child(7) { order: 7 }
   main form fieldset:nth-child(8) { order: 8 }
 
+  main form fieldset div input {
+    padding-right: 1.5rem;
+  }
+
   main form fieldset div input,
   main form fieldset div select {
     width: 89vw;
