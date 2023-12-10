@@ -391,7 +391,8 @@ Cenário 1: Você é uma pessoa que se encaixa na meia idade e sedentária. Aces
 
 
     Comentários dos usuários: 
-        - Achei que tudo muito bem explicado, me convenceria rápido!
+        - Achei que tudo muito bem explicado, 
+          me convenceria rápido!
 
 Cenário 2: Você é uma pessoa que se encaixa na meia idade e sedentária que esta procurando conhecer novos tipos exercícios físico da categória aeróbico e pretende obter conteúdos digitais que conseguem te guiar passo a passo nos seus exercícios. Encontre a atividade física que se encaixa nesta categoria no site. Além do mais descreva em voz alta um exercício que lhe gerou interesse e selecione a categoria.
 
@@ -404,11 +405,13 @@ Cenário 2: Você é uma pessoa que se encaixa na meia idade e sedentária que e
 | 3       | SIM             | 5                    | 1:32 minutos                   |
 | 4       | SIM             | 5                    | 1:08 minutos              |
 | 5       | SIM             | 5                    | 0:44 segundos                   |
-| **Média**     | 0%           | 0                | 0 segundos                           |
+| **Média**     | 100%           | 5                | 58.6 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 37.61 segundos |
 
 
-    Comentários dos usuários: Achei o site muito bom e fácil de achar as informações.
+    Comentários dos usuários: 
+        - Achei o site muito bom e fácil 
+          de achar as informações.
     
 
 Cenário 3: Você é uma pessoa que se encaixa na meia idade e sedentária que esta procurando contatos de profissionais da saúde relacionados a fisioterapia. Procure os contatos de fisiterapeutas na sua cidade.
@@ -426,38 +429,49 @@ Cenário 3: Você é uma pessoa que se encaixa na meia idade e sedentária que e
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 58.7 segundos |
 
 
-    Idoso: Achei fácil e prático, mas tive dificuldades em encontrar profissionais de saúde do meu interesse.
+    Comentários dos usuários:
+        - Achei fácil e prático, mas tive 
+          dificuldades em encontrar profissionais 
+          de saúde do meu interesse.
 
 
 Cenário 4: Você é um profissional da saúde buscando uma plataforma que divulgue os seus meios de contatos. Encontre uma maneira de vincular ao Senectus criando a sua propria conta para se divulgar e logo em seguida se desconecte da plataforma de maneira segura.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 2       | SIM             | 4                    | 3:22.00 minutos                 |
-| 3       | SIM             | 5                    |  6:23.00 minutos                |
-| 4       | SIM             | 5                    |   3:00.00 minutos               |
-| **Média**     | 0%           | 0                | 0 segundos                       |
+| 1       | SIM             | 4                    | 3:00 minutos                 |
+| 2       | SIM             | 5                    |   6:23.00 minutos               |
+| 3       | SIM             | 5                    |   3:22.00 minutos               |
+| 4       | SIM             | 4                    |   2:33.00 minutos               |
+| 5       | SIM             | 3                    |   3:49.43 minutos               |
+| **Média**     | 100%           | 4.2                | 3:49.4                       |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 47.99 segundos |
 
 
-    Comentários dos usuários: (Terapeuta) O profissional teve dificuldade em um bug presente na edição do telefone de contato e teve dificuldade para passar dessa fase.
-
+    Comentários dos usuários: 
+        - Eu tive uma certa dificuldade ao editar meus 
+          dados na página de configuração, percebi uma 
+          leve quebra na interface ao inserir letras no 
+          telefone de contato, mas fora isso achei muito bom.
 
 Cenário 5: Você é um profissional da saúde na qual deixou de usar a plataforma Senectus e quer se desvincular ao site. Encontre uma maneira de remover seus dados.
 
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 4                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 14.50 segundos                          |
-| 3       | SIM             | 5                    | 26.00 segundos                          |
+| 1       | SIM             | 5                    | 14.4 segundos                          |
+| 2       | SIM             | 5                    | 25 segundos                          |
+| 3       | SIM             | 5                    | 15.30 segundos                          |
 | 4       | SIM             | 5                    | 14.40 segundos                          |
-| **Média**     | 0%           | 0                | 0 segundos                           |
+| 5       | SIM             | 5                    | 17.02 segundos                          |
+| 6       | SIM             | 5                    | 15.02 segundos                          |
+| **Média**     | 100%           | 5                | 16 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 15.92 segundos |
 
 
-    Comentários dos usuários: (Terapeuta) Não houveram dificudade pois ele já estava na página de configuração.
-
+    Comentários dos usuários: 
+        - Eu não vi nenhuma dificuldade ao 
+          deletar meus dados!
 
 ## Avaliação dos Testes de Usabilidade
 
