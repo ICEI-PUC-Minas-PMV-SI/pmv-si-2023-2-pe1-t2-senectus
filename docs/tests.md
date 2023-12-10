@@ -400,9 +400,6 @@ Cenário 2: Você é uma pessoa que se encaixa na meia idade e sedentária que e
 | 2       | SIM             | 4                    | 01.32 segundos                  |
 | 3       | SIM             | 5                    | 01.05 segundos                  |
 | 4       | SIM             | 5                    | 00.24 segundos                  |
-
-
-|  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 37.61 segundos |
 
@@ -420,9 +417,6 @@ Cenário 3: Você é uma pessoa que se encaixa na meia idade e sedentária que e
   2       | SIM             | 4                    | 3:21.02 minutos              |
   3       | SIM             | 3                    | 0:38.25 segundos              |
   4       | SIM             | 3                    | 1:47.25 minutos              |
-
-
-|  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 58.7 segundos |
 
@@ -437,9 +431,6 @@ Cenário 4: Você é um profissional da saúde buscando uma plataforma que divul
 | 2       | SIM             | 4                    | 3:22.00 minutos                 |
 | 3       | SIM             | 5                    |  6:23.00 minutos                |
 | 4       | SIM             | 5                    |   3:00.00 minutos               |
-
-
-|  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                       |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 47.99 segundos |
 
