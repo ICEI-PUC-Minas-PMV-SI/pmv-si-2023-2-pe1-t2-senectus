@@ -212,6 +212,9 @@ class Configs {
 
       let number = String(FormatPhoneNumber.getRaw(`${event.target.value}`))
 
+      if(number === "NaN")
+        phoneNumberInput.value = internalValue
+
       if(event.target.value < internalValue) {
         return phoneNumberInput.value = removeCharacter(event.target.value)
       } else {
