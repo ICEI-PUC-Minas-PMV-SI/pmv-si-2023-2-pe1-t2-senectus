@@ -288,7 +288,7 @@ Atualmente, temos as intenções de rastrear os bugs presentes nas aplicações 
 
 |*Caso de Teste*                                 |*TC-05 - Buscar profissional*                                         |
 |---|---|
-|Requisito Associado | RF-008 - O sistema deve permitir que usuários contactem profissionais. <br> RF-009 - O sistema deve ser capaz de filtrar profissionais por especialidade. <br> RF-010 - O sistema deve ser capaz de filtrar profissionais por palavra-chave. <br> RF-016 - O sistema deve permitir que o usuário idoso marque uma consulta com o profissional da saúde. <br> RF-017 - O sistema deve permitir que o usuário profissional receba uma notificação do seu e-mail para confirmação de consulta. <br> RNF-004 - O sistema deve ser de fácil entendimento para o público idoso |
+|Requisito Associado | RF-008 - O sistema deve permitir que usuários contactem profissionais. <br> RF-009 - O sistema deve ser capaz de filtrar profissionais por especialidade. <br> RF-010 - O sistema deve ser capaz de filtrar profissionais por palavra-chave. <br> RF-016 - O sistema deve permitir que o usuário idoso marque uma consulta com o profissional da saúde. <br> RF-017 - O sistema deve permitir que o usuário profissional receba uma notificação no seu e-mail para confirmação de consulta. <br> RNF-004 - O sistema deve ser de fácil entendimento para o público idoso |
 |Link do vídeo do teste realizado: | [CT05 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/cccb14b5-4be0-4525-a8b4-28b4d0590ec6) |
 
 |*Caso de Teste*                                 |*TC-06 - Deletar conta*                                         |
@@ -334,7 +334,7 @@ Vale destacar que, a detecção dos bugs foram de extrema importância para o de
 
 Ao analisar a aplicação por meios dos testes foi possível compreender onde a aplicação mais se destaca e onde ela menos se destaca, por exemplo, como analisado no CT10 a aplicação possui fortes pontos positivos com relação ao seu layout, sendo minimalista, direto ao ponto e eficiente, quando o assunto é feedback e validação dos dados de entrada que o usuário pode interagir, impedindo assim, que o mesmo cometa erros básicos no sistema.
 
-No entanto, pelo fato da aplicação se tratar de um modelo MVP (Minimum Viable Product), pode-se notar limitações significativas em suas funcionalidade, como por exemplo, poucos exercícios presentes em sua biblioteca e poucas funcionalidade dedicadas para os profissionais que se cadastrem na aplicação.
+No entanto, pelo fato da aplicação se tratar de um modelo MVP (Minimum Viable Product), podem-se notar limitações significativas em suas funcionalidades, como por exemplo, poucos exercícios presentes em sua biblioteca e poucas funcionalidades dedicadas para os profissionais que se cadastrem na aplicação.
 
 # Testes de Usabilidade
 
@@ -342,7 +342,7 @@ O objetivo do Plano de Testes de Usabilidade é obter informações quanto à ex
 
 Para este teste de usabilidade, elaboramos cinco cenários, cada um baseado na definição apresentada sobre as histórias dos usuários definido na etapa das especificações do projeto.
 
-Foram convidadas 4 pessoas que os perfis se encaixassem nas definições das personas apresentadas na documentação, sendo, idosos e profissionais da saúde; visando averiguar os seguintes indicadores:
+Foram convidadas 5 pessoas que os perfis se encaixassem nas definições das personas apresentadas na documentação, sendo, idosos e profissionais da saúde; visando averiguar os seguintes indicadores:
 
 ### Indicadores 
 
@@ -364,9 +364,9 @@ Foram convidadas 4 pessoas que os perfis se encaixassem nas definições das per
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
 | 1             | Você é uma pessoa que se encaixa na meia idade e sedentária. Acesse a página inicial do site e tente compreender a proposta do projeto. Incluindo a importância da atividade física durante o envelhecimento, sobre o que é o nosso projeto e a segurança dos seus dados na nossa plataforma. |
-| 2             | Você é uma pessoa que se encaixa na meia idade e sedentária que esta procurando conhecer novos tipos exercícios físico da categória aeróbico e pretende obter conteúdos digitais que conseguem te guiar passo a passo nos seus exercícios. Encontre a atividade física que se encaixa nesta categoria no site. |
-| 3             | Você é uma pessoa que se encaixa na meia idade e sedentária que esta procurando contatos de profissionais da saúde relacionados a fisioterapia. Procure os contatos de fisiterapeutas na sua cidade. |
-| 4             | Você é um profissional da saúde buscando uma plataforma que divulgue os seus meios de contatos. Encontre uma maneira de vincular ao Senectus criando a sua propria conta para se divulgar e logo em seguida se desconecte da plataforma de maneira segura. |
+| 2             | Você é uma pessoa que se encaixa na meia idade e sedentária que está procurando conhecer novos tipos de exercícios físicos da categoria aeróbico e pretende obter conteúdos digitais que conseguem te guiar passo a passo nos seus exercícios. Encontre a atividade física que se encaixa nesta categoria no site. |
+| 3             | Você é uma pessoa que se encaixa na meia idade e sedentária que está procurando contatos de profissionais da saúde relacionados à fisioterapia. Procure os contatos de fisiterapeutas na sua cidade. |
+| 4             | Você é um profissional da saúde buscando uma plataforma que divulgue os seus meios de contatos. Encontre uma maneira de vincular ao Senectus criando a sua própria conta para se divulgar e, logo em seguida, se desconecte da plataforma de maneira segura. |
 | 5             | Você é um profissional da saúde na qual deixou de usar a plataforma Senectus e quer se desvincular ao site. Encontre uma maneira de remover seus dados. |
 
 
