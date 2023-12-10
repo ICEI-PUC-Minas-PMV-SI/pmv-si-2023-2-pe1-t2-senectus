@@ -474,13 +474,9 @@ Cenário 6: Você é um profissional da saúde na qual quer se conectar ao site 
 ## Avaliação dos Testes de Usabilidade
 
 
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
+Frente aos resultados obtidos por meio das aplicações dos testes de usabilidade podemos notar que a aplicação parece ser intuitiva, apresentando um bom design e facilitando o _job to be done_ por parte dos usuários testados - idosos e profissionais da saúde - na plataforma. Entrevistamos uma terapeuta especializada em arte terapia e realizou alguns comentários que reforçaram essa percepção, são eles, a facilidade de encontrar exercícios a serem feitos. 
 
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
-
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
-
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
+Entretando, vale ressaltar alguns pontos interessantes de melhoria na plataforma: A limitação da lista de profissionais para seleção, problemas na edição do número de telefone na página de configurações e uma dificuldade de encontrar a página de pesquisa de profissionais no menu hambúrguer. 
 
 
 
