@@ -447,9 +447,6 @@ Cenário 5: Você é um profissional da saúde na qual deixou de usar a platafor
 | 2       | SIM             | 5                    | 14.50 segundos                          |
 | 3       | SIM             | 5                    | 26.00 segundos                          |
 | 4       | SIM             | 5                    | 14.40 segundos                          |
-
-
-|  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 15.92 segundos |
 
