@@ -382,7 +382,6 @@ Cenário 1: Você é uma pessoa que se encaixa na meia idade e sedentária. Aces
 | 2       | SIM             | 4                    | 2:34.02 minutos                 |
 | 3       | SIM             | 5                    | 00:46 segundos                 |
 | 4       | SIM             | 5                    | 1:30.00 minutos                 |
-|  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 1:57.08 minutos |
 
