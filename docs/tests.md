@@ -342,7 +342,7 @@ O objetivo do Plano de Testes de Usabilidade é obter informações quanto à ex
 
 Para este teste de usabilidade, elaboramos seis cenários, cada um baseado na definição apresentada sobre as histórias dos usuários definido na etapa das especificações do projeto.
 
-Foram convidadas [QUANTIDADE DE PESSOAS NO TESTE] pessoas que os perfis se encaixassem nas definições das personas apresentadas na documentação, sendo, idosos e profissionais da saúde; visando averiguar os seguintes indicadores:
+Foram convidadas 4 pessoas que os perfis se encaixassem nas definições das personas apresentadas na documentação, sendo, idosos e profissionais da saúde; visando averiguar os seguintes indicadores:
 
 ### Indicadores 
 
@@ -417,7 +417,7 @@ Cenário 3: Você é uma pessoa que se encaixa na meia idade e sedentária que e
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 4                    | 2:58.17 minutos                   
+| 1       | SIM             | 4                    | 2:58.17 minutos                  | 
   2       | SIM             | 4                    | 3:21.02 minutos              |
   3       | SIM             | 3                    | 0:38.25 segundos              |
   4       | SIM             | 3                    | 1:47.25 minutos              |
@@ -435,13 +435,13 @@ Cenário 4: Você é um profissional da saúde buscando uma plataforma que divul
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 2       | SIM             | 4                    | 3:22.00 minutos                          |
-| 3       | SIM             | 5                    |  6:23.00 minutos                            |
-| 4       | SIM             | 5                    |   3:00.00 minutos                             |
+| 2       | SIM             | 4                    | 3:22.00 minutos                 |
+| 3       | SIM             | 5                    |  6:23.00 minutos                |
+| 4       | SIM             | 5                    |   3:00.00 minutos               |
 
 
 |  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
+| **Média**     | 0%           | 0                | 0 segundos                       |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 47.99 segundos |
 
 
