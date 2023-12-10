@@ -386,8 +386,7 @@ Cenário 1: Você é uma pessoa que se encaixa na meia idade e sedentária. Aces
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 01.34 segundos |
 
 
-    Comentários dos usuários: Achei o site muito bom e fácil de achar as informações. 
-    Não tive dificuldades e ficou bem intuitivo.
+    Comentários dos usuários: (Terapeuta) Compreendeu bem o texto e nada a reportar.
 
 
 Cenário 2: Você é uma pessoa que se encaixa na meia idade e sedentária que esta procurando conhecer novos tipos exercícios físico da categória aeróbico e pretende obter conteúdos digitais que conseguem te guiar passo a passo nos seus exercícios. Encontre a atividade física que se encaixa nesta categoria no site. Além do mais descreva em voz alta um exercício que lhe gerou interesse e selecione a categoria.
@@ -404,8 +403,7 @@ Cenário 2: Você é uma pessoa que se encaixa na meia idade e sedentária que e
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, os exercícios são práticos e fáceis de realizar. Eu me interessei pela categoria de hipertrofia e pelos exercícios de agachamento.
-    Foi fácil e prático. Gostei da categoria de aeróbico, os exercícios de cadeira.
+    Comentários dos usuários: (Terapeuta) Achou essa etapa muito intuitiva e fácil de encontrar.
 
 
 Cenário 3: Você é uma pessoa que se encaixa na meia idade e sedentária que esta procurando contatos de profissionais da saúde relacionados a fisioterapia. Procure os contatos de fisiterapeutas na sua cidade.
@@ -421,7 +419,7 @@ Cenário 3: Você é uma pessoa que se encaixa na meia idade e sedentária que e
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, consegui encontrar o profissional que queria na minha região.
+    Comentários dos usuários: (Terapeuta) Mudei um pouco o cenário durante a aplicação do teste e o entrevistado(a) não encontrou o cargo solicitado na barra de pesquisa de profissionais.
 
 Cenário 4: Você é um profissional da saúde buscando uma plataforma que divulgue os seus meios de contatos. Encontre uma maneira de vincular ao Senectus criando a sua propria conta para se divulgar e logo em seguida se desconecte da plataforma de maneira segura.
 
@@ -435,7 +433,7 @@ Cenário 4: Você é um profissional da saúde buscando uma plataforma que divul
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
 
 
-    Comentários dos usuários: O site foi fácil e prático de cadastrar e desconectar.
+    Comentários dos usuários: (Terapeuta) O profissional teve dificuldade em um bug presente na edição do telefone de contato e teve dificuldade para passar dessa fase.
 
 
 Cenário 5: Você é um profissional da saúde na qual deixou de usar a plataforma Senectus e quer se desvincular ao site. Encontre uma maneira de remover seus dados.
@@ -451,8 +449,8 @@ Cenário 5: Você é um profissional da saúde na qual deixou de usar a platafor
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar.
-
+    Comentários dos usuários: (Terapeuta) Não houveram dificudade pois ele já estava na página de configuração.
+    
 Cenário 6: Você é um profissional da saúde na qual quer se conectar ao site em um computador que não é de sua posse. Encontre uma maneira segura de se conectar e desconectar no Senectus.
 
 
@@ -466,9 +464,7 @@ Cenário 6: Você é um profissional da saúde na qual quer se conectar ao site 
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários: (Terapeuta) Assim como na atividade passada para o entrevistado(a) anterior não houveram dificudade pois ele já estava na página de configuração.
 
 
 ## Avaliação dos Testes de Usabilidade
