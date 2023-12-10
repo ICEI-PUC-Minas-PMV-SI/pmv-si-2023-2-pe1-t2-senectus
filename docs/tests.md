@@ -401,19 +401,17 @@ Cenário 2: Você é uma pessoa que se encaixa na meia idade e sedentária que e
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 4                    | 44.55 segundos                  |
-| 2       | SIM             | 4                    | 01.32 segundos                  |
-| 3       | SIM             | 5                    | 01.05 segundos                  |
-| 4       | SIM             | 5                    | 00.24 segundos                  |
-| 3       | SIM             | 5                    | 01.05 segundos                  |
-| 4       | SIM             | 5                    | 00.24 segundos                  |
+| 1       | SIM             | 5                    | 0:24 segundos                  |
+| 2       | SIM             | 5                    | 1:05 minutos                  |
+| 3       | SIM             | 5                    | 1:32 minutos                   |
+| 4       | SIM             | 5                    | 1:08 minutos              |
+| 5       | SIM             | 5                    | 0:44 segundos                   |
 | **Média**     | 0%           | 0                | 0 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 37.61 segundos |
 
 
-    Comentários dos usuários: (Terapeuta) Achou essa etapa muito intuitiva e fácil de encontrar.
-    Idoso: Foi fácil e prático. Gostei da categoria de aeróico, os exercícios de cadeira.
-
+    Comentários dos usuários: Achei o site muito bom e fácil de achar as informações.
+    
 
 Cenário 3: Você é uma pessoa que se encaixa na meia idade e sedentária que esta procurando contatos de profissionais da saúde relacionados a fisioterapia. Procure os contatos de fisiterapeutas na sua cidade.
 
