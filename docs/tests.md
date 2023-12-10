@@ -273,7 +273,7 @@ Atualmente, temos as intenções de rastrear os bugs presentes nas aplicações 
 |*Caso de Teste*                                 |*TC-02 - Criar conta completa*                                         |
 |---|---|
 |Requisito Associado | RF-005 - O sistema deve permitir que um profissional se cadastre na plataforma, inserindo informações básicas. <br> RNF-006 - O sistema deve respeitar as normas da LGPD <br> RF-006 - O sistema deve permitir que os profissionais sejam capazes de preencher informações mais completas sobre suas competências logo após o cadastro. <br> RF-018 - O sistema deve permitir que usuários profissionais definam previamente o valor de seus serviços <br> RNF-003 - O sistema deve seguir boas práticas de segurança da informação sempre que possível|
-|Link do vídeo do teste realizado: | [CT02 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/80118aad-9bd6-4f1e-8d54-eddcf3354fa5) |
+|Link do vídeo do teste realizado: | [CT02 - Video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/fdcd15d9-b290-4b79-bca6-18593419459c) |
 |Nota: | É mais que válido lembrar que a partir do momento em que os dados do usuário são obtidos, a aplicação, aplica uma camada extra de proteção dos dados, utilizando a classe presente em '/src/js/utils/obfuscator.js' na camada de repositório. Além disso, todas as ações e manipulações realizadas pela aplicação, como o compartilhamento dos dados obtidos para a base de clientes, só serão realizadas, caso o usuário aceite e insira seus devidos meios de contatos, conforme mostrado no vídeo. |
 
 |*Caso de Teste*                                 |*TC-03 - Configuração da conta*                                         |
