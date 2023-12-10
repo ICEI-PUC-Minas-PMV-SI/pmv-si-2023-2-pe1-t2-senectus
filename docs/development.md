@@ -46,7 +46,7 @@ As tabelas que se seguem apresentam os requisitos funcionais que relacionam o es
 |Abreviação do estado | Texto | O estado onde o usuário de localiza | MG |
 |Cidade | Texto | A cidade onde o usuário de localiza | BH |
 | Área de atuação   | Texto  | Profissão do usuário| Personal Trainer                                           |
-|Valor cobrado pelo serviço  | Numero  | Valor que o usuário terá que pagar pelo serviço | R$158.99                                              ||
+|Valor cobrado pelo serviço  | Numero  | Valor que o usuário terá que pagar pelo serviço | 158                                              ||
 | Criado em | Data | Data de criação da conta | 23/12/2023
 | Serviço mais prestado | Texto | Serviço mais prestado pelo usuário | Pilates |
 | Segundo serviço mais prestado | Texto | Segundo serviço mais prestado pelo usuário | Fisioterapia Neurofuncional |
