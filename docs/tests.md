@@ -391,7 +391,7 @@ Cenário 1: Você é uma pessoa que se encaixa na meia idade e sedentária. Aces
 
 
     Comentários dos usuários: 
-        - Achei que tudo muito bem explicado, 
+        - Achei tudo muito bem explicado, 
           me convenceria rápido!
 
 Cenário 2: Você é uma pessoa que se encaixa na meia idade e sedentária que esta procurando conhecer novos tipos exercícios físico da categória aeróbico e pretende obter conteúdos digitais que conseguem te guiar passo a passo nos seus exercícios. Encontre a atividade física que se encaixa nesta categoria no site. Além do mais descreva em voz alta um exercício que lhe gerou interesse e selecione a categoria.
@@ -490,7 +490,7 @@ Cenário 1: Você é uma pessoa que se encaixa na meia idade e sedentária. Aces
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 37.61 segundos |
 
     Comentários dos usuários do grupo: 
-        - Achei que tudo muito bem explicado, 
+        - Achei tudo muito bem explicado, 
           me convenceria rápido
 
 
