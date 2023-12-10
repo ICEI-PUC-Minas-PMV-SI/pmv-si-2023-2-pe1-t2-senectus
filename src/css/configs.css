@@ -76,11 +76,36 @@ main form fieldset div select {
 main form fieldset div select:hover {
   cursor: pointer;
 }
-
+main form fieldset div input,
 main form fieldset div select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+}
+
+main form fieldset div input::-webkit-outer-spin-button,
+main form fieldset div input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+
+main form fieldset:nth-child(1) { order: 1 }
+main form fieldset:nth-child(2) { order: 2 }
+main form fieldset:nth-child(3) { order: 3 }
+main form fieldset:nth-child(4) { order: 4 }
+main form fieldset:nth-child(5) { order: 5 }
+main form fieldset:nth-child(6) { order: 6 }
+main form fieldset:nth-child(7) { order: 8 }
+main form fieldset:nth-child(8) { order: 7 }
+main form fieldset:nth-child(9) { order: 9 }
+main form fieldset:nth-child(10) { order: 10 }
+main form fieldset:nth-child(11) { order: 11 }
+main form span { order: 13 }
+#submit-button { order: 14 }
+
+
+main form fieldset div input[type=number] {
+  -moz-appearance: textfield !important;
 }
 
 main form div i {
@@ -140,10 +165,14 @@ main form div i {
     place-items: center;
   }
 
+  main form fieldset:nth-child(7) { order: 7 }
+  main form fieldset:nth-child(8) { order: 8 }
+
   main form fieldset div input,
   main form fieldset div select {
     width: 89vw;
   }
+
   main form label {
     width: 89vw;
   }
