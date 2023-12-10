@@ -378,12 +378,10 @@ Cenário 1: Você é uma pessoa que se encaixa na meia idade e sedentária. Aces
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário | 
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 4                    | 02.52 segundos                  | 
-| 2       | SIM             | 4                    | 01:50 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
+| 1       | SIM             | 5                    | 2:31.09 minutos                 | 
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 1:57,08 minutos |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 1:57.08 minutos |
 
 
     Comentários dos usuários: (Terapeuta) Compreendeu bem o texto e nada a reportar.
@@ -395,9 +393,7 @@ Cenário 2: Você é uma pessoa que se encaixa na meia idade e sedentária que e
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 4                    | 01:08 segundos                  |
-| 2       | SIM             | 5                    | : segundos                  |
-| 3       | SIM             | 5                    | 36.21 segundos                  |
+| 1       | SIM             | 4                    | 44.55 segundos                  |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 37.61 segundos |
@@ -411,9 +407,7 @@ Cenário 3: Você é uma pessoa que se encaixa na meia idade e sedentária que e
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 02.41 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
+| 1       | SIM             | 4                    | 2:58.17 minutos                         |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 58.7 segundos |
@@ -426,8 +420,6 @@ Cenário 4: Você é um profissional da saúde buscando uma plataforma que divul
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 4                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 47.99 segundos |
@@ -442,8 +434,6 @@ Cenário 5: Você é um profissional da saúde na qual deixou de usar a platafor
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1       | SIM             | 4                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 15.92 segundos |
