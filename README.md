@@ -1,3 +1,8 @@
+
+<div align="center">
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus/assets/92616145/3b83f483-aede-40a3-9ebe-a824a2ea7420" alt="senectus-banner"/>
+</div>
+
 # SENECTUS
 
 `CURSO: Sistemas de Informação`
@@ -13,8 +18,6 @@ Projeto consiste em uma aplicação web dedicada a exercícios físicos para ido
 * Nícolas Cleiton Basilio Viana
 * Antônio Fernando de Araújo Costa
 * Sabrine Fernanda Costa de Lima
-* Pedro Viriato Guimarães Braga da Rocha
-* Hermes Manoel Alves Pereira Lima
 
 ## Orientador
 Prof.a Luciana De Nardin
