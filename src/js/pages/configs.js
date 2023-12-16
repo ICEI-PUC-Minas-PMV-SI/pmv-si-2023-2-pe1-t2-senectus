@@ -149,7 +149,7 @@ class Configs {
         id: oldUser.id,
         name: inputsAndSelects.name.value,
         email: oldUser.email,
-        password: inputsAndSelects.phone_number.value,
+        password: inputsAndSelects.password.value,
         phone_number: FormatPhoneNumber.getRaw(inputsAndSelects.phone_number.value),
         short_description:inputsAndSelects.short_description.value,
         job: inputsAndSelects.job.value,
