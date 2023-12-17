@@ -1,29 +1,26 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title:
+title: Senectus
 authors:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - name-suffix: Professor XXXX
+  - family-names: Cleiton Basilio Viana
+    given-names: Nícolas
+  - family-names: Fernando de Araújo Costa
+    given-names: Antônio
+  - family-names: Fernanda Costa de Lima
+    given-names: Sabrine
+  - name-suffix: Professora
     affiliation: PUC Minas
-    family-names:
-    given-names:
+    family-names: De Nardin 
+    given-names: Luciana
 keywords:
-  -
-  -
-repository-code:
+  - Meia idade
+  - Sedentarismo
+  - Senectus
+  - Idoso
+  - Exercício
+  - Ajuda profissional
+  - Profissional da saúde
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t2-senectus
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2023-06-30
+date-released: 2023-12-17
