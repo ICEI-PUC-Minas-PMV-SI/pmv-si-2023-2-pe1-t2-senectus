@@ -5,6 +5,6 @@ Faça uma apresentação de um resumo de todos o processo de desenvolvimento e n
 Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e descrição do conteúdo neste arquivo Readme.md.
 
 
-* [Pitch inicial](./sample-pitch.pdf) -- arquivo com os slides da apresentação inicial
+* [Pitch inicial](./apresentacao-inicial.pdf) -- arquivo com os slides da apresentação inicial
 * [Apresentação final](./sample-presentation.pdf) -- arquivo com os slides da apresentação final
 * [Vídeo de demonstração](https://youtu.be/28kE5vLW4vM) -- optamos por colocar o vídeo de apresentação no youtube, devido o seus espaço em MB ultrapassar o limites exigidos pelo github
